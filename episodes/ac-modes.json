@@ -1,19 +1,62 @@
 {
-  "slug": "ac-modes",
-  "title": "AC-യിലെ Dry, Fan, Turbo Mode എന്താണ്? 🤔 Current ലാഭിക്കാം! #shorts",
-  "keyword": "AC",
-  "scenes": [
-    {"type": "hook", "title": "DRY? FAN? TURBO?", "sub": "ഇതൊക്കെ എന്താണ്?", "icon": "❄️",
-     "narration": "AC remote-ൽ Dry, Fan, Turbo ഒക്കെ കണ്ടിട്ടുണ്ടോ? ഇതൊക്കെ ശരിക്കും എന്താണെന്ന് അറിയാമോ?"},
-    {"type": "bullets", "title": "💧 DRY MODE", "icon": "💧", "items": ["Humidity കുറയ്ക്കും", "മഴക്കാലത്ത് best"],
-     "narration": "Dry mode, മുറിയിലെ ഈർപ്പം അഥവാ humidity കുറയ്ക്കാനാണ്. മഴക്കാലത്ത് മുറി ഒട്ടിപ്പിടിക്കുന്ന പോലെ തോന്നുമ്പോൾ ഇത് ഉപയോഗിക്കാം."},
-    {"type": "bullets", "title": "🌀 FAN MODE", "icon": "🌀", "items": ["Compressor OFF", "തണുപ്പില്ല, കാറ്റ് മാത്രം", "Current വളരെ കുറവ്"],
-     "narration": "Fan mode-ൽ compressor ഓഫ് ആയിരിക്കും. കാറ്റ് മാത്രം വരും, തണുപ്പില്ല. പക്ഷേ current ഉപയോഗം വളരെ കുറവാണ്."},
-    {"type": "compare", "title": "🚀 TURBO MODE", "left": ["✓ പെട്ടെന്ന് തണുക്കും", "✓ Full power"], "right": ["⚠ കൂടുതൽ current", "⚠ കുറച്ച് നേരം മാത്രം"],
-     "narration": "Turbo mode, മുറി പെട്ടെന്ന് തണുപ്പിക്കാൻ ഫുൾ power-ൽ ഓടും. പക്ഷേ കൂടുതൽ current എടുക്കും, അതുകൊണ്ട് കുറച്ച് നേരം മാത്രം മതി."},
-    {"type": "steps", "title": "💡 BEST TIP", "items": ["Cool mode", "24°C set ചെയ്യൂ", "+1°C = ~6% ലാഭം"], "note": "Source: Bureau of Energy Efficiency (BEE), India",
-     "narration": "ദിവസവും Cool mode-ൽ 24 ഡിഗ്രി set ചെയ്യൂ. ഓരോ ഡിഗ്രി കൂട്ടുമ്പോഴും ഏകദേശം ആറ് ശതമാനം current ലാഭിക്കാം."},
-    {"type": "cta", "keyword": "AC",
-     "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി 403 UNLOCKED Subscribe ചെയ്യൂ! Full guide വേണമെങ്കിൽ AC എന്ന് comment ചെയ്യൂ!"}
-  ]
+ "slug": "ac-modes",
+ "title": "AC-യിലെ Dry, Fan, Turbo Mode എന്താണ്? 🤔 Current ലാഭിക്കാം! #shorts",
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "DRY? FAN? TURBO?",
+   "sub": "ഇതൊക്കെ എന്താണ്?",
+   "icon": "❄️",
+   "narration": "AC remote-ൽ Dry, Fan, Turbo ഒക്കെ കണ്ടിട്ടുണ്ടോ? ഇതൊക്കെ ശരിക്കും എന്താണെന്ന് അറിയാമോ?"
+  },
+  {
+   "type": "bullets",
+   "title": "💧 DRY MODE",
+   "icon": "💧",
+   "items": [
+    "Humidity കുറയ്ക്കും",
+    "മഴക്കാലത്ത് best"
+   ],
+   "narration": "Dry mode, മുറിയിലെ ഈർപ്പം അഥവാ humidity കുറയ്ക്കാനാണ്. മഴക്കാലത്ത് മുറി ഒട്ടിപ്പിടിക്കുന്ന പോലെ തോന്നുമ്പോൾ ഇത് ഉപയോഗിക്കാം."
+  },
+  {
+   "type": "bullets",
+   "title": "🌀 FAN MODE",
+   "icon": "🌀",
+   "items": [
+    "Compressor OFF",
+    "തണുപ്പില്ല, കാറ്റ് മാത്രം",
+    "Current വളരെ കുറവ്"
+   ],
+   "narration": "Fan mode-ൽ compressor ഓഫ് ആയിരിക്കും. കാറ്റ് മാത്രം വരും, തണുപ്പില്ല. പക്ഷേ current ഉപയോഗം വളരെ കുറവാണ്."
+  },
+  {
+   "type": "compare",
+   "title": "🚀 TURBO MODE",
+   "left": [
+    "✓ പെട്ടെന്ന് തണുക്കും",
+    "✓ Full power"
+   ],
+   "right": [
+    "⚠ കൂടുതൽ current",
+    "⚠ കുറച്ച് നേരം മാത്രം"
+   ],
+   "narration": "Turbo mode, മുറി പെട്ടെന്ന് തണുപ്പിക്കാൻ ഫുൾ power-ൽ ഓടും. പക്ഷേ കൂടുതൽ current എടുക്കും, അതുകൊണ്ട് കുറച്ച് നേരം മാത്രം മതി."
+  },
+  {
+   "type": "steps",
+   "title": "💡 BEST TIP",
+   "items": [
+    "Cool mode",
+    "24°C set ചെയ്യൂ",
+    "+1°C = ~6% ലാഭം"
+   ],
+   "note": "Source: Bureau of Energy Efficiency (BEE), India",
+   "narration": "ദിവസവും Cool mode-ൽ 24 ഡിഗ്രി set ചെയ്യൂ. ഓരോ ഡിഗ്രി കൂട്ടുമ്പോഴും ഏകദേശം ആറ് ശതമാനം current ലാഭിക്കാം."
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി 403 UNLOCKED ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
 }

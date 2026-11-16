@@ -172,16 +172,26 @@ def sc_steps(s, t, D):
 def sc_cta(s, t, D):
     im = bg(t); d = ImageDraw.Draw(im)
     b = ease(t / 0.8)
-    text(d, 0, 260, "SUBSCRIBE + COMMENT", 64, WHITE, 3, center=True)
-    d.rounded_rectangle([170, 520 - 40 * b, 910, 760 - 40 * b], radius=60, fill=WHITE)
-    d.polygon([(300, 720 - 40 * b), (260, 820 - 40 * b), (380, 720 - 40 * b)], fill=WHITE)
-    text(d, 0, 565 - 40 * b, s["keyword"], 110, MAG, 0, center=True, maxw=680)
-    if t > 1.5:
-        ay = 1000 + 25 * math.sin(t * 6)
-        d.polygon([(W / 2 - 60, ay), (W / 2 + 60, ay), (W / 2, ay + 110)], fill=CYAN)
-        d.rounded_rectangle([250, 1150, 830, 1260], radius=55, outline=CYAN, width=5)
-        text(d, 0, 1175, "PINNED COMMENT", 50, CYAN, center=True)
-    if t > D - 4:
+    if s.get("keyword"):  # comment-keyword CTA: only when a real guide link exists
+        text(d, 0, 260, "SUBSCRIBE + COMMENT", 64, WHITE, 3, center=True)
+        d.rounded_rectangle([170, 520 - 40 * b, 910, 760 - 40 * b], radius=60, fill=WHITE)
+        d.polygon([(300, 720 - 40 * b), (260, 820 - 40 * b), (380, 720 - 40 * b)], fill=WHITE)
+        text(d, 0, 565 - 40 * b, s["keyword"], 110, MAG, 0, center=True, maxw=680)
+        if t > 1.5:
+            ay = 1000 + 25 * math.sin(t * 6)
+            d.polygon([(W / 2 - 60, ay), (W / 2 + 60, ay), (W / 2, ay + 110)], fill=CYAN)
+            d.rounded_rectangle([250, 1150, 830, 1260], radius=55, outline=CYAN, width=5)
+            text(d, 0, 1175, "PINNED COMMENT", 50, CYAN, center=True)
+    else:  # subscribe-only CTA
+        sc = 1 + 0.05 * math.sin(t * 5)
+        w, h = 640 * sc * b, 170 * sc * b
+        if b > 0.05:
+            d.rounded_rectangle([W / 2 - w / 2, 640 - h / 2, W / 2 + w / 2, 640 + h / 2], radius=40, fill=(230, 30, 40))
+            if b > 0.9:
+                text(d, 0, 600, "SUBSCRIBE", 84, WHITE, 0, center=True)
+        if t > 1.2:
+            e = emoji("🔔", 160); im.paste(e, (int(W / 2 - 80), 800), e); d = ImageDraw.Draw(im)
+    if t > D - 4.5:
         text(d, 0, 1460, "403 UNLOCKED", 110, GREEN, 5, center=True)
         text(d, 0, 1620, "BREAK THE LIMITS. EXPLORE THE FUTURE.", 40, WHITE, 2, center=True)
     return im
