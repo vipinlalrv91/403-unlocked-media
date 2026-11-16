@@ -1,0 +1,41 @@
+name: Publish The Stoic Bull
+# Posts every post-request in channels/stocks/outbox/ to Instagram (Reel) and YouTube (Short),
+# then moves it to channels/stocks/posted/ with the results.
+on:
+  push:
+    paths: ["channels/stocks/outbox/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: stoicbull-publish
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish queued posts
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          set -u
+          shopt -s nullglob
+          for req in channels/stocks/outbox/*.json; do
+            name=$(basename "$req" .json)
+            url=$(jq -r .video_url "$req")
+            curl -fsSL "$url" -o /tmp/v.mp4
+            jq -r .caption "$req" > /tmp/caption.txt
+            jq '{title, description, tags, categoryId, privacy}' "$req" > /tmp/meta.json
+            ig='{"skipped":"no IG secrets"}'; yt='{"skipped":"no YT secrets"}'
+            if [ -n "$IG_ACCESS_TOKEN" ]; then ig=$(python3 publish/ig_publish.py "$url" /tmp/caption.txt 2>&1 | tail -1) || true; fi
+            if [ -n "$YT_REFRESH_TOKEN" ]; then yt=$(python3 publish/yt_upload.py /tmp/v.mp4 /tmp/meta.json 2>&1 | tail -1) || true; fi
+            jq --arg ig "$ig" --arg yt "$yt" --arg at "$(TZ=Asia/Kolkata date -Iseconds)" \
+               '. + {result: {instagram: $ig, youtube: $yt, posted_at: $at}}' "$req" > "channels/stocks/posted/$name.json"
+            git rm -q "$req"
+            echo "$name -> IG: $ig | YT: $yt"
+          done
+          git config user.name "stoicbull-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A channels/stocks && git commit -m "Posted: $(ls channels/stocks/posted | tail -1)" && git push || echo "nothing to commit"
