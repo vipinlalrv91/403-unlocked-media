@@ -1,0 +1,66 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Inter:wght@500;700&display=block" rel="stylesheet">
+<style>
+html,body{margin:0;width:2560px;height:1440px;background:#06222A;overflow:hidden}
+.b{position:relative;width:2560px;height:1440px;background:
+ linear-gradient(90deg,rgba(255,196,0,.05) 1px,transparent 1px) 0 0/80px 80px,
+ linear-gradient(0deg,rgba(255,196,0,.05) 1px,transparent 1px) 0 0/80px 80px,
+ radial-gradient(ellipse at 50% 50%,#0E3C48 0%,#06222A 55%,#03141A 100%)}
+.candles{position:absolute;left:0;right:0;bottom:200px;height:500px;opacity:.16}
+.safe{position:absolute;left:507px;top:508px;width:1546px;height:423px;display:flex;align-items:center;gap:40px;justify-content:center}
+.safe svg{width:340px;height:340px;flex:none}
+h1{font-family:Cinzel,serif;font-weight:900;font-size:100px;letter-spacing:4px;margin:0;line-height:1;white-space:nowrap;
+ background:linear-gradient(180deg,#FFE08A,#FFC400 55%,#C98A00);-webkit-background-clip:text;color:transparent}
+.t{font-family:Inter,sans-serif;font-weight:700;font-size:40px;color:#E8F4F2;margin-top:24px;letter-spacing:2px;white-space:nowrap}
+.s{font-family:Inter,sans-serif;font-weight:500;font-size:32px;color:#00C878;margin-top:16px;letter-spacing:3px;white-space:nowrap}
+</style></head><body><div class="b">
+<svg class="candles" viewBox="0 0 2560 500" preserveAspectRatio="none" id="cs"></svg>
+<div class="safe"><svg viewBox="0 0 800 800">  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE08A"/><stop offset="0.55" stop-color="#FFC400"/><stop offset="1" stop-color="#C98A00"/>
+    </linearGradient>
+  </defs>
+  <!-- laurel wreath -->
+  <g fill="url(#gold)">
+    <g id="lf">
+      <path d="M400 712 C 300 700 200 640 150 540" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="176" cy="580" rx="30" ry="12" transform="rotate(-60 176 580)"/>
+      <ellipse cx="214" cy="628" rx="30" ry="12" transform="rotate(-45 214 628)"/>
+      <ellipse cx="260" cy="666" rx="30" ry="12" transform="rotate(-30 260 666)"/>
+      <ellipse cx="312" cy="692" rx="30" ry="12" transform="rotate(-15 312 692)"/>
+      <ellipse cx="146" cy="530" rx="28" ry="11" transform="rotate(-75 146 530)"/>
+      <ellipse cx="218" cy="590" rx="24" ry="10" transform="rotate(-100 218 590)"/>
+      <ellipse cx="270" cy="630" rx="24" ry="10" transform="rotate(-115 270 630)"/>
+    </g>
+    <use href="#lf" transform="translate(800 0) scale(-1 1)"/>
+  </g>
+  <!-- horns -->
+  <path d="M318 268 C 250 262 196 214 186 132 C 226 186 276 214 340 226 Z" fill="url(#gold)"/>
+  <path d="M482 268 C 550 262 604 214 614 132 C 574 186 524 214 460 226 Z" fill="url(#gold)"/>
+  <!-- ears -->
+  <path d="M300 300 L 214 322 L 286 368 Z" fill="#E0A800"/>
+  <path d="M500 300 L 586 322 L 514 368 Z" fill="#E0A800"/>
+  <!-- head (low-poly facets) -->
+  <path d="M318 236 L 400 222 L 482 236 L 520 320 L 470 520 L 430 600 L 370 600 L 330 520 L 280 320 Z" fill="url(#gold)"/>
+  <path d="M400 222 L 482 236 L 520 320 L 400 330 Z" fill="#FFD84D"/>
+  <path d="M400 330 L 520 320 L 470 520 L 400 470 Z" fill="#E6AE00"/>
+  <path d="M400 330 L 280 320 L 330 520 L 400 470 Z" fill="#F2BA00"/>
+  <path d="M330 520 L 400 470 L 470 520 L 430 600 L 370 600 Z" fill="#D49A00"/>
+  <!-- calm, closed (stoic) eyes -->
+  <path d="M326 360 Q 350 374 374 360" fill="none" stroke="#06222A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M426 360 Q 450 374 474 360" fill="none" stroke="#06222A" stroke-width="12" stroke-linecap="round"/>
+  <!-- nostrils -->
+  <ellipse cx="378" cy="556" rx="12" ry="18" fill="#06222A"/>
+  <ellipse cx="422" cy="556" rx="12" ry="18" fill="#06222A"/>
+  <!-- rising market line on forehead -->
+  <path d="M352 300 L 384 280 L 404 292 L 448 254" fill="none" stroke="#00C878" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M430 250 L 452 250 L 452 272" fill="none" stroke="#00C878" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div><h1>THE STOIC BULL</h1><div class="t">STOCK MARKET · ZERO TO HERO · MALAYALAM</div>
+<div class="s">CALM MIND · SMART INVESTING · NEW EPISODE DAILY</div></div></div></div>
+<script>
+const s=document.getElementById('cs');let p=380,h='';
+for(let i=0;i<64;i++){const x=i*40+8,o=p,c=p-(Math.sin(i*1.7)*18+6);const hi=Math.min(o,c)-14,lo=Math.max(o,c)+14;const g=c<o;
+h+='<line x1="'+(x+10)+'" x2="'+(x+10)+'" y1="'+hi+'" y2="'+lo+'" stroke="'+(g?'#00C878':'#F04646')+'" stroke-width="3"/>';
+h+='<rect x="'+x+'" width="20" y="'+Math.min(o,c)+'" height="'+Math.max(4,Math.abs(c-o))+'" fill="'+(g?'#00C878':'#F04646')+'"/>';p=c;}
+s.innerHTML=h;
+</script></body></html>
