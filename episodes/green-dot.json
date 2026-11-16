@@ -1,0 +1,22 @@
+{
+ "slug": "green-dot",
+ "title": "Phone-ൽ Green Dot കണ്ടോ? 😱 ആരോ Camera ഉപയോഗിക്കുന്നു! #shorts",
+ "caption": "Phone screen-ന്റെ മുകളിൽ green dot കാണുന്നുണ്ടോ? ഒരു app ഇപ്പോൾ Camera അല്ലെങ്കിൽ Microphone ഉപയോഗിക്കുന്നു എന്നാണ് അർത്ഥം. ഏത് app ആണെന്ന് കണ്ടുപിടിക്കാനും permission off ചെയ്യാനും ഈ Short കാണൂ!\n\nSeeing a green dot on your Android phone? An app is using your camera or mic (Android 12+). Here's how to find it and turn off access.",
+ "hashtags": "#shorts #androidtips #privacy #techmalayalam #malayalam #techtips #403unlocked",
+ "tags": ["green dot android", "green dot phone malayalam", "camera privacy indicator", "android 12 privacy", "permission manager", "mobile tips malayalam", "android tricks malayalam", "403 unlocked"],
+ "sources": ["Android 12 privacy indicators (developer.android.com/about/versions/12/behavior-changes-all)"],
+ "scenes": [
+  {"type": "hook", "title": "GREEN DOT?", "sub": "Ignore ചെയ്യരുത്!", "icon": "🟢",
+   "narration": "നിങ്ങളുടെ phone screen-ന്റെ മുകളിൽ ഒരു ചെറിയ green dot കണ്ടിട്ടുണ്ടോ? അത് ignore ചെയ്യരുത്!"},
+  {"type": "bullets", "title": "ANDROID 12+", "icon": "📷", "items": ["Camera ഉപയോഗിക്കുമ്പോൾ", "Microphone ഉപയോഗിക്കുമ്പോൾ"],
+   "narration": "Android 12 മുതൽ, ഏതെങ്കിലും app നിങ്ങളുടെ Camera അല്ലെങ്കിൽ Microphone ഉപയോഗിക്കുമ്പോൾ ഈ green indicator തെളിയും."},
+  {"type": "compare", "title": "NORMAL vs ശ്രദ്ധിക്കണം", "left": ["✓ Video call", "✓ Voice note"], "right": ["⚠ ഒന്നും ചെയ്യാത്തപ്പോൾ dot?"],
+   "narration": "Video call ചെയ്യുമ്പോഴോ voice note അയക്കുമ്പോഴോ ഇത് normal ആണ്. പക്ഷേ നിങ്ങൾ ഒന്നും ചെയ്യാത്തപ്പോൾ ഇത് കണ്ടാൽ? ശ്രദ്ധിക്കണം!"},
+  {"type": "steps", "title": "ഏത് APP?", "items": ["Swipe down", "Green icon tap ചെയ്യൂ", "App name കാണാം"],
+   "narration": "Screen-ന്റെ മുകളിൽ നിന്ന് താഴേക്ക് swipe ചെയ്ത്, ആ green icon-ൽ tap ചെയ്യൂ. ഏത് app ആണ് ഉപയോഗിക്കുന്നത് എന്ന് അവിടെ കാണാം."},
+  {"type": "steps", "title": "BLOCK ചെയ്യാം", "items": ["Settings › Privacy", "Permission manager", "Don't allow"], "note": "* Path may vary by phone brand",
+   "narration": "എന്നിട്ട് Settings-ൽ Privacy, Permission Manager തുറന്ന്, ആവശ്യമില്ലാത്ത apps-ന്റെ Camera, Microphone permission Don't allow ആക്കൂ."},
+  {"type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"}
+ ]
+}
