@@ -1,29 +1,87 @@
 {
  "slug": "stocks-day-01",
  "theme": "stocks",
- "brand": "ZERO TO HERO",
- "tagline": "STOCK MARKET · MALAYALAM",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
  "voice_id": "r5NKPDP5GRBdMttFWA9M",
- "series": {"day": 1, "total": 60, "name": "ZERO TO HERO"},
+ "series": {
+  "day": 1,
+  "total": 60,
+  "name": "ZERO TO HERO"
+ },
  "disclaimer": "Educational only · Not investment advice",
  "quiz_answer": "B: SEBI",
  "title": "Share എന്നാൽ എന്ത്? 📈 Stock Market Zero to Hero | Day 1 #shorts",
- "caption": "Stock Market Zero to Hero, Day 1! Share എന്നാൽ എന്താണ്? ഒരു ചായക്കടയുടെ ഉദാഹരണത്തിലൂടെ simple ആയി മനസ്സിലാക്കാം. 60 ദിവസം കൊണ്ട് stock market basics മുതൽ പഠിക്കാം.\n\nDay 1 of a 60-day beginner stock market series in Malayalam: what a share is, explained simply.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
- "hashtags": "#shorts #stockmarket #malayalam #sharemarket #investing #financialliteracy #zerotohero",
- "tags": ["stock market malayalam", "share market malayalam", "what is a share", "stock market for beginners", "share market basics malayalam", "nse bse sebi", "zero to hero stock market", "investing malayalam"],
- "sources": ["https://www.sebi.gov.in/about-sebi.html", "https://www.nseindia.com", "https://www.bseindia.com"],
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 1! Share എന്നാൽ എന്താണ്? ഒരു ചായക്കടയുടെ ഉദാഹരണത്തിലൂടെ simple ആയി മനസ്സിലാക്കാം. 60 ദിവസം കൊണ്ട് stock market basics മുതൽ പഠിക്കാം.\n\nDay 1 of a 60-day beginner stock market series in Malayalam: what a share is, explained simply.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #stockmarket #malayalam #sharemarket #investing #financialliteracy #zerotohero #thestoicbull",
+ "tags": [
+  "stock market malayalam",
+  "share market malayalam",
+  "what is a share",
+  "stock market for beginners",
+  "share market basics malayalam",
+  "nse bse sebi",
+  "zero to hero stock market",
+  "investing malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/about-sebi.html",
+  "https://www.nseindia.com",
+  "https://www.bseindia.com"
+ ],
  "scenes": [
-  {"type": "hook", "title": "STOCK MARKET?", "sub": "Day 1 തുടങ്ങാം!", "icon": "📈",
-   "narration": "Stock market ഒരു ചൂതാട്ടം ആണോ? ശരിക്കും എന്താണ് ഇത്? Zero-യിൽ നിന്ന് തുടങ്ങാം. ഇന്ന് Day 1!"},
-  {"type": "bullets", "title": "SHARE = ഒരു കഷണം", "icon": "☕", "items": ["ചായക്കട = Company", "100 കഷണം = 100 Shares", "1 കഷണം = നിങ്ങളുടേത്"],
-   "narration": "ഒരു share എന്നാൽ ഒരു company-യുടെ ചെറിയ ഒരു ഭാഗം. നാട്ടിലെ ഒരു ചായക്കട നൂറ് കഷണമാക്കി, അതിൽ ഒരു കഷണം നിങ്ങൾ വാങ്ങുന്നു എന്ന് കരുതൂ."},
-  {"type": "chart", "title": "PRICE UP? DOWN?", "trend": "flat", "seed": 11, "labels": ["കട വളർന്നാൽ ↑", "നഷ്ടത്തിലായാൽ ↓"], "note": "Illustration only",
-   "narration": "കട നന്നായി വളർന്നാൽ നിങ്ങളുടെ കഷണത്തിന്റെ വിലയും കൂടും. നഷ്ടത്തിലായാൽ വില കുറയും. അതാണ് risk."},
-  {"type": "steps", "title": "INDIA-യിൽ", "items": ["NSE · BSE = Exchanges", "SEBI = Regulator"],
-   "narration": "India-യിൽ shares വാങ്ങുന്നതും വിൽക്കുന്നതും NSE, BSE എന്നീ stock exchanges വഴിയാണ്. ഇതെല്ലാം നിയന്ത്രിക്കുന്നത് SEBI ആണ്."},
-  {"type": "quiz", "question": "Market നിയന്ത്രിക്കുന്നത് ആര്?", "options": ["RBI", "SEBI"],
-   "narration": "ഇനി ഒരു quiz! India-യിലെ stock market നിയന്ത്രിക്കുന്നത് ആര്? A, RBI. B, SEBI. Answer comment ചെയ്യൂ, നാളെ ഉത്തരം പറയാം!"},
-  {"type": "cta",
-   "narration": "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"}
+  {
+   "type": "hook",
+   "title": "STOCK MARKET?",
+   "sub": "Day 1 തുടങ്ങാം!",
+   "icon": "📈",
+   "narration": "Stock market ഒരു ചൂതാട്ടം ആണോ? ശരിക്കും എന്താണ് ഇത്? Zero-യിൽ നിന്ന് തുടങ്ങാം. ഇന്ന് Day 1!"
+  },
+  {
+   "type": "bullets",
+   "title": "SHARE = ഒരു കഷണം",
+   "icon": "☕",
+   "items": [
+    "ചായക്കട = Company",
+    "100 കഷണം = 100 Shares",
+    "1 കഷണം = നിങ്ങളുടേത്"
+   ],
+   "narration": "ഒരു share എന്നാൽ ഒരു company-യുടെ ചെറിയ ഒരു ഭാഗം. നാട്ടിലെ ഒരു ചായക്കട നൂറ് കഷണമാക്കി, അതിൽ ഒരു കഷണം നിങ്ങൾ വാങ്ങുന്നു എന്ന് കരുതൂ."
+  },
+  {
+   "type": "chart",
+   "title": "PRICE UP? DOWN?",
+   "trend": "flat",
+   "seed": 11,
+   "labels": [
+    "കട വളർന്നാൽ ↑",
+    "നഷ്ടത്തിലായാൽ ↓"
+   ],
+   "note": "Illustration only",
+   "narration": "കട നന്നായി വളർന്നാൽ നിങ്ങളുടെ കഷണത്തിന്റെ വിലയും കൂടും. നഷ്ടത്തിലായാൽ വില കുറയും. അതാണ് risk."
+  },
+  {
+   "type": "steps",
+   "title": "INDIA-യിൽ",
+   "items": [
+    "NSE · BSE = Exchanges",
+    "SEBI = Regulator"
+   ],
+   "narration": "India-യിൽ shares വാങ്ങുന്നതും വിൽക്കുന്നതും NSE, BSE എന്നീ stock exchanges വഴിയാണ്. ഇതെല്ലാം നിയന്ത്രിക്കുന്നത് SEBI ആണ്."
+  },
+  {
+   "type": "quiz",
+   "question": "Market നിയന്ത്രിക്കുന്നത് ആര്?",
+   "options": [
+    "RBI",
+    "SEBI"
+   ],
+   "narration": "ഇനി ഒരു quiz! India-യിലെ stock market നിയന്ത്രിക്കുന്നത് ആര്? A, RBI. B, SEBI. Answer comment ചെയ്യൂ, നാളെ ഉത്തരം പറയാം!"
+  },
+  {
+   "type": "cta",
+   "narration": "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
  ]
 }

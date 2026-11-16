@@ -1,10 +1,10 @@
-# Stock Market Zero to Hero: daily automatic run (1 video/day, 18:00 IST)
+# The Stoic Bull (Stock Market Zero to Hero): daily automatic run (1 video/day, 18:00 IST)
 
 Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with these differences:
 
 - Metricool brand: STOCKS_BLOG_ID (fill in once the stock market brand is linked in Metricool; until then do NOT post, log `skipped: stocks brand not linked`).
 - Topic: next unchecked line in channels/stocks/curriculum.md. Day number = line number in the course.
-  Episode JSON goes in channels/stocks/episodes/day-NN-<slug>.json, copying the fields of day-01-what-is-share.json
+  Episode JSON goes in channels/stocks/episodes/day-NN-<slug>.json, copying the fields of day-01-what-is-share.json (brand "THE STOIC BULL")
   (theme "stocks", brand, tagline, voice_id, series {day, total 60, name}, disclaimer, quiz_answer).
 - Structure: hook (sub = "Yesterday: <previous episode's quiz_answer>" from Day 2 on) → 3 teaching scenes
   (bullets/steps/compare/chart; Myth-vs-Fact days use compare) → quiz (2-3 options, answer in "quiz_answer") → cta.
