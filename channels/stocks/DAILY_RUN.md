@@ -1,5 +1,7 @@
 # The Stoic Bull (Stock Market Zero to Hero): daily automatic run (1 video/day, 18:00 IST)
 
+> **STATUS: PAUSED by the channel owner (16 Nov 2026). Do not generate or post any Stoic Bull video until this line is removed.**
+
 Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with these differences:
 
 - Metricool brand: STOCKS_BLOG_ID (fill in once the stock market brand is linked in Metricool; until then do NOT post, log `skipped: stocks brand not linked`).
