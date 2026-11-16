@@ -40,21 +40,43 @@ def font(path, size):
 # ---------- background ----------
 random.seed(403)
 PARTS = [(random.random() * W, random.random() * H, random.uniform(1, 3), random.uniform(20, 70)) for _ in range(90)]
-BASE = Image.new("RGB", (W, H))
-_d = ImageDraw.Draw(BASE)
-for y in range(H):
-    t = y / H
-    _d.line([(0, y), (W, y)], fill=(int(6 + 12 * t), int(10 - 2 * t), int(28 + 20 * t)))
-for x in range(0, W, 90):
-    _d.line([(x, 0), (x, H)], fill=(20, 30, 70))
-for y in range(0, H, 90):
-    _d.line([(0, y), (W, y)], fill=(20, 30, 70))
+BRAND, TAGLINE, PART_COL = "403 UNLOCKED", "BREAK THE LIMITS. EXPLORE THE FUTURE.", (0, 220, 255)
+
+def make_base(top, bottom, grid):
+    im = Image.new("RGB", (W, H)); d = ImageDraw.Draw(im)
+    for y in range(H):
+        t = y / H
+        d.line([(0, y), (W, y)], fill=tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3)))
+    for x in range(0, W, 90):
+        d.line([(x, 0), (x, H)], fill=grid)
+    for y in range(0, H, 90):
+        d.line([(0, y), (W, y)], fill=grid)
+    return im
+
+BASE = make_base((6, 10, 28), (18, 8, 48), (20, 30, 70))
+
+THEMES = {
+    # 403 UNLOCKED: neon green/cyan on deep blue (default)
+    "tech": None,
+    # Stock market series: gold + market green on deep navy/teal
+    "stocks": dict(GREEN=(0, 200, 120), CYAN=(255, 196, 0), MAG=(0, 150, 90), RED=(240, 70, 70), PANEL=(14, 34, 44),
+                   PART_COL=(255, 196, 0), base=((4, 14, 22), (6, 34, 40), (14, 40, 50))),
+}
+
+def apply_theme(name, brand=None, tagline=None):
+    global GREEN, CYAN, MAG, RED, PANEL, PART_COL, BASE, BRAND, TAGLINE
+    th = THEMES.get(name)
+    if th:
+        GREEN, CYAN, MAG, RED, PANEL, PART_COL = th["GREEN"], th["CYAN"], th["MAG"], th["RED"], th["PANEL"], th["PART_COL"]
+        BASE = make_base(*th["base"])
+    if brand: BRAND = brand
+    if tagline is not None: TAGLINE = tagline
 
 def bg(t):
     im = BASE.copy(); d = ImageDraw.Draw(im)
     for x, y, r, sp in PARTS:
         yy = (y - sp * t) % H
-        d.ellipse([x - r, yy - r, x + r, yy + r], fill=CYAN)
+        d.ellipse([x - r, yy - r, x + r, yy + r], fill=PART_COL)
     return im
 
 def ease(t):
@@ -192,11 +214,65 @@ def sc_cta(s, t, D):
         if t > 1.2:
             e = emoji("🔔", 160); im.paste(e, (int(W / 2 - 80), 800), e); d = ImageDraw.Draw(im)
     if t > D - 4.5:
-        text(d, 0, 1460, "403 UNLOCKED", 110, GREEN, 5, center=True)
-        text(d, 0, 1620, "BREAK THE LIMITS. EXPLORE THE FUTURE.", 40, WHITE, 2, center=True)
+        text(d, 0, 1460, BRAND, 110, GREEN, 5, center=True)
+        if TAGLINE: text(d, 0, 1620, TAGLINE, 40, WHITE, 2, center=True)
     return im
 
-TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta}
+def sc_quiz(s, t, D):
+    im = bg(t); d = ImageDraw.Draw(im)
+    text(d, 0, 220, "QUIZ TIME", 96, CYAN, 5, center=True)
+    text(d, 0, 420, s["question"], 62, WHITE, 3, center=True, maxw=960)
+    for i, opt in enumerate(s["options"]):
+        a = ease((t - 0.8 - i * 0.5) / 0.4)
+        if a <= 0: continue
+        y = 650 + i * 210; x = 120 + (1 - a) * 300
+        d.rounded_rectangle([x, y, x + 840, y + 170], radius=40, fill=PANEL, outline=CYAN, width=5)
+        d.ellipse([x + 30, y + 40, x + 120, y + 130], fill=CYAN)
+        d.text((x + 55, y + 50), "ABCD"[i], font=font(EN, 60), fill=(10, 20, 20))
+        text(d, x + 160, y + 50, opt, 60, WHITE, 0, maxw=640)
+    if t > D * 0.55:
+        e = emoji("💬", 150); im.paste(e, (int(W / 2 - 75), 1380), e); d = ImageDraw.Draw(im)
+        text(d, 0, 1560, "Answer comment ചെയ്യൂ!", 60, GREEN, 3, center=True)
+    return im
+
+def sc_chart(s, t, D):
+    im = bg(t); d = ImageDraw.Draw(im)
+    text(d, 0, 200, s["title"], 74, CYAN, 4, center=True)
+    rnd = random.Random(s.get("seed", 7)); n = 14; trend = s.get("trend", "up")
+    price, candles = 100.0, []
+    for i in range(n):
+        drift = {"up": 2.2, "down": -2.2}.get(trend, 0) + rnd.uniform(-4, 4)
+        o = price; c = price + drift; hi = max(o, c) + rnd.uniform(0.5, 3); lo = min(o, c) - rnd.uniform(0.5, 3)
+        candles.append((o, c, hi, lo)); price = c
+    lo_all = min(c[3] for c in candles); hi_all = max(c[2] for c in candles)
+    y0, y1 = 1450, 520
+    Y = lambda v: y0 - (v - lo_all) / (hi_all - lo_all) * (y0 - y1)
+    shown = int(min(n, (t / (D * 0.7)) * n + 1))
+    for i, (o, c, hi, lo) in enumerate(candles[:shown]):
+        x = 110 + i * 62; col = GREEN if c >= o else RED
+        d.line([x + 18, Y(hi), x + 18, Y(lo)], fill=col, width=4)
+        d.rectangle([x, Y(max(o, c)), x + 36, Y(min(o, c)) + 2], fill=col)
+    for lbl_i, lbl in enumerate(s.get("labels", [])):
+        if t > D * (0.35 + 0.25 * lbl_i):
+            text(d, 0, 1540 + lbl_i * 95, lbl, 56, WHITE, 3, center=True)
+    if s.get("note"):
+        text(d, 110, 1760, s["note"], 32, GREY)
+    return im
+
+SERIES, DISCLAIMER = None, None
+def overlay(im):
+    if not (SERIES or DISCLAIMER): return im
+    d = ImageDraw.Draw(im)
+    if SERIES:
+        day, total, name = SERIES["day"], SERIES["total"], SERIES["name"]
+        d.rounded_rectangle([60, 60, 1020, 140], radius=40, fill=(0, 0, 0))
+        d.rounded_rectangle([60, 60, 60 + 960 * day / total, 140], radius=40, fill=CYAN)
+        text(d, 0, 75, f"DAY {day}/{total}  ·  {name}", 44, WHITE, 3, center=True)
+    if DISCLAIMER:
+        text(d, 0, 1850, DISCLAIMER, 28, GREY, 2, center=True, maxw=1000)
+    return im
+
+TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta, "quiz": sc_quiz, "chart": sc_chart}
 
 # ---------- audio ----------
 def tts(textline, out):
@@ -227,7 +303,10 @@ def mix(clips, sd, out):
 
 # ---------- main ----------
 def main(path):
+    global VOICE, SERIES, DISCLAIMER
     ep = json.load(open(path, encoding="utf-8"))
+    apply_theme(ep.get("theme", "tech"), ep.get("brand"), ep.get("tagline"))
+    VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer")
     slug = ep["slug"]; work = os.path.join("/tmp", "short_" + slug); os.makedirs(work, exist_ok=True)
     clips, sd = [], []
     for i, s in enumerate(ep["scenes"]):
@@ -241,19 +320,19 @@ def main(path):
         print(f"WARNING: duration {total:.1f}s outside 30-62s", file=sys.stderr)
     audio = os.path.join(work, "mix.m4a"); mix(clips, sd, audio)
     os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
-    out = os.path.join(ROOT, "videos", slug + ".mp4")
+    out = os.path.join(ROOT, "videos", slug + ".mp4")  # same folder for all channels
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                           "-i", audio, "-c:a", "aac", "-b:a", "192k", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p",
                           "-preset", "medium", "-crf", "21", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     for s, D in zip(ep["scenes"], sd):
         fn = TEMPLATES[s["type"]]
         for i in range(int(round(D * FPS))):
-            im = fn(s, i / FPS, D)
+            im = overlay(fn(s, i / FPS, D))
             if i < 6:
                 im = Image.blend(Image.new("RGB", (W, H)), im, (i + 1) / 6)
             p.stdin.write(im.tobytes())
     p.stdin.close(); p.wait()
-    TEMPLATES[ep["scenes"][0]["type"]](ep["scenes"][0], 2.0, 6).save(os.path.join(ROOT, "videos", slug + "_thumb.jpg"), quality=90)
+    overlay(TEMPLATES[ep["scenes"][0]["type"]](ep["scenes"][0], 2.0, 6)).save(os.path.join(ROOT, "videos", slug + "_thumb.jpg"), quality=90)
     chars = sum(len(s["narration"]) for s in ep["scenes"])
     print(json.dumps({"video": out, "seconds": round(total, 1), "tts_chars": chars}))
 
