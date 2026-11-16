@@ -1,0 +1,75 @@
+{
+ "slug": "tv-youtube-fix",
+ "title": "TV-യിൽ YouTube Open ആകുന്നില്ലേ? 📺 ഇത് Try ചെയ്യൂ! #shorts",
+ "caption": "Smart TV-യിലോ Android TV-യിലോ YouTube open ആകുന്നില്ലേ? TV മാറ്റാൻ പോകും മുമ്പ് ഈ 4 simple steps try ചെയ്യൂ!\n\nYouTube not opening on your smart TV? Try these 4 steps from YouTube's own help pages: power cycle, update the app, clear cache, update system software.",
+ "hashtags": "#shorts #youtube #androidtv #smarttv #techmalayalam #malayalam #techtips #403unlocked",
+ "tags": [
+  "youtube not working on tv",
+  "youtube not opening smart tv",
+  "android tv youtube problem",
+  "youtube tv fix malayalam",
+  "smart tv tips malayalam",
+  "clear cache android tv",
+  "tech tips malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://support.google.com/youtube/answer/10232409",
+  "https://support.google.com/youtube/answer/3079858"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "YOUTUBE NOT OPENING?",
+   "sub": "TV-യിൽ ഇത് try ചെയ്യൂ!",
+   "icon": "📺",
+   "narration": "TV-യിൽ YouTube open ആകുന്നില്ലേ? TV മാറ്റാൻ പോകും മുമ്പ് ഇതൊന്ന് try ചെയ്യൂ!"
+  },
+  {
+   "type": "bullets",
+   "title": "STEP 1: RESTART",
+   "icon": "🔌",
+   "items": [
+    "Plug ഊരൂ",
+    "30 seconds wait",
+    "വീണ്ടും ON"
+   ],
+   "narration": "ആദ്യം TV-യുടെ plug ഊരി, കുറഞ്ഞത് 30 seconds കാത്തിരിക്കൂ. പിന്നെ on ചെയ്യൂ. പലപ്പോഴും ഇതുകൊണ്ട് തന്നെ ശരിയാകും."
+  },
+  {
+   "type": "bullets",
+   "title": "STEP 2: UPDATE",
+   "icon": "⬆️",
+   "items": [
+    "App store തുറക്കൂ",
+    "YouTube app update"
+   ],
+   "narration": "ഇല്ലെങ്കിൽ, TV-യിലെ app store തുറന്ന് YouTube app update ചെയ്യൂ."
+  },
+  {
+   "type": "steps",
+   "title": "STEP 3: CLEAR CACHE",
+   "items": [
+    "Settings › Apps",
+    "YouTube",
+    "Clear cache"
+   ],
+   "note": "* Menu names may vary by TV brand",
+   "narration": "Android TV ആണെങ്കിൽ Settings-ൽ Apps, YouTube തുറന്ന് Clear cache ചെയ്യൂ."
+  },
+  {
+   "type": "bullets",
+   "title": "STEP 4: SYSTEM UPDATE",
+   "icon": "🔄",
+   "items": [
+    "Internet check ചെയ്യൂ",
+    "TV software update"
+   ],
+   "narration": "എന്നിട്ടും ശരിയായില്ലെങ്കിൽ internet check ചെയ്ത്, TV-യുടെ system software update ഉണ്ടോ എന്ന് നോക്കൂ."
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}
