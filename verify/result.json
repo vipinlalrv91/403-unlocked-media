@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T12:02:32.543397+00:00",
+ "checked_at": "2026-11-17T12:10:35.673485+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -16,15 +16,15 @@
  "instagram": {
   "403": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:02:32 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:10:35 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
   },
   "STOIC": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:02:32 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:10:36 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
   },
   "KADHA": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:02:32 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:10:36 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
   }
  },
  "youtube": {
@@ -34,8 +34,9 @@
    "channel": "unknown (token lacks youtube.readonly scope)"
   },
   "STOIC": {
-   "ok": false,
-   "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
+   "ok": true,
+   "scope": "https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.upload",
+   "channel": "Kadhapetti (UC1rMC_lvwPFW6SgNsOsJLdQ)"
   },
   "KADHA": {
    "ok": true,
