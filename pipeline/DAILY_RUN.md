@@ -30,11 +30,15 @@ Make one video per slot, each on a different topic. Credit check before EACH vid
    extract frames at 3 points per scene and LOOK at them: no tofu boxes, no text overflow, nothing cut off.
 5. Publish: `cp videos/<slug>.mp4 videos/approved/<YYYY-MM-DD>_<slug>.mp4`, commit, `git push`.
    Confirm https://raw.githubusercontent.com/vipinlalrv91/403-unlocked-media/main/videos/approved/<file> returns 200.
-6. Schedule with Metricool createScheduledPost: blogId 8150228, timezone Asia/Calcutta, providers youtube + instagram,
-   media [raw URL], text = caption + "\n\n🔔 403 UNLOCKED Subscribe ചെയ്യൂ!\nBREAK THE LIMITS. EXPLORE THE FUTURE.\n\n" + hashtags,
-   youtubeData {title, type "short", privacy "public", tags, category "SCIENCE_TECHNOLOGY", madeForKids false, isAiGeneratedContent false},
-   instagramData {type "REEL", showReelOnFeed true, isAiGenerated false}. If the slot time has passed, use now + 15 min.
-7. Mark the topic `- [x]` in topics/queue.md, append a row to runs/log.csv, commit and push.
+6. Queue for posting (NO Metricool; owner removed it 17 Nov 2026). Write outbox/<YYYY-MM-DD>_<slug>.json:
+   {"channel": "403", "publish_at": "<YYYY-MM-DD>T<slot>:00+05:30", "video_url": "<raw URL>",
+    "title": <title>, "description": caption + "\n\n🔔 403 UNLOCKED Subscribe ചെയ്യൂ!\nBREAK THE LIMITS. EXPLORE THE FUTURE.\n\n" + hashtags,
+    "caption": <same as description>, "tags": <tags>, "categoryId": "28", "privacy": "public"}
+   Commit + push. GitHub Actions (.github/workflows/publish.yml, every 30 min) posts it to Instagram (Graph API)
+   and YouTube (Data API) at/after publish_at and moves it to posted/ with the result. If the slot time has passed, use now + 10 min.
+   YouTube uploads are Private until the Google Cloud project passes the YouTube API audit; report that to the owner.
+7. Mark the topic `- [x]` in topics/queue.md, append a row to runs/log.csv (status: queued <time>), commit and push.
+8. On the next run, read posted/*.json from the previous day and report each result (Instagram permalink, YouTube URL + privacy, any error).
 
 ## Failure
 Any step fails -> do not post, append `failed: <reason>` to runs/log.csv, push, and stop.
