@@ -19,7 +19,7 @@ for path in sorted(glob.glob("outbox/*.json")):
     env = lambda k: os.environ.get(k, "").strip()
     ig_ok = env(f"IG_USER_ID_{ch}") and env(f"IG_TOKEN_{ch}")
     # Override per request with "yt_secret" if a token is saved under another name.
-    YT_SECRET_FOR = {"403": "403", "STOIC": "STOIC", "KADHA": "KADHA"}
+    YT_SECRET_FOR = {"403": "403", "STOIC": "KADHA", "KADHA": "STOIC"}  # owner saved tokens swapped: KADHA slot = The Stoic Bull, STOIC slot = Kadhapetti
     yt_secret = req.get("yt_secret", YT_SECRET_FOR.get(ch, ch)).upper()
     yt_ok = env(f"YT_REFRESH_{yt_secret}") and env("YT_CLIENT_ID") and env("YT_CLIENT_SECRET")
     if not (ig_ok or yt_ok):
