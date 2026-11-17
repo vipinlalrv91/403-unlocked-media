@@ -1,0 +1,47 @@
+{
+ "checked_at": "2026-11-17T09:40:41.349696+00:00",
+ "secrets_present": {
+  "YT_CLIENT_ID": true,
+  "YT_CLIENT_SECRET": true,
+  "IG_USER_ID_403": true,
+  "IG_TOKEN_403": true,
+  "YT_REFRESH_403": true,
+  "IG_USER_ID_STOIC": true,
+  "IG_TOKEN_STOIC": true,
+  "YT_REFRESH_STOIC": true,
+  "IG_USER_ID_KADHA": true,
+  "IG_TOKEN_KADHA": true,
+  "YT_REFRESH_KADHA": false
+ },
+ "instagram": {
+  "403": {
+   "ok": true,
+   "username": "403_unlocked",
+   "can_publish": true
+  },
+  "STOIC": {
+   "ok": true,
+   "username": "thestoicbull_",
+   "can_publish": true
+  },
+  "KADHA": {
+   "ok": true,
+   "username": "kadha_petti_malayalam",
+   "can_publish": true
+  }
+ },
+ "youtube": {
+  "403": {
+   "ok": false,
+   "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
+  },
+  "STOIC": {
+   "ok": false,
+   "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
+  },
+  "KADHA": {
+   "ok": false,
+   "error": "secret missing"
+  }
+ }
+}
