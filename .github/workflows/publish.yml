@@ -1,0 +1,27 @@
+name: Publish Shorts (Instagram + YouTube)
+# Every 30 min: posts due requests from outbox/ for both channels (403 UNLOCKED, The Stoic Bull).
+on:
+  schedule: [{cron: "*/30 * * * *"}]
+  push: {paths: ["outbox/*.json"]}
+  workflow_dispatch:
+permissions: {contents: write}
+concurrency: publish
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 publish/run_outbox.py
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          IG_USER_ID_403: ${{ secrets.IG_USER_ID_403 }}
+          IG_TOKEN_403: ${{ secrets.IG_TOKEN_403 }}
+          YT_REFRESH_403: ${{ secrets.YT_REFRESH_403 }}
+          IG_USER_ID_STOIC: ${{ secrets.IG_USER_ID_STOIC }}
+          IG_TOKEN_STOIC: ${{ secrets.IG_TOKEN_STOIC }}
+          YT_REFRESH_STOIC: ${{ secrets.YT_REFRESH_STOIC }}
+      - run: |
+          git config user.name "publish-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A outbox posted
+          git diff --cached --quiet || (git commit -m "Posted shorts" && git push)
