@@ -27,8 +27,14 @@ for ch in ("403", "STOIC", "KADHA"):
         if d:
             info, _ = get("https://oauth2.googleapis.com/tokeninfo?access_token=" + d["access_token"])
             scope = (info or {}).get("scope", d.get("scope", ""))
-            out["youtube"][ch] = {"ok": "youtube.upload" in scope or "auth/youtube " in scope + " ", "scope": scope,
-                                  "note": "channel is confirmed on the first upload (expected-channel check)"}
+            out["youtube"][ch] = {"ok": "youtube.upload" in scope, "scope": scope}
+            try:
+                rq = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", headers={"Authorization": "Bearer " + d["access_token"]})
+                with urllib.request.urlopen(rq, timeout=60) as rr:
+                    it = json.load(rr).get("items", [])
+                out["youtube"][ch]["channel"] = f'{it[0]["snippet"]["title"]} ({it[0]["id"]})' if it else "none"
+            except Exception:
+                out["youtube"][ch]["channel"] = "unknown (token lacks youtube.readonly scope)"
         else:
             out["youtube"][ch] = {"ok": False, "error": err}
     else:
