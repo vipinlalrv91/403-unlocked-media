@@ -12,7 +12,7 @@ def upload_short(client_id, client_secret, refresh_token, video_path, meta):
     tok = access_token(client_id, client_secret, refresh_token); size = os.path.getsize(video_path)
     body = {"snippet": {"title": meta["title"][:100], "description": meta["description"][:5000], "tags": meta.get("tags", []),
                         "categoryId": str(meta.get("categoryId", "28")), "defaultLanguage": "ml", "defaultAudioLanguage": "ml"},
-            "status": {"privacyStatus": meta.get("privacy", "public"), "selfDeclaredMadeForKids": False}}
+            "status": {"privacyStatus": meta.get("privacy", "public"), "selfDeclaredMadeForKids": bool(meta.get("madeForKids", False))}}
     req = urllib.request.Request("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                                  data=json.dumps(body).encode(), method="POST",
                                  headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json; charset=UTF-8",

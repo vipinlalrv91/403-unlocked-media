@@ -1,0 +1,33 @@
+{
+ "slug": "kadha-ep-001",
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികൾക്കുള്ള ഗുണപാഠ കഥകൾ",
+ "voice_id": "OVkoEbwxsYHiSRMFV9t3",
+ "source_note": "Retelling of Aesop's fable 'The Tortoise and the Hare' (public domain)",
+ "title": "മുയലും ആമയും 🐢🐇 | Malayalam Moral Story for Kids | Kadhapetti #shorts",
+ "caption": "കൂട്ടുകാരേ, ഇന്നത്തെ കഥ: മുയലും ആമയും! അഹങ്കാരം പാടില്ല, പതുക്കെയാണെങ്കിലും ശ്രമം നിർത്തരുത് 🐢⭐\n\nThe Tortoise and the Hare: a Malayalam moral story for kids. Moral: never be proud; slow and steady wins the race.",
+ "hashtags": "#shorts #malayalamstories #kidsstories #moralstories #malayalam #bedtimestories #kadhapetti",
+ "tags": ["malayalam moral stories", "malayalam kids stories", "muyalum aamayum", "tortoise and hare malayalam", "kutti kathakal", "bedtime stories malayalam", "kadhapetti"],
+ "madeForKids": true,
+ "scenes": [
+  {"type": "hook", "title": "മുയലും ആമയും", "sub": "ഇന്നത്തെ കഥ", "icon": "🎁",
+   "narration": "കൂട്ടുകാരേ, ഇന്ന് കഥപ്പെട്ടിയിൽ നിന്ന് ഒരു രസമുള്ള കഥ! മുയലും ആമയും!"},
+  {"type": "story", "bg": "forest", "caption": "ഞാനാണ് ഏറ്റവും വേഗക്കാരൻ!",
+   "chars": [{"e": "🐇", "x": 0.5, "y": 0.66, "s": 340, "anim": "bounce"}],
+   "narration": "ഒരു കാട്ടിൽ ഒരു മുയൽ ഉണ്ടായിരുന്നു. ഞാനാണ് ഏറ്റവും വേഗത്തിൽ ഓടുന്നത് എന്ന് അവൻ എല്ലാവരോടും വീമ്പ് പറയും."},
+  {"type": "story", "bg": "forest", "caption": "നമുക്ക് ഒരു ഓട്ടമത്സരം നടത്താം!",
+   "chars": [{"e": "🐇", "x": 0.3, "y": 0.66, "s": 300, "anim": "still"}, {"e": "🐢", "x": 0.7, "y": 0.68, "s": 300, "anim": "bounce", "flip": true}],
+   "narration": "ഒരു ദിവസം പതുക്കെ നടക്കുന്ന ആമ പറഞ്ഞു: എങ്കിൽ നമുക്ക് ഒരു ഓട്ടമത്സരം നടത്താം! മുയൽ ചിരിച്ചു."},
+  {"type": "story", "bg": "race", "caption": "മുയൽ മരച്ചുവട്ടിൽ ഉറങ്ങി 😴",
+   "chars": [{"e": "🐇", "x": 0.15, "x2": 0.55, "y": 0.66, "s": 280, "anim": "run", "flip": true}, {"e": "🐢", "x": 0.1, "x2": 0.22, "y": 0.69, "s": 240, "anim": "walk", "flip": true}],
+   "narration": "മത്സരം തുടങ്ങി. മുയൽ വേഗം ഓടി മുന്നിലെത്തി. ആമ വളരെ പിന്നിലാണല്ലോ, കുറച്ച് ഉറങ്ങാം എന്ന് കരുതി അവൻ ഒരു മരച്ചുവട്ടിൽ കിടന്നു."},
+  {"type": "story", "bg": "race", "caption": "പതുക്കെ, പതുക്കെ... ആമ ജയിച്ചു! 🏆",
+   "chars": [{"e": "🐇", "x": 0.42, "y": 0.68, "s": 260, "anim": "sleep", "flip": true}, {"e": "🐢", "x": 0.2, "x2": 0.8, "y": 0.69, "s": 250, "anim": "walk", "flip": true}],
+   "narration": "പക്ഷേ ആമ നിർത്തിയില്ല. പതുക്കെ, പതുക്കെ നടന്ന് നടന്ന് ആമ ആദ്യം എത്തി! മുയൽ ഉണർന്നപ്പോഴേക്കും ആമ ജയിച്ചിരുന്നു."},
+  {"type": "moral", "lines": ["അഹങ്കാരം പാടില്ല.", "പതുക്കെയാണെങ്കിലും", "ശ്രമം നിർത്തരുത്!"], "icon": "🐢",
+   "narration": "ഗുണപാഠം: ഒരിക്കലും അഹങ്കാരം പാടില്ല. പതുക്കെയാണെങ്കിലും, ശ്രമം നിർത്താതെ ചെയ്താൽ വിജയം നമ്മുടേതാണ്!"},
+  {"type": "cta",
+   "narration": "ഇനിയും കഥകൾ കേൾക്കാൻ കഥപ്പെട്ടി Subscribe ചെയ്യൂ! നാളെ പുതിയ കഥയുമായി വരാം!"}
+ ]
+}

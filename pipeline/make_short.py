@@ -47,10 +47,11 @@ def make_base(top, bottom, grid):
     for y in range(H):
         t = y / H
         d.line([(0, y), (W, y)], fill=tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3)))
-    for x in range(0, W, 90):
-        d.line([(x, 0), (x, H)], fill=grid)
-    for y in range(0, H, 90):
-        d.line([(0, y), (W, y)], fill=grid)
+    if grid:
+        for x in range(0, W, 90):
+            d.line([(x, 0), (x, H)], fill=grid)
+        for y in range(0, H, 90):
+            d.line([(0, y), (W, y)], fill=grid)
     return im
 
 BASE = make_base((6, 10, 28), (18, 8, 48), (20, 30, 70))
@@ -61,6 +62,9 @@ THEMES = {
     # Stock market series: gold + market green on deep navy/teal
     "stocks": dict(GREEN=(0, 200, 120), CYAN=(255, 196, 0), MAG=(0, 150, 90), RED=(240, 70, 70), PANEL=(14, 34, 44),
                    PART_COL=(255, 196, 0), base=((4, 14, 22), (6, 34, 40), (14, 40, 50))),
+    # Kadha Petti kids stories: bright sky, candy colours
+    "kids": dict(GREEN=(255, 120, 40), CYAN=(120, 60, 200), MAG=(230, 40, 120), RED=(230, 60, 60), PANEL=(255, 250, 235),
+                 PART_COL=(255, 255, 255), base=((120, 200, 255), (255, 236, 200), None)),
 }
 
 def apply_theme(name, brand=None, tagline=None):
@@ -118,7 +122,8 @@ def emoji(s, px):
         im = Image.new("RGBA", (160, 160), (0, 0, 0, 0))
         ImageDraw.Draw(im).text((10, 10), s, font=f, embedded_color=True)
         bb = im.getbbox() or (0, 0, 160, 160)
-        _ec[k] = im.crop(bb).resize((px, px), Image.LANCZOS)
+        c = im.crop(bb); r = px / max(c.size)
+        _ec[k] = c.resize((max(1, int(c.width * r)), max(1, int(c.height * r))), Image.LANCZOS)
     return _ec[k]
 
 def glow(im, cx, cy, r, col, a=1.0):
@@ -272,7 +277,71 @@ def overlay(im):
         text(d, 0, 1850, DISCLAIMER, 28, GREY, 2, center=True, maxw=1000)
     return im
 
-TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta, "quiz": sc_quiz, "chart": sc_chart}
+# ---------- kids story scenes ----------
+def story_bg(kind, t):
+    top, bot = {"night": ((20, 24, 70), (60, 50, 120)), "river": ((130, 205, 255), (200, 240, 255))}.get(kind, ((125, 200, 255), (215, 240, 255)))
+    im = make_base(top, bot, None); d = ImageDraw.Draw(im)
+    if kind == "night":
+        for i in range(40):
+            x, y = (i * 263) % W, (i * 137) % 1000
+            d.ellipse([x - 3, y - 3, x + 3, y + 3], fill=(255, 255, 220))
+        e = emoji("🌙", 180); im.paste(e, (800, 160), e)
+    else:
+        d.ellipse([770, 120 + 8 * math.sin(t), 970, 320 + 8 * math.sin(t)], fill=(255, 214, 60))
+        for cx in (180 + (t * 25) % 1300 - 200, 650 + (t * 15) % 1300 - 400):
+            for dx, r in ((0, 60), (60, 75), (130, 55)):
+                d.ellipse([cx + dx - r, 300 - r, cx + dx + r, 300 + r], fill=(255, 255, 255))
+    gy = 1250
+    if kind == "river":
+        d.rectangle([0, gy, W, H], fill=(90, 190, 90)); d.rectangle([0, gy + 120, W, gy + 330], fill=(70, 160, 230))
+    else:
+        d.rectangle([0, gy, W, H], fill=(70, 50, 90) if kind == "night" else (100, 200, 90))
+    for x, sz in ((40, 300), (760, 340), (430, 220)) if kind in ("forest", "race", "night") else ((60, 260),):
+        e = emoji("🌳", sz); im.paste(e, (x, gy - e.height + 40), e)
+    if kind == "race":
+        e = emoji("🏁", 170); im.paste(e, (880, gy - 150), e)
+    return im
+
+def sc_story(s, t, D):
+    im = story_bg(s.get("bg", "forest"), t)
+    for c in s.get("chars", []):
+        px = c.get("s", 300); x, y = c.get("x", 0.5) * W, c.get("y", 0.62) * H
+        a = c.get("anim", "still"); p = min(1, t / max(0.1, D * 0.85))
+        if a in ("run", "walk"):
+            x2 = c.get("x2", c.get("x", 0.5)) * W; x = x + (x2 - x) * p
+            y += -abs(math.sin(t * (14 if a == "run" else 5))) * (40 if a == "run" else 12)
+        elif a == "bounce":
+            y += -abs(math.sin(t * 4)) * 35
+        e = emoji(c["e"], px)
+        if c.get("flip"): e = e.transpose(Image.FLIP_LEFT_RIGHT)
+        if a == "sleep": e = e.rotate(-12, expand=True)
+        im.paste(e, (int(x - e.width / 2), int(y - e.height / 2)), e)
+        if a == "sleep":
+            z = emoji("💤", 120); im.paste(z, (int(x + 60), int(y - 200 - 25 * math.sin(t * 3))), z)
+    d = ImageDraw.Draw(im)
+    if s.get("caption"):
+        d.rounded_rectangle([60, 1480, 1020, 1680], radius=50, fill=(255, 255, 255), outline=(255, 150, 40), width=6)
+        text(d, 0, 1540, s["caption"], 60, (60, 40, 90), 0, center=True, maxw=880)
+    return im
+
+def sc_moral(s, t, D):
+    im = bg(t); d = ImageDraw.Draw(im)
+    for i in range(6):
+        e = emoji("⭐", 90 + 10 * int(1 + math.sin(t * 3 + i)))
+        im.paste(e, (int(80 + i * 160), int(330 + 30 * math.sin(t * 2 + i))), e)
+    d = ImageDraw.Draw(im)
+    text(d, 0, 180, "ഗുണപാഠം", 110, (230, 60, 120), 5, center=True)
+    b = ease(t / 0.8)
+    if b > 0.05:
+        d.rounded_rectangle([70, 620, 1010, 620 + 520 * b], radius=60, fill=(255, 255, 255), outline=(255, 150, 40), width=8)
+    if b > 0.95:
+        for i, line in enumerate(s["lines"]):
+            text(d, 0, 700 + i * 130, line, 68, (60, 40, 90), 0, center=True, maxw=860)
+    if s.get("icon"):
+        e = emoji(s["icon"], 260); im.paste(e, (int(W / 2 - e.width / 2), 1250), e)
+    return im
+
+TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta, "quiz": sc_quiz, "chart": sc_chart, "story": sc_story, "moral": sc_moral}
 
 # ---------- audio ----------
 def tts(textline, out):
