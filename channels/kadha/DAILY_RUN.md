@@ -12,7 +12,7 @@
    captions readable). Copy to channels/kadha/videos/ep-NNN-<slug>.mp4.
 5. Publish: copy to videos/approved/<date>_kadha-ep-NNN.mp4, push, confirm raw URL 200, write outbox/<date>_kadha-ep-NNN.json:
    {"channel": "KADHA", "publish_at": "<date>T19:30:00+05:30", "video_url": raw URL, "title", "description": caption + "\n\n" + hashtags,
-    "caption": same, "tags", "categoryId": "1", "madeForKids": true, "privacy": "public", "only": ["instagram"]}
-   (YouTube for KADHA is DISABLED until the owner fixes YT_REFRESH_KADHA and a verify run confirms the channel; then remove "only".). Push.
+    "caption": same, "tags", "categoryId": "1", "madeForKids": true, "privacy": "public"}
+   (YouTube for KADHA verified 17 Nov 2026: token saved in YT_REFRESH_STOIC, mapped in publish/run_outbox.py.). Push.
 6. Mark the story [x], log channels/kadha/runs/log.csv, push.
 Credits: priority 403 UNLOCKED > Kadha Petti > The Stoic Bull. Skip Kadha if ElevenLabs remaining < 5000.
