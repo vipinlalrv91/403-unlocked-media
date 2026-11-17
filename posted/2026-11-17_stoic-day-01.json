@@ -22,5 +22,17 @@
  "only": [
   "youtube"
  ],
- "yt_secret": "KADHA"
+ "yt_secret": "KADHA",
+ "result": {
+  "posted_at": "2026-11-17T11:54:44.260588+00:00",
+  "instagram": {
+   "skipped": "no secrets"
+  },
+  "youtube": {
+   "id": "e26jdXJy99c",
+   "url": "https://www.youtube.com/shorts/e26jdXJy99c",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA"
+  }
+ }
 }
