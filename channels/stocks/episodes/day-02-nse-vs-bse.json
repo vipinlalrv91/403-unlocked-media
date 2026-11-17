@@ -1,0 +1,81 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "voice_id": "r5NKPDP5GRBdMttFWA9M",
+ "disclaimer": "Educational only · Not investment advice",
+ "slug": "stocks-day-02",
+ "series": {
+  "day": 2,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: BSE",
+ "title": "NSE vs BSE എന്താണ് വ്യത്യാസം? 🏛️ Zero to Hero | Day 2 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 2! Shares വാങ്ങുന്നതും വിൽക്കുന്നതും എവിടെ? NSE, BSE, Sensex, Nifty 50: simple Malayalam-ൽ.\n\nDay 2: India's stock exchanges, NSE vs BSE, Sensex and Nifty 50, explained simply.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #stockmarket #nse #bse #sensex #nifty50 #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "nse vs bse malayalam",
+  "stock exchange malayalam",
+  "sensex nifty malayalam",
+  "share market basics malayalam",
+  "stock market for beginners",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.bseindia.com/downloads/Corporate_Profile.pdf",
+  "https://nseindia.com/national-stock-exchange/history-milestones",
+  "https://investor.sebi.gov.in/miis.html"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "NSE vs BSE?",
+   "sub": "Yesterday: B · SEBI ✓",
+   "icon": "🏛️",
+   "narration": "ഇന്നലത്തെ quiz-ന്റെ ഉത്തരം SEBI! ഇന്ന് Day 2. Shares വാങ്ങുന്ന market എവിടെയാണ്?"
+  },
+  {
+   "type": "bullets",
+   "title": "STOCK EXCHANGE",
+   "icon": "🤝",
+   "items": [
+    "Buyers + Sellers ഒരിടത്ത്",
+    "ഇന്ന് എല്ലാം Online"
+   ],
+   "narration": "Stock exchange എന്നാൽ shares വാങ്ങുന്നവരും വിൽക്കുന്നവരും ഒരുമിക്കുന്ന ഒരു market. ഇന്ന് ഇതെല്ലാം online ആയാണ് നടക്കുന്നത്."
+  },
+  {
+   "type": "steps",
+   "title": "INDIA-യിലെ 2 EXCHANGES",
+   "items": [
+    "BSE · 1875 · Sensex",
+    "NSE · 1992 · Nifty 50"
+   ],
+   "narration": "India-യിൽ രണ്ട് പ്രധാന exchanges ഉണ്ട്. 1875-ൽ തുടങ്ങിയ BSE, Asia-യിലെ ഏറ്റവും പഴയ stock exchange. പിന്നെ 1992-ൽ തുടങ്ങിയ NSE."
+  },
+  {
+   "type": "bullets",
+   "title": "INDEX",
+   "icon": "📊",
+   "items": [
+    "BSE → Sensex (30)",
+    "NSE → Nifty 50"
+   ],
+   "narration": "BSE-യുടെ പ്രധാന index Sensex, മുപ്പത് വലിയ companies. NSE-യുടെ index Nifty 50. Market എങ്ങോട്ട് പോകുന്നു എന്ന് ഇവ കാണിക്കും."
+  },
+  {
+   "type": "quiz",
+   "question": "Asia-യിലെ ഏറ്റവും പഴയ exchange?",
+   "options": [
+    "NSE",
+    "BSE"
+   ],
+   "narration": "Quiz time! Asia-യിലെ ഏറ്റവും പഴയ stock exchange ഏത്? A, NSE. B, BSE. Answer comment ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}

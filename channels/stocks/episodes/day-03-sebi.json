@@ -1,0 +1,81 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "voice_id": "r5NKPDP5GRBdMttFWA9M",
+ "disclaimer": "Educational only · Not investment advice",
+ "slug": "stocks-day-03",
+ "series": {
+  "day": 3,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: 1992",
+ "title": "SEBI എന്താണ്? 🛡️ നിങ്ങളുടെ പണം സംരക്ഷിക്കുന്നത് ആര്? | Day 3 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 3! Stock market-ൽ investors-നെ സംരക്ഷിക്കുന്ന SEBI-യെ കുറിച്ച് അറിയാം.\n\nDay 3: What SEBI is, what it does, and why you should always check SEBI registration.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #sebi #stockmarket #investorprotection #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "sebi malayalam",
+  "what is sebi",
+  "sebi role in stock market",
+  "investor protection india",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/about-sebi.html",
+  "https://www.sebi.gov.in/acts/act15.pdf"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "WHO PROTECTS YOU?",
+   "sub": "Yesterday: B · BSE ✓",
+   "icon": "🛡️",
+   "narration": "ഇന്നലത്തെ ഉത്തരം BSE! Day 3. Stock market-ൽ നിങ്ങളുടെ പണം സംരക്ഷിക്കുന്നത് ആരാണ്?"
+  },
+  {
+   "type": "bullets",
+   "title": "SEBI",
+   "icon": "⚖️",
+   "items": [
+    "1988-ൽ തുടക്കം",
+    "1992 SEBI Act"
+   ],
+   "narration": "അതാണ് SEBI, Securities and Exchange Board of India. 1988-ൽ തുടങ്ങി, 1992-ലെ SEBI Act വഴി നിയമപരമായ അധികാരം കിട്ടി."
+  },
+  {
+   "type": "steps",
+   "title": "SEBI-യുടെ ജോലി",
+   "items": [
+    "Investors-നെ സംരക്ഷിക്കുക",
+    "Exchanges നിയന്ത്രിക്കുക",
+    "Brokers register ചെയ്യുക"
+   ],
+   "narration": "Investors-നെ സംരക്ഷിക്കുക, stock exchanges നിയന്ത്രിക്കുക, brokers-നെ register ചെയ്യുക, തട്ടിപ്പുകൾ തടയുക. ഇതാണ് SEBI-യുടെ ജോലി."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🔍",
+   "items": [
+    "SEBI registered ആണോ?",
+    "എപ്പോഴും check ചെയ്യൂ"
+   ],
+   "narration": "അതുകൊണ്ട് ഏതെങ്കിലും broker-ഓ adviser-ഓ ആയി deal ചെയ്യും മുമ്പ്, അവർ SEBI registered ആണോ എന്ന് check ചെയ്യൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "SEBI Act വന്ന വർഷം?",
+   "options": [
+    "1992",
+    "2005"
+   ],
+   "narration": "Quiz! SEBI Act വന്നത് ഏത് വർഷം? A, 1992. B, 2005. Answer comment ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}

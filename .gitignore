@@ -2,3 +2,6 @@ videos/*.mp4
 videos/*.jpg
 !videos/approved/
 __pycache__/
+
+# Stoic Bull videos are committed on purpose (owner downloads them)
+!channels/stocks/videos/*.mp4

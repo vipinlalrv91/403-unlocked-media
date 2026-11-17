@@ -1,70 +1,69 @@
-# Stock Market: Zero to Hero (Malayalam), 60-day education series
-Education only. Never: stock picks, buy/sell calls, price targets, return promises, live-price "advice".
-Each episode ends with a quiz; the next episode opens with yesterday's answer (scene "sub" of the hook).
-Every 7th day = "Myth vs Fact" (uses compare scene). Mark done with [x].
+# The Stoic Bull: Stock Market Zero to Hero (Malayalam)
+Education only. Never: stock picks, buy/sell calls, price targets, return promises.
+Brokers may be named only as neutral examples (no 'best', no ranking, no referral, no logos, no fake app screens).
+Each episode ends with a quiz; the next episode's hook shows yesterday's answer. Mark done with [x].
 
-## Level 1: Basics (Day 1-12)
-- [ ] 1 What is a share? (chayakada analogy) | exchanges NSE/BSE, regulator SEBI
-- [ ] 2 Why do companies list on the stock market? (IPO in one line)
-- [ ] 3 What is a stock exchange? NSE vs BSE
-- [ ] 4 Who protects investors? Role of SEBI
-- [ ] 5 Demat account vs trading account
-- [ ] 6 What is a broker? What KYC needs (PAN, Aadhaar, bank)
+- [x] 1 What is a share? (chayakada analogy) | exchanges NSE/BSE, regulator SEBI
+- [x] 2 NSE vs BSE: India's stock exchanges | BSE 1875, NSE 1992, Sensex vs Nifty 50
+- [x] 3 SEBI: who protects investors | 1988 / SEBI Act 1992
+- [ ] 4 Demat vs trading account | depositories CDSL & NSDL
+- [ ] 5 How to open a demat account online, step by step | PAN, Aadhaar e-KYC, bank proof, in-person verification, e-sign (generic, no broker UI)
+- [ ] 6 Discount vs full-service brokers | examples: Zerodha (Kite), Dhan, Groww, Upstox, Angel One. Neutral, no 'best broker', no referral links, no logos
 - [ ] 7 MYTH vs FACT: "Stock market is gambling"
-- [ ] 8 What are Nifty 50 and Sensex?
-- [ ] 9 Why do share prices go up and down? (demand/supply)
-- [ ] 10 Market timings in India (pre-open, normal session)
-- [ ] 11 Bull market vs bear market
-- [ ] 12 Investing vs trading: the difference
-## Level 2: Investing foundations (Day 13-25)
-- [ ] 13 Power of compounding (simple math example, no return promise)
+- [ ] 8 Inside a trading app: Kite, Dhan, Groww | watchlist, buy/sell window, holdings vs positions (generic illustration, say 'every app looks a bit different')
+- [ ] 9 Charges when you buy shares | brokerage, STT, exchange fees, GST, stamp duty, DP charges (verify; rates change)
+- [ ] 10 Is your broker genuine? Check SEBI registration on sebi.gov.in
+- [ ] 11 Why companies list: IPO explained
+- [ ] 12 Nifty 50 and Sensex explained
+- [ ] 13 Why share prices go up and down (demand & supply)
 - [ ] 14 MYTH vs FACT: "You need lakhs to start"
-- [ ] 15 What is a mutual fund?
-- [ ] 16 What is SIP? Why regular investing helps
-- [ ] 17 Index fund vs active fund
-- [ ] 18 What is an ETF?
-- [ ] 19 Risk vs return: why higher return means higher risk
-- [ ] 20 Diversification: don't put all eggs in one basket
-- [ ] 21 MYTH vs FACT: "Tips from WhatsApp groups make money"
-- [ ] 22 Emergency fund before investing
-- [ ] 23 Dividends explained
-- [ ] 24 Bonus shares and stock splits
-- [ ] 25 Large cap, mid cap, small cap
-## Level 3: Reading a company (Day 26-40)
-- [ ] 26 Market capitalisation
-- [ ] 27 What is EPS?
-- [ ] 28 What is P/E ratio? (and why low P/E isn't automatically "cheap")
-- [ ] 29 MYTH vs FACT: "Low share price = cheap stock"
-- [ ] 30 Revenue vs profit
-- [ ] 31 What is debt? Debt-to-equity
-- [ ] 32 Book value and P/B
-- [ ] 33 ROE in one minute
-- [ ] 34 Where to read annual reports (exchange filings)
-- [ ] 35 MYTH vs FACT: "Buy what's in the news"
-- [ ] 36 Promoter holding: what it tells you
-- [ ] 37 Quarterly results: what to look at
-- [ ] 38 Sectors and why they move differently
-- [ ] 39 Fundamental vs technical analysis
-- [ ] 40 Building a simple watchlist (no recommendations)
-## Level 4: Charts & trading basics (Day 41-52)
-- [ ] 41 What is a candlestick?
-- [ ] 42 MYTH vs FACT: "Charts can predict the future"
-- [ ] 43 Support and resistance
-- [ ] 44 Trend: higher highs, higher lows
-- [ ] 45 Volume: why it matters
-- [ ] 46 Moving averages
-- [ ] 47 Market order vs limit order
-- [ ] 48 Stop-loss explained
-- [ ] 49 MYTH vs FACT: "Intraday is easy money" (cite SEBI study on F&O losses)
-- [ ] 50 Delivery vs intraday
-- [ ] 51 What are F&O? (high risk warning)
-- [ ] 52 Position sizing: never risk too much on one trade
-## Level 5: Hero mindset (Day 53-60)
-- [ ] 53 Taxes on shares: STCG vs LTCG (cite Income Tax Dept; rates change, say "check current rates")
-- [ ] 54 Common beginner mistakes
-- [ ] 55 Investor psychology: fear and greed
-- [ ] 56 MYTH vs FACT: "Experts are always right"
-- [ ] 57 How to spot stock market scams (SEBI warnings, guaranteed-return frauds)
-- [ ] 58 SCORES: how to complain to SEBI
-- [ ] 59 Your first investing plan checklist (goal, horizon, risk)
-- [ ] 60 Graduation: recap of the journey + what's next
+- [ ] 15 Market timings in India (pre-open, normal session)
+- [ ] 16 Bull market vs bear market
+- [ ] 17 Investing vs trading: the difference
+- [ ] 18 Power of compounding (simple math example, no return promise)
+- [ ] 19 What is a mutual fund?
+- [ ] 20 What is SIP? Why regular investing helps
+- [ ] 21 Index fund vs active fund
+- [ ] 22 What is an ETF?
+- [ ] 23 Risk vs return: why higher return means higher risk
+- [ ] 24 Diversification: don't put all eggs in one basket
+- [ ] 25 MYTH vs FACT: "Tips from WhatsApp groups make money"
+- [ ] 26 Emergency fund before investing
+- [ ] 27 Dividends explained
+- [ ] 28 Bonus shares and stock splits
+- [ ] 29 Large cap, mid cap, small cap
+- [ ] 30 Market capitalisation
+- [ ] 31 What is EPS?
+- [ ] 32 What is P/E ratio? (and why low P/E isn't automatically "cheap")
+- [ ] 33 MYTH vs FACT: "Low share price = cheap stock"
+- [ ] 34 Revenue vs profit
+- [ ] 35 What is debt? Debt-to-equity
+- [ ] 36 Book value and P/B
+- [ ] 37 ROE in one minute
+- [ ] 38 Where to read annual reports (exchange filings)
+- [ ] 39 MYTH vs FACT: "Buy what's in the news"
+- [ ] 40 Promoter holding: what it tells you
+- [ ] 41 Quarterly results: what to look at
+- [ ] 42 Sectors and why they move differently
+- [ ] 43 Fundamental vs technical analysis
+- [ ] 44 Building a simple watchlist (no recommendations)
+- [ ] 45 What is a candlestick?
+- [ ] 46 MYTH vs FACT: "Charts can predict the future"
+- [ ] 47 Support and resistance
+- [ ] 48 Trend: higher highs, higher lows
+- [ ] 49 Volume: why it matters
+- [ ] 50 Moving averages
+- [ ] 51 Market order vs limit order
+- [ ] 52 Stop-loss explained
+- [ ] 53 MYTH vs FACT: "Intraday is easy money" (cite SEBI study on F&O losses)
+- [ ] 54 Delivery vs intraday
+- [ ] 55 What are F&O? (high risk warning)
+- [ ] 56 Position sizing: never risk too much on one trade
+- [ ] 57 Taxes on shares: STCG vs LTCG (cite Income Tax Dept; rates change, say "check current rates")
+- [ ] 58 Common beginner mistakes
+- [ ] 59 Investor psychology: fear and greed
+- [ ] 60 MYTH vs FACT: "Experts are always right"
+- [ ] 61 How to spot stock market scams (SEBI warnings, guaranteed-return frauds)
+- [ ] 62 SCORES: how to complain to SEBI
+- [ ] 63 Your first investing plan checklist (goal, horizon, risk)
+- [ ] 64 Graduation: recap of the journey + what's next

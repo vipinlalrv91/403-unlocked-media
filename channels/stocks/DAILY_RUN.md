@@ -1,10 +1,17 @@
-# The Stoic Bull (Stock Market Zero to Hero): daily automatic run (1 video/day, 18:00 IST)
+# The Stoic Bull (Stock Market Zero to Hero): daily automatic run (2 videos/day, GENERATE ONLY)
 
-> **STATUS: PAUSED by the channel owner (16 Nov 2026). Do not generate or post any Stoic Bull video until this line is removed.**
+> **STATUS (owner, 17 Nov 2026): GENERATE 2 videos/day and store them in GitHub. DO NOT POST anywhere (no Metricool, no outbox, no YouTube/Instagram). The owner uploads manually.**
+>
+> Per video: write the episode JSON (next two unchecked days in curriculum.md), then run
+> `python3 channels/stocks/export.py channels/stocks/episodes/day-NN-<slug>.json`
+> which renders and saves `channels/stocks/videos/day-NN-<slug>.mp4` + `_upload.txt` (title, caption, tags).
+> QC the frames, mark the day [x], log to channels/stocks/runs/log.csv, commit and push.
+> Credits: 403 UNLOCKED has priority. Before each Stoic Bull video, if ElevenLabs remaining characters < 8000, skip it and log `skipped: credits reserved for 403 UNLOCKED`.
+> series.total = number of lines in curriculum.md (currently 64). Hook "sub" = "Yesterday: <previous quiz_answer>".
 
 Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with these differences:
 
-- Metricool brand: STOCKS_BLOG_ID (fill in once the stock market brand is linked in Metricool; until then do NOT post, log `skipped: stocks brand not linked`).
+- Posting: disabled (see STATUS).
 - Topic: next unchecked line in channels/stocks/curriculum.md. Day number = line number in the course.
   Episode JSON goes in channels/stocks/episodes/day-NN-<slug>.json, copying the fields of day-01-what-is-share.json (brand "THE STOIC BULL")
   (theme "stocks", brand, tagline, voice_id, series {day, total 60, name}, disclaimer, quiz_answer).
