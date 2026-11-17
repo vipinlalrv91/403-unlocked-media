@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ig_publish import publish_reel
 from yt_upload import upload_short
 
+YT_CHANNEL = {"403": "UCeS13InBe6Upz3qgMcAwgDA", "STOIC": "UCtMTEJfHGHxEeWn1rToKygA", "KADHA": "UC1rMC_lvwPFW6SgNsOsJLdQ"}
 now = dt.datetime.now(dt.timezone.utc); changed = False
 for path in sorted(glob.glob("outbox/*.json")):
     req = json.load(open(path, encoding="utf-8")); ch = req["channel"].upper()
@@ -29,7 +30,7 @@ for path in sorted(glob.glob("outbox/*.json")):
         tmp = os.path.join(tempfile.gettempdir(), "v.mp4")
         try:
             urllib.request.urlretrieve(req["video_url"], tmp)
-            result["youtube"] = upload_short(env("YT_CLIENT_ID"), env("YT_CLIENT_SECRET"), env(f"YT_REFRESH_{ch}"), tmp, req)
+            result["youtube"] = upload_short(env("YT_CLIENT_ID"), env("YT_CLIENT_SECRET"), env(f"YT_REFRESH_{ch}"), tmp, dict(req, expected_channel_id=YT_CHANNEL.get(ch)))
         except Exception as e: result["youtube"] = {"error": str(e)}
     else: result["youtube"] = {"skipped": "no secrets"}
     req["result"] = result

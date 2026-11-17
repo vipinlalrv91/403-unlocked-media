@@ -26,4 +26,9 @@ def upload_short(client_id, client_secret, refresh_token, video_path, meta):
             res = json.load(r)
     except urllib.error.HTTPError as e:
         raise RuntimeError(f"YouTube API {e.code}: {e.read().decode()[:400]}")
-    return {"id": res["id"], "url": f"https://www.youtube.com/shorts/{res['id']}", "privacy": res.get("status", {}).get("privacyStatus")}
+    out = {"id": res["id"], "url": f"https://www.youtube.com/shorts/{res['id']}", "privacy": res.get("status", {}).get("privacyStatus"),
+           "channel_id": res.get("snippet", {}).get("channelId")}
+    exp = meta.get("expected_channel_id")
+    if exp and out["channel_id"] != exp:
+        out["error"] = f"WRONG CHANNEL: token uploaded to {out['channel_id']}, expected {exp}. Fix the refresh token secret; delete this video in YouTube Studio."
+    return out
