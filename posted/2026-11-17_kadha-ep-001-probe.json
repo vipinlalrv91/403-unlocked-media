@@ -19,5 +19,18 @@
  "privacy": "private",
  "only": [
   "youtube"
- ]
+ ],
+ "result": {
+  "posted_at": "2026-11-17T12:03:05.785437+00:00",
+  "instagram": {
+   "skipped": "no secrets"
+  },
+  "youtube": {
+   "id": "W9uQW3hVnTE",
+   "url": "https://www.youtube.com/shorts/W9uQW3hVnTE",
+   "privacy": "private",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "error": "WRONG CHANNEL: token uploaded to UCtMTEJfHGHxEeWn1rToKygA, expected UC1rMC_lvwPFW6SgNsOsJLdQ. Fix the refresh token secret; delete this video in YouTube Studio."
+  }
+ }
 }
