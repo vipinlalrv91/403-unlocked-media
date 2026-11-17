@@ -18,5 +18,14 @@
  ],
  "categoryId": "27",
  "madeForKids": false,
- "privacy": "public"
+ "privacy": "public",
+ "result": {
+  "posted_at": "2026-11-17T10:11:40.720339+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 02:11:44 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"AAj8LJZQTvChUEIkN_0e3EQ\"}}"
+  },
+  "youtube": {
+   "error": "HTTP Error 401: Unauthorized"
+  }
+ }
 }

@@ -16,5 +16,18 @@
  ],
  "categoryId": "1",
  "madeForKids": true,
- "privacy": "public"
+ "privacy": "public",
+ "result": {
+  "posted_at": "2026-11-17T10:11:40.720339+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 02:11:42 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"AnBWbf_rrVbqOLLaRTUAwmt\"}}"
+  },
+  "youtube": {
+   "id": "7TGvbuYfO2I",
+   "url": "https://www.youtube.com/shorts/7TGvbuYfO2I",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "error": "WRONG CHANNEL: token uploaded to UCtMTEJfHGHxEeWn1rToKygA, expected UC1rMC_lvwPFW6SgNsOsJLdQ. Fix the refresh token secret; delete this video in YouTube Studio."
+  }
+ }
 }
