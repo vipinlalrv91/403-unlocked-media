@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Post every due request in outbox/*.json to Instagram + YouTube, then move it to posted/.
 
-Request JSON: {"channel": "403" | "STOIC", "publish_at": "2026-11-18T10:00:00+05:30", "video_url": "...",
+Request JSON: {"channel": "403" | "STOIC" | "KADHA", "publish_at": "2026-11-18T10:00:00+05:30", "video_url": "...",
                "title": "...", "description": "...", "caption": "...", "tags": [...], "categoryId": "28"}
 Secrets per channel (GitHub Actions env): IG_USER_ID_<CH>, IG_TOKEN_<CH>, YT_REFRESH_<CH>; shared YT_CLIENT_ID, YT_CLIENT_SECRET.
 A platform whose secrets are missing is skipped; a request with no configured platform stays in the outbox."""

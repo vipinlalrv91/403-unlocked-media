@@ -1,5 +1,5 @@
 name: Publish Shorts (Instagram + YouTube)
-# Every 30 min: posts due requests from outbox/ for both channels (403 UNLOCKED, The Stoic Bull).
+# Every 30 min: posts due requests from outbox/ for all channels (403 UNLOCKED, The Stoic Bull, Kadha Petti Malayalam).
 on:
   schedule: [{cron: "*/30 * * * *"}]
   push: {paths: ["outbox/*.json"]}
@@ -21,6 +21,9 @@ jobs:
           IG_USER_ID_STOIC: ${{ secrets.IG_USER_ID_STOIC }}
           IG_TOKEN_STOIC: ${{ secrets.IG_TOKEN_STOIC }}
           YT_REFRESH_STOIC: ${{ secrets.YT_REFRESH_STOIC }}
+          IG_USER_ID_KADHA: ${{ secrets.IG_USER_ID_KADHA }}
+          IG_TOKEN_KADHA: ${{ secrets.IG_TOKEN_KADHA }}
+          YT_REFRESH_KADHA: ${{ secrets.YT_REFRESH_KADHA }}
       - run: |
           git config user.name "publish-bot"; git config user.email "actions@users.noreply.github.com"
           git add -A outbox posted
