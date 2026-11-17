@@ -17,15 +17,16 @@ Pages (on the owner's Facebook account): "403 UNLOCKED" ↔ @403_unlocked, "The 
 
 ## Step B: Google (YouTube), one project for both channels
 1. console.cloud.google.com → New project "shorts-uploader" → APIs & Services → Library → YouTube Data API v3 → Enable.
-2. OAuth consent screen → External → app name + email → Publishing status: **In production** (Testing mode expires tokens after 7 days).
+2. OAuth consent screen (may open as "Google Auth Platform" → Get started) → app name "Shorts Uploader", External, emails → Create. Then Audience → Publish app → status **In production** (Testing mode expires tokens after 7 days).
 3. Credentials → Create credentials → OAuth client ID → Web application → Authorized redirect URI: https://developers.google.com/oauthplayground → copy Client ID + Client secret.
 4. developers.google.com/oauthplayground → ⚙ → "Use your own OAuth credentials" → paste ID + secret.
    Scope: https://www.googleapis.com/auth/youtube.upload → Authorize APIs → choose channel **403 UNLOCKED** → Exchange → copy Refresh token.
-   Repeat Authorize → choose **The Stoic Bull** → Exchange → copy second Refresh token.
+   Open a NEW Incognito window, repeat → choose **The Stoic Bull** → Exchange → copy second Refresh token.
+   Repeat again in a new Incognito window → choose **Kadha Petti Malayalam** → third Refresh token.
    ("Google hasn't verified this app" → Advanced → Continue: it is the owner's own app.)
 
-## Step C: GitHub secrets
-https://github.com/vipinlalrv91/403-unlocked-media/settings/secrets/actions → New repository secret, 8 times:
+## Step C: GitHub secrets (11)
+https://github.com/vipinlalrv91/403-unlocked-media/settings/secrets/actions → New repository secret, once per row:
 
 | Name | Value |
 |---|---|
@@ -37,6 +38,9 @@ https://github.com/vipinlalrv91/403-unlocked-media/settings/secrets/actions → 
 | YT_CLIENT_SECRET | Google OAuth Client secret |
 | YT_REFRESH_403 | refresh token authorized on 403 UNLOCKED |
 | YT_REFRESH_STOIC | refresh token authorized on The Stoic Bull |
+| IG_USER_ID_KADHA | instagram_business_account.id of page kadha petti malayalam |
+| IG_TOKEN_KADHA | access_token of page kadha petti malayalam |
+| YT_REFRESH_KADHA | refresh token authorized on Kadha Petti Malayalam (if it has a YouTube channel) |
 
 ## Step D: YouTube API audit (so uploads can be public)
 Search "YouTube API Services audit and quota extension form", submit: purpose = uploading the owner's own videos to their own two channels.
