@@ -18,8 +18,8 @@ for path in sorted(glob.glob("outbox/*.json")):
         print(f"{path}: not due yet ({req['publish_at']})"); continue
     env = lambda k: os.environ.get(k, "").strip()
     ig_ok = env(f"IG_USER_ID_{ch}") and env(f"IG_TOKEN_{ch}")
-    # Secret names got swapped during setup: YT_REFRESH_KADHA holds The Stoic Bull's token, YT_REFRESH_STOIC is for Kadhapetti.
-    YT_SECRET_FOR = {"403": "403", "STOIC": "KADHA", "KADHA": "STOIC"}
+    # Override per request with "yt_secret" if a token is saved under another name.
+    YT_SECRET_FOR = {"403": "403", "STOIC": "STOIC", "KADHA": "KADHA"}
     yt_secret = req.get("yt_secret", YT_SECRET_FOR.get(ch, ch)).upper()
     yt_ok = env(f"YT_REFRESH_{yt_secret}") and env("YT_CLIENT_ID") and env("YT_CLIENT_SECRET")
     if not (ig_ok or yt_ok):
