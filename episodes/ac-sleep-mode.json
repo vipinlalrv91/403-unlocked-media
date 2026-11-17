@@ -1,0 +1,19 @@
+{
+ "slug": "ac-sleep-mode",
+ "title": "AC-യിലെ Sleep Mode എന്താണ്? 😴 Current ലാഭിക്കാം! #shorts",
+ "caption": "AC remote-ലെ Sleep mode ശരിക്കും എന്താണ് ചെയ്യുന്നത്? രാത്രി മുഴുവൻ സുഖമായി ഉറങ്ങാനും current ലാഭിക്കാനും ഇത് എങ്ങനെ സഹായിക്കും എന്ന് അറിയാം!\n\nWhat does Sleep mode on your AC do? It slowly raises the set temperature at night, so the compressor works less. Exact behaviour varies by brand; check your AC manual.",
+ "hashtags": "#shorts #ac #sleepmode #airconditioner #techmalayalam #malayalam #savepower #403unlocked",
+ "tags": ["ac sleep mode malayalam", "what is sleep mode in ac", "ac tips malayalam", "save electricity ac", "air conditioner malayalam", "tech tips malayalam", "403 unlocked"],
+ "sources": ["https://www.panasonic.com/in/consumer/air-conditioners/air-conditioner-learn/articles/air-conditioner-modes-and-its-impact-on-electricity-bill.html", "https://www.samsung.com/ae/support/home-appliances/how-to-use-good-sleep-mode-in-my-air-conditioner", "https://www.manualslib.com/manual/2412708/Kaisai-One.html?page=78"],
+ "scenes": [
+  {"type": "hook", "title": "SLEEP MODE?", "sub": "ഇത് എന്താണ്?", "icon": "😴",
+   "narration": "AC remote-ലെ ഈ Sleep mode button ശരിക്കും എന്താണ് ചെയ്യുന്നത് എന്ന് അറിയാമോ?"},
+  {"type": "bullets", "title": "രാത്രി തണുപ്പ് കൂടും", "icon": "🥶", "items": ["ഒരേ temperature", "പുലർച്ചെ വിറയ്ക്കും"],
+   "narration": "രാത്രി മുഴുവൻ AC ഒരേ temperature-ൽ ഓടിയാൽ, പുലർച്ചെ ആകുമ്പോൾ നമുക്ക് തണുത്ത് വിറയ്ക്കും."},
+  {"type": "steps", "title": "SLEEP MODE ചെയ്യുന്നത്", "items": ["Temperature പതുക്കെ കൂട്ടും", "ഏകദേശം 1°C / മണിക്കൂർ", "2-3°C വരെ മാത്രം"], "note": "* Exact steps vary by AC brand",
+   "narration": "Sleep mode on ആക്കിയാൽ, AC set ചെയ്ത temperature പതുക്കെ കൂട്ടും. മിക്ക AC-കളിലും ഏകദേശം ഒരു മണിക്കൂറിൽ ഒരു ഡിഗ്രി, രണ്ടോ മൂന്നോ ഡിഗ്രി വരെ."},
+  {"type": "bullets", "title": "ഗുണങ്ങൾ", "icon": "⚡", "items": ["സുഖമായ ഉറക്കം", "Compressor കുറച്ച് ഓടും", "Current ലാഭം"],
+   "narration": "അതുകൊണ്ട് സുഖമായി ഉറങ്ങാം, compressor കുറച്ച് പണിയെടുത്താൽ മതി, current-ഉം ലാഭിക്കാം. നിങ്ങളുടെ AC manual ഒന്ന് check ചെയ്യൂ."},
+  {"type": "cta", "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"}
+ ]
+}
