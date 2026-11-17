@@ -20,7 +20,7 @@ Pages (on the owner's Facebook account): "403 UNLOCKED" ↔ @403_unlocked, "The 
 2. OAuth consent screen (may open as "Google Auth Platform" → Get started) → app name "Shorts Uploader", External, emails → Create. Then Audience → Publish app → status **In production** (Testing mode expires tokens after 7 days).
 3. Credentials → Create credentials → OAuth client ID → Web application → Authorized redirect URI: https://developers.google.com/oauthplayground → copy Client ID + Client secret.
 4. developers.google.com/oauthplayground → ⚙ → "Use your own OAuth credentials" → paste ID + secret.
-   Scope: https://www.googleapis.com/auth/youtube.upload → Authorize APIs → choose channel **403 UNLOCKED** → Exchange → copy Refresh token.
+   Scopes (space-separated): https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly → Authorize APIs → choose channel **403 UNLOCKED** → Exchange → copy Refresh token.
    Open a NEW Incognito window, repeat → choose **The Stoic Bull** → Exchange → copy second Refresh token.
    Repeat again in a new Incognito window → choose **Kadha Petti Malayalam** → third Refresh token.
    ("Google hasn't verified this app" → Advanced → Continue: it is the owner's own app.)
