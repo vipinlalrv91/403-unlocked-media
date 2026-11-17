@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T09:40:41.349696+00:00",
+ "checked_at": "2026-11-17T09:51:38.532153+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -11,7 +11,7 @@
   "YT_REFRESH_STOIC": true,
   "IG_USER_ID_KADHA": true,
   "IG_TOKEN_KADHA": true,
-  "YT_REFRESH_KADHA": false
+  "YT_REFRESH_KADHA": true
  },
  "instagram": {
   "403": {
@@ -40,8 +40,9 @@
    "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
   },
   "KADHA": {
-   "ok": false,
-   "error": "secret missing"
+   "ok": true,
+   "scope": "https://www.googleapis.com/auth/youtube.upload",
+   "note": "channel is confirmed on the first upload (expected-channel check)"
   }
  }
 }
