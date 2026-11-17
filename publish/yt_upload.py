@@ -10,6 +10,16 @@ def access_token(client_id, client_secret, refresh_token):
 
 def upload_short(client_id, client_secret, refresh_token, video_path, meta):
     tok = access_token(client_id, client_secret, refresh_token); size = os.path.getsize(video_path)
+    exp = meta.get("expected_channel_id")
+    if exp:  # pre-check (works when the token also has youtube.readonly scope)
+        try:
+            r = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=id,snippet&mine=true", headers={"Authorization": f"Bearer {tok}"})
+            with urllib.request.urlopen(r, timeout=60) as resp:
+                items = json.load(resp).get("items", [])
+            if items and items[0]["id"] != exp:
+                return {"error": f"WRONG CHANNEL (blocked before upload): token belongs to {items[0]['id']} ({items[0]['snippet']['title']}), expected {exp}"}
+        except urllib.error.HTTPError:
+            pass  # token has only youtube.upload scope; fall back to the post-upload check
     body = {"snippet": {"title": meta["title"][:100], "description": meta["description"][:5000], "tags": meta.get("tags", []),
                         "categoryId": str(meta.get("categoryId", "28")), "defaultLanguage": "ml", "defaultAudioLanguage": "ml"},
             "status": {"privacyStatus": meta.get("privacy", "public"), "selfDeclaredMadeForKids": bool(meta.get("madeForKids", False))}}

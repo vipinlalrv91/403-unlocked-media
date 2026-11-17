@@ -22,6 +22,8 @@ for path in sorted(glob.glob("outbox/*.json")):
     if not (ig_ok or yt_ok):
         print(f"{path}: no secrets configured for channel {ch}; leaving in outbox"); continue
     result = {"posted_at": now.isoformat()}
+    only = req.get("only") or ["instagram", "youtube"]
+    ig_ok = ig_ok and "instagram" in only; yt_ok = yt_ok and "youtube" in only
     if ig_ok:
         try: result["instagram"] = publish_reel(env(f"IG_USER_ID_{ch}"), env(f"IG_TOKEN_{ch}"), req["video_url"], req["caption"])
         except Exception as e: result["instagram"] = {"error": str(e)}
