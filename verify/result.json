@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T09:51:38.532153+00:00",
+ "checked_at": "2026-11-17T09:56:54.120072+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -32,8 +32,9 @@
  },
  "youtube": {
   "403": {
-   "ok": false,
-   "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
+   "ok": true,
+   "scope": "https://www.googleapis.com/auth/youtube.upload",
+   "note": "channel is confirmed on the first upload (expected-channel check)"
   },
   "STOIC": {
    "ok": false,
