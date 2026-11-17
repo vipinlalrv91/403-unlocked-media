@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T11:54:10.552635+00:00",
+ "checked_at": "2026-11-17T12:02:32.543397+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -16,22 +16,22 @@
  "instagram": {
   "403": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 03:54:10 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:02:32 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
   },
   "STOIC": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 03:54:11 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:02:32 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
   },
   "KADHA": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 03:54:11 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:02:32 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
   }
  },
  "youtube": {
   "403": {
    "ok": true,
    "scope": "https://www.googleapis.com/auth/youtube.upload",
-   "note": "channel is confirmed on the first upload (expected-channel check)"
+   "channel": "unknown (token lacks youtube.readonly scope)"
   },
   "STOIC": {
    "ok": false,
@@ -40,7 +40,7 @@
   "KADHA": {
    "ok": true,
    "scope": "https://www.googleapis.com/auth/youtube.upload",
-   "note": "channel is confirmed on the first upload (expected-channel check)"
+   "channel": "unknown (token lacks youtube.readonly scope)"
   }
  }
 }
