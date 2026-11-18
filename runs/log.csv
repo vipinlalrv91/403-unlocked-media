@@ -2,5 +2,5 @@ date_ist,slug,seconds,tts_chars,metricool_uuid,status
 2026-11-16,ac-modes,48.4,613,7508784447484939559,scheduled 21:05
 2026-11-17,green-dot,56.0,653,-6387008325178998140,scheduled 10:00 (made manually after routine failed: no push access)
 2026-11-17,tv-youtube-fix,50.4,496,8284481838004063245,scheduled 16:00
-2026-11-18,upi-safety,50.0,500,,queued 10:00 via API
-2026-11-18,washing-machine-mistakes,44.6,539,,queued 16:00 via API
+2026-11-18,upi-safety,50.0,500,,CANCELLED by owner (not interesting)
+2026-11-18,washing-machine-mistakes,44.6,539,,CANCELLED by owner (not interesting)
