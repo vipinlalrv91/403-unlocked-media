@@ -19,5 +19,17 @@
  "only": [
   "youtube"
  ],
- "kick": "2026-11-18T15:34:22.657856+00:00"
+ "kick": "2026-11-18T15:34:22.657856+00:00",
+ "result": {
+  "posted_at": "2026-11-18T15:34:38.916714+00:00",
+  "instagram": {
+   "skipped": "no secrets"
+  },
+  "youtube": {
+   "id": "jUuoBzy__X4",
+   "url": "https://www.youtube.com/shorts/jUuoBzy__X4",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA"
+  }
+ }
 }
