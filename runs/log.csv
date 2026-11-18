@@ -4,3 +4,5 @@ date_ist,slug,seconds,tts_chars,metricool_uuid,status
 2026-11-17,tv-youtube-fix,50.4,496,8284481838004063245,scheduled 16:00
 2026-11-18,upi-safety,50.0,500,,CANCELLED by owner (not interesting)
 2026-11-18,washing-machine-mistakes,44.6,539,,CANCELLED by owner (not interesting)
+2026-11-18,gemini-malayalam,41.8,451,,queued now (~10:45) via API
+2026-11-18,circle-to-search,47.2,542,,queued 16:00 via API

@@ -6,3 +6,15 @@
 - [-] upi-safety | Keep your UPI/GPay safe: never share UPI PIN, PIN is only for paying, not receiving | VERIFY against NPCI before writing; no brand-specific claims
 - [-] washing-machine-mistakes | Common washing machine mistakes that damage clothes/machine | 17-37x outliers; keep general, no brand claims
 - [-] phone-storage-full | Phone storage full? safe ways to free space (cache, WhatsApp media, Google Photos backup) | evergreen
+
+# Owner direction 18 Nov 2026: option C = 1 AI-tool video + 1 hidden-phone-feature video per day. NO home appliance topics.
+- [x] gemini-malayalam | AI: Google Gemini works in Malayalam | verified blog.google + Gemini help
+- [x] circle-to-search | Hidden feature: Circle to Search (select Android phones) | verified support.google.com
+- [ ] ai-photo-to-video | AI: turn a photo into a short video with free AI tools | 228x outlier; verify tool names/free tier on official pages
+- [ ] whatsapp-hidden-features | Hidden: WhatsApp features most people miss | verify on faq.whatsapp.com
+- [ ] google-lens-translate | AI: Google Lens translate/copy text from any photo | verify Google help
+- [ ] android-quick-settings-tricks | Hidden: Android settings worth changing today | verify Android help, say varies by brand
+- [ ] chatgpt-voice-malayalam | AI: talk to ChatGPT in Malayalam with voice | verify OpenAI help
+- [ ] google-photos-magic-editor | AI: Google Photos AI editing tools | verify Google Photos help, device limits
+- [ ] youtube-hidden-features | Hidden: YouTube app tricks (speed, double-tap, stats for nerds) | verify YouTube help
+- [ ] ai-notes-summarize | AI: summarize long PDFs/notes with free AI | verify official pages
