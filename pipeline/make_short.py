@@ -313,10 +313,45 @@ def amp_at(t):
     i = int(t * FPS)
     return AMP[i] if 0 <= i < len(AMP) else 0.0
 
+ART = os.path.join(ROOT, "channels", "kadha", "art")
+_art = {}
+def art(kind, name):
+    k = (kind, name)
+    if k not in _art:
+        _art[k] = Image.open(os.path.join(ART, kind, name + (".png" if kind == "chars" else ".jpg"))).convert("RGBA" if kind == "chars" else "RGB")
+    return _art[k]
+
+def bg_image(name, t, D):
+    src = art("bg", name); z = 1.0 + 0.08 * min(1, t / max(0.1, D))       # slow Ken Burns zoom
+    h = int(H * z); w = int(src.width * h / src.height)
+    im = src.resize((w, h), Image.LANCZOS)
+    x0 = (w - W) // 2 + int(30 * math.sin(t * 0.3)); y0 = (h - H) // 2
+    return im.crop((x0, y0, x0 + W, y0 + H))
+
 def sc_story(s, t, D):
-    im = story_bg(s.get("bg", "forest"), t)
+    im = bg_image(s["bgimg"], t, D) if s.get("bgimg") else story_bg(s.get("bg", "forest"), t)
     import characters
     for n, c in enumerate(s.get("chars", [])):
+        if "img" in c:  # painted character image
+            spr = art("chars", c["img"]); hgt = c.get("h", 900)
+            hb = int(hgt * (1 + 0.015 * math.sin(t * 2.4 + n)))
+            sp = spr.resize((int(spr.width * hb / spr.height), hb), Image.LANCZOS)
+            if c.get("flip"): sp = sp.transpose(Image.FLIP_LEFT_RIGHT)
+            sp = sp.rotate(2.0 * math.sin(t * 1.8 + n * 1.3), resample=Image.BICUBIC, expand=True)
+            x = c.get("x", 0.5) * W
+            if c.get("x2") is not None: x += (c["x2"] * W - x) * min(1, t / max(0.1, D * 0.85))
+            fy = c.get("y", 0.78) * H - 10 * abs(math.sin(t * 2.0 + n))
+            a = min(1.0, (t - n * 0.35) / 0.5) if t < n * 0.35 + 0.5 else 1.0      # staggered fade-in
+            if a > 0:
+                if a < 1:
+                    al = sp.split()[3].point(lambda v: int(v * a)); sp.putalpha(al)
+                im.paste(sp, (int(x - sp.width / 2), int(fy - sp.height)), sp)
+                if c.get("label"):
+                    fs = 32 if len(s.get("chars", [])) >= 4 else 40
+                    dl = ImageDraw.Draw(im); lw = tw(dl, c["label"], fs) + 30; ly = fy + 6
+                    dl.rounded_rectangle([x - lw / 2, ly, x + lw / 2, ly + fs + 22], radius=26, fill=(255, 245, 210), outline=(200, 120, 20), width=3)
+                    text(dl, x - lw / 2 + 15, ly + 6, c["label"], fs, (90, 40, 20), 0, maxw=lw)
+            continue
         if "c" in c:  # animated 2D character
             x = c.get("x", 0.5) * W
             if c.get("x2") is not None:
@@ -349,8 +384,9 @@ def sc_story(s, t, D):
             z = emoji("💤", 120); im.paste(z, (int(x + 60), int(y - 200 - 25 * math.sin(t * 3))), z)
     d = ImageDraw.Draw(im)
     if s.get("caption"):
-        d.rounded_rectangle([60, 1480, 1020, 1680], radius=50, fill=(255, 255, 255), outline=(255, 150, 40), width=6)
-        text(d, 0, 1540, s["caption"], 60, (60, 40, 90), 0, center=True, maxw=880)
+        cy = 1640 if s.get("bgimg") else 1480
+        d.rounded_rectangle([60, cy, 1020, cy + 200], radius=50, fill=(255, 255, 255), outline=(255, 150, 40), width=6)
+        text(d, 0, cy + 60, s["caption"], 60, (60, 40, 90), 0, center=True, maxw=880)
     return im
 
 def sc_moral(s, t, D):
