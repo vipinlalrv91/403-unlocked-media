@@ -1,0 +1,63 @@
+{
+ "slug": "circle-to-search",
+ "title": "Screen-ൽ എന്തിനെയും വട്ടം വരച്ച് Search ചെയ്യാം! ⭕ Circle to Search #shorts",
+ "caption": "Instagram-ൽ കണ്ട ഷൂ, ഒരു സ്ഥലം, അറിയാത്ത വാക്ക്: app മാറാതെ തന്നെ search ചെയ്യാം! Circle to Search എങ്ങനെ ഉപയോഗിക്കാം എന്ന് നോക്കൂ.\n\nCircle to Search: long-press the Home button or navigation handle, then circle anything on your screen to search it on Google. Available on select Android phones (e.g. many Pixel and Samsung Galaxy models).",
+ "hashtags": "#shorts #circletosearch #android #androidtips #googletips #techmalayalam #malayalam #403unlocked",
+ "tags": [
+  "circle to search malayalam",
+  "android hidden features malayalam",
+  "google search tricks",
+  "android tips malayalam",
+  "samsung tips malayalam",
+  "pixel tips",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://support.google.com/websearch/answer/14508957",
+  "https://www.android.com/intl/en_in/articles/how-to-use-circle-to-search/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "CIRCLE TO SEARCH",
+   "sub": "ഈ trick അറിയാമോ?",
+   "icon": "⭕",
+   "narration": "Reels-ൽ ഒരു കിടിലൻ ഷൂ കണ്ടു. എവിടെ കിട്ടും? App മാറാതെ തന്നെ കണ്ടുപിടിക്കാം!"
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ?",
+   "items": [
+    "Home button long press",
+    "എന്തിനെയും വട്ടം വരയ്ക്കൂ",
+    "Google ഉത്തരം തരും"
+   ],
+   "narration": "Home button, അല്ലെങ്കിൽ താഴെയുള്ള navigation bar, കുറച്ച് നേരം അമർത്തിപ്പിടിക്കൂ. എന്നിട്ട് screen-ലെ സാധനത്തിന് ചുറ്റും ഒരു വട്ടം വരയ്ക്കൂ. Google search ചെയ്ത് ഉത്തരം തരും."
+  },
+  {
+   "type": "bullets",
+   "title": "ഇത് SEARCH ചെയ്യാം",
+   "icon": "🔍",
+   "items": [
+    "Photo-യിലെ സാധനങ്ങൾ",
+    "അറിയാത്ത വാക്കുകൾ",
+    "സ്ഥലങ്ങൾ, ചെടികൾ"
+   ],
+   "narration": "Photo-യിലെ സാധനങ്ങൾ, അറിയാത്ത വാക്കുകൾ, സ്ഥലങ്ങൾ, ചെടികൾ, എന്തും search ചെയ്യാം."
+  },
+  {
+   "type": "bullets",
+   "title": "ഏത് PHONE-ൽ?",
+   "icon": "📱",
+   "items": [
+    "ചില Android phones-ൽ",
+    "Pixel, Samsung Galaxy..."
+   ],
+   "narration": "ഇത് ചില Android phones-ൽ മാത്രമേ ഉള്ളൂ, ഉദാഹരണത്തിന് Pixel, പല Samsung Galaxy models. നിങ്ങളുടെ phone-ൽ ഉണ്ടോ എന്ന് ഇപ്പോൾ തന്നെ try ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}

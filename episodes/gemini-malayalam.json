@@ -1,0 +1,63 @@
+{
+ "slug": "gemini-malayalam",
+ "title": "Google AI-യോട് മലയാളത്തിൽ സംസാരിക്കാം! 🤖 Gemini Malayalam #shorts",
+ "caption": "ChatGPT പോലെ ഒരു AI-യോട് മലയാളത്തിൽ ചോദിക്കാൻ പറ്റുമോ? പറ്റും! Google Gemini app-ൽ മലയാളം ഉപയോഗിക്കാം. എങ്ങനെ എന്ന് നോക്കാം!\n\nGoogle's Gemini app supports Malayalam. Type your question in Malayalam and get answers in Malayalam: write messages, explain topics, plan trips. Always double-check important facts.",
+ "hashtags": "#shorts #gemini #googlegemini #ai #aitools #malayalam #techmalayalam #403unlocked",
+ "tags": [
+  "gemini malayalam",
+  "google gemini malayalam",
+  "ai malayalam",
+  "ai tools malayalam",
+  "chatgpt malayalam",
+  "tech malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://blog.google/intl/en-in/company-news/technology/gemini-in-india-now-on-mobile-multilingual-and-more-powerful-for-your-everyday-tasks/",
+  "https://support.google.com/gemini/answer/14579026"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "AI + MALAYALAM?",
+   "sub": "ഇത് അറിയാമോ?",
+   "icon": "🤖",
+   "narration": "Google-ന്റെ AI-യോട് നമ്മുടെ സ്വന്തം മലയാളത്തിൽ സംസാരിക്കാം എന്ന് അറിയാമോ?"
+  },
+  {
+   "type": "bullets",
+   "title": "GOOGLE GEMINI",
+   "icon": "✨",
+   "items": [
+    "Google-ന്റെ AI assistant",
+    "മലയാളം support ഉണ്ട്"
+   ],
+   "narration": "അതാണ് Google Gemini. Google-ന്റെ AI assistant. Gemini app-ൽ മലയാളം support ഉണ്ട്."
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ?",
+   "items": [
+    "Gemini app തുറക്കൂ",
+    "മലയാളത്തിൽ type ചെയ്യൂ",
+    "ഉത്തരം മലയാളത്തിൽ!"
+   ],
+   "narration": "Gemini app തുറന്ന്, ചോദ്യം മലയാളത്തിൽ type ചെയ്യൂ. ഉത്തരവും മലയാളത്തിൽ തന്നെ കിട്ടും."
+  },
+  {
+   "type": "bullets",
+   "title": "ഇത് ചെയ്യിക്കാം",
+   "icon": "💡",
+   "items": [
+    "Message എഴുതാൻ",
+    "പാഠം simple ആക്കാൻ",
+    "Trip plan ചെയ്യാൻ"
+   ],
+   "narration": "Wishes എഴുതാൻ, പഠിക്കുന്ന പാഠം simple ആക്കാൻ, trip plan ചെയ്യാൻ ഒക്കെ ഉപയോഗിക്കാം. പക്ഷേ പ്രധാനപ്പെട്ട കാര്യങ്ങൾ ഒന്ന് double check ചെയ്യണേ."
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}
