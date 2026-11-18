@@ -274,7 +274,7 @@ def overlay(im):
         day, total, name = SERIES["day"], SERIES["total"], SERIES["name"]
         d.rounded_rectangle([60, 60, 1020, 140], radius=40, fill=(0, 0, 0))
         d.rounded_rectangle([60, 60, 60 + 960 * day / total, 140], radius=40, fill=CYAN)
-        text(d, 0, 75, f"DAY {day}/{total}  ·  {name}", 44, WHITE, 3, center=True)
+        text(d, 0, 75, f"{SERIES.get('label', 'DAY')} {day}/{total}  ·  {name}", 44, WHITE, 3, center=True)
     if DISCLAIMER:
         text(d, 0, 1850, DISCLAIMER, 28, GREY, 2, center=True, maxw=1000)
     return im
@@ -298,10 +298,14 @@ def story_bg(kind, t):
         d.rectangle([0, gy, W, H], fill=(90, 190, 90)); d.rectangle([0, gy + 120, W, gy + 330], fill=(70, 160, 230))
     else:
         d.rectangle([0, gy, W, H], fill=(70, 50, 90) if kind == "night" else (100, 200, 90))
-    for x, sz in ((40, 300), (760, 340), (430, 220)) if kind in ("forest", "race", "night") else ((60, 260),):
+    for x, sz in ((40, 300), (760, 340), (430, 220)) if kind in ("forest", "race", "night") else ((20, 220), (840, 220)) if kind == "palace" else ((60, 260),):
         e = emoji("🌳", sz); im.paste(e, (x, gy - e.height + 40), e)
     if kind == "race":
         e = emoji("🏁", 170); im.paste(e, (880, gy - 150), e)
+    if kind == "palace":
+        e = emoji("🏰", 560); im.paste(e, (int(W / 2 - e.width / 2), gy - e.height + 60), e)
+    if kind == "river":
+        pass
     return im
 
 def sc_story(s, t, D):
@@ -318,6 +322,10 @@ def sc_story(s, t, D):
         if c.get("flip"): e = e.transpose(Image.FLIP_LEFT_RIGHT)
         if a == "sleep": e = e.rotate(-12, expand=True)
         im.paste(e, (int(x - e.width / 2), int(y - e.height / 2)), e)
+        if c.get("label"):
+            dl = ImageDraw.Draw(im); lw = tw(dl, c["label"], 40) + 40
+            dl.rounded_rectangle([x - lw / 2, y + e.height / 2 + 10, x + lw / 2, y + e.height / 2 + 75], radius=30, fill=(255, 245, 210), outline=(200, 120, 20), width=3)
+            text(dl, x - lw / 2 + 20, y + e.height / 2 + 18, c["label"], 40, (90, 40, 20), 0, maxw=lw)
         if a == "sleep":
             z = emoji("💤", 120); im.paste(z, (int(x + 60), int(y - 200 - 25 * math.sin(t * 3))), z)
     d = ImageDraw.Draw(im)
@@ -332,7 +340,7 @@ def sc_moral(s, t, D):
         e = emoji("⭐", 90 + 10 * int(1 + math.sin(t * 3 + i)))
         im.paste(e, (int(80 + i * 160), int(330 + 30 * math.sin(t * 2 + i))), e)
     d = ImageDraw.Draw(im)
-    text(d, 0, 180, "ഗുണപാഠം", 110, (230, 60, 120), 5, center=True)
+    text(d, 0, 180, s.get("heading", "ഗുണപാഠം"), 110, (230, 60, 120), 5, center=True)
     b = ease(t / 0.8)
     if b > 0.05:
         d.rounded_rectangle([70, 620, 1010, 620 + 520 * b], radius=60, fill=(255, 255, 255), outline=(255, 150, 40), width=8)
@@ -352,8 +360,17 @@ def tts(textline, out):
     req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128",
                                  data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "xi-api-key": "proxy-injected"})
-    with urllib.request.urlopen(req, timeout=180) as r, open(out, "wb") as f:
-        f.write(r.read())
+    import time
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or attempt == 3: raise
+            time.sleep(10 * (attempt + 1))
+    with open(out, "wb") as f:
+        f.write(data)
 
 def dur(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]))

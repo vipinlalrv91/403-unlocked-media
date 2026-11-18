@@ -1,0 +1,170 @@
+{
+ "slug": "ramayanam-01",
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "voice_id": "OVkoEbwxsYHiSRMFV9t3",
+ "madeForKids": true,
+ "series": {
+  "day": 1,
+  "total": 36,
+  "name": "രാമായണം",
+  "label": "EPISODE"
+ },
+ "source_note": "Retold from Valmiki Ramayana, Bala Kanda (public domain)",
+ "title": "രാമായണം Episode 1 🏹 അയോധ്യയും ദശരഥ മഹാരാജാവും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, Episode 1! അയോധ്യയിലെ ദശരഥ മഹാരാജാവും ശ്രീരാമന്റെ ജനനവും. എല്ലാ ദിവസവും വൈകുന്നേരം 7:30-ന് പുതിയ ഭാഗം 🙏\n\nRamayanam for kids in Malayalam, Episode 1: King Dasharatha of Ayodhya and the birth of Sri Rama and his brothers.",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "tags": [
+  "ramayanam malayalam",
+  "ramayana for kids malayalam",
+  "ramayanam kids story",
+  "sree rama story malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "Episode 1 · അയോധ്യ",
+   "icon": "🏹",
+   "narration": "കൂട്ടുകാരേ, ഇന്ന് മുതൽ കഥപ്പെട്ടിയിൽ രാമായണ കഥ തുടങ്ങുന്നു! വാ, നമുക്ക് അയോധ്യയിലേക്ക് പോകാം."
+  },
+  {
+   "type": "story",
+   "bg": "palace",
+   "caption": "സരയൂ തീരത്തെ അയോധ്യ",
+   "chars": [
+    {
+     "e": "👑",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 200,
+     "anim": "bounce",
+     "label": "ദശരഥ മഹാരാജാവ്"
+    }
+   ],
+   "narration": "പണ്ട് പണ്ട്, സരയൂ നദിയുടെ തീരത്ത് അയോധ്യ എന്ന മനോഹരമായ ഒരു രാജ്യം ഉണ്ടായിരുന്നു. ദശരഥൻ എന്ന നല്ലവനായ രാജാവാണ് അവിടം ഭരിച്ചിരുന്നത്."
+  },
+  {
+   "type": "story",
+   "bg": "palace",
+   "caption": "മൂന്ന് രാജ്ഞിമാർ",
+   "chars": [
+    {
+     "e": "🌸",
+     "x": 0.2,
+     "y": 0.42,
+     "s": 150,
+     "anim": "still",
+     "label": "കൗസല്യ"
+    },
+    {
+     "e": "🌸",
+     "x": 0.5,
+     "y": 0.38,
+     "s": 150,
+     "anim": "still",
+     "label": "കൈകേയി"
+    },
+    {
+     "e": "🌸",
+     "x": 0.8,
+     "y": 0.42,
+     "s": 150,
+     "anim": "still",
+     "label": "സുമിത്ര"
+    }
+   ],
+   "narration": "രാജാവിന് മൂന്ന് രാജ്ഞിമാർ ഉണ്ടായിരുന്നു. കൗസല്യ, കൈകേയി, സുമിത്ര. പക്ഷേ അവർക്ക് മക്കളില്ലായിരുന്നു. അതായിരുന്നു രാജാവിന്റെ ഏക സങ്കടം."
+  },
+  {
+   "type": "story",
+   "bg": "palace",
+   "caption": "പുത്രകാമേഷ്ടി യാഗം 🔥",
+   "chars": [
+    {
+     "e": "🔥",
+     "x": 0.5,
+     "y": 0.62,
+     "s": 220,
+     "anim": "bounce",
+     "label": "യാഗം"
+    },
+    {
+     "e": "📿",
+     "x": 0.2,
+     "y": 0.62,
+     "s": 150,
+     "anim": "still",
+     "label": "മഹർഷിമാർ"
+    },
+    {
+     "e": "🍯",
+     "x": 0.8,
+     "y": 0.62,
+     "s": 150,
+     "anim": "bounce",
+     "label": "ദിവ്യ പായസം"
+    }
+   ],
+   "narration": "മക്കൾക്കായി രാജാവ് മഹർഷിമാരുടെ സഹായത്തോടെ പുത്രകാമേഷ്ടി എന്ന യാഗം നടത്തി. യാഗാഗ്നിയിൽ നിന്ന് ഒരു ദിവ്യ പായസം ലഭിച്ചു. അത് മൂന്ന് രാജ്ഞിമാർക്കും നൽകി."
+  },
+  {
+   "type": "story",
+   "bg": "palace",
+   "caption": "നാല് രാജകുമാരന്മാർ! 🎉",
+   "chars": [
+    {
+     "e": "🏹",
+     "x": 0.25,
+     "y": 0.3,
+     "s": 120,
+     "anim": "bounce",
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "e": "📜",
+     "x": 0.75,
+     "y": 0.3,
+     "s": 120,
+     "anim": "bounce",
+     "label": "ഭരതൻ"
+    },
+    {
+     "e": "🛡️",
+     "x": 0.25,
+     "y": 0.47,
+     "s": 120,
+     "anim": "bounce",
+     "label": "ലക്ഷ്മണൻ"
+    },
+    {
+     "e": "⚔️",
+     "x": 0.75,
+     "y": 0.47,
+     "s": 120,
+     "anim": "bounce",
+     "label": "ശത്രുഘ്നൻ"
+    }
+   ],
+   "narration": "അങ്ങനെ കൗസല്യയ്ക്ക് ശ്രീരാമനും, കൈകേയിക്ക് ഭരതനും, സുമിത്രയ്ക്ക് ലക്ഷ്മണനും ശത്രുഘ്നനും ജനിച്ചു. അയോധ്യ മുഴുവൻ സന്തോഷിച്ചു!"
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "രാമനും ലക്ഷ്മണനും",
+    "വിശ്വാമിത്ര മുനിയോടൊപ്പം",
+    "കാട്ടിലേക്ക്..."
+   ],
+   "icon": "📿",
+   "narration": "നാളെ: വിശ്വാമിത്ര മഹർഷി അയോധ്യയിൽ വരുന്നു. രാമനും ലക്ഷ്മണനും മുനിയോടൊപ്പം ഒരു വലിയ യാത്രയ്ക്ക് പുറപ്പെടുന്നു!"
+  },
+  {
+   "type": "cta",
+   "narration": "രാമായണ കഥ തുടരും! നാളെ വൈകുന്നേരം ഏഴരയ്ക്ക് കഥപ്പെട്ടിയിൽ കാണാം. Subscribe ചെയ്യൂ!"
+  }
+ ]
+}
