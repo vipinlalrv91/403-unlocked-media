@@ -308,9 +308,28 @@ def story_bg(kind, t):
         pass
     return im
 
+AMP = [0.0]  # per-frame narration loudness of the current scene (0..1), for lip sync
+def amp_at(t):
+    i = int(t * FPS)
+    return AMP[i] if 0 <= i < len(AMP) else 0.0
+
 def sc_story(s, t, D):
     im = story_bg(s.get("bg", "forest"), t)
-    for c in s.get("chars", []):
+    import characters
+    for n, c in enumerate(s.get("chars", [])):
+        if "c" in c:  # animated 2D character
+            x = c.get("x", 0.5) * W
+            if c.get("x2") is not None:
+                x += (c["x2"] * W - x) * min(1, t / max(0.1, D * 0.85))
+            child = c["c"].endswith("_child")
+            characters.draw_character(im, c["c"], x, c.get("y", 0.70) * H, c.get("h", 520 if child else 760), t,
+                                      talk=amp_at(t) if c.get("talk") else 0.0, seed=n * 1.7, flip=c.get("flip", False))
+            if c.get("label"):
+                fs = 30 if len(s.get("chars", [])) >= 4 else 40
+                dl = ImageDraw.Draw(im); lw = tw(dl, c["label"], fs) + 30; ly = c.get("y", 0.70) * H + 8
+                dl.rounded_rectangle([x - lw / 2, ly, x + lw / 2, ly + fs + 22], radius=26, fill=(255, 245, 210), outline=(200, 120, 20), width=3)
+                text(dl, x - lw / 2 + 15, ly + 6, c["label"], fs, (90, 40, 20), 0, maxw=lw)
+            continue
         px = c.get("s", 300); x, y = c.get("x", 0.5) * W, c.get("y", 0.62) * H
         a = c.get("anim", "still"); p = min(1, t / max(0.1, D * 0.85))
         if a in ("run", "walk"):
@@ -412,8 +431,15 @@ def main(path):
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                           "-i", audio, "-c:a", "aac", "-b:a", "192k", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p",
                           "-preset", "medium", "-crf", "21", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
-    for s, D in zip(ep["scenes"], sd):
+    def envelope(clip, delay):
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", clip, "-ac", "1", "-ar", "8000", "-f", "s16le", "-"], capture_output=True).stdout
+        import array
+        a = array.array("h", raw); step = 8000 // FPS; pad = int(delay * FPS)
+        env = [0.0] * pad + [math.sqrt(sum(v * v for v in a[i:i + step]) / max(1, len(a[i:i + step]))) / 6000 for i in range(0, len(a), step)]
+        return [min(1.0, e) for e in env]
+    for k, (s, D) in enumerate(zip(ep["scenes"], sd)):
         fn = TEMPLATES[s["type"]]
+        AMP[:] = envelope(clips[k], 0.3 if k == 0 else 0.1) if s["type"] == "story" else [0.0]
         for i in range(int(round(D * FPS))):
             im = overlay(fn(s, i / FPS, D))
             if i < 6:
