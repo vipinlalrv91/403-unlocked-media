@@ -10,7 +10,7 @@
 3. Narration 600-800 chars (55-70 s), very simple Kerala Malayalam a 5-8 year old understands, warm storyteller tone.
 4. Render: python3 pipeline/make_short.py channels/kadha/episodes/ep-NNN-<slug>.json ; QC frames (no tofu, characters on the grass,
    captions readable). Copy to channels/kadha/videos/ep-NNN-<slug>.mp4.
-5. Publish: copy to videos/approved/<date>_kadha-ep-NNN.mp4, push, confirm raw URL 200, write outbox/<date>_kadha-ep-NNN.json:
+5. Publish: (do NOT put Kadha videos in videos/approved/, that folder is 403 UNLOCKED only) push channels/kadha/videos/ep-NNN-<slug>.mp4, confirm its raw URL returns 200, write outbox/<date>_kadha-ep-NNN.json:
    {"channel": "KADHA", "publish_at": "<date>T19:30:00+05:30", "video_url": raw URL, "title", "description": caption + "\n\n" + hashtags,
     "caption": same, "tags", "categoryId": "1", "madeForKids": true, "privacy": "public"}
    (YouTube for KADHA verified 17 Nov 2026: token saved in YT_REFRESH_STOIC, mapped in publish/run_outbox.py.). Push.
