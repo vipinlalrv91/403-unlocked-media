@@ -6,8 +6,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 1 What is a share? (chayakada analogy) | exchanges NSE/BSE, regulator SEBI
 - [x] 2 NSE vs BSE: India's stock exchanges | BSE 1875, NSE 1992, Sensex vs Nifty 50
 - [x] 3 SEBI: who protects investors | 1988 / SEBI Act 1992
-- [ ] 4 Demat vs trading account | depositories CDSL & NSDL
-- [ ] 5 How to open a demat account online, step by step | PAN, Aadhaar e-KYC, bank proof, in-person verification, e-sign (generic, no broker UI)
+- [x] 4 Demat vs trading account | depositories CDSL & NSDL
+- [x] 5 How to open a demat account online, step by step | PAN, Aadhaar e-KYC, bank proof, in-person verification, e-sign (generic, no broker UI)
 - [ ] 6 Discount vs full-service brokers | examples: Zerodha (Kite), Dhan, Groww, Upstox, Angel One. Neutral, no 'best broker', no referral links, no logos
 - [ ] 7 MYTH vs FACT: "Stock market is gambling"
 - [ ] 8 Inside a trading app: Kite, Dhan, Groww | watchlist, buy/sell window, holdings vs positions (generic illustration, say 'every app looks a bit different')

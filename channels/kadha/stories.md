@@ -4,7 +4,7 @@ Kerala folk tales) retold in our own words, or original stories. Never copy a mo
 No violence/scary content, no brand names, no real people. One clear moral per story. Mark done with [x].
 
 - [x] 001 Muyalum Aamayum (Tortoise and the Hare, Aesop) | slow and steady, no pride
-- [ ] 002 Daahicha Kaakka (The Thirsty Crow, Aesop) | think, don't give up
+- [x] 002 Daahicha Kaakka (The Thirsty Crow, Aesop) | think, don't give up
 - [ ] 003 Simhavum Eliyum (Lion and the Mouse, Aesop) | small friends matter, kindness returns
 - [ ] 004 Kurukkanum Munthiriyum (Fox and the Grapes, Aesop) | don't make excuses
 - [ ] 005 Swarnamutta idunna Tharavu (Goose that laid golden eggs, Aesop) | greed loses everything
