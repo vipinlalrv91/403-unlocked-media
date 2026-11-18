@@ -1,0 +1,151 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികൾക്കുള്ള ഗുണപാഠ കഥകൾ",
+ "voice_id": "OVkoEbwxsYHiSRMFV9t3",
+ "madeForKids": true,
+ "slug": "kadha-ep-002",
+ "source_note": "Retelling of Aesop's fable 'The Crow and the Pitcher' (public domain)",
+ "title": "ദാഹിച്ച കാക്ക 🐦💧 | Malayalam Moral Story for Kids | Kadhapetti #shorts",
+ "caption": "കൂട്ടുകാരേ, ഇന്നത്തെ കഥ: ദാഹിച്ച കാക്ക! ബുദ്ധി ഉപയോഗിച്ചാൽ എന്തും സാധിക്കും 🐦💧\n\nThe Thirsty Crow: a Malayalam moral story for kids. Moral: think and never give up.",
+ "hashtags": "#shorts #malayalamstories #kidsstories #moralstories #malayalam #bedtimestories #kadhapetti",
+ "tags": [
+  "malayalam moral stories",
+  "daahicha kaakka",
+  "thirsty crow malayalam",
+  "kutti kathakal",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "ദാഹിച്ച കാക്ക",
+   "sub": "ഇന്നത്തെ കഥ",
+   "icon": "🎁",
+   "narration": "കൂട്ടുകാരേ, കഥപ്പെട്ടി തുറക്കാം! ഇന്നത്തെ കഥ, ദാഹിച്ച കാക്ക!"
+  },
+  {
+   "type": "story",
+   "bg": "forest",
+   "caption": "ഹോ, എന്തൊരു ചൂട്! വെള്ളം വേണം...",
+   "chars": [
+    {
+     "e": "🐦‍⬛",
+     "x": 0.15,
+     "x2": 0.6,
+     "y": 0.42,
+     "s": 260,
+     "anim": "walk",
+     "flip": true
+    },
+    {
+     "e": "☀️",
+     "x": 0.8,
+     "y": 0.2,
+     "s": 10,
+     "anim": "still"
+    }
+   ],
+   "narration": "ഒരു വേനൽക്കാലം. നല്ല ചൂട്. ഒരു കാക്കയ്ക്ക് വല്ലാത്ത ദാഹം. അവൻ വെള്ളം തേടി പറന്നു പറന്നു നടന്നു."
+  },
+  {
+   "type": "story",
+   "bg": "forest",
+   "caption": "കുടത്തിൽ കുറച്ച് വെള്ളം മാത്രം!",
+   "chars": [
+    {
+     "e": "🐦‍⬛",
+     "x": 0.38,
+     "y": 0.6,
+     "s": 240,
+     "anim": "bounce",
+     "flip": true
+    },
+    {
+     "e": "🏺",
+     "x": 0.62,
+     "y": 0.66,
+     "s": 260,
+     "anim": "still"
+    }
+   ],
+   "narration": "അപ്പോൾ ഒരു കുടം കണ്ടു! പക്ഷേ കുടത്തിന്റെ അടിയിൽ കുറച്ച് വെള്ളം മാത്രം. കാക്കയുടെ കൊക്ക് എത്തുന്നില്ല."
+  },
+  {
+   "type": "story",
+   "bg": "forest",
+   "caption": "ഒരു ഐഡിയ! കല്ലുകൾ ഇടാം 💡",
+   "chars": [
+    {
+     "e": "🐦‍⬛",
+     "x": 0.38,
+     "y": 0.6,
+     "s": 240,
+     "anim": "bounce",
+     "flip": true
+    },
+    {
+     "e": "🏺",
+     "x": 0.62,
+     "y": 0.66,
+     "s": 260,
+     "anim": "still"
+    },
+    {
+     "e": "🪨",
+     "x": 0.2,
+     "x2": 0.55,
+     "y": 0.7,
+     "s": 90,
+     "anim": "walk"
+    }
+   ],
+   "narration": "കാക്ക തോറ്റില്ല. അവൻ ആലോചിച്ചു. എന്നിട്ട് ചെറിയ കല്ലുകൾ ഓരോന്നായി കുടത്തിലിട്ടു. ഒന്ന്, രണ്ട്, മൂന്ന്..."
+  },
+  {
+   "type": "story",
+   "bg": "forest",
+   "caption": "വെള്ളം മുകളിലെത്തി! 😄",
+   "chars": [
+    {
+     "e": "🐦‍⬛",
+     "x": 0.5,
+     "y": 0.55,
+     "s": 260,
+     "anim": "bounce",
+     "flip": true
+    },
+    {
+     "e": "🏺",
+     "x": 0.62,
+     "y": 0.66,
+     "s": 260,
+     "anim": "still"
+    },
+    {
+     "e": "💧",
+     "x": 0.62,
+     "y": 0.56,
+     "s": 110,
+     "anim": "bounce"
+    }
+   ],
+   "narration": "കല്ലുകൾ കൂടിയപ്പോൾ വെള്ളം പതുക്കെ മുകളിലേക്ക് വന്നു. കാക്ക സന്തോഷത്തോടെ വയറു നിറയെ വെള്ളം കുടിച്ചു!"
+  },
+  {
+   "type": "moral",
+   "lines": [
+    "ബുദ്ധി ഉപയോഗിക്കൂ,",
+    "ഒരിക്കലും",
+    "തോറ്റ് പിന്മാറരുത്!"
+   ],
+   "icon": "💡",
+   "narration": "ഗുണപാഠം: പ്രശ്നം വന്നാൽ പേടിക്കരുത്. ബുദ്ധി ഉപയോഗിച്ച് ശ്രമിച്ചാൽ വഴി കണ്ടെത്താം!"
+  },
+  {
+   "type": "cta",
+   "narration": "ഇനിയും കഥകൾ കേൾക്കാൻ കഥപ്പെട്ടി Subscribe ചെയ്യൂ! നാളെ പുതിയ കഥയുമായി വരാം!"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "upi-safety",
+ "title": "UPI PIN ആർക്കെങ്കിലും കൊടുത്തോ? 🚨 ഈ തട്ടിപ്പ് സൂക്ഷിക്കുക! #shorts",
+ "caption": "പണം കിട്ടാൻ UPI PIN അടിക്കണം എന്ന് ആരെങ്കിലും പറഞ്ഞോ? അത് തട്ടിപ്പാണ്! UPI PIN സുരക്ഷിതമായി വെക്കാനുള്ള simple tips.\n\nUPI safety: your UPI PIN is only for sending money. Never share it, and never enter it to 'receive' money. Report fraud to your bank right away.",
+ "hashtags": "#shorts #upi #upisafety #onlinefraud #cybersafety #techmalayalam #malayalam #403unlocked",
+ "tags": [
+  "upi safety malayalam",
+  "upi pin fraud",
+  "upi scam malayalam",
+  "gpay safety tips",
+  "online fraud malayalam",
+  "cyber safety malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://upi.npci.org.in/static/faq/en_US/",
+  "https://www.npci.org.in/product/myupi.html"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "UPI PIN?",
+   "sub": "ഈ തട്ടിപ്പ് സൂക്ഷിക്കുക!",
+   "icon": "🚨",
+   "narration": "പണം അയക്കാം, UPI PIN ഒന്ന് അടിച്ചാൽ മതി എന്ന് ആരെങ്കിലും പറഞ്ഞോ? സൂക്ഷിക്കുക, അത് തട്ടിപ്പാണ്!"
+  },
+  {
+   "type": "compare",
+   "title": "PIN എപ്പോൾ വേണം?",
+   "left": [
+    "✓ പണം അയക്കാൻ മാത്രം"
+   ],
+   "right": [
+    "⚠ പണം കിട്ടാൻ PIN വേണ്ട!"
+   ],
+   "narration": "UPI PIN അടിക്കുന്നത് നിങ്ങളുടെ account-ൽ നിന്ന് പണം പോകുമ്പോൾ മാത്രമാണ്. പണം കിട്ടാൻ ഒരിക്കലും PIN അടിക്കേണ്ട."
+  },
+  {
+   "type": "bullets",
+   "title": "ഒരിക്കലും ചെയ്യരുത്",
+   "icon": "🔒",
+   "items": [
+    "PIN ആർക്കും പറയരുത്",
+    "OTP share ചെയ്യരുത്",
+    "അറിയാത്ത request വേണ്ട"
+   ],
+   "narration": "UPI PIN-ഉം OTP-യും ആരോടും പറയരുത്. Bank customer care പോലും ഇത് ചോദിക്കില്ല. അറിയാത്ത payment request വന്നാൽ accept ചെയ്യരുത്."
+  },
+  {
+   "type": "steps",
+   "title": "പറ്റിപ്പോയാൽ?",
+   "items": [
+    "ഉടൻ Bank-നെ വിളിക്കൂ",
+    "Cyber helpline 1930"
+   ],
+   "narration": "പണം നഷ്ടപ്പെട്ടാൽ ഉടൻ നിങ്ങളുടെ bank-നെ വിളിക്കൂ. Cyber crime helpline ആയ 1930-ലും report ചെയ്യാം."
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}

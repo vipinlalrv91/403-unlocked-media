@@ -41,6 +41,7 @@ def font(path, size):
 random.seed(403)
 PARTS = [(random.random() * W, random.random() * H, random.uniform(1, 3), random.uniform(20, 70)) for _ in range(90)]
 BRAND, TAGLINE, PART_COL = "403 UNLOCKED", "BREAK THE LIMITS. EXPLORE THE FUTURE.", (0, 220, 255)
+SUB_COL = (240, 245, 255)
 
 def make_base(top, bottom, grid):
     im = Image.new("RGB", (W, H)); d = ImageDraw.Draw(im)
@@ -68,7 +69,8 @@ THEMES = {
 }
 
 def apply_theme(name, brand=None, tagline=None):
-    global GREEN, CYAN, MAG, RED, PANEL, PART_COL, BASE, BRAND, TAGLINE
+    global GREEN, CYAN, MAG, RED, PANEL, PART_COL, BASE, BRAND, TAGLINE, SUB_COL
+    if name == "kids": SUB_COL = (90, 40, 160)
     th = THEMES.get(name)
     if th:
         GREEN, CYAN, MAG, RED, PANEL, PART_COL = th["GREEN"], th["CYAN"], th["MAG"], th["RED"], th["PANEL"], th["PART_COL"]
@@ -143,7 +145,7 @@ def sc_hook(s, t, D):
     d = ImageDraw.Draw(im)
     text(d, 0, 230, s["title"], 100, GREEN, 5, center=True)
     if t > 0.8 and s.get("sub"):
-        text(d, 0, 380, s["sub"], 70, WHITE, 3, center=True)
+        text(d, 0, 380, s["sub"], 70, SUB_COL, 3 if SUB_COL == WHITE or sum(SUB_COL) > 600 else 0, center=True)
     return im
 
 def sc_bullets(s, t, D):
@@ -220,7 +222,7 @@ def sc_cta(s, t, D):
             e = emoji("🔔", 160); im.paste(e, (int(W / 2 - 80), 800), e); d = ImageDraw.Draw(im)
     if t > D - 4.5:
         text(d, 0, 1460, BRAND, 110, GREEN, 5, center=True)
-        if TAGLINE: text(d, 0, 1620, TAGLINE, 40, WHITE, 2, center=True)
+        if TAGLINE: text(d, 0, 1620, TAGLINE, 40, SUB_COL, 2 if sum(SUB_COL) > 600 else 0, center=True)
     return im
 
 def sc_quiz(s, t, D):

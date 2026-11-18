@@ -1,0 +1,83 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "voice_id": "r5NKPDP5GRBdMttFWA9M",
+ "disclaimer": "Educational only · Not investment advice",
+ "slug": "stocks-day-05",
+ "series": {
+  "day": 5,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: PAN",
+ "title": "Demat Account Online-ൽ എങ്ങനെ തുറക്കാം? 📱 Step by Step | Day 5 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 5! Demat account online ആയി തുറക്കാൻ എന്തൊക്കെ വേണം? PAN, Aadhaar, bank: step by step.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #demataccount #kyc #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "how to open demat account malayalam",
+  "demat account online",
+  "kyc demat account",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://nsdl.co.in/downloadables/pdf/Demat%20account%20opening%20with%20nomination%20etc.%2001062021.pdf",
+  "https://investor.sebi.gov.in/pdf/reference-material/ppt/PPT-2%20KYC%20Procedure%20Updated%2030%20Sep%202022.pdf"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "OPEN DEMAT ONLINE",
+   "sub": "Yesterday: A · Demat",
+   "icon": "📱",
+   "narration": "ഇന്നലത്തെ ഉത്തരം Demat! Day 5. വീട്ടിലിരുന്ന് demat account എങ്ങനെ തുറക്കാം?"
+  },
+  {
+   "type": "bullets",
+   "title": "വേണ്ടത്",
+   "icon": "📋",
+   "items": [
+    "PAN (Aadhaar link ചെയ്തത്)",
+    "Aadhaar + Mobile",
+    "Bank account"
+   ],
+   "narration": "വേണ്ടത്: Aadhaar-മായി link ചെയ്ത PAN card, Aadhaar-ഉം അതിൽ ചേർത്ത mobile number-ഉം, പിന്നെ ഒരു bank account."
+  },
+  {
+   "type": "steps",
+   "title": "STEPS",
+   "items": [
+    "Broker app-ൽ Sign up",
+    "Mobile, Email OTP",
+    "Aadhaar e-KYC",
+    "Bank verify, e-Sign"
+   ],
+   "note": "* Steps vary slightly between brokers",
+   "narration": "ഒരു SEBI registered broker-ന്റെ app-ൽ sign up ചെയ്യൂ. Mobile, email OTP വഴി verify ചെയ്യും. Aadhaar e-KYC ചെയ്ത്, bank details കൊടുത്ത് e-sign ചെയ്താൽ മതി."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Charges compare ചെയ്യൂ",
+    "SEBI registration check"
+   ],
+   "narration": "Account തുറക്കും മുമ്പ് broker-ന്റെ charges compare ചെയ്യൂ, SEBI registered ആണോ എന്നും check ചെയ്യൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "KYC-ക്ക് നിർബന്ധം ഏത്?",
+   "options": [
+    "Ration card",
+    "PAN"
+   ],
+   "narration": "Quiz! Demat KYC-ക്ക് നിർബന്ധമായും വേണ്ടത് ഏത്? A, Ration card. B, PAN. Comment ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}
