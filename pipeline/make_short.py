@@ -220,6 +220,8 @@ def sc_cta(s, t, D):
                 text(d, 0, 600, "SUBSCRIBE", 84, WHITE, 0, center=True)
         if t > 1.2:
             e = emoji("🔔", 160); im.paste(e, (int(W / 2 - 80), 800), e); d = ImageDraw.Draw(im)
+    if NEXT_TIME and not s.get("keyword") and t > 0.8:
+        time_badge(im, 1150, NEXT_TIME); d = ImageDraw.Draw(im)
     if t > D - 4.5:
         text(d, 0, 1460, BRAND, 110, GREEN, 5, center=True)
         if TAGLINE: text(d, 0, 1620, TAGLINE, 40, SUB_COL, 2 if sum(SUB_COL) > 600 else 0, center=True)
@@ -266,7 +268,13 @@ def sc_chart(s, t, D):
         text(d, 110, 1760, s["note"], 32, GREY)
     return im
 
-SERIES, DISCLAIMER = None, None
+SERIES, DISCLAIMER, NEXT_TIME = None, None, None
+
+def time_badge(im, y, label):
+    d = ImageDraw.Draw(im); w = min(1000, tw(d, label, 50) + 190)
+    d.rounded_rectangle([W / 2 - w / 2, y, W / 2 + w / 2, y + 130], radius=65, fill=(255, 210, 60), outline=(200, 90, 20), width=6)
+    e = emoji("⏰", 90); im.paste(e, (int(W / 2 - w / 2 + 35), y + 20), e)
+    text(ImageDraw.Draw(im), W / 2 - w / 2 + 145, y + 34, label, 50, (90, 30, 10), 0, maxw=w - 160)
 def overlay(im):
     if not (SERIES or DISCLAIMER): return im
     d = ImageDraw.Draw(im)
@@ -404,6 +412,8 @@ def sc_moral(s, t, D):
             text(d, 0, 700 + i * 130, line, 68, (60, 40, 90), 0, center=True, maxw=860)
     if s.get("icon"):
         e = emoji(s["icon"], 260); im.paste(e, (int(W / 2 - e.width / 2), 1250), e)
+    if NEXT_TIME and s.get("heading") and t > 0.6:
+        time_badge(im, 1560, NEXT_TIME)
     return im
 
 TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta, "quiz": sc_quiz, "chart": sc_chart, "story": sc_story, "moral": sc_moral}
@@ -453,10 +463,10 @@ def mix(clips, sd, out, moods=None, seed=0):
 
 # ---------- main ----------
 def main(path):
-    global VOICE, SERIES, DISCLAIMER
+    global VOICE, SERIES, DISCLAIMER, NEXT_TIME
     ep = json.load(open(path, encoding="utf-8"))
     apply_theme(ep.get("theme", "tech"), ep.get("brand"), ep.get("tagline"))
-    VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer")
+    VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer"); NEXT_TIME = ep.get("next_time")
     slug = ep["slug"]; work = os.path.join("/tmp", "short_" + slug); os.makedirs(work, exist_ok=True)
     clips, sd = [], []
     for i, s in enumerate(ep["scenes"]):

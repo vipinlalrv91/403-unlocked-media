@@ -5,12 +5,6 @@
  "tagline": "കുട്ടികളുടെ രാമായണം",
  "voice_id": "OVkoEbwxsYHiSRMFV9t3",
  "madeForKids": true,
- "series": {
-  "day": 1,
-  "total": 36,
-  "name": "രാമായണം",
-  "label": "EPISODE"
- },
  "source_note": "Retold from Valmiki Ramayana, Bala Kanda (public domain)",
  "title": "രാമായണം Episode 1 🏹 അയോധ്യയും ദശരഥ മഹാരാജാവും | Ramayanam for Kids Malayalam #shorts",
  "caption": "കുട്ടികളുടെ രാമായണം, Episode 1! അയോധ്യയിലെ ദശരഥ മഹാരാജാവും ശ്രീരാമന്റെ ജനനവും. എല്ലാ ദിവസവും വൈകുന്നേരം 7:30-ന് പുതിയ ഭാഗം 🙏\n\nRamayanam for kids in Malayalam, Episode 1: King Dasharatha of Ayodhya and the birth of Sri Rama and his brothers.",
@@ -27,7 +21,7 @@
   {
    "type": "hook",
    "title": "രാമായണം",
-   "sub": "Episode 1 · അയോധ്യ",
+   "sub": "അയോധ്യ",
    "icon": "🏹",
    "narration": "കൂട്ടുകാരേ, ഇന്ന് മുതൽ കഥപ്പെട്ടിയിൽ രാമായണ കഥ തുടങ്ങുന്നു! വാ, നമുക്ക് അയോധ്യയിലേക്ക് പോകാം.",
    "mood": "devotional"
@@ -158,12 +152,12 @@
     "കാട്ടിലേക്ക്..."
    ],
    "icon": "📿",
-   "narration": "നാളെ: വിശ്വാമിത്ര മഹർഷി അയോധ്യയിൽ വരുന്നു. രാമനും ലക്ഷ്മണനും മുനിയോടൊപ്പം ഒരു വലിയ യാത്രയ്ക്ക് പുറപ്പെടുന്നു!",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, വിശ്വാമിത്ര മഹർഷി അയോധ്യയിൽ വരുന്നു. രാമനും ലക്ഷ്മണനും മുനിയോടൊപ്പം ഒരു വലിയ യാത്രയ്ക്ക് പുറപ്പെടുന്നു!",
    "mood": "devotional"
   },
   {
    "type": "cta",
-   "narration": "രാമായണ കഥ തുടരും! നാളെ വൈകുന്നേരം ഏഴരയ്ക്ക് കഥപ്പെട്ടിയിൽ കാണാം. Subscribe ചെയ്യൂ!",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി Subscribe ചെയ്യൂ!",
    "mood": "happy"
   }
  ],
