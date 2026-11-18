@@ -38,6 +38,12 @@ for path in sorted(glob.glob("outbox/*.json")):
             result["youtube"] = upload_short(env("YT_CLIENT_ID"), env("YT_CLIENT_SECRET"), env(f"YT_REFRESH_{yt_secret}"), tmp, dict(req, expected_channel_id=YT_CHANNEL.get(ch)))
         except Exception as e: result["youtube"] = {"error": str(e)}
     else: result["youtube"] = {"skipped": "no secrets"}
+    yt_err = str(result.get("youtube", {}).get("error", ""))
+    if "quota" in yt_err.lower():  # YouTube daily upload quota hit: keep YouTube part queued for the next run
+        done = [p for p in ("instagram",) if "id" in result.get("instagram", {})]
+        req["only"] = ["youtube"]; req.setdefault("history", []).append(result)
+        json.dump(req, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1); changed = True
+        print(f"{path}: YouTube quota exceeded, will retry later"); continue
     req["result"] = result
     json.dump(req, open(os.path.join("posted", os.path.basename(path)), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     os.remove(path); changed = True
