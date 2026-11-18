@@ -1,6 +1,10 @@
 # The Stoic Bull (Stock Market Zero to Hero): daily automatic run (2 videos/day, GENERATE ONLY)
 
-> **STATUS (owner, 17 Nov 2026): GENERATE 2 videos/day and store them in GitHub. DO NOT POST anywhere (no Metricool, no outbox, no YouTube/Instagram). The owner uploads manually.**
+> **STATUS (owner, 18 Nov 2026): AUTO-POST 2 videos/day to YouTube "The Stoic Bull" at 14:00 and 18:00 IST (Instagram too once IG_TOKEN_STOIC works).**
+> After export.py, queue each video: outbox/<date>_stoic-<name>.json =
+> {"channel": "STOIC", "publish_at": "<date>T14:00:00+05:30" (2nd: 18:00), "video_url": raw URL of channels/stocks/videos/<name>.mp4,
+>  "title", "description": caption + "\n\n" + hashtags, "caption": same, "tags", "categoryId": "27", "madeForKids": false, "privacy": "public"}
+> YouTube quota: about 6 uploads/day for all channels together; daily total = 403 (2) + Kadha (1) + Stoic (2) = 5.
 >
 > Per video: write the episode JSON (next two unchecked days in curriculum.md), then run
 > `python3 channels/stocks/export.py channels/stocks/episodes/day-NN-<slug>.json`
