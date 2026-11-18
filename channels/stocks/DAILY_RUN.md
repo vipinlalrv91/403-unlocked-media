@@ -1,4 +1,4 @@
-# The Stoic Bull (Stock Market Zero to Hero): daily automatic run (2 videos/day, GENERATE ONLY)
+# The Stoic Bull (Stock Market Zero to Hero): daily automatic run (2 videos/day, auto-post to YouTube 14:00 + 18:00 IST)
 
 > **STATUS (owner, 18 Nov 2026): AUTO-POST 2 videos/day to YouTube "The Stoic Bull" at 14:00 and 18:00 IST (Instagram too once IG_TOKEN_STOIC works).**
 > After export.py, queue each video: outbox/<date>_stoic-<name>.json =
