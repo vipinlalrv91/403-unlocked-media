@@ -430,16 +430,23 @@ def tts(textline, out):
 def dur(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]))
 
-def mix(clips, sd, out):
+def mix(clips, sd, out, moods=None, seed=0):
     tot = sum(sd); inputs, filt, t = [], [], 0
     for i, (c, x) in enumerate(zip(clips, sd)):
         off = int((t + (0.3 if i == 0 else 0.1)) * 1000)
         inputs += ["-i", c]; filt.append(f"[{i}:a]adelay={off}|{off}[a{i}]"); t += x
     n = len(clips)
     fc = ";".join(filt) + ";" + "".join(f"[a{i}]" for i in range(n)) + f"amix=inputs={n}:normalize=0,apad=whole_dur={tot},asplit=2[nar][nar2];"
-    fc += (f"aevalsrc='0.05*sin(2*PI*110*t)+0.035*sin(2*PI*164.8*t)+0.03*sin(2*PI*220*t)"
+    if moods:  # story-matched Indian music composed in pipeline/music.py
+        import music
+        wav = out + ".music.wav"; music.write_wav(wav, music.score(list(zip(moods, sd)), seed))
+        inputs += ["-i", wav]
+        fc += (f"[{n}:a]volume=0.55,afade=t=in:d=1,afade=t=out:st={tot - 2}:d=2[mus];")
+    else:
+        fc += (f"aevalsrc='0.05*sin(2*PI*110*t)+0.035*sin(2*PI*164.8*t)+0.03*sin(2*PI*220*t)"
            f"+0.025*sin(2*PI*261.6*t)*(0.5+0.5*sin(2*PI*0.25*t))+0.04*sin(2*PI*55*t)*exp(-6*mod(t,0.5))':s=44100:d={tot}[m0];"
-           f"[m0]lowpass=f=1800,afade=t=in:d=1,afade=t=out:st={tot - 2}:d=2[mus];"
+           f"[m0]lowpass=f=1800,afade=t=in:d=1,afade=t=out:st={tot - 2}:d=2[mus];")
+    fc += (
            "[mus][nar]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=300[duck];"
            "[duck][nar2]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", fc, "-map", "[out]", "-ar", "44100", "-t", str(tot), out], check=True)
@@ -461,7 +468,8 @@ def main(path):
     total = sum(sd)
     if not 30 <= total <= 62:
         print(f"WARNING: duration {total:.1f}s outside 30-62s", file=sys.stderr)
-    audio = os.path.join(work, "mix.m4a"); mix(clips, sd, audio)
+    moods = [sc.get("mood", "calm") for sc in ep["scenes"]] if ep.get("music") == "indian" else None
+    audio = os.path.join(work, "mix.m4a"); mix(clips, sd, audio, moods, seed=sum(map(ord, slug)))
     os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
     out = os.path.join(ROOT, "videos", slug + ".mp4")  # same folder for all channels
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
