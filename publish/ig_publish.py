@@ -14,8 +14,9 @@ def _call(token, method, path, **params):
     except urllib.error.HTTPError as e:
         raise RuntimeError(f"Instagram API {e.code}: {e.read().decode()[:400]}")
 
-def publish_reel(ig_user_id, token, video_url, caption):
-    cid = _call(token, "POST", f"{ig_user_id}/media", media_type="REELS", video_url=video_url, caption=caption, share_to_feed="true")["id"]
+def publish_reel(ig_user_id, token, video_url, caption, cover_url=None):
+    extra = {"cover_url": cover_url} if cover_url else {}
+    cid = _call(token, "POST", f"{ig_user_id}/media", media_type="REELS", video_url=video_url, caption=caption, share_to_feed="true", **extra)["id"]
     for _ in range(60):
         st = _call(token, "GET", cid, fields="status_code").get("status_code")
         if st == "FINISHED": break

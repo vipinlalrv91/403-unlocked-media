@@ -461,6 +461,39 @@ def mix(clips, sd, out, moods=None, seed=0):
            "[duck][nar2]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[out]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", fc, "-map", "[out]", "-ar", "44100", "-t", str(tot), out], check=True)
 
+
+# ---------- thumbnail / cover ----------
+def make_thumb(ep, path):
+    """1080x1920 cover (Instagram Reel cover + YouTube thumbnail). Uses ep["thumb_text"] (2 short lines) if given."""
+    hook = ep["scenes"][0]
+    lines = ep.get("thumb_text") or [hook.get("title", ""), hook.get("sub", "")]
+    story = next((sc for sc in ep["scenes"] if sc.get("bgimg")), None)
+    if story:  # painted Kadha style
+        im = bg_image(story["bgimg"], 0, 1)
+        shade = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(shade).rectangle([0, 0, W, 760], fill=(255, 240, 210, 150))
+        im = im.convert("RGBA"); im.alpha_composite(shade); im = im.convert("RGB")
+        chars = [c for c in story.get("chars", []) if "img" in c][:3]
+        for i, c in enumerate(chars):
+            spr = art("chars", c["img"]); h = 1150 if len(chars) == 1 else 900
+            sp = spr.resize((int(spr.width * h / spr.height), h), Image.LANCZOS)
+            x = W / 2 if len(chars) == 1 else 200 + i * (680 / max(1, len(chars) - 1))
+            im.paste(sp, (int(x - sp.width / 2), H - sp.height - 40), sp)
+        d = ImageDraw.Draw(im)
+        text(d, 0, 170, lines[0], 150, (230, 80, 20), 8, center=True, maxw=1000)
+        if len(lines) > 1 and lines[1]: text(d, 0, 400, lines[1], 90, (90, 30, 140), 5, center=True, maxw=1000)
+    else:
+        im = bg(0.0); d = ImageDraw.Draw(im)
+        glow(im, W / 2, 1150, 420, GREEN, 1.0)
+        e = emoji(hook.get("icon", "⚡"), 620); im.paste(e, (int(W / 2 - e.width / 2), int(1150 - e.height / 2)), e)
+        d = ImageDraw.Draw(im)
+        text(d, 0, 230, lines[0], 140, (255, 225, 40), 8, center=True, maxw=1000)
+        if len(lines) > 1 and lines[1]: text(d, 0, 470, lines[1], 92, WHITE, 6, center=True, maxw=1000)
+        if SERIES: text(d, 0, 1640, f"DAY {SERIES['day']}", 110, CYAN, 6, center=True)
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([W / 2 - 330, 1790, W / 2 + 330, 1880], radius=45, fill=(0, 0, 0))
+    text(d, 0, 1805, BRAND, 54, GREEN, 0, center=True, maxw=620)
+    im.convert("RGB").save(path, quality=88)
+
 # ---------- main ----------
 def main(path):
     global VOICE, SERIES, DISCLAIMER, NEXT_TIME
@@ -500,7 +533,7 @@ def main(path):
                 im = Image.blend(Image.new("RGB", (W, H)), im, (i + 1) / 6)
             p.stdin.write(im.tobytes())
     p.stdin.close(); p.wait()
-    overlay(TEMPLATES[ep["scenes"][0]["type"]](ep["scenes"][0], 2.0, 6)).save(os.path.join(ROOT, "videos", slug + "_thumb.jpg"), quality=90)
+    make_thumb(ep, os.path.join(ROOT, "videos", slug + "_thumb.jpg"))
     chars = sum(len(s["narration"]) for s in ep["scenes"])
     print(json.dumps({"video": out, "seconds": round(total, 1), "tts_chars": chars}))
 

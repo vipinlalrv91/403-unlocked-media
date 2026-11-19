@@ -41,4 +41,15 @@ def upload_short(client_id, client_secret, refresh_token, video_path, meta):
     exp = meta.get("expected_channel_id")
     if exp and out["channel_id"] != exp:
         out["error"] = f"WRONG CHANNEL: token uploaded to {out['channel_id']}, expected {exp}. Fix the refresh token secret; delete this video in YouTube Studio."
+    if meta.get("thumbnail_url") and "error" not in out:  # custom thumbnail (needs a phone-verified channel)
+        try:
+            with urllib.request.urlopen(meta["thumbnail_url"], timeout=60) as r:
+                img = r.read()
+            tr = urllib.request.Request(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={out['id']}", data=img, method="POST",
+                                        headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/jpeg"})
+            urllib.request.urlopen(tr, timeout=120).read(); out["thumbnail"] = "set"
+        except urllib.error.HTTPError as e:
+            out["thumbnail"] = f"failed {e.code}: {e.read().decode()[:200]}"
+        except Exception as e:
+            out["thumbnail"] = f"failed: {e}"
     return out

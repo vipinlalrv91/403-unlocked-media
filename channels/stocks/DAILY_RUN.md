@@ -36,3 +36,7 @@ Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with thes
 ## Voice (owner, 19 Nov 2026, ALL channels)
 Use ElevenLabs voice TX3LPaxmHKxFdv7VOQHJ (premade, young male, confident) with model eleven_v3, language_code ml. Set "voice_id": "TX3LPaxmHKxFdv7VOQHJ" in every episode JSON.
 Pronunciation: in NARRATION write English words in Malayalam script so they are said the Kerala way (e.g. ഗൈഡഡ് ആക്സസ് for Guided Access, സബ്സ്ക്രൈബ് for Subscribe, ചാനൽ, ആപ്പ്, സെറ്റിങ്സ്, ഗൂഗിൾ ലെൻസ്, ഡീമാറ്റ് അക്കൗണ്ട്). Keep on-screen captions/items in normal English where clearer. Numbers: write in Malayalam words when spoken.
+
+
+## Thumbnails (owner, 19 Nov 2026), every video
+Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON. make_short.py writes videos/<slug>_thumb.jpg (1080x1920). Copy it next to the published video with the same name + "_thumb.jpg" (403: videos/approved/<date>_<slug>_thumb.jpg; Stoic: export.py copies it; Kadha: channels/kadha/videos/<name>_thumb.jpg), push, and put its raw URL in the outbox request as "thumbnail_url". The publisher sets it as the Instagram Reel cover and the YouTube custom thumbnail.

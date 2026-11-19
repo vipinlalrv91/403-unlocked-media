@@ -9,6 +9,8 @@ info = json.loads(out)
 name = os.path.splitext(os.path.basename(ep_path))[0]          # day-02-nse-vs-bse
 vdir = os.path.join(ROOT, "channels", "stocks", "videos"); os.makedirs(vdir, exist_ok=True)
 shutil.copy(info["video"], os.path.join(vdir, name + ".mp4"))
+thumb = info["video"][:-4] + "_thumb.jpg"
+if os.path.exists(thumb): shutil.copy(thumb, os.path.join(vdir, name + "_thumb.jpg"))
 with open(os.path.join(vdir, name + "_upload.txt"), "w", encoding="utf-8") as f:
     f.write(f"TITLE (YouTube):\n{ep['title']}\n\nDESCRIPTION / CAPTION:\n{ep['caption']}\n\n{ep['hashtags']}\n\n"
             f"TAGS (YouTube):\n{', '.join(ep['tags'])}\n\nYouTube settings: Short · Category: Education · Not made for kids\n"

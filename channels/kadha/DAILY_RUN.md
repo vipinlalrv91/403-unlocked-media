@@ -32,3 +32,7 @@ Use the muthashi (grandmother) storyteller voice n4fEDQwxuAjplyp0aJy4 ("Solly Ra
 - 17:00 IST: one MORAL STORY (next unchecked in channels/kadha/stories.md; voice TX3LPaxmHKxFdv7VOQHJ; painted art from channels/kadha/art where it fits, else the emoji story scenes; music "indian" with moods; no counter/time).
 - 19:30 IST: the next RAMAYANAM episode (muthashi voice n4fEDQwxuAjplyp0aJy4). If channels/kadha/episodes/ramayanam-NN.json already exists, reuse it.
 YouTube quota: all channels together post 6 videos/day = the whole daily quota; never queue extra test uploads to YouTube.
+
+
+## Thumbnails (owner, 19 Nov 2026), every video
+Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON. make_short.py writes videos/<slug>_thumb.jpg (1080x1920). Copy it next to the published video with the same name + "_thumb.jpg" (403: videos/approved/<date>_<slug>_thumb.jpg; Stoic: export.py copies it; Kadha: channels/kadha/videos/<name>_thumb.jpg), push, and put its raw URL in the outbox request as "thumbnail_url". The publisher sets it as the Instagram Reel cover and the YouTube custom thumbnail.
