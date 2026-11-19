@@ -1,5 +1,288 @@
 {
  "_note": "Pixel coordinates in channels/kadha/art/chars/<name>.png: eyes [[x,y],[x,y]], eye_w, eye_h, mouth [x,y], mouth_w",
- "vishwamitra": {"eyes": [[360, 172], [428, 172]], "eye_w": 38, "eye_h": 18, "mouth": [395, 234], "mouth_w": 34},
- "dasharatha":  {"eyes": [[176, 268], [242, 268]], "eye_w": 34, "eye_h": 26, "mouth": [208, 323], "mouth_w": 30}
+ "vishwamitra": {
+  "eyes": [
+   [
+    360,
+    172
+   ],
+   [
+    428,
+    172
+   ]
+  ],
+  "eye_w": 38,
+  "eye_h": 18,
+  "mouth": [
+   395,
+   234
+  ],
+  "mouth_w": 34
+ },
+ "dasharatha": {
+  "eyes": [
+   [
+    176,
+    268
+   ],
+   [
+    242,
+    268
+   ]
+  ],
+  "eye_w": 34,
+  "eye_h": 26,
+  "mouth": [
+   208,
+   323
+  ],
+  "mouth_w": 30
+ },
+ "sita": {
+  "eyes": [
+   [
+    216,
+    292
+   ],
+   [
+    350,
+    293
+   ]
+  ],
+  "eye_w": 70,
+  "eye_h": 67,
+  "mouth": [
+   283,
+   372
+  ],
+  "mouth_w": 42
+ },
+ "lakshmana": {
+  "eyes": [
+   [
+    302,
+    292
+   ],
+   [
+    415,
+    268
+   ]
+  ],
+  "eye_w": 65,
+  "eye_h": 48,
+  "mouth": [
+   358,
+   347
+  ],
+  "mouth_w": 35
+ },
+ "bharata": {
+  "eyes": [
+   [
+    178,
+    372
+   ],
+   [
+    352,
+    372
+   ]
+  ],
+  "eye_w": 110,
+  "eye_h": 72,
+  "mouth": [
+   265,
+   476
+  ],
+  "mouth_w": 54
+ },
+ "shatrughna": {
+  "eyes": [
+   [
+    100,
+    340
+   ],
+   [
+    213,
+    330
+   ]
+  ],
+  "eye_w": 75,
+  "eye_h": 45,
+  "mouth": [
+   156,
+   402
+  ],
+  "mouth_w": 35
+ },
+ "kausalya": {
+  "eyes": [
+   [
+    255,
+    362
+   ],
+   [
+    420,
+    363
+   ]
+  ],
+  "eye_w": 110,
+  "eye_h": 79,
+  "mouth": [
+   337,
+   461
+  ],
+  "mouth_w": 51
+ },
+ "kaikeyi": {
+  "eyes": [
+   [
+    266,
+    270
+   ],
+   [
+    366,
+    294
+   ]
+  ],
+  "eye_w": 67,
+  "eye_h": 43,
+  "mouth": [
+   316,
+   342
+  ],
+  "mouth_w": 31
+ },
+ "sumitra": {
+  "eyes": [
+   [
+    102,
+    276
+   ],
+   [
+    193,
+    276
+   ]
+  ],
+  "eye_w": 52,
+  "eye_h": 36,
+  "mouth": [
+   147,
+   330
+  ],
+  "mouth_w": 27
+ },
+ "lakshmana_child": {
+  "eyes": [
+   [
+    118,
+    389
+   ],
+   [
+    266,
+    381
+   ]
+  ],
+  "eye_w": 92,
+  "eye_h": 62,
+  "mouth": [
+   192,
+   473
+  ],
+  "mouth_w": 46
+ },
+ "bharata_child": {
+  "eyes": [
+   [
+    157,
+    393
+   ],
+   [
+    303,
+    392
+   ]
+  ],
+  "eye_w": 85,
+  "eye_h": 76,
+  "mouth": [
+   230,
+   480
+  ],
+  "mouth_w": 45
+ },
+ "rama": {
+  "eyes": [
+   [
+    210,
+    325
+   ],
+   [
+    300,
+    325
+   ]
+  ],
+  "eye_w": 46,
+  "eye_h": 38,
+  "mouth": [
+   252,
+   370
+  ],
+  "mouth_w": 26
+ },
+ "hanuman": {
+  "eyes": [
+   [
+    320,
+    292
+   ],
+   [
+    422,
+    292
+   ]
+  ],
+  "eye_w": 56,
+  "eye_h": 46,
+  "mouth": [
+   368,
+   362
+  ],
+  "mouth_w": 40
+ },
+ "rama_child": {
+  "eyes": [
+   [
+    162,
+    455
+   ],
+   [
+    340,
+    455
+   ]
+  ],
+  "eye_w": 100,
+  "eye_h": 88,
+  "mouth": [
+   252,
+   545
+  ],
+  "mouth_w": 40
+ },
+ "shatrughna_child": {
+  "eyes": [
+   [
+    140,
+    382
+   ],
+   [
+    310,
+    382
+   ]
+  ],
+  "eye_w": 86,
+  "eye_h": 72,
+  "mouth": [
+   230,
+   452
+  ],
+  "mouth_w": 40
+ }
 }

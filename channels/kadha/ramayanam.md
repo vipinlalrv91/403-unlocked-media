@@ -54,3 +54,7 @@ No episode counter bar, no time in the video (owner). Narration 550-750 chars.
 
 ## RAMAYANAM voice (owner, 19 Nov 2026), overrides the all-channel voice for Ramayanam only
 Use the muthashi (grandmother) storyteller voice n4fEDQwxuAjplyp0aJy4 ("Solly Rajan - Narration", ElevenLabs shared library, female, old) with eleven_v3, language_code ml: set "voice_id": "n4fEDQwxuAjplyp0aJy4" in every ramayanam-NN.json. Write narration as a grandmother telling the story to grandchildren (e.g. open with "മക്കളേ, ..."), warm and slow. Other Kadha content (moral stories) keeps TX3LPaxmHKxFdv7VOQHJ.
+
+
+## Lip-sync dialogue (owner, 19 Nov 2026), all Ramayanam episodes
+Story scenes use "lines" instead of a single "narration": [{"who": "narrator"|<character image name>, "text": ...}, ...]. The muthashi narrates (who "narrator"), characters speak their own short lines (1-2 sentences, simple Malayalam). Voices come from channels/kadha/voices.json automatically. The speaking character's mouth moves and everyone blinks (faces in channels/kadha/art/faces.json; if you generate a new character, add its eyes/mouth with art/detect_faces.py and check). No extra body movement (owner). Keep 3-6 lines per scene; hook, teaser and CTA scenes stay narrator-only.

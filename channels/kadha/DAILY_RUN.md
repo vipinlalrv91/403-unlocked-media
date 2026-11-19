@@ -37,3 +37,7 @@ YouTube quota: all channels together post 6 videos/day = the whole daily quota; 
 ## Thumbnails (owner, 19 Nov 2026), every video
 Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON. make_short.py writes videos/<slug>_thumb.jpg (1080x1920). Copy it next to the published video with the same name + "_thumb.jpg" (403: videos/approved/<date>_<slug>_thumb.jpg; Stoic: export.py copies it; Kadha: channels/kadha/videos/<name>_thumb.jpg), push, and put its raw URL in the outbox request as "thumbnail_url". The publisher sets it as the Instagram Reel cover and the YouTube custom thumbnail.
 
+
+
+## Lip-sync dialogue (owner, 19 Nov 2026), all Ramayanam episodes
+Story scenes use "lines" instead of a single "narration": [{"who": "narrator"|<character image name>, "text": ...}, ...]. The muthashi narrates (who "narrator"), characters speak their own short lines (1-2 sentences, simple Malayalam). Voices come from channels/kadha/voices.json automatically. The speaking character's mouth moves and everyone blinks (faces in channels/kadha/art/faces.json; if you generate a new character, add its eyes/mouth with art/detect_faces.py and check). No extra body movement (owner). Keep 3-6 lines per scene; hook, teaser and CTA scenes stay narrator-only.

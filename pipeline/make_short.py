@@ -579,7 +579,10 @@ def main(path):
             parts, segs, tcur = [], [], 0.0
             for j, l in enumerate(s["lines"]):
                 pj = os.path.join(work, f"s{i + 1}_{j}.mp3")
-                if not os.path.exists(pj): tts(l["text"], pj, l.get("voice"))
+                if not os.path.exists(pj):
+                    vmap_p = os.path.join(ROOT, "channels", "kadha", "voices.json")
+                    vmap = json.load(open(vmap_p)) if os.path.exists(vmap_p) else {}
+                    tts(l["text"], pj, l.get("voice") or vmap.get(l.get("who") or "narrator") or None)
                 dj = dur(pj); segs.append((tcur, tcur + dj, l.get("who"))); parts.append(pj); tcur += dj + 0.3
             if not os.path.exists(c):
                 lst = os.path.join(work, f"s{i + 1}_list.txt")
