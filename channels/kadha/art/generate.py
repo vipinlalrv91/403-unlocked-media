@@ -9,7 +9,7 @@ STYLE = ("for a children's devotional storybook, cute soft painted digital illus
          "clean outlines, kind gentle expression, standing full body front view, plain pure white background, no text, no frame")
 BGSTYLE = "children's storybook background painting, soft painted digital illustration, warm colours, no people, no text"
 CHARS = {
- "rama": "Young Lord Rama, blue skin, tall ornate golden crown with jewels, golden necklaces and armlets, yellow silk dhoti, saffron angavastram, holding a curved wooden archery bow in one hand, quiver of arrows on his back, ",
+ "rama": "Young Lord Rama, warm dusky brown Indian skin tone (NOT blue skin), gentle face, tall ornate golden crown with jewels, golden necklaces and armlets, yellow silk dhoti, saffron angavastram, holding a curved wooden archery bow in one hand, quiver of arrows on his back, ",
  "sita": "Goddess Sita, young graceful princess, fair skin, red silk saree with golden border, small golden crown, jasmine flowers in hair, gold jewellery, holding a lotus, ",
  "lakshmana": "Young prince Lakshmana, fair skin, golden crown, golden jewellery, orange silk dhoti, red angavastram, holding a curved wooden archery bow, quiver of arrows on back, ",
  "bharata": "Young prince Bharata, wheat brown skin, golden crown, golden jewellery, green silk dhoti, yellow angavastram, hands folded in namaste, ",
@@ -23,7 +23,7 @@ CHARS = {
  "ravana": "King Ravana of Lanka for kids, ten heads in a row each with a golden crown, dark skin, grand red and black royal robes, gold jewellery, proud but not scary, ",
  "vibhishana": "Vibhishana, kind noble demon prince, dark skin, golden crown, white and gold royal robes, hands folded in namaste, ",
  "jatayu": "Jatayu the brave giant eagle, golden brown feathers, wise kind eyes, wings spread, ",
- "rama_child": "Little child prince Rama, about 5 years old, blue skin, small golden crown, yellow dhoti, gold jewellery, cute smile, ",
+ "rama_child": "Little child prince Rama, about 5 years old, warm dusky brown Indian skin tone (NOT blue skin), small golden crown, yellow dhoti, gold jewellery, cute smile, ",
  "lakshmana_child": "Little child prince Lakshmana, about 5 years old, fair skin, small golden crown, orange dhoti, gold jewellery, cute smile, ",
  "bharata_child": "Little child prince Bharata, about 5 years old, wheat skin, small golden crown, green dhoti, gold jewellery, cute smile, ",
  "janaka": "King Janaka of Mithila, wise gentle middle-aged king, short black beard, golden crown, cream and gold royal robes, rudraksha beads, kind smile, ",
