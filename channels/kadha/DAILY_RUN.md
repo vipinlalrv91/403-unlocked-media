@@ -22,3 +22,7 @@ Credits: priority 403 UNLOCKED > Kadha Petti > The Stoic Bull. Skip Kadha if Ele
 ## Voice (owner, 19 Nov 2026, ALL channels)
 Use ElevenLabs voice TX3LPaxmHKxFdv7VOQHJ (premade, young male, confident) with model eleven_v3, language_code ml. Set "voice_id": "TX3LPaxmHKxFdv7VOQHJ" in every episode JSON.
 Pronunciation: in NARRATION write English words in Malayalam script so they are said the Kerala way (e.g. ഗൈഡഡ് ആക്സസ് for Guided Access, സബ്സ്ക്രൈബ് for Subscribe, ചാനൽ, ആപ്പ്, സെറ്റിങ്സ്, ഗൂഗിൾ ലെൻസ്, ഡീമാറ്റ് അക്കൗണ്ട്). Keep on-screen captions/items in normal English where clearer. Numbers: write in Malayalam words when spoken.
+
+
+## RAMAYANAM voice (owner, 19 Nov 2026), overrides the all-channel voice for Ramayanam only
+Use the muthashi (grandmother) storyteller voice n4fEDQwxuAjplyp0aJy4 ("Solly Rajan - Narration", ElevenLabs shared library, female, old) with eleven_v3, language_code ml: set "voice_id": "n4fEDQwxuAjplyp0aJy4" in every ramayanam-NN.json. Write narration as a grandmother telling the story to grandchildren (e.g. open with "മക്കളേ, ..."), warm and slow. Other Kadha content (moral stories) keeps TX3LPaxmHKxFdv7VOQHJ.

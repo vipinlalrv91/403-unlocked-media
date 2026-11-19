@@ -50,3 +50,7 @@ No episode counter bar, no time in the video (owner). Narration 550-750 chars.
 - [ ] 34 സീതാദേവിയുമായി ഒത്തുചേരൽ
 - [ ] 35 അയോധ്യയിലേക്ക് മടക്കം
 - [ ] 36 ശ്രീരാമ പട്ടാഭിഷേകം: series finale
+
+
+## RAMAYANAM voice (owner, 19 Nov 2026), overrides the all-channel voice for Ramayanam only
+Use the muthashi (grandmother) storyteller voice n4fEDQwxuAjplyp0aJy4 ("Solly Rajan - Narration", ElevenLabs shared library, female, old) with eleven_v3, language_code ml: set "voice_id": "n4fEDQwxuAjplyp0aJy4" in every ramayanam-NN.json. Write narration as a grandmother telling the story to grandchildren (e.g. open with "മക്കളേ, ..."), warm and slow. Other Kadha content (moral stories) keeps TX3LPaxmHKxFdv7VOQHJ.
