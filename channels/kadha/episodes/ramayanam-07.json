@@ -1,0 +1,163 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-07",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "title": "രാമായണം 7 👑 രാമന്റെ പട്ടാഭിഷേക ഒരുക്കം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 7: രാമനെ രാജാവാക്കാൻ അയോധ്യ ഒരുങ്ങുന്നു. പക്ഷേ മന്ഥരയുടെ വാക്കുകൾ കൈകേയിയുടെ മനസ്സ് മാറ്റുന്നു 🙏\n\nRamayanam for kids in Malayalam, part 7: Ayodhya prepares to crown Rama, but Manthara changes Kaikeyi's mind.",
+ "tags": [
+  "ramayanam malayalam",
+  "rama pattabhishekam",
+  "manthara kaikeyi story",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "thumb_text": [
+  "രാമായണം",
+  "പട്ടാഭിഷേക ഒരുക്കം"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "പട്ടാഭിഷേക ഒരുക്കം",
+   "icon": "👑",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വാ... രാമൻ രാജാവാകാൻ പോകുന്നു!"
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "ദശരഥന്റെ തീരുമാനം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 780,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "vasishtha",
+     "x": 0.74,
+     "y": 0.8,
+     "h": 640,
+     "label": "വസിഷ്ഠൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "വർഷങ്ങൾ കടന്നുപോയി. ദശരഥ മഹാരാജാവിന് പ്രായമായി."
+    },
+    {
+     "who": "dasharatha",
+     "text": "ഗുരോ, രാമനെ അയോധ്യയുടെ രാജാവാക്കാൻ ഞാൻ ആഗ്രഹിക്കുന്നു."
+    },
+    {
+     "who": "vasishtha",
+     "text": "മഹാരാജാവേ, ഇത് വളരെ നല്ല തീരുമാനമാണ്. നാളെത്തന്നെ പട്ടാഭിഷേകം നടത്താം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "അയോധ്യ സന്തോഷിച്ചു! 🎉",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "kausalya",
+     "x": 0.28,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൗസല്യ"
+    },
+    {
+     "img": "rama",
+     "x": 0.72,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "വാർത്ത കേട്ട് അയോധ്യ മുഴുവൻ സന്തോഷിച്ചു. വീടുകൾ അലങ്കരിച്ചു, ദീപങ്ങൾ തെളിഞ്ഞു."
+    },
+    {
+     "who": "kausalya",
+     "text": "മോനേ രാമാ, നീ നല്ലൊരു രാജാവാകും. അമ്മയുടെ അനുഗ്രഹം."
+    },
+    {
+     "who": "rama",
+     "text": "അമ്മേ, ജനങ്ങളുടെ സന്തോഷമാണ് എന്റെ സന്തോഷം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "മന്ഥരയുടെ ഉപദേശം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "manthara",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 740,
+     "label": "മന്ഥര"
+    },
+    {
+     "img": "kaikeyi",
+     "x": 0.72,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൈകേയി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "പക്ഷേ കൈകേയിയുടെ ദാസിയായ മന്ഥരയ്ക്ക് ഇത് ഇഷ്ടമായില്ല."
+    },
+    {
+     "who": "manthara",
+     "text": "റാണീ, രാമൻ രാജാവായാൽ നമ്മുടെ ഭരതന്റെ കാര്യം എന്താകും?"
+    },
+    {
+     "who": "kaikeyi",
+     "text": "മന്ഥരേ, രാമൻ എനിക്ക് ഭരതനെപ്പോലെ തന്നെയാണ്."
+    },
+    {
+     "who": "narrator",
+     "text": "പക്ഷേ മന്ഥര വീണ്ടും വീണ്ടും പറഞ്ഞ് പറഞ്ഞ്, കൈകേയിയുടെ മനസ്സ് പതുക്കെ മാറ്റി."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "കൈകേയി ചോദിക്കുന്ന",
+    "രണ്ട് വരങ്ങൾ..."
+   ],
+   "icon": "🙏",
+   "mood": "sad",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, കൈകേയി ദശരഥനോട് രണ്ട് വരങ്ങൾ ചോദിക്കുന്നു. എന്തായിരിക്കും അത്?"
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

@@ -1,21 +1,22 @@
 {
- "parashurama": {
+ "vasishtha": null,
+ "manthara": {
   "eyes": [
    [
-    315,
-    207
+    294,
+    239
    ],
    [
-    394,
-    200
+    365,
+    232
    ]
   ],
-  "eye_w": 30,
-  "eye_h": 19,
+  "eye_w": 20,
+  "eye_h": 16,
   "mouth": [
-   353,
-   242
+   328,
+   296
   ],
-  "mouth_w": 32
+  "mouth_w": 29
  }
 }
