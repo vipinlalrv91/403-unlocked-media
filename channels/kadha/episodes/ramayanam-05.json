@@ -1,0 +1,184 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-05",
+ "source_note": "Retold from Valmiki Ramayana / Adhyatma Ramayanam, Bala Kanda (public domain)",
+ "title": "രാമായണം 5 🏹 ശിവധനുസ്സും സീതാസ്വയംവരവും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 5: മിഥിലയിൽ ശിവന്റെ ദിവ്യധനുസ്സ് ശ്രീരാമൻ ഒടിക്കുന്നു, സീതാദേവി വരണമാല്യം ചാർത്തുന്നു 🙏\n\nRamayanam for kids in Malayalam, part 5: Rama breaks Lord Shiva's bow in Mithila and Sita chooses Rama.",
+ "tags": [
+  "ramayanam malayalam",
+  "sita swayamvaram malayalam",
+  "shiva dhanus rama",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "thumb_text": [
+  "രാമായണം",
+  "സീതാസ്വയംവരം"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ശിവധനുസ്സ്",
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വാ... ഇന്ന് നമുക്ക് മിഥിലയിലേക്ക് പോകാം!"
+  },
+  {
+   "type": "story",
+   "bgimg": "mithila_court",
+   "caption": "മിഥിലയിലെ ജനക മഹാരാജാവ്",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "janaka",
+     "x": 0.75,
+     "y": 0.8,
+     "h": 760,
+     "label": "ജനകൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മക്കളേ, മഹർഷിയും രാമലക്ഷ്മണന്മാരും മിഥിലയിൽ എത്തി. അവിടത്തെ രാജാവ് ജനകൻ അവരെ സ്നേഹത്തോടെ സ്വീകരിച്ചു."
+    },
+    {
+     "who": "janaka",
+     "text": "മഹർഷേ, ഇത് ശിവഭഗവാന്റെ ദിവ്യമായ വില്ലാണ്. ഇത് കുലയ്ക്കുന്നവർക്ക് എന്റെ മകൾ സീതയെ ഞാൻ വിവാഹം ചെയ്തു കൊടുക്കും."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "mithila_court",
+   "caption": "ആർക്കും വില്ല് അനക്കാൻ കഴിഞ്ഞില്ല",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.75,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "പല രാജാക്കന്മാരും ശ്രമിച്ചു. പക്ഷേ ആർക്കും ആ വില്ല് ഒന്ന് അനക്കാൻ പോലും കഴിഞ്ഞില്ല."
+    },
+    {
+     "who": "vishwamitra",
+     "text": "രാമാ, ഇനി നീ ശ്രമിക്കൂ."
+    },
+    {
+     "who": "rama",
+     "text": "ഗുരുവിന്റെ അനുഗ്രഹം പോലെ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "mithila_court",
+   "caption": "വില്ല് ഒടിഞ്ഞു! 💥",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 800,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "janaka",
+     "x": 0.75,
+     "y": 0.8,
+     "h": 760,
+     "label": "ജനകൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ നിഷ്പ്രയാസം വില്ലെടുത്ത് ഞാൺ കെട്ടി വലിച്ചു. ഇടിമുഴക്കം പോലെ ഒരു ശബ്ദത്തോടെ ആ വില്ല് രണ്ടായി ഒടിഞ്ഞു!"
+    },
+    {
+     "who": "janaka",
+     "text": "അത്ഭുതം! എന്റെ സീതയ്ക്ക് യോജിച്ച വരൻ ശ്രീരാമൻ തന്നെ!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "വരണമാല്യം 🌸",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.3,
+     "y": 0.78,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.72,
+     "y": 0.78,
+     "h": 760,
+     "label": "സീതാദേവി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "സീതാദേവി സന്തോഷത്തോടെ വന്ന് രാമന്റെ കഴുത്തിൽ വരണമാല്യം ചാർത്തി."
+    },
+    {
+     "who": "sita",
+     "text": "ശ്രീരാമാ, അങ്ങയെ ഞാൻ എന്റെ വരനായി സ്വീകരിക്കുന്നു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "അയോധ്യയിലും",
+    "മിഥിലയിലും ആഘോഷം",
+    "രാമ-സീതാ വിവാഹം!"
+   ],
+   "icon": "🌸",
+   "mood": "happy",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, അയോധ്യയിലും മിഥിലയിലും വലിയ ആഘോഷം! രാമന്റെയും സീതയുടെയും വിവാഹം!"
+  },
+  {
+   "type": "cta",
+   "mood": "happy",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
