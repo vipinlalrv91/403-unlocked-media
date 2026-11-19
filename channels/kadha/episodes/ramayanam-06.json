@@ -1,0 +1,192 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-06",
+ "source_note": "Retold from Valmiki Ramayana / Adhyatma Ramayanam, Bala Kanda (public domain)",
+ "title": "രാമായണം 6 🌸 രാമ-സീതാ വിവാഹവും പരശുരാമനും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 6: മിഥിലയിൽ രാമന്റെയും സീതയുടെയും വിവാഹം, വഴിയിൽ പരശുരാമനെ കണ്ടുമുട്ടുന്നു, അയോധ്യയിലേക്കുള്ള മടക്കം 🙏\n\nRamayanam for kids in Malayalam, part 6: the wedding of Rama and Sita, meeting Parashurama, and the return to Ayodhya.",
+ "tags": [
+  "ramayanam malayalam",
+  "rama sita vivaham malayalam",
+  "parashurama rama",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "thumb_text": [
+  "രാമായണം",
+  "രാമ-സീതാ വിവാഹം"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "രാമ-സീതാ വിവാഹം",
+   "icon": "🌸",
+   "mood": "happy",
+   "narration": "മക്കളേ, വാ... ഇന്ന് ഒരു വലിയ ആഘോഷത്തിന്റെ ദിവസമാണ്!"
+  },
+  {
+   "type": "story",
+   "bgimg": "mithila_court",
+   "caption": "ദശരഥൻ മിഥിലയിൽ",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 780,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "janaka",
+     "x": 0.74,
+     "y": 0.8,
+     "h": 760,
+     "label": "ജനകൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "സന്തോഷവാർത്ത കേട്ട് ദശരഥ മഹാരാജാവ് പരിവാരങ്ങളോടൊപ്പം മിഥിലയിൽ എത്തി."
+    },
+    {
+     "who": "janaka",
+     "text": "മഹാരാജാവേ, നമ്മുടെ രണ്ട് കുടുംബങ്ങളും ഇനി ഒന്നാണ്. സ്വാഗതം!"
+    },
+    {
+     "who": "dasharatha",
+     "text": "ജനക മഹാരാജാവേ, ഇത് എനിക്ക് വലിയ സന്തോഷമാണ്."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "wedding_mandapam",
+   "caption": "രാമ-സീതാ വിവാഹം 🌸",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "സീതാദേവി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മംഗളവാദ്യങ്ങൾ മുഴങ്ങി. അഗ്നിസാക്ഷിയായി രാമനും സീതയും വിവാഹിതരായി. ലക്ഷ്മണനും ഭരതനും ശത്രുഘ്നനും അന്ന് വിവാഹിതരായി."
+    },
+    {
+     "who": "rama",
+     "text": "സീതേ, എന്നും ഞാൻ നിന്റെ കൂടെയുണ്ടാകും."
+    },
+    {
+     "who": "sita",
+     "text": "അങ്ങ് പോകുന്നിടത്തെല്ലാം ഞാനും കൂടെയുണ്ടാകും."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "പരശുരാമൻ വരുന്നു!",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "parashurama",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 800,
+     "label": "പരശുരാമൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.74,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അയോധ്യയിലേക്കുള്ള മടക്കയാത്രയിൽ, പെട്ടെന്ന് മഴുവും ഏന്തി പരശുരാമൻ വഴിയിൽ നിന്നു."
+    },
+    {
+     "who": "parashurama",
+     "text": "ശിവധനുസ്സ് ഒടിച്ചത് നീയാണോ? എങ്കിൽ ഈ വിഷ്ണുധനുസ്സ് കുലച്ചു കാണിക്കൂ!"
+    },
+    {
+     "who": "narrator",
+     "text": "രാമൻ ശാന്തനായി ആ വില്ല് വാങ്ങി, എളുപ്പത്തിൽ കുലച്ചു."
+    },
+    {
+     "who": "parashurama",
+     "text": "രാമാ, നീ സാക്ഷാൽ വിഷ്ണു തന്നെ. നിനക്ക് മംഗളം വരട്ടെ!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "അയോധ്യയിൽ ആഘോഷം! 🎉",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "സീതാദേവി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അങ്ങനെ എല്ലാവരും സന്തോഷത്തോടെ അയോധ്യയിൽ തിരിച്ചെത്തി. നാട് മുഴുവൻ ദീപങ്ങൾ തെളിയിച്ച് അവരെ സ്വീകരിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "രാമന്റെ",
+    "പട്ടാഭിഷേകത്തിന്",
+    "ഒരുക്കം!"
+   ],
+   "icon": "👑",
+   "mood": "devotional",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, രാമനെ രാജാവാക്കാൻ അയോധ്യ ഒരുങ്ങുന്നു!"
+  },
+  {
+   "type": "cta",
+   "mood": "happy",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

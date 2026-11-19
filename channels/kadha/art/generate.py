@@ -26,6 +26,7 @@ CHARS = {
  "rama_child": "Little child prince Rama, about 5 years old, warm dusky brown Indian skin tone (NOT blue skin), small golden crown, yellow dhoti, gold jewellery, cute smile, ",
  "lakshmana_child": "Little child prince Lakshmana, about 5 years old, fair skin, small golden crown, orange dhoti, gold jewellery, cute smile, ",
  "bharata_child": "Little child prince Bharata, about 5 years old, wheat skin, small golden crown, green dhoti, gold jewellery, cute smile, ",
+ "parashurama": "Sage Parashurama, strong warrior sage, long white beard, matted hair bun, saffron robes, rudraksha beads, holding a large axe (parashu) over his shoulder, stern but kind face, not scary, ",
  "janaka": "King Janaka of Mithila, wise gentle middle-aged king, short black beard, golden crown, cream and gold royal robes, rudraksha beads, kind smile, ",
  "ahalya": "Ahalya, gentle graceful sage's wife, kind serene face, white and light yellow cotton saree, simple flower in hair, rudraksha bracelet, hands folded in namaste, peaceful smile, ",
  "shatrughna_child": "Little child prince Shatrughna, about 5 years old, fair skin, small golden crown, purple dhoti, gold jewellery, cute smile, ",
@@ -40,6 +41,7 @@ BGS = {
  "lanka": "golden city of Lanka on a hill across the sea, golden towers and palaces, evening sky, ",
  "ahalya_ashram": "a quiet old empty hermitage in the forest, small hut with thatched roof, a large smooth grey stone shaped like a seated person in the courtyard, soft morning light, falling leaves, ",
  "mithila_court": "grand royal court of Mithila with golden pillars and flower garlands, a single huge ornate golden archery bow lying horizontally on a long decorated golden stand in the centre of the hall, empty hall, no people, no gods, no statues, ",
+ "wedding_mandapam": "a beautiful traditional Indian wedding mandapam decorated with marigold and jasmine garlands, banana trees, brass lamps glowing, sacred fire in the centre, festive colours, no people, ",
  "night_forest": "forest at night under a full moon and stars, fireflies, peaceful, ",
 }
 
