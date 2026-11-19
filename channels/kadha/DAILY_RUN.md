@@ -3,11 +3,11 @@
 > Visuals: painted characters/backgrounds in channels/kadha/art (chars/*.png, bg/*.jpg). In story scenes use "bgimg": <bg name> and chars {"img": <char name>, "x", "y"≈0.76, "h" 700-900 adults / 480 children, "label"}. If a needed character/background is missing, add a prompt to art/generate.py and run it (free Cloudflare FLUX). Owner rule: NO episode counter bar and NO next-episode time in the video (no "series", no "next_time"); teaser starts "അടുത്ത ഭാഗത്തിൽ, ...". Music: set "music": "indian" and give every scene a "mood" (devotional | calm | happy | sad | adventure) matching the story beat (pipeline/music.py composes tanpura, bansuri, bells, tabla). Shorts may be up to 90 s; Ramayanam narration 650-850 chars. Instagram public; YouTube Private until the API audit passes.
 
 1. Next unchecked story in channels/kadha/stories.md. Write channels/kadha/episodes/ep-NNN-<slug>.json copying ep-001's fields
-   (theme "kids", brand "KADHA PETTI", tagline, voice_id OVkoEbwxsYHiSRMFV9t3, madeForKids true, source_note).
+   (theme "kids", brand "KADHA PETTI", tagline, voice_id TX3LPaxmHKxFdv7VOQHJ, madeForKids true, source_note).
 2. Scenes: hook (title + "ഇന്നത്തെ കഥ" + icon 🎁) → 3-5 "story" scenes (bg forest|race|river|night; chars = emoji animals/people
    with x, y≈0.66-0.69, s 240-340, anim still|bounce|walk|run|sleep, flip true = facing right; short caption ≤ 30 chars)
    → "moral" (3 short lines + icon) → cta. CTA narration exactly:
-   "ഇനിയും കഥകൾ കേൾക്കാൻ കഥപ്പെട്ടി Subscribe ചെയ്യൂ! നാളെ പുതിയ കഥയുമായി വരാം!"
+   "ഇനിയും കഥകൾ കേൾക്കാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ! നാളെ പുതിയ കഥയുമായി വരാം!"
 3. Narration 600-800 chars (55-70 s), very simple Kerala Malayalam a 5-8 year old understands, warm storyteller tone.
 4. Render: python3 pipeline/make_short.py channels/kadha/episodes/ep-NNN-<slug>.json ; QC frames (no tofu, characters on the grass,
    captions readable). Copy to channels/kadha/videos/ep-NNN-<slug>.mp4.
@@ -17,3 +17,8 @@
    (YouTube for KADHA verified 17 Nov 2026: token saved in YT_REFRESH_STOIC, mapped in publish/run_outbox.py.). Push.
 6. Mark the story [x], log channels/kadha/runs/log.csv, push.
 Credits: priority 403 UNLOCKED > Kadha Petti > The Stoic Bull. Skip Kadha if ElevenLabs remaining < 5000.
+
+
+## Voice (owner, 19 Nov 2026, ALL channels)
+Use ElevenLabs voice TX3LPaxmHKxFdv7VOQHJ (premade, young male, confident) with model eleven_v3, language_code ml. Set "voice_id": "TX3LPaxmHKxFdv7VOQHJ" in every episode JSON.
+Pronunciation: in NARRATION write English words in Malayalam script so they are said the Kerala way (e.g. ഗൈഡഡ് ആക്സസ് for Guided Access, സബ്സ്ക്രൈബ് for Subscribe, ചാനൽ, ആപ്പ്, സെറ്റിങ്സ്, ഗൂഗിൾ ലെൻസ്, ഡീമാറ്റ് അക്കൗണ്ട്). Keep on-screen captions/items in normal English where clearer. Numbers: write in Malayalam words when spoken.

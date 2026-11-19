@@ -22,7 +22,7 @@ Make one video per slot, each on a different topic. Credit check before EACH vid
    - Every factual claim must be verified with a reliable source (official docs, government, manufacturer). Put URLs in "sources".
      If a claim cannot be verified, drop it. No fear-mongering, no health/financial advice beyond official guidance,
      no brand-specific UI claims (say "path may vary by phone"), no fake app screens presented as real.
-   - CTA scene: no "keyword". Narration exactly: "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+   - CTA scene: no "keyword". Narration exactly: "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
      Never promise a guide, link, DM or pinned comment.
    - Also fill "title" (<= 70 chars, Malayalam hook + #shorts), "caption" (Malayalam + English), "hashtags", "tags".
 3. `python3 pipeline/make_short.py episodes/<slug>.json` -> videos/<slug>.mp4
@@ -42,3 +42,8 @@ Make one video per slot, each on a different topic. Credit check before EACH vid
 
 ## Failure
 Any step fails -> do not post, append `failed: <reason>` to runs/log.csv, push, and stop.
+
+
+## Voice (owner, 19 Nov 2026, ALL channels)
+Use ElevenLabs voice TX3LPaxmHKxFdv7VOQHJ (premade, young male, confident) with model eleven_v3, language_code ml. Set "voice_id": "TX3LPaxmHKxFdv7VOQHJ" in every episode JSON.
+Pronunciation: in NARRATION write English words in Malayalam script so they are said the Kerala way (e.g. ഗൈഡഡ് ആക്സസ് for Guided Access, സബ്സ്ക്രൈബ് for Subscribe, ചാനൽ, ആപ്പ്, സെറ്റിങ്സ്, ഗൂഗിൾ ലെൻസ്, ഡീമാറ്റ് അക്കൗണ്ട്). Keep on-screen captions/items in normal English where clearer. Numbers: write in Malayalam words when spoken.

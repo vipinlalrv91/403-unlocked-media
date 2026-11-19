@@ -21,7 +21,7 @@ Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with thes
   (theme "stocks", brand, tagline, voice_id, series {day, total 60, name}, disclaimer, quiz_answer).
 - Structure: hook (sub = "Yesterday: <previous episode's quiz_answer>" from Day 2 on) → 3 teaching scenes
   (bullets/steps/compare/chart; Myth-vs-Fact days use compare) → quiz (2-3 options, answer in "quiz_answer") → cta.
-  CTA narration exactly: "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  CTA narration exactly: "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
 - Narration 500-650 characters. Kerala Malayalam with English market terms. Use everyday Kerala analogies.
 - COMPLIANCE (hard rules, check before rendering):
   * Education only. Never name a stock/company as something to buy or sell, never give targets, tips or "best stock" lists.
@@ -31,3 +31,8 @@ Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with thes
   * Caption always ends with the disclaimer: "⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers."
   * youtubeData.category "EDUCATION".
 - After posting, mark the curriculum line [x] and log to channels/stocks/runs/log.csv.
+
+
+## Voice (owner, 19 Nov 2026, ALL channels)
+Use ElevenLabs voice TX3LPaxmHKxFdv7VOQHJ (premade, young male, confident) with model eleven_v3, language_code ml. Set "voice_id": "TX3LPaxmHKxFdv7VOQHJ" in every episode JSON.
+Pronunciation: in NARRATION write English words in Malayalam script so they are said the Kerala way (e.g. ഗൈഡഡ് ആക്സസ് for Guided Access, സബ്സ്ക്രൈബ് for Subscribe, ചാനൽ, ആപ്പ്, സെറ്റിങ്സ്, ഗൂഗിൾ ലെൻസ്, ഡീമാറ്റ് അക്കൗണ്ട്). Keep on-screen captions/items in normal English where clearer. Numbers: write in Malayalam words when spoken.

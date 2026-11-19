@@ -5,7 +5,7 @@ Visuals: NEVER draw deities/divine characters as cartoon emoji faces. Show them 
   Rama 🏹 "ശ്രീരാമൻ" · Sita 🌸 "സീതാദേവി" · Lakshmana 🛡️ "ലക്ഷ്മണൻ" · Hanuman 🙏 "ഹനുമാൻ" · Dasharatha/kings 👑 · sages 📿 · Ravana 🔟 "രാവണൻ"
   Animals may be shown as animals (golden deer 🦌, Jatayu 🦅, vanara army 🐒 only for the army, not Hanuman).
 Each episode: hook (title "രാമായണം", sub "<short title>", icon 🏹) → 3-4 story scenes (bg palace|forest|river|night) → "moral" scene with heading "അടുത്ത ഭാഗം" (next episode teaser, 2-3 lines) → cta:
-  "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി Subscribe ചെയ്യൂ!"
+  "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
 No episode counter bar, no time in the video (owner). Narration 550-750 chars.
 
 ## ബാലകാണ്ഡം
