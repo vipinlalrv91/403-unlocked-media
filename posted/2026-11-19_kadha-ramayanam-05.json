@@ -16,5 +16,19 @@
  ],
  "categoryId": "1",
  "madeForKids": true,
- "privacy": "public"
+ "privacy": "public",
+ "result": {
+  "posted_at": "2026-11-19T09:58:57.210696+00:00",
+  "instagram": {
+   "id": "18059353061804766",
+   "url": "https://www.instagram.com/reel/Df60HLkjNCH/"
+  },
+  "youtube": {
+   "id": "xZ4kHHE5bUw",
+   "url": "https://www.youtube.com/shorts/xZ4kHHE5bUw",
+   "privacy": "public",
+   "channel_id": "UC1rMC_lvwPFW6SgNsOsJLdQ",
+   "thumbnail": "set"
+  }
+ }
 }
