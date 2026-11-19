@@ -12,7 +12,7 @@ No episode counter bar, no time in the video (owner). Narration 550-750 chars.
 - [x] 1 അയോധ്യയും ദശരഥ മഹാരാജാവും: queens, yagna, birth of four princes
 - [x] 2 വിശ്വാമിത്ര മുനിയും രാമലക്ഷ്മണന്മാരും: going to protect the yagna
 - [x] 3 താടകയെ നേരിടുന്നു, യാഗരക്ഷ (simple, non-graphic)
-- [ ] 4 അഹല്യാമോക്ഷം
+- [x] 4 അഹല്യാമോക്ഷം
 - [ ] 5 മിഥിലയിൽ: ശിവധനുസ്സും സീതാസ്വയംവരവും
 - [ ] 6 രാമ-സീതാ വിവാഹം, പരശുരാമൻ
 ## അയോധ്യാകാണ്ഡം
