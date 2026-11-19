@@ -28,9 +28,9 @@ Pronunciation: in NARRATION write English words in Malayalam script so they are 
 Use the muthashi (grandmother) storyteller voice n4fEDQwxuAjplyp0aJy4 ("Solly Rajan - Narration", ElevenLabs shared library, female, old) with eleven_v3, language_code ml: set "voice_id": "n4fEDQwxuAjplyp0aJy4" in every ramayanam-NN.json. Write narration as a grandmother telling the story to grandchildren (e.g. open with "മക്കളേ, ..."), warm and slow. Other Kadha content (moral stories) keeps TX3LPaxmHKxFdv7VOQHJ.
 
 
-## Volume (owner, 19 Nov 2026): 2 videos per day, Ramayanam stays 1 episode/day (36 days)
-- 17:00 IST: one MORAL STORY (next unchecked in channels/kadha/stories.md; voice TX3LPaxmHKxFdv7VOQHJ; painted art from channels/kadha/art where it fits, else the emoji story scenes; music "indian" with moods; no counter/time).
-- 19:30 IST: the next RAMAYANAM episode (muthashi voice n4fEDQwxuAjplyp0aJy4). If channels/kadha/episodes/ramayanam-NN.json already exists, reuse it.
+## Volume (owner, 19 Nov 2026, latest): 2 RAMAYANAM episodes per day, NO moral stories until Ramayanam is complete
+- 17:00 IST and 19:30 IST: the next two unchecked Ramayanam episodes (muthashi narration + lip-sync dialogue). Reuse an existing ramayanam-NN.json if present.
+- Moral stories (stories.md) resume only after episode 36 is posted.
 YouTube quota: all channels together post 6 videos/day = the whole daily quota; never queue extra test uploads to YouTube.
 
 
