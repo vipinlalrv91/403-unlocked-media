@@ -1,0 +1,143 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "slug": "ramayanam-02",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "source_note": "Retold from Valmiki Ramayana, Bala Kanda (public domain)",
+ "title": "രാമായണം 2 🏹 വിശ്വാമിത്ര മഹർഷിയും രാമലക്ഷ്മണന്മാരും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 2: വിശ്വാമിത്ര മഹർഷി അയോധ്യയിൽ വരുന്നു. യാഗം സംരക്ഷിക്കാൻ രാമനും ലക്ഷ്മണനും മുനിയോടൊപ്പം പുറപ്പെടുന്നു 🙏\n\nRamayanam for kids in Malayalam, part 2: Sage Vishwamitra comes to Ayodhya and takes young Rama and Lakshmana to protect his yagna.",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "tags": [
+  "ramayanam malayalam",
+  "ramayana for kids malayalam",
+  "vishwamitra rama story",
+  "sree rama story malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "വിശ്വാമിത്ര മഹർഷി",
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വാ... രാമായണ കഥ നമുക്ക് തുടരാം. ഇന്ന് ഒരു വലിയ മഹർഷി അയോധ്യയിൽ വരുന്നു."
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "രാജകുമാരന്മാർ വളർന്നു",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.3,
+     "y": 0.76,
+     "h": 820,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.7,
+     "y": 0.76,
+     "h": 800,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "narration": "നാല് രാജകുമാരന്മാരും വളർന്ന് മിടുക്കരായി. രാമനും ലക്ഷ്മണനും എപ്പോഴും ഒരുമിച്ചായിരുന്നു. അമ്പും വില്ലും ഉപയോഗിക്കാൻ അവർ നന്നായി പഠിച്ചു."
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "വിശ്വാമിത്ര മഹർഷി വന്നു",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.3,
+     "y": 0.76,
+     "h": 820,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "dasharatha",
+     "x": 0.72,
+     "y": 0.76,
+     "h": 820,
+     "label": "ദശരഥൻ"
+    }
+   ],
+   "narration": "ഒരു ദിവസം വിശ്വാമിത്ര മഹർഷി കൊട്ടാരത്തിൽ വന്നു. എന്റെ യാഗം രാക്ഷസന്മാർ മുടക്കുന്നു. അത് സംരക്ഷിക്കാൻ രാമനെ എന്റെ കൂടെ അയയ്ക്കണം, മഹർഷി പറഞ്ഞു."
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "ദശരഥന്റെ വിഷമം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.5,
+     "y": 0.76,
+     "h": 860,
+     "label": "ദശരഥൻ"
+    }
+   ],
+   "narration": "ദശരഥ മഹാരാജാവിന് വിഷമമായി. എന്റെ കുട്ടി ഇത്ര ചെറുപ്പമല്ലേ, എന്ന് അദ്ദേഹം ചിന്തിച്ചു. പക്ഷേ മഹർഷിയുടെ വാക്ക് വിശ്വസിച്ച് ഒടുവിൽ അദ്ദേഹം സമ്മതിച്ചു."
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "യാത്ര തുടങ്ങി! 🌿",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.2,
+     "x2": 0.32,
+     "y": 0.78,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "x2": 0.62,
+     "y": 0.78,
+     "h": 740,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.8,
+     "x2": 0.88,
+     "y": 0.78,
+     "h": 720,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "narration": "അങ്ങനെ രാമനും ലക്ഷ്മണനും വില്ലും അമ്പുമായി മഹർഷിയുടെ കൂടെ കാട്ടിലേക്ക് പുറപ്പെട്ടു. ഒരു വലിയ സാഹസിക യാത്ര തുടങ്ങുകയായി!"
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "കാട്ടിലെ ആദ്യ",
+    "പരീക്ഷണം...",
+    "രാമന്റെ ധൈര്യം!"
+   ],
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, കാട്ടിൽ രാമനെ കാത്തിരിക്കുന്നത് ഒരു വലിയ പരീക്ഷണമാണ്. രാമന്റെ ധൈര്യം നമുക്ക് കാണാം!"
+  },
+  {
+   "type": "cta",
+   "mood": "happy",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

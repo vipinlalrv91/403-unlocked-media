@@ -1,4 +1,4 @@
-# കുട്ടികളുടെ രാമായണം: Kadhapetti daily series (2 episodes/day at 5:00 PM + 7:30 PM IST, made for kids)
+# കുട്ടികളുടെ രാമായണം: Kadhapetti daily series (1 episode/day at 7:30 PM IST, 36 days, made for kids)
 Source: Valmiki Ramayana / Ezhuthachan's Adhyatma Ramayanam Kilippattu (public domain), retold simply in our own words for children.
 Tone: respectful, devotional, gentle. No graphic battle violence (describe battles simply, focus on courage, dharma, friendship).
 Visuals: NEVER draw deities/divine characters as cartoon emoji faces. Show them with SYMBOLS + name label:
