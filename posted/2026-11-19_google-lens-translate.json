@@ -17,5 +17,19 @@
  "madeForKids": false,
  "privacy": "public",
  "thumbnail_url": "https://raw.githubusercontent.com/vipinlalrv91/403-unlocked-media/main/videos/approved/2026-11-19_google-lens-translate_thumb.jpg",
- "kick": "2026-11-19T04:34:45.280245+00:00"
+ "kick": "2026-11-19T04:34:45.280245+00:00",
+ "result": {
+  "posted_at": "2026-11-19T04:35:00.534860+00:00",
+  "instagram": {
+   "id": "18101042726407797",
+   "url": "https://www.instagram.com/reel/Df6PBWEiiNj/"
+  },
+  "youtube": {
+   "id": "SYDjuwjRIuE",
+   "url": "https://www.youtube.com/shorts/SYDjuwjRIuE",
+   "privacy": "public",
+   "channel_id": "UCeS13InBe6Upz3qgMcAwgDA",
+   "thumbnail": "set"
+  }
+ }
 }
