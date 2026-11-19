@@ -16,5 +16,19 @@
  "madeForKids": false,
  "privacy": "public",
  "thumbnail_url": "https://raw.githubusercontent.com/vipinlalrv91/403-unlocked-media/main/channels/stocks/videos/day-07-myth-gambling_thumb.jpg",
- "kick": "2026-11-19T12:33:40.678943+00:00"
+ "kick": "2026-11-19T12:33:40.678943+00:00",
+ "result": {
+  "posted_at": "2026-11-19T12:33:59.394523+00:00",
+  "instagram": {
+   "id": "18084398540561762",
+   "url": "https://www.instagram.com/reel/Df7F1KjDUu4/"
+  },
+  "youtube": {
+   "id": "TxVqcYkygkY",
+   "url": "https://www.youtube.com/shorts/TxVqcYkygkY",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "failed 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The thumbnail can't be set for the specified video. The request might not be properly authorized.\",\n    \"errors\": [\n      {\n        \"message\": \"The thum"
+  }
+ }
 }
