@@ -36,3 +36,7 @@ YouTube quota: all channels together post 6 videos/day = the whole daily quota; 
 
 ## Thumbnails (owner, 19 Nov 2026), every video
 Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON. make_short.py writes videos/<slug>_thumb.jpg (1080x1920). Copy it next to the published video with the same name + "_thumb.jpg" (403: videos/approved/<date>_<slug>_thumb.jpg; Stoic: export.py copies it; Kadha: channels/kadha/videos/<name>_thumb.jpg), push, and put its raw URL in the outbox request as "thumbnail_url". The publisher sets it as the Instagram Reel cover and the YouTube custom thumbnail.
+
+
+## Character animation (owner, 19 Nov 2026)
+Painted characters ({"img": ...}) support: "talk": true on the character who is speaking (bobs/pulses with the narration + soft glow), "anim": "walk" with "x2" (walks across with steps), "anim": "jump" (happy hops, for celebrations), "enter": "left"|"right"|"pop" (entrance). Scene "fx": "petals" (palace/happy), "leaves" (forest), "sparkles" (divine/magic), "fireflies" (night). Use them in every story scene so something always moves; keep it gentle and respectful for divine characters (no jumping for Rama/Sita/Hanuman except brief joy).

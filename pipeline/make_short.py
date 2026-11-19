@@ -340,23 +340,46 @@ def sc_story(s, t, D):
     im = bg_image(s["bgimg"], t, D) if s.get("bgimg") else story_bg(s.get("bg", "forest"), t)
     import characters
     for n, c in enumerate(s.get("chars", [])):
-        if "img" in c:  # painted character image
-            spr = art("chars", c["img"]); hgt = c.get("h", 900)
-            hb = int(hgt * (1 + 0.015 * math.sin(t * 2.4 + n)))
-            sp = spr.resize((int(spr.width * hb / spr.height), hb), Image.LANCZOS)
+        if "img" in c:  # painted character image with movement
+            spr = art("chars", c["img"]); hgt = c.get("h", 900); anim = c.get("anim", "idle")
+            t0 = n * 0.35                                    # stagger
+            lt = max(0.0, t - t0)
+            amp = amp_at(t) if c.get("talk") else 0.0
+            hb = hgt * (1 + 0.015 * math.sin(t * 2.4 + n) + 0.05 * amp)
+            sx = 1.0; sy = 1.0
+            x = c.get("x", 0.5) * W; fy = c.get("y", 0.78) * H
+            if c.get("x2") is not None:
+                x += (c["x2"] * W - x) * min(1, t / max(0.1, D * 0.85))
+            if anim == "walk" or (c.get("x2") is not None and anim == "idle"):
+                step = abs(math.sin(t * 6 + n)); fy -= 28 * step; rot = 4 * math.sin(t * 6 + n)
+            elif anim == "jump":
+                ph = (t * 1.6 + n * 0.3) % 1.0; up = math.sin(ph * math.pi)
+                fy -= 160 * up; sy = 1 + 0.06 * up; sx = 1 - 0.04 * up
+                if ph < 0.08 or ph > 0.92: sy, sx = 0.94, 1.05        # squash on landing
+                rot = 0
+            else:
+                fy -= 10 * abs(math.sin(t * 2.0 + n)) + 40 * amp; rot = 2.0 * math.sin(t * 1.8 + n * 1.3) + 3 * amp * math.sin(t * 9)
+            ent = c.get("enter")
+            if ent and lt < 0.7:
+                k = 1 - ease(lt / 0.7)
+                if ent == "left": x -= k * 700
+                elif ent == "right": x += k * 700
+                elif ent == "pop": sx *= (1 - k) * 1.15 + 0.001; sy *= (1 - k) * 1.15 + 0.001
+            w0 = max(2, int(spr.width * hb / spr.height * sx)); h0 = max(2, int(hb * sy))
+            sp = spr.resize((w0, h0), Image.LANCZOS)
             if c.get("flip"): sp = sp.transpose(Image.FLIP_LEFT_RIGHT)
-            sp = sp.rotate(2.0 * math.sin(t * 1.8 + n * 1.3), resample=Image.BICUBIC, expand=True)
-            x = c.get("x", 0.5) * W
-            if c.get("x2") is not None: x += (c["x2"] * W - x) * min(1, t / max(0.1, D * 0.85))
-            fy = c.get("y", 0.78) * H - 10 * abs(math.sin(t * 2.0 + n))
-            a = min(1.0, (t - n * 0.35) / 0.5) if t < n * 0.35 + 0.5 else 1.0      # staggered fade-in
+            sp = sp.rotate(rot, resample=Image.BICUBIC, expand=True)
+            a = 1.0 if ent else (min(1.0, lt / 0.5) if t < t0 + 0.5 else 1.0)
+            if t < t0: a = 0.0 if not ent else 0.0
             if a > 0:
+                if amp > 0.15:  # speaking glow
+                    glow(im, x, fy - h0 * 0.55, h0 * 0.42, (255, 230, 150), min(1, amp))
                 if a < 1:
-                    al = sp.split()[3].point(lambda v: int(v * a)); sp.putalpha(al)
+                    sp.putalpha(sp.split()[3].point(lambda v: int(v * a)))
                 im.paste(sp, (int(x - sp.width / 2), int(fy - sp.height)), sp)
                 if c.get("label"):
                     fs = 32 if len(s.get("chars", [])) >= 4 else 40
-                    dl = ImageDraw.Draw(im); lw = tw(dl, c["label"], fs) + 30; ly = fy + 6
+                    dl = ImageDraw.Draw(im); lw = tw(dl, c["label"], fs) + 30; ly = c.get("y", 0.78) * H + 6
                     dl.rounded_rectangle([x - lw / 2, ly, x + lw / 2, ly + fs + 22], radius=26, fill=(255, 245, 210), outline=(200, 120, 20), width=3)
                     text(dl, x - lw / 2 + 15, ly + 6, c["label"], fs, (90, 40, 20), 0, maxw=lw)
             continue
@@ -390,6 +413,20 @@ def sc_story(s, t, D):
             text(dl, x - lw / 2 + 20, y + e.height / 2 + 18, c["label"], 40, (90, 40, 20), 0, maxw=lw)
         if a == "sleep":
             z = emoji("💤", 120); im.paste(z, (int(x + 60), int(y - 200 - 25 * math.sin(t * 3))), z)
+    fx = s.get("fx")
+    if fx:
+        rnd = random.Random(hash(fx) & 0xffff); sym = {"petals": "🌸", "leaves": "🍃", "sparkles": "✨", "fireflies": "✨", "stars": "⭐"}.get(fx, "✨")
+        for i in range(14):
+            px0, sp_, sz = rnd.random() * W, rnd.uniform(60, 160), int(rnd.uniform(40, 90))
+            if fx in ("petals", "leaves"):
+                py = (rnd.random() * H + t * sp_) % H; px = px0 + 40 * math.sin(t * 1.5 + i)
+            else:
+                py = rnd.random() * 1400 + 30 * math.sin(t * 2 + i); px = px0 + 20 * math.cos(t * 1.7 + i)
+            e = emoji(sym, sz)
+            if fx in ("sparkles", "fireflies"):
+                al = 0.5 + 0.5 * math.sin(t * 4 + i * 1.3)
+                e = e.copy(); e.putalpha(e.split()[3].point(lambda v, al=al: int(v * al)))
+            im.paste(e, (int(px), int(py)), e)
     d = ImageDraw.Draw(im)
     if s.get("caption"):
         cy = 1640 if s.get("bgimg") else 1480
