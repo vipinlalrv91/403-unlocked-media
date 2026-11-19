@@ -1,0 +1,209 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-03",
+ "source_note": "Retold from Valmiki Ramayana, Bala Kanda (public domain)",
+ "title": "രാമായണം 3 🏹 താടകാ വനവും യാഗരക്ഷയും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 3: താടകയുടെ കാട്ടിൽ രാമന്റെ ധൈര്യം, മഹർഷി നൽകിയ ദിവ്യാസ്ത്രങ്ങൾ, യാഗത്തിന്റെ സംരക്ഷണം 🙏\n\nRamayanam for kids in Malayalam, part 3: Rama's courage in Tataka's forest and the protection of Vishwamitra's yagna.",
+ "tags": [
+  "ramayanam malayalam",
+  "ramayana for kids malayalam",
+  "tataka story malayalam",
+  "sree rama story malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "thumb_text": [
+  "രാമായണം",
+  "താടകാ വനം"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "താടകാ വനത്തിൽ",
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വാ... രാമായണ കഥ നമുക്ക് തുടരാം. ഇന്ന് രാമന്റെ ധൈര്യം കാണാം!"
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "താടകയുടെ കാട്",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.2,
+     "y": 0.77,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.77,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.82,
+     "y": 0.77,
+     "h": 730,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മക്കളേ, മഹർഷിയോടൊപ്പം രാമനും ലക്ഷ്മണനും ഒരു വലിയ കാട്ടിൽ എത്തി."
+    },
+    {
+     "who": "vishwamitra",
+     "text": "രാമാ, ഇത് താടക എന്ന രാക്ഷസിയുടെ കാടാണ്. അവൾ ഇവിടെയുള്ള എല്ലാവരെയും ഉപദ്രവിക്കുന്നു."
+    },
+    {
+     "who": "rama",
+     "text": "ഗുരുവേ, ജനങ്ങളെ രക്ഷിക്കാൻ ഞാൻ തയ്യാറാണ്."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "night_forest",
+   "caption": "രാമന്റെ ധൈര്യം 🏹",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.35,
+     "y": 0.77,
+     "h": 800,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.72,
+     "y": 0.77,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "പെട്ടെന്ന് ഇടിമുഴക്കം പോലെ ഒരു വലിയ ശബ്ദം. താടക വന്നു!"
+    },
+    {
+     "who": "lakshmana",
+     "text": "ജ്യേഷ്ഠാ, സൂക്ഷിക്കണേ!"
+    },
+    {
+     "who": "narrator",
+     "text": "രാമൻ ധൈര്യത്തോടെ ഒരു അമ്പ് തൊടുത്തു. ആ ഒറ്റ അമ്പിൽ താടകയുടെ ശല്യം അവസാനിച്ചു. കാട് വീണ്ടും ശാന്തമായി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "ദിവ്യാസ്ത്രങ്ങൾ ✨",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.2,
+     "y": 0.77,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.77,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.82,
+     "y": 0.77,
+     "h": 730,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "vishwamitra",
+     "text": "രാമാ, നിന്റെ ധൈര്യത്തിൽ ഞാൻ സന്തോഷിക്കുന്നു. ഇതാ, ഞാൻ നിനക്ക് ദിവ്യാസ്ത്രങ്ങൾ തരുന്നു."
+    },
+    {
+     "who": "rama",
+     "text": "ഗുരുവേ, അങ്ങയുടെ അനുഗ്രഹം എനിക്ക് ഏറ്റവും വലിയ ശക്തിയാണ്."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "യാഗം വിജയിച്ചു! 🔥",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.2,
+     "y": 0.77,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.77,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.82,
+     "y": 0.77,
+     "h": 730,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "പിന്നെ ആറ് ദിവസം മഹർഷി യാഗം ചെയ്തു. രാമനും ലക്ഷ്മണനും ഉറങ്ങാതെ കാവൽ നിന്നു. യാഗം മുടക്കാൻ വന്ന രാക്ഷസന്മാരെ രാമൻ അമ്പുകൊണ്ട് ദൂരേക്ക് ഓടിച്ചു."
+    },
+    {
+     "who": "vishwamitra",
+     "text": "മക്കളേ, നിങ്ങൾ കാരണം എന്റെ യാഗം വിജയിച്ചു!"
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "ഒരു കല്ല്",
+    "സ്ത്രീയായി മാറുന്ന",
+    "അത്ഭുതം!"
+   ],
+   "icon": "✨",
+   "mood": "devotional",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, രാമന്റെ പാദസ്പർശത്താൽ ഒരു കല്ല് സ്ത്രീയായി മാറുന്ന അത്ഭുതം കാണാം!"
+  },
+  {
+   "type": "cta",
+   "mood": "happy",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

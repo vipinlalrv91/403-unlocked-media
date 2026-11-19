@@ -575,7 +575,7 @@ def main(path):
     clips, sd = [], []
     for i, s in enumerate(ep["scenes"]):
         c = os.path.join(work, f"s{i + 1}.mp3")
-        if s.get("lines"):  # dialogue: each line its own voice, joined with short pauses
+        if s.get("lines") and s["type"] == "story":  # dialogue: each line its own voice, joined with short pauses
             parts, segs, tcur = [], [], 0.0
             for j, l in enumerate(s["lines"]):
                 pj = os.path.join(work, f"s{i + 1}_{j}.mp3")
