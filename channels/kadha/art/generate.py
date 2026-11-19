@@ -26,6 +26,7 @@ CHARS = {
  "rama_child": "Little child prince Rama, about 5 years old, blue skin, small golden crown, yellow dhoti, gold jewellery, cute smile, ",
  "lakshmana_child": "Little child prince Lakshmana, about 5 years old, fair skin, small golden crown, orange dhoti, gold jewellery, cute smile, ",
  "bharata_child": "Little child prince Bharata, about 5 years old, wheat skin, small golden crown, green dhoti, gold jewellery, cute smile, ",
+ "ahalya": "Ahalya, gentle graceful sage's wife, kind serene face, white and light yellow cotton saree, simple flower in hair, rudraksha bracelet, hands folded in namaste, peaceful smile, ",
  "shatrughna_child": "Little child prince Shatrughna, about 5 years old, fair skin, small golden crown, purple dhoti, gold jewellery, cute smile, ",
 }
 BGS = {
@@ -36,6 +37,7 @@ BGS = {
  "river": "calm wide Indian river with a small wooden boat on the bank, palm trees, sunset sky, ",
  "ocean": "vast blue ocean seen from a rocky Indian seashore, waves, sunrise, ",
  "lanka": "golden city of Lanka on a hill across the sea, golden towers and palaces, evening sky, ",
+ "ahalya_ashram": "a quiet old empty hermitage in the forest, small hut with thatched roof, a large smooth grey stone shaped like a seated person in the courtyard, soft morning light, falling leaves, ",
  "night_forest": "forest at night under a full moon and stars, fireflies, peaceful, ",
 }
 

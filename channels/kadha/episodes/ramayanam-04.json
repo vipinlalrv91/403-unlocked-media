@@ -1,0 +1,159 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-04",
+ "source_note": "Retold from Adhyatma Ramayanam / Valmiki Ramayana, Bala Kanda (public domain)",
+ "title": "രാമായണം 4 ✨ അഹല്യാമോക്ഷം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 4: അഹല്യാമോക്ഷം. ശ്രീരാമന്റെ പാദസ്പർശത്താൽ കല്ലായി കഴിഞ്ഞിരുന്ന അഹല്യയ്ക്ക് മോചനം 🙏\n\nRamayanam for kids in Malayalam, part 4: Ahalya is freed from her curse by Sri Rama's touch.",
+ "tags": [
+  "ramayanam malayalam",
+  "ahalya moksham malayalam",
+  "ramayana for kids malayalam",
+  "sree rama story malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "thumb_text": [
+  "രാമായണം",
+  "അഹല്യാമോക്ഷം"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "അഹല്യാമോക്ഷം",
+   "icon": "✨",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വാ... ഇന്ന് ഒരു വലിയ അത്ഭുതത്തിന്റെ കഥയാണ്!"
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "മിഥിലയിലേക്കുള്ള യാത്ര",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.2,
+     "y": 0.77,
+     "h": 760,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.77,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.82,
+     "y": 0.77,
+     "h": 730,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "യാഗം കഴിഞ്ഞ് മഹർഷി രാമലക്ഷ്മണന്മാരെയും കൂട്ടി മിഥിലയിലേക്ക് യാത്രയായി. വഴിയിൽ ആരുമില്ലാത്ത ഒരു പഴയ ആശ്രമം കണ്ടു."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ഗുരുവേ, ഈ ആശ്രമം എന്താണ് ഇങ്ങനെ ശൂന്യമായി കിടക്കുന്നത്?"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ahalya_ashram",
+   "caption": "ഗൗതമ മഹർഷിയുടെ ആശ്രമം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "vishwamitra",
+     "x": 0.22,
+     "y": 0.78,
+     "h": 740,
+     "label": "വിശ്വാമിത്രൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.8,
+     "y": 0.78,
+     "h": 740,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "vishwamitra",
+     "text": "ഇത് ഗൗതമ മഹർഷിയുടെ ആശ്രമമാണ്. ഒരു ശാപം കാരണം അദ്ദേഹത്തിന്റെ ഭാര്യ അഹല്യ ഇവിടെ ഒരു കല്ലായി കഴിയുകയാണ്."
+    },
+    {
+     "who": "vishwamitra",
+     "text": "രാമാ, നിന്റെ പാദസ്പർശം കൊണ്ട് മാത്രമേ അവൾക്ക് മോക്ഷം കിട്ടൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ahalya_ashram",
+   "caption": "കല്ല് അഹല്യയായി! ✨",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.28,
+     "y": 0.78,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "ahalya",
+     "x": 0.72,
+     "y": 0.78,
+     "h": 740,
+     "label": "അഹല്യ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ മെല്ലെ ആ കല്ലിൽ കാൽ തൊട്ടു. അത്ഭുതം! ആ കല്ല് ഒരു സ്ത്രീയായി മാറി. അത് അഹല്യയായിരുന്നു."
+    },
+    {
+     "who": "ahalya",
+     "text": "ശ്രീരാമാ, അങ്ങയുടെ കരുണയാൽ എനിക്ക് മോചനം കിട്ടി. അങ്ങേക്ക് നമസ്കാരം."
+    },
+    {
+     "who": "rama",
+     "text": "അമ്മേ, ഇനി അങ്ങ് സന്തോഷമായി ഇരിക്കൂ."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "മിഥിലയിൽ",
+    "ശിവന്റെ വലിയ വില്ല്",
+    "സീതാസ്വയംവരം!"
+   ],
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, മിഥിലയിൽ ശിവന്റെ വലിയ വില്ലും സീതാദേവിയുടെ സ്വയംവരവും!"
+  },
+  {
+   "type": "cta",
+   "mood": "happy",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
