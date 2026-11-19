@@ -1,0 +1,5 @@
+{
+ "_note": "Pixel coordinates in channels/kadha/art/chars/<name>.png: eyes [[x,y],[x,y]], eye_w, eye_h, mouth [x,y], mouth_w",
+ "vishwamitra": {"eyes": [[360, 172], [428, 172]], "eye_w": 38, "eye_h": 18, "mouth": [395, 234], "mouth_w": 34},
+ "dasharatha":  {"eyes": [[176, 268], [242, 268]], "eye_w": 34, "eye_h": 26, "mouth": [208, 323], "mouth_w": 30}
+}

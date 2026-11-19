@@ -322,6 +322,36 @@ def amp_at(t):
     return AMP[i] if 0 <= i < len(AMP) else 0.0
 
 ART = os.path.join(ROOT, "channels", "kadha", "art")
+_faces = None
+def face(name):
+    global _faces
+    if _faces is None:
+        fp = os.path.join(ART, "faces.json")
+        _faces = json.load(open(fp)) if os.path.exists(fp) else {}
+    return _faces.get(name)
+
+def face_overlay(spr, name, t, talk, seed):
+    f = face(name)
+    if not f: return spr
+    blink = (t + seed * 0.83) % 3.6 < 0.14
+    if not blink and talk < 0.06: return spr
+    sp = spr.copy(); d = ImageDraw.Draw(sp)
+    if blink:
+        for ex, ey in f["eyes"]:
+            skin = sp.getpixel((ex, max(0, ey - f["eye_h"] - 6)))[:3]
+            d.ellipse([ex - f["eye_w"] / 2 - 3, ey - f["eye_h"] / 2 - 3, ex + f["eye_w"] / 2 + 3, ey + f["eye_h"] / 2 + 3], fill=skin)
+            d.arc([ex - f["eye_w"] / 2, ey - f["eye_h"] / 2, ex + f["eye_w"] / 2, ey + f["eye_h"] / 2 + 4], 20, 160, fill=(60, 30, 25), width=3)
+    if talk >= 0.06:
+        mx, my = f["mouth"]; mw = f["mouth_w"]; mh = int(4 + mw * 0.75 * min(1.0, talk * 1.4))
+        d.ellipse([mx - mw / 2, my - mh / 2, mx + mw / 2, my + mh / 2], fill=(95, 25, 35))
+        d.ellipse([mx - mw * 0.28, my + mh * 0.05, mx + mw * 0.28, my + mh / 2 - 1], fill=(205, 90, 100))
+    return sp
+
+SEGS = []  # [(start, end, who)] speaking turns in the current scene (seconds, scene time)
+def speaker_at(t):
+    for a, b, who in SEGS:
+        if a <= t <= b: return who
+    return None
 _art = {}
 def art(kind, name):
     k = (kind, name)
@@ -341,10 +371,14 @@ def sc_story(s, t, D):
     import characters
     for n, c in enumerate(s.get("chars", [])):
         if "img" in c:  # painted character image with movement
-            spr = art("chars", c["img"]); hgt = c.get("h", 900); anim = c.get("anim", "idle")
+            hgt = c.get("h", 900); anim = c.get("anim", "idle")
             t0 = n * 0.35                                    # stagger
             lt = max(0.0, t - t0)
-            amp = amp_at(t) if c.get("talk") else 0.0
+            who = speaker_at(t)
+            speaking = (who == c["img"]) if SEGS else bool(c.get("talk"))
+            amp = amp_at(t) if speaking else 0.0
+            spr = face_overlay(art("chars", c["img"]), c["img"], t, amp, n)
+            amp = amp * float(c.get("talk_motion", 0.0))     # body motion off by default (owner); mouth still moves
             hb = hgt * (1 + 0.015 * math.sin(t * 2.4 + n) + 0.05 * amp)
             sx = 1.0; sy = 1.0
             x = c.get("x", 0.5) * W; fy = c.get("y", 0.78) * H
@@ -456,10 +490,10 @@ def sc_moral(s, t, D):
 TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta, "quiz": sc_quiz, "chart": sc_chart, "story": sc_story, "moral": sc_moral}
 
 # ---------- audio ----------
-def tts(textline, out):
+def tts(textline, out, voice=None):
     body = {"text": textline, "model_id": MODEL, "language_code": "ml",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.8}}
-    req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128",
+    req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{voice or VOICE}?output_format=mp3_44100_128",
                                  data=json.dumps(body).encode(),
                                  headers={"Content-Type": "application/json", "xi-api-key": "proxy-injected"})
     import time
@@ -541,7 +575,22 @@ def main(path):
     clips, sd = [], []
     for i, s in enumerate(ep["scenes"]):
         c = os.path.join(work, f"s{i + 1}.mp3")
-        if not os.path.exists(c):
+        if s.get("lines"):  # dialogue: each line its own voice, joined with short pauses
+            parts, segs, tcur = [], [], 0.0
+            for j, l in enumerate(s["lines"]):
+                pj = os.path.join(work, f"s{i + 1}_{j}.mp3")
+                if not os.path.exists(pj): tts(l["text"], pj, l.get("voice"))
+                dj = dur(pj); segs.append((tcur, tcur + dj, l.get("who"))); parts.append(pj); tcur += dj + 0.3
+            if not os.path.exists(c):
+                lst = os.path.join(work, f"s{i + 1}_list.txt")
+                sil = os.path.join(work, "sil.mp3")
+                if not os.path.exists(sil):
+                    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", "0.3", "-c:a", "libmp3lame", sil], check=True)
+                open(lst, "w").write("".join(f"file '{p}'\nfile '{sil}'\n" for p in parts))
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-ar", "44100", "-ac", "1", "-c:a", "libmp3lame", c], check=True)
+            s["_segs"] = segs
+            s["narration"] = " ".join(l["text"] for l in s["lines"])
+        elif not os.path.exists(c):
             tts(s["narration"], c)
         clips.append(c); sd.append(dur(c) + 0.45)
     sd[0] += 0.3; sd[-1] += 2.0
@@ -564,6 +613,8 @@ def main(path):
     for k, (s, D) in enumerate(zip(ep["scenes"], sd)):
         fn = TEMPLATES[s["type"]]
         AMP[:] = envelope(clips[k], 0.3 if k == 0 else 0.1) if s["type"] == "story" else [0.0]
+        dl0 = 0.3 if k == 0 else 0.1
+        SEGS[:] = [(a + dl0, b + dl0, w) for a, b, w in s.get("_segs", [])]
         for i in range(int(round(D * FPS))):
             im = overlay(fn(s, i / FPS, D))
             if i < 6:

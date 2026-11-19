@@ -1,0 +1,16 @@
+{
+ "slug": "lipsync-demo", "theme": "kids", "brand": "KADHA PETTI", "tagline": "കുട്ടികളുടെ രാമായണം",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4", "music": "indian", "madeForKids": true,
+ "scenes": [
+  {"type": "story", "bgimg": "palace_hall", "caption": "വിശ്വാമിത്ര മഹർഷി വന്നു", "mood": "devotional",
+   "chars": [{"img": "vishwamitra", "x": 0.3, "y": 0.76, "h": 820, "label": "വിശ്വാമിത്രൻ"}, {"img": "dasharatha", "x": 0.72, "y": 0.76, "h": 820, "label": "ദശരഥൻ"}],
+   "narration": "മക്കളേ, ഒരു ദിവസം വിശ്വാമിത്ര മഹർഷി ദശരഥ മഹാരാജാവിന്റെ കൊട്ടാരത്തിൽ വന്നു."},
+  {"type": "story", "bgimg": "palace_hall", "caption": "മഹർഷിയുടെ അപേക്ഷ", "mood": "calm",
+   "chars": [{"img": "vishwamitra", "x": 0.3, "y": 0.76, "h": 820, "label": "വിശ്വാമിത്രൻ"}, {"img": "dasharatha", "x": 0.72, "y": 0.76, "h": 820, "label": "ദശരഥൻ"}],
+   "lines": [
+    {"who": "vishwamitra", "voice": "F6apuaOciIF8axVr21FB", "text": "മഹാരാജാവേ, എന്റെ യാഗം രാക്ഷസന്മാർ മുടക്കുന്നു. അത് സംരക്ഷിക്കാൻ രാമനെ എന്റെ കൂടെ അയയ്ക്കണം."},
+    {"who": "dasharatha", "voice": "Eclv6jJwMbGUhEki9Bro", "text": "മഹർഷേ, എന്റെ രാമൻ ചെറിയ കുട്ടിയല്ലേ? അവനെ എങ്ങനെ അയയ്ക്കും?"},
+    {"who": "vishwamitra", "voice": "F6apuaOciIF8axVr21FB", "text": "പേടിക്കേണ്ട രാജാവേ. രാമൻ സുരക്ഷിതനായിരിക്കും. ഞാൻ ഉറപ്പ് തരുന്നു."}
+   ]}
+ ]
+}
