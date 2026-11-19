@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T12:10:35.673485+00:00",
+ "checked_at": "2026-11-19T03:03:28.911755+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -15,16 +15,19 @@
  },
  "instagram": {
   "403": {
-   "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:10:35 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "ok": true,
+   "username": "403_unlocked",
+   "can_publish": true
   },
   "STOIC": {
-   "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:10:36 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "ok": true,
+   "username": "thestoicbull_",
+   "can_publish": true
   },
   "KADHA": {
-   "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Tuesday, 17-Nov-26 02:00:00 PST. The current time is Tuesday, 17-Nov-26 04:10:36 PST.\",\"code\":190,\"type\":\"OAuthException\",\"er"
+   "ok": true,
+   "username": "kadha_petti_malayalam",
+   "can_publish": true
   }
  },
  "youtube": {
