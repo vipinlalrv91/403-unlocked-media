@@ -1,0 +1,80 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "voice_id": "r5NKPDP5GRBdMttFWA9M",
+ "disclaimer": "Educational only · Not investment advice",
+ "slug": "stocks-day-06",
+ "series": {
+  "day": 6,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: Full-service",
+ "title": "Discount vs Full-Service Broker: ഏത് വേണം? 🏦 | Day 6 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 6! Discount broker-ഉം Full-service broker-ഉം തമ്മിലുള്ള വ്യത്യാസം. Zerodha, Dhan, Groww, Upstox പോലുള്ളവ എന്താണ്?\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers. Broker names are examples only, not recommendations.",
+ "hashtags": "#shorts #broker #discountbroker #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "discount broker vs full service broker malayalam",
+  "stock broker malayalam",
+  "zerodha dhan groww malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognised=yes",
+  "https://investor.sebi.gov.in/pdf/reference-material/ppt/PPT-2%20KYC%20Procedure%20Updated%2030%20Sep%202022.pdf"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "WHICH BROKER?",
+   "sub": "Yesterday: B · PAN",
+   "icon": "🏦",
+   "narration": "ഇന്നലത്തെ ഉത്തരം PAN! Day 6. Shares വാങ്ങാൻ broker വേണം. പക്ഷേ ഏത് തരം broker?"
+  },
+  {
+   "type": "bullets",
+   "title": "DISCOUNT BROKER",
+   "icon": "📱",
+   "items": [
+    "കുറഞ്ഞ charges",
+    "App വഴി സ്വയം ചെയ്യണം"
+   ],
+   "narration": "Discount broker: charges കുറവാണ്. App വഴി നിങ്ങൾ തന്നെ എല്ലാം ചെയ്യണം. ഉദാഹരണം: Zerodha-യുടെ Kite, Dhan, Groww, Upstox പോലുള്ളവ."
+  },
+  {
+   "type": "bullets",
+   "title": "FULL-SERVICE BROKER",
+   "icon": "🤝",
+   "items": [
+    "Research, branch support",
+    "Charges കൂടുതൽ"
+   ],
+   "narration": "Full-service broker: research reports, branch support, relationship manager ഒക്കെ കിട്ടും. പക്ഷേ charges കൂടുതലാണ്. പല bank-കളുടെ broking-ഉം ഇങ്ങനെയാണ്."
+  },
+  {
+   "type": "steps",
+   "title": "STOIC TIP",
+   "items": [
+    "SEBI registered ആണോ?",
+    "Charges compare ചെയ്യൂ",
+    "Brand നോക്കി മാത്രം വേണ്ട"
+   ],
+   "narration": "ഏത് broker ആയാലും SEBI registered ആണോ എന്ന് നോക്കൂ, charges compare ചെയ്യൂ. ഇത് recommendation അല്ല, ഉദാഹരണങ്ങൾ മാത്രം."
+  },
+  {
+   "type": "quiz",
+   "question": "Research support തരുന്നത്?",
+   "options": [
+    "Discount",
+    "Full-service"
+   ],
+   "narration": "Quiz! Research support സാധാരണ തരുന്നത് ഏത് broker? A, Discount. B, Full-service. Comment ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "Zero to Hero series miss ചെയ്യാതിരിക്കാൻ channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
+  }
+ ]
+}
