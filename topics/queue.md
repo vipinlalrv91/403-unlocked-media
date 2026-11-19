@@ -10,9 +10,9 @@
 # Owner direction 18 Nov 2026: option C = 1 AI-tool video + 1 hidden-phone-feature video per day. NO home appliance topics.
 - [x] gemini-malayalam | AI: Google Gemini works in Malayalam | verified blog.google + Gemini help
 - [x] circle-to-search | Hidden feature: Circle to Search (select Android phones) | verified support.google.com
-- [ ] ai-photo-to-video | AI: turn a photo into a short video with free AI tools | 228x outlier; verify tool names/free tier on official pages
-- [ ] whatsapp-hidden-features | Hidden: WhatsApp features most people miss | verify on faq.whatsapp.com
-- [ ] google-lens-translate | AI: Google Lens translate/copy text from any photo | verify Google help
+- [-] ai-photo-to-video | SKIPPED 19 Nov: Google Photos photo-to-video availability in India unconfirmed | AI: turn a photo into a short video with free AI tools | 228x outlier; verify tool names/free tier on official pages
+- [x] whatsapp-hidden-features | Hidden: WhatsApp features most people miss | verify on faq.whatsapp.com
+- [x] google-lens-translate | AI: Google Lens translate/copy text from any photo | verify Google help
 - [ ] android-quick-settings-tricks | Hidden: Android settings worth changing today | verify Android help, say varies by brand
 - [ ] chatgpt-voice-malayalam | AI: talk to ChatGPT in Malayalam with voice | verify OpenAI help
 - [ ] google-photos-magic-editor | AI: Google Photos AI editing tools | verify Google Photos help, device limits
