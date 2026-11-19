@@ -26,3 +26,8 @@ Pronunciation: in NARRATION write English words in Malayalam script so they are 
 
 ## RAMAYANAM voice (owner, 19 Nov 2026), overrides the all-channel voice for Ramayanam only
 Use the muthashi (grandmother) storyteller voice n4fEDQwxuAjplyp0aJy4 ("Solly Rajan - Narration", ElevenLabs shared library, female, old) with eleven_v3, language_code ml: set "voice_id": "n4fEDQwxuAjplyp0aJy4" in every ramayanam-NN.json. Write narration as a grandmother telling the story to grandchildren (e.g. open with "മക്കളേ, ..."), warm and slow. Other Kadha content (moral stories) keeps TX3LPaxmHKxFdv7VOQHJ.
+
+
+## Volume (owner, 19 Nov 2026): 2 RAMAYANAM episodes per day
+Make the next TWO unchecked episodes daily. Queue the first for 17:00 IST and the second for 19:30 IST (channel "KADHA").
+YouTube quota: all channels together now post 6 videos/day (403 ×2, Stoic ×2, Kadha ×2) = the whole daily quota; never queue extra test uploads to YouTube.
