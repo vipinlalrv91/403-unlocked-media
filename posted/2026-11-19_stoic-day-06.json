@@ -16,5 +16,19 @@
  "madeForKids": false,
  "privacy": "public",
  "thumbnail_url": "https://raw.githubusercontent.com/vipinlalrv91/403-unlocked-media/main/channels/stocks/videos/day-06-discount-vs-full-service_thumb.jpg",
- "kick": "2026-11-19T08:33:49.453194+00:00"
+ "kick": "2026-11-19T08:33:49.453194+00:00",
+ "result": {
+  "posted_at": "2026-11-19T08:34:00.944214+00:00",
+  "instagram": {
+   "id": "17977986999140984",
+   "url": "https://www.instagram.com/reel/Df6qXzyAJaJ/"
+  },
+  "youtube": {
+   "id": "b9FbUW5u9vA",
+   "url": "https://www.youtube.com/shorts/b9FbUW5u9vA",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "failed 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat"
+  }
+ }
 }
