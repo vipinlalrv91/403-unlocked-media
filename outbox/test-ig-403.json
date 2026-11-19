@@ -1,0 +1,15 @@
+{
+ "channel": "403",
+ "publish_at": "2026-11-19T08:34:03+05:30",
+ "video_url": "https://raw.githubusercontent.com/vipinlalrv91/403-unlocked-media/main/videos/approved/test_instagram.mp4",
+ "title": "TEST",
+ "description": "Test post - please ignore",
+ "caption": "Test post - please ignore (Instagram API check) \ud83d\ude4f",
+ "tags": [],
+ "categoryId": "28",
+ "madeForKids": false,
+ "privacy": "public",
+ "only": [
+  "instagram"
+ ]
+}
