@@ -17,5 +17,18 @@
  "categoryId": "1",
  "madeForKids": true,
  "privacy": "public",
- "kick": "2026-11-20T14:04:39.524419+00:00"
+ "kick": "2026-11-20T14:04:39.524419+00:00",
+ "result": {
+  "posted_at": "2026-11-20T14:04:51.806049+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AQpDnrgo6ORzAjYIC01qFw-\"}}"
+  },
+  "youtube": {
+   "id": "p4nUY5ZIHKo",
+   "url": "https://www.youtube.com/shorts/p4nUY5ZIHKo",
+   "privacy": "public",
+   "channel_id": "UC1rMC_lvwPFW6SgNsOsJLdQ",
+   "thumbnail": "set"
+  }
+ }
 }
