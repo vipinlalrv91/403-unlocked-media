@@ -10,8 +10,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 5 How to open a demat account online, step by step | PAN, Aadhaar e-KYC, bank proof, in-person verification, e-sign (generic, no broker UI)
 - [x] 6 Discount vs full-service brokers | examples: Zerodha (Kite), Dhan, Groww, Upstox, Angel One. Neutral, no 'best broker', no referral links, no logos
 - [x] 7 MYTH vs FACT: "Stock market is gambling"
-- [ ] 8 Inside a trading app: Kite, Dhan, Groww | watchlist, buy/sell window, holdings vs positions (generic illustration, say 'every app looks a bit different')
-- [ ] 9 Charges when you buy shares | brokerage, STT, exchange fees, GST, stamp duty, DP charges (verify; rates change)
+- [x] 8 Inside a trading app: Kite, Dhan, Groww | watchlist, buy/sell window, holdings vs positions (generic illustration, say 'every app looks a bit different')
+- [x] 9 Charges when you buy shares | brokerage, STT, exchange fees, GST, stamp duty, DP charges (verify; rates change)
 - [ ] 10 Is your broker genuine? Check SEBI registration on sebi.gov.in
 - [ ] 11 Why companies list: IPO explained
 - [ ] 12 Nifty 50 and Sensex explained

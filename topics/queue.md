@@ -13,8 +13,8 @@
 - [-] ai-photo-to-video | SKIPPED 19 Nov: Google Photos photo-to-video availability in India unconfirmed | AI: turn a photo into a short video with free AI tools | 228x outlier; verify tool names/free tier on official pages
 - [x] whatsapp-hidden-features | Hidden: WhatsApp features most people miss | verify on faq.whatsapp.com
 - [x] google-lens-translate | AI: Google Lens translate/copy text from any photo | verify Google help
-- [ ] android-quick-settings-tricks | Hidden: Android settings worth changing today | verify Android help, say varies by brand
+- [x] android-quick-settings-tricks | Hidden: Android settings worth changing today | verify Android help, say varies by brand
 - [ ] chatgpt-voice-malayalam | AI: talk to ChatGPT in Malayalam with voice | verify OpenAI help
-- [ ] google-photos-magic-editor | AI: Google Photos AI editing tools | verify Google Photos help, device limits
+- [x] google-photos-magic-editor | AI: Google Photos AI editing tools | verify Google Photos help, device limits
 - [ ] youtube-hidden-features | Hidden: YouTube app tricks (speed, double-tap, stats for nerds) | verify YouTube help
 - [ ] ai-notes-summarize | AI: summarize long PDFs/notes with free AI | verify official pages
