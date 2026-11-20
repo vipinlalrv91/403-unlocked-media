@@ -1,0 +1,87 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-08",
+ "series": {
+  "day": 8,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: Holdings",
+ "thumb_text": [
+  "TRADING APP",
+  "ഉള്ളിൽ എന്താണ്?"
+ ],
+ "title": "Trading App-ൽ എന്തൊക്കെ ഉണ്ട്? 📱 Kite, Dhan, Groww | Day 8 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 8! Kite, Dhan, Groww പോലുള്ള trading apps-ൽ Watchlist, Buy/Sell, Holdings, Positions എന്താണ്?\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers. App names are examples only, not recommendations.",
+ "hashtags": "#shorts #tradingapp #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "trading app malayalam",
+  "holdings vs positions",
+  "watchlist stock market",
+  "kite dhan groww malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2024/1727418208774.pdf"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "TRADING APP?",
+   "sub": "Yesterday: A · Investing",
+   "icon": "📱",
+   "narration": "ഇന്നലത്തെ ഉത്തരം ഇൻവെസ്റ്റിങ്! ഡേ എട്ട്. ഒരു ട്രേഡിങ് ആപ്പിനുള്ളിൽ എന്തൊക്കെയാണ് ഉള്ളത്?"
+  },
+  {
+   "type": "bullets",
+   "title": "WATCHLIST",
+   "icon": "👀",
+   "items": [
+    "ഇഷ്ടമുള്ള shares list",
+    "Price നിരീക്ഷിക്കാം"
+   ],
+   "narration": "വാച്ച്‌ലിസ്റ്റ്: നിങ്ങൾ ശ്രദ്ധിക്കുന്ന ഷെയറുകളുടെ ലിസ്റ്റ്. അവയുടെ വില ഇവിടെ നോക്കാം."
+  },
+  {
+   "type": "compare",
+   "title": "BUY / SELL",
+   "left": [
+    "✓ Buy: വാങ്ങാൻ",
+    "✓ Quantity, Price"
+   ],
+   "right": [
+    "⚠ Sell: വിൽക്കാൻ",
+    "⚠ Order check ചെയ്യൂ"
+   ],
+   "narration": "ബൈ അമർത്തിയാൽ വാങ്ങാം, സെൽ അമർത്തിയാൽ വിൽക്കാം. എത്ര എണ്ണം, ഏത് വില എന്ന് നൽകി, ഓർഡർ ഉറപ്പിക്കും മുമ്പ് ഒന്നുകൂടി നോക്കണം."
+  },
+  {
+   "type": "bullets",
+   "title": "HOLDINGS vs POSITIONS",
+   "icon": "🗂️",
+   "items": [
+    "Holdings: demat-ലെ shares",
+    "Positions: ഇന്നത്തെ trades"
+   ],
+   "narration": "ഹോൾഡിങ്സ് എന്നാൽ ഡീമാറ്റിൽ സൂക്ഷിച്ചിരിക്കുന്ന ഷെയറുകൾ. പൊസിഷൻസ് എന്നാൽ ഇന്ന് ചെയ്ത ട്രേഡുകൾ. ഓരോ ആപ്പും കാഴ്ചയിൽ കുറച്ച് വ്യത്യസ്തമായിരിക്കും."
+  },
+  {
+   "type": "quiz",
+   "question": "Demat-ൽ ഉള്ള shares കാണുന്നത്?",
+   "options": [
+    "Holdings",
+    "Positions"
+   ],
+   "narration": "ക്വിസ്! ഡീമാറ്റിൽ ഉള്ള ഷെയറുകൾ കാണുന്നത് എവിടെ? എ, ഹോൾഡിങ്സ്. ബി, പൊസിഷൻസ്. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

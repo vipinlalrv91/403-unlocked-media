@@ -1,0 +1,181 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-09",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "thumb_text": [
+  "രാമായണം",
+  "രാമന്റെ മറുപടി"
+ ],
+ "title": "രാമായണം 9 🙏 രാമന്റെ മറുപടി: അച്ഛന്റെ വാക്ക് | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 9: പട്ടാഭിഷേക ദിവസം രാവിലെ രാമൻ കാര്യം അറിയുന്നു. അച്ഛന്റെ വാക്ക് പാലിക്കാൻ രാമൻ സന്തോഷത്തോടെ കാട്ടിലേക്ക് പോകാൻ തയ്യാറാകുന്നു 🙏\n\nRamayanam for kids in Malayalam, part 9: Rama hears of the boons and gladly accepts exile to keep his father's word.",
+ "tags": [
+  "ramayanam malayalam",
+  "rama accepts exile",
+  "rama dharma story",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "രാമന്റെ മറുപടി",
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വാ... ഇന്ന് രാമന്റെ വലിയ മനസ്സിന്റെ കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "പട്ടാഭിഷേക ദിവസം രാവിലെ",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 800,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "പിറ്റേന്ന് രാവിലെ അയോധ്യ മുഴുവൻ പട്ടാഭിഷേകത്തിനായി ഒരുങ്ങി നിന്നു. പക്ഷേ രാജാവ് പുറത്തേക്ക് വന്നില്ല."
+    },
+    {
+     "who": "narrator",
+     "text": "മന്ത്രിയായ സുമന്ത്രർ വന്ന്, മഹാരാജാവ് വിളിക്കുന്നു എന്ന് രാമനെ അറിയിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അച്ഛന്റെ ദുഃഖം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.2,
+     "y": 0.8,
+     "h": 740,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "kaikeyi",
+     "x": 0.8,
+     "y": 0.8,
+     "h": 720,
+     "label": "കൈകേയി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "rama",
+     "text": "അച്ഛാ, എന്താണ് ഇത്ര സങ്കടം? ഞാൻ എന്തെങ്കിലും തെറ്റ് ചെയ്തോ?"
+    },
+    {
+     "who": "narrator",
+     "text": "ദശരഥന് ഒരു വാക്ക് പോലും പറയാൻ കഴിഞ്ഞില്ല. അപ്പോൾ കൈകേയി രണ്ട് വരങ്ങളുടെ കാര്യം രാമനോട് പറഞ്ഞു."
+    },
+    {
+     "who": "kaikeyi",
+     "text": "രാമാ, നീ പതിനാല് വർഷം കാട്ടിൽ പോകണം. ഭരതൻ രാജാവാകും. ഇതാണ് അച്ഛൻ തന്ന വാക്ക്."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "രാമന്റെ വലിയ മനസ്സ്",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.73,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമന്റെ മുഖത്ത് ഒരു ദേഷ്യവും ഉണ്ടായില്ല. ശാന്തമായ പുഞ്ചിരിയോടെ രാമൻ പറഞ്ഞു."
+    },
+    {
+     "who": "rama",
+     "text": "അമ്മേ, അച്ഛന്റെ വാക്ക് പാലിക്കുന്നതാണ് എന്റെ ധർമ്മം. എന്റെ അനിയൻ ഭരതൻ രാജാവാകുന്നത് എനിക്ക് സന്തോഷമാണ്."
+    },
+    {
+     "who": "rama",
+     "text": "അച്ഛാ, വിഷമിക്കേണ്ട. ഞാൻ ഇന്നുതന്നെ കാട്ടിലേക്ക് പോകാം."
+    },
+    {
+     "who": "narrator",
+     "text": "രാമൻ അച്ഛന്റെ പാദങ്ങൾ തൊട്ട് വന്ദിച്ചു. ദശരഥന്റെ കണ്ണുകൾ നിറഞ്ഞൊഴുകി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അമ്മയുടെ അടുത്തേക്ക്",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "കിരീടമില്ലാതെ, മുഖത്ത് അതേ ശാന്തതയോടെ, രാമൻ അമ്മ കൗസല്യയോട് യാത്ര ചോദിക്കാൻ നടന്നു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "വാക്ക് പാലിക്കുന്നതാണ്",
+    "ഏറ്റവും വലിയ",
+    "ധർമ്മം"
+   ],
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, തന്ന വാക്ക് പാലിക്കുന്നതും, മാതാപിതാക്കളെ ബഹുമാനിക്കുന്നതുമാണ് രാമൻ നമ്മളെ പഠിപ്പിക്കുന്നത്."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slug": "android-quick-settings-tricks",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": [
+  "QUICK SETTINGS",
+  "Hidden trick ⚡"
+ ],
+ "title": "Notification Bar-ൽ ഈ Hidden Trick അറിയാമോ? ⚡ Android Quick Settings #shorts",
+ "caption": "Notification bar താഴേക്ക് വലിക്കുമ്പോൾ കാണുന്ന buttons മാറ്റാം! Flashlight, QR scanner, screen record പോലുള്ളവ ഒറ്റ tap-ൽ.\n\nCustomize Android Quick Settings: swipe down, tap Edit (pencil), add tiles like QR scanner, screen record or hotspot, and drag them into order. Steps vary by phone brand.",
+ "hashtags": "#shorts #android #androidtips #quicksettings #hiddenfeatures #techmalayalam #403unlocked",
+ "tags": [
+  "android quick settings malayalam",
+  "android hidden features malayalam",
+  "notification panel customize",
+  "samsung quick panel",
+  "android tips malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://support.google.com/android/answer/9083864?hl=en",
+  "https://www.samsung.com/us/support/answer/ANS10002874/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "QUICK SETTINGS",
+   "sub": "ഈ trick അറിയാമോ?",
+   "icon": "⚡",
+   "narration": "നോട്ടിഫിക്കേഷൻ ബാർ താഴേക്ക് വലിക്കുമ്പോൾ കാണുന്ന ബട്ടണുകൾ നിങ്ങൾക്ക് ഇഷ്ടം പോലെ മാറ്റാം എന്ന് അറിയാമോ?"
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ?",
+   "items": [
+    "മുകളിൽ നിന്ന് swipe down",
+    "Edit ✏️ tap ചെയ്യൂ",
+    "വേണ്ടത് Add / Drag"
+   ],
+   "note": "* Steps vary by phone brand",
+   "narration": "സ്ക്രീനിന്റെ മുകളിൽ നിന്ന് താഴേക്ക് സ്വൈപ്പ് ചെയ്ത്, പെൻസിൽ പോലുള്ള എഡിറ്റ് ബട്ടൺ അമർത്തൂ. വേണ്ട ബട്ടൺ ആഡ് ചെയ്യാം, പിടിച്ച് വലിച്ച് സ്ഥാനം മാറ്റാം."
+  },
+  {
+   "type": "bullets",
+   "title": "ഇവ ADD ചെയ്യൂ",
+   "icon": "🧰",
+   "items": [
+    "QR code scanner",
+    "Screen record",
+    "Hotspot"
+   ],
+   "narration": "ക്യൂ ആർ കോഡ് സ്കാനർ, സ്ക്രീൻ റെക്കോർഡ്, ഹോട്ട്സ്പോട്ട് പോലുള്ളവ മുകളിൽ വെച്ചാൽ ഒറ്റ ടാപ്പിൽ കിട്ടും."
+  },
+  {
+   "type": "bullets",
+   "title": "TIP",
+   "icon": "💡",
+   "items": [
+    "ആവശ്യമില്ലാത്തത് remove",
+    "ഏറ്റവും ആവശ്യമുള്ളത് മുന്നിൽ"
+   ],
+   "narration": "ആവശ്യമില്ലാത്തത് മാറ്റി, ഏറ്റവും കൂടുതൽ ഉപയോഗിക്കുന്നവ മുന്നിൽ വെക്കൂ. ഫോൺ ഉപയോഗം കൂടുതൽ എളുപ്പമാകും."
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

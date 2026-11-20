@@ -1,0 +1,68 @@
+{
+ "slug": "google-photos-magic-editor",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": [
+  "AI PHOTO EDIT",
+  "Google Photos ✨"
+ ],
+ "title": "Photo-യിലെ ആളെ മാറ്റാം, ആകാശം മാറ്റാം! ✨ Google Photos AI #shorts",
+ "caption": "Photo-യിൽ അനാവശ്യമായ ആളുകളെ മാറ്റാനും, ആകാശം മാറ്റാനും, ആളെ നീക്കി വെക്കാനും Google Photos-ലെ Magic Editor. Free ആയി മാസം 10 തവണ save ചെയ്യാം!\n\nGoogle Photos Magic Editor (AI): move or remove objects, change the sky. Free users get 10 Magic Editor saves per month; needs Android 8+ and at least 3 GB RAM. Availability can vary by device and region.",
+ "hashtags": "#shorts #googlephotos #magiceditor #ai #aitools #photoediting #techmalayalam #403unlocked",
+ "tags": [
+  "google photos magic editor malayalam",
+  "ai photo editing malayalam",
+  "magic eraser",
+  "google photos tricks",
+  "ai tools malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://blog.google/products/photos/google-photos-editing-features-availability/",
+  "https://support.google.com/photos/answer/6128850?hl=en-IN&co=GENIE.Platform%3DAndroid"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "AI PHOTO MAGIC",
+   "sub": "Free ആയി!",
+   "icon": "✨",
+   "narration": "ഫോട്ടോയിലെ അനാവശ്യമായ ആളെ മാറ്റണോ? ആകാശത്തിന്റെ നിറം മാറ്റണോ? ഗൂഗിൾ ഫോട്ടോസിൽ ഇത് ഫ്രീ ആയി ചെയ്യാം!"
+  },
+  {
+   "type": "bullets",
+   "title": "MAGIC EDITOR",
+   "icon": "🪄",
+   "items": [
+    "ആളെ / വസ്തു മാറ്റാം",
+    "ആകാശം മാറ്റാം",
+    "Move ചെയ്യാം"
+   ],
+   "narration": "ഇതാണ് മാജിക് എഡിറ്റർ. ഫോട്ടോയിലെ ഒരു വസ്തു മാറ്റാം, നീക്കി വെക്കാം, ആകാശത്തിന്റെ ഭംഗി മാറ്റാം."
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ?",
+   "items": [
+    "Google Photos തുറക്കൂ",
+    "Photo → Edit",
+    "Magic Editor ✨"
+   ],
+   "narration": "ഗൂഗിൾ ഫോട്ടോസിൽ ഒരു ഫോട്ടോ തുറന്ന്, എഡിറ്റ് അമർത്തി, മാജിക് എഡിറ്റർ തിരഞ്ഞെടുക്കൂ. മാറ്റേണ്ട ഭാഗത്ത് ടാപ്പ് ചെയ്താൽ മതി."
+  },
+  {
+   "type": "bullets",
+   "title": "ശ്രദ്ധിക്കുക",
+   "icon": "📌",
+   "items": [
+    "Free: മാസം 10 saves",
+    "Android 8+, 3GB RAM",
+    "ചില phones-ൽ മാത്രം"
+   ],
+   "narration": "ഫ്രീ ആയി മാസം പത്ത് തവണ സേവ് ചെയ്യാം. ആൻഡ്രോയിഡ് എട്ട് മുതൽ, മൂന്ന് ജിബി റാം ഉള്ള ഫോണുകളിൽ. ഫോണും സ്ഥലവും അനുസരിച്ച് ലഭ്യത മാറാം."
+  },
+  {
+   "type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

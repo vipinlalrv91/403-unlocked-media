@@ -1,0 +1,86 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-09",
+ "series": {
+  "day": 9,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: STT",
+ "thumb_text": [
+  "HIDDEN CHARGES?",
+  "Share വാങ്ങുമ്പോൾ"
+ ],
+ "title": "Share വാങ്ങുമ്പോൾ എന്തൊക്കെ Charges? 💸 STT, GST, Stamp Duty | Day 9 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 9! Share വാങ്ങുമ്പോഴും വിൽക്കുമ്പോഴും brokerage മാത്രമല്ല: STT, exchange charges, SEBI fee, GST, stamp duty, DP charges.\n\nRates as per NSE's investor page at the time of making; they can change, check your broker's contract note.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #stt #brokerage #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "share market charges malayalam",
+  "stt stamp duty gst brokerage",
+  "dp charges malayalam",
+  "contract note explained",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nseindia.com/static/invest/first-time-investor-sebi-turnover-fees-stt-other-levies",
+  "https://www.sebi.gov.in/sebi_data/faqfiles/sep-2024/1727418208774.pdf"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "HIDDEN CHARGES?",
+   "sub": "Yesterday: A · Holdings",
+   "icon": "💸",
+   "narration": "ഇന്നലത്തെ ഉത്തരം ഹോൾഡിങ്സ്! ഡേ ഒൻപത്. ഷെയർ വാങ്ങുമ്പോൾ ബ്രോക്കറേജ് മാത്രമല്ല, വേറെയും ചാർജുകൾ ഉണ്ട്!"
+  },
+  {
+   "type": "steps",
+   "title": "CHARGES LIST",
+   "items": [
+    "Brokerage (broker)",
+    "STT 0.1% (delivery)",
+    "Exchange + SEBI fee"
+   ],
+   "narration": "ഒന്ന്, ബ്രോക്കറുടെ ബ്രോക്കറേജ്. രണ്ട്, എസ് ടി ടി. ഡെലിവറിയിൽ വാങ്ങുമ്പോഴും വിൽക്കുമ്പോഴും പൂജ്യം ദശാംശം ഒന്ന് ശതമാനം. മൂന്ന്, എക്സ്ചേഞ്ച് ചാർജും സെബി ഫീസും."
+  },
+  {
+   "type": "steps",
+   "title": "PLUS",
+   "items": [
+    "GST 18% (brokerage-ൽ)",
+    "Stamp duty 0.015% (buy)",
+    "DP charge (sell)"
+   ],
+   "note": "* Rates can change. Check your contract note.",
+   "narration": "പിന്നെ ബ്രോക്കറേജിന് പതിനെട്ട് ശതമാനം ജി എസ് ടി. വാങ്ങുമ്പോൾ പൂജ്യം ദശാംശം പൂജ്യം ഒന്ന് അഞ്ച് ശതമാനം സ്റ്റാമ്പ് ഡ്യൂട്ടി. വിൽക്കുമ്പോൾ ഡി പി ചാർജ്."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧾",
+   "items": [
+    "Contract note വായിക്കൂ",
+    "ചെറിയ trades = കൂടുതൽ %"
+   ],
+   "narration": "ഓരോ ട്രേഡിനു ശേഷവും കോൺട്രാക്റ്റ് നോട്ട് വായിക്കൂ. വളരെ ചെറിയ ട്രേഡുകളിൽ ചാർജുകൾ ശതമാനത്തിൽ കൂടുതൽ ആകാം."
+  },
+  {
+   "type": "quiz",
+   "question": "Delivery-യിൽ 0.1% ഈടാക്കുന്നത്?",
+   "options": [
+    "GST",
+    "STT"
+   ],
+   "narration": "ക്വിസ്! ഡെലിവറിയിൽ പൂജ്യം ദശാംശം ഒന്ന് ശതമാനം ഈടാക്കുന്നത് ഏത്? എ, ജി എസ് ടി. ബി, എസ് ടി ടി. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

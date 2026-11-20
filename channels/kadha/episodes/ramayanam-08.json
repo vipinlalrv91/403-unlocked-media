@@ -1,0 +1,184 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "slug": "ramayanam-08",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "thumb_text": [
+  "രാമായണം",
+  "രണ്ട് വരങ്ങൾ"
+ ],
+ "title": "രാമായണം 8 💔 കൈകേയിയുടെ രണ്ട് വരങ്ങൾ | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 8: പണ്ട് ദേവാസുര യുദ്ധത്തിൽ ദശരഥനെ രക്ഷിച്ചപ്പോൾ കിട്ടിയ രണ്ട് വരങ്ങൾ കൈകേയി ഇപ്പോൾ ചോദിക്കുന്നു. ദശരഥന്റെ ദുഃഖം 🙏\n\nRamayanam for kids in Malayalam, part 8: Kaikeyi asks King Dasharatha for the two boons he once promised her.",
+ "tags": [
+  "ramayanam malayalam",
+  "kaikeyi two boons",
+  "dasharatha kaikeyi story",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "രണ്ട് വരങ്ങൾ",
+   "icon": "💔",
+   "mood": "sad",
+   "narration": "മക്കളേ, വാ... ഇന്നത്തെ കഥ കുറച്ച് സങ്കടമുള്ളതാണ്. പക്ഷേ ശ്രദ്ധിച്ച് കേൾക്കണേ."
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "കോപഗൃഹത്തിൽ കൈകേയി",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "kaikeyi",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 760,
+     "label": "കൈകേയി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "പട്ടാഭിഷേകത്തിന്റെ തലേന്ന് രാത്രി, ആഭരണങ്ങൾ എല്ലാം അഴിച്ചു വെച്ച്, കൈകേയി കോപഗൃഹം എന്ന മുറിയിൽ ദുഃഖിതയായി കിടന്നു."
+    },
+    {
+     "who": "narrator",
+     "text": "സന്തോഷവാർത്ത പറയാൻ വന്ന ദശരഥ മഹാരാജാവ്, പ്രിയപ്പെട്ട റാണിയെ അങ്ങനെ കണ്ട് ആകെ പരിഭ്രമിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "പഴയ വാഗ്ദാനം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "kaikeyi",
+     "x": 0.73,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൈകേയി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "dasharatha",
+     "text": "എന്റെ പ്രിയ കൈകേയീ, എന്താണ് സംഭവിച്ചത്? നിനക്ക് എന്ത് വേണമെങ്കിലും ഞാൻ തരാം."
+    },
+    {
+     "who": "kaikeyi",
+     "text": "മഹാരാജാവേ, പണ്ട് ദേവാസുര യുദ്ധത്തിൽ ഞാൻ അങ്ങയുടെ ജീവൻ രക്ഷിച്ചപ്പോൾ, എനിക്ക് രണ്ട് വരങ്ങൾ തരാമെന്ന് അങ്ങ് വാക്ക് തന്നില്ലേ?"
+    },
+    {
+     "who": "dasharatha",
+     "text": "അതെ, ഓർമ്മയുണ്ട്. രഘുവംശത്തിലെ രാജാവിന്റെ വാക്ക് ഒരിക്കലും മാറില്ല. ചോദിച്ചോളൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "രണ്ട് വരങ്ങൾ",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "kaikeyi",
+     "x": 0.73,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൈകേയി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "kaikeyi",
+     "text": "ഒന്നാമത്തെ വരം: എന്റെ മകൻ ഭരതനെ അയോധ്യയുടെ രാജാവാക്കണം."
+    },
+    {
+     "who": "kaikeyi",
+     "text": "രണ്ടാമത്തെ വരം: രാമൻ പതിനാല് വർഷം കാട്ടിൽ പോയി താമസിക്കണം."
+    },
+    {
+     "who": "narrator",
+     "text": "ഇത് കേട്ടതും ദശരഥന്റെ ഹൃദയം തകർന്നു. ഇടിമിന്നലേറ്റത് പോലെ അദ്ദേഹം നിലത്തിരുന്നു പോയി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "ദശരഥന്റെ അപേക്ഷ",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.27,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "kaikeyi",
+     "x": 0.73,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൈകേയി"
+    }
+   ],
+   "lines": [
+    {
+     "who": "dasharatha",
+     "text": "കൈകേയീ, ഭരതൻ രാജാവായിക്കൊള്ളട്ടെ. പക്ഷേ എന്റെ രാമനെ കാട്ടിലേക്ക് അയയ്ക്കരുതേ. അവൻ നിന്നെയും അമ്മയെപ്പോലെയല്ലേ സ്നേഹിക്കുന്നത്?"
+    },
+    {
+     "who": "kaikeyi",
+     "text": "ഇല്ല മഹാരാജാവേ. തന്ന വാക്ക് പാലിക്കണം."
+    },
+    {
+     "who": "narrator",
+     "text": "രാത്രി മുഴുവൻ ദശരഥൻ കരഞ്ഞു. നേരം വെളുക്കരുതേ എന്ന് അദ്ദേഹം പ്രാർത്ഥിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "അടുത്ത ഭാഗം",
+   "lines": [
+    "രാമൻ ഇത് അറിയുമ്പോൾ",
+    "എന്ത് പറയും?"
+   ],
+   "icon": "🙏",
+   "mood": "sad",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, രാമൻ ഈ വാർത്ത അറിയുമ്പോൾ എന്ത് ചെയ്യും? നമുക്ക് കാണാം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
