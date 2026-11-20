@@ -17,5 +17,18 @@
  "categoryId": "28",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-20T04:34:01.141289+00:00"
+ "kick": "2026-11-20T04:34:01.141289+00:00",
+ "result": {
+  "posted_at": "2026-11-20T04:34:20.002877+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"You cannot access the app till you log in to www.facebook.com and follow the instructions given.\",\"code\":190,\"type\":\"OAuthException\",\"error_data\":\"{\\\"checkpoint_url\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\"}\",\"error_subcode\":459,\"fbtrace_id\":\"AmSAjEAqwCs1gFJMCEXgTGv\"}}"
+  },
+  "youtube": {
+   "id": "wYu6I4vx2Ic",
+   "url": "https://www.youtube.com/shorts/wYu6I4vx2Ic",
+   "privacy": "public",
+   "channel_id": "UCeS13InBe6Upz3qgMcAwgDA",
+   "thumbnail": "set"
+  }
+ }
 }
