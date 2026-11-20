@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-19T03:03:28.911755+00:00",
+ "checked_at": "2026-11-20T04:34:53.817387+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -15,19 +15,16 @@
  },
  "instagram": {
   "403": {
-   "ok": true,
-   "username": "403_unlocked",
-   "can_publish": true
+   "ok": false,
+   "error": "HTTP 400: {\"error\":{\"message\":\"You cannot access the app till you log in to www.facebook.com and follow the instructions given.\",\"code\":190,\"type\":\"OAuthException\",\"error_data\":\"{\\\"checkpoint_url\\\":\\\"https:\\\\/\\"
   },
   "STOIC": {
-   "ok": true,
-   "username": "thestoicbull_",
-   "can_publish": true
+   "ok": false,
+   "error": "HTTP 400: {\"error\":{\"message\":\"You cannot access the app till you log in to www.facebook.com and follow the instructions given.\",\"code\":190,\"type\":\"OAuthException\",\"error_data\":\"{\\\"checkpoint_url\\\":\\\"https:\\\\/\\"
   },
   "KADHA": {
-   "ok": true,
-   "username": "kadha_petti_malayalam",
-   "can_publish": true
+   "ok": false,
+   "error": "HTTP 400: {\"error\":{\"message\":\"You cannot access the app till you log in to www.facebook.com and follow the instructions given.\",\"code\":190,\"type\":\"OAuthException\",\"error_data\":\"{\\\"checkpoint_url\\\":\\\"https:\\\\/\\"
   }
  },
  "youtube": {
