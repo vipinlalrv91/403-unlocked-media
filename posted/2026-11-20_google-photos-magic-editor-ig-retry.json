@@ -20,5 +20,14 @@
  "kick": "2026-11-20T04:34:01.141289+00:00",
  "only": [
   "instagram"
- ]
+ ],
+ "result": {
+  "posted_at": "2026-11-20T05:14:04.411674+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"You cannot access the app till you log in to www.facebook.com and follow the instructions given.\",\"code\":190,\"type\":\"OAuthException\",\"error_data\":\"{\\\"checkpoint_url\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\"}\",\"error_subcode\":459,\"fbtrace_id\":\"Af2W1uCw1nKShUheTwKhYxg\"}}"
+  },
+  "youtube": {
+   "skipped": "no secrets"
+  }
+ }
 }
