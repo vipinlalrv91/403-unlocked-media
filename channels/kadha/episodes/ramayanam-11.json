@@ -1,0 +1,199 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-11",
+ "thumb_text": [
+  "രാമായണം",
+  "ഞങ്ങളും വരും!"
+ ],
+ "title": "രാമായണം 11 🌿 സീതയും ലക്ഷ്മണനും കൂടെ | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 11: കാട്ടിലേക്ക് രാമന്റെ കൂടെ വരുമെന്ന് സീതയും ലക്ഷ്മണനും ഉറപ്പിച്ചു പറയുന്നു 🌿\n\nRamayanam for kids in Malayalam, part 11: Sita and Lakshmana firmly decide to go to the forest with Rama.",
+ "tags": [
+  "ramayanam malayalam",
+  "sita rama forest",
+  "lakshmana loyalty",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ഞങ്ങളും വരും!",
+   "icon": "🌿",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് സ്നേഹം എത്ര വലുതാണെന്ന് കാണിക്കുന്ന കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "സീതയുടെ അടുത്ത്",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "sita",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "സീത"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അമ്മയോട് യാത്ര പറഞ്ഞ് രാമൻ സീതയുടെ അടുത്തെത്തി."
+    },
+    {
+     "who": "rama",
+     "text": "സീതേ, ഞാൻ പതിനാല് വർഷം കാട്ടിലേക്ക് പോകുകയാണ്. നീ ഇവിടെ കൊട്ടാരത്തിൽ അമ്മമാരെ നോക്കി സുഖമായി ഇരിക്കണം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "സീതയുടെ തീരുമാനം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "sita",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "സീത"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "rama",
+     "text": "കാട്ടിൽ മുള്ളും കല്ലും ഉണ്ട്. വലിയ മൃഗങ്ങളും ഉണ്ട്. അവിടെ ജീവിക്കാൻ വലിയ ബുദ്ധിമുട്ടാണ്."
+    },
+    {
+     "who": "sita",
+     "text": "നിങ്ങൾ ഉള്ളിടത്താണ് എന്റെ കൊട്ടാരം. നിങ്ങളുടെ കൂടെ ആണെങ്കിൽ കാടും എനിക്ക് പൂന്തോട്ടം പോലെയാണ്."
+    },
+    {
+     "who": "sita",
+     "text": "ഞാനും വരും. എന്നെ ഇവിടെ ഒറ്റയ്ക്ക് വിട്ട് പോകരുത്."
+    },
+    {
+     "who": "narrator",
+     "text": "സീതയുടെ ഉറച്ച സ്നേഹം കണ്ട് രാമൻ സമ്മതിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "ലക്ഷ്മണനും കൂടെ",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "lakshmana",
+     "x": 0.2,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.8,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, ഞാനും വരുന്നു. ചേട്ടനെയും ഏടത്തിയെയും രാവും പകലും ഞാൻ കാവൽ നിൽക്കും."
+    },
+    {
+     "who": "rama",
+     "text": "ലക്ഷ്മണാ, നീ ഇവിടെ നിന്ന് അമ്മമാരെ നോക്കിക്കൂടേ?"
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടനില്ലാത്ത കൊട്ടാരം എനിക്ക് വേണ്ട. ചേട്ടന്റെ നിഴലായി ഞാൻ കൂടെ ഉണ്ടാകും."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അമ്മ സുമിത്രയുടെ അനുഗ്രഹം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "sumitra",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "സുമിത്ര"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "sumitra",
+     "text": "മോനേ, ഇനി രാമനാണ് നിന്റെ അച്ഛൻ, സീതയാണ് നിന്റെ അമ്മ, കാടാണ് നിന്റെ അയോധ്യ. സന്തോഷത്തോടെ പോയി വാ."
+    },
+    {
+     "who": "narrator",
+     "text": "അങ്ങനെ മൂന്ന് പേരും മരവുരി ധരിച്ച് കാട്ടിലേക്ക് പോകാൻ ഒരുങ്ങി."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "സ്നേഹമുള്ളവർ",
+    "ദുഃഖത്തിലും",
+    "കൂടെ നിൽക്കും"
+   ],
+   "icon": "💛",
+   "mood": "devotional",
+   "narration": "മക്കളേ, സന്തോഷത്തിൽ മാത്രമല്ല, ദുഃഖത്തിലും കൂടെ നിൽക്കുന്നതാണ് യഥാർത്ഥ സ്നേഹം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

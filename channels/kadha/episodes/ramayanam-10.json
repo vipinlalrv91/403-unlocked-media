@@ -1,0 +1,192 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-10",
+ "thumb_text": [
+  "രാമായണം",
+  "അമ്മയോട് യാത്ര"
+ ],
+ "title": "രാമായണം 10 💐 അമ്മയോട് യാത്ര; ലക്ഷ്മണന്റെ ദേഷ്യം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 10: രാമൻ അമ്മ കൗസല്യയോട് യാത്ര ചോദിക്കുന്നു. ദേഷ്യപ്പെട്ട ലക്ഷ്മണനെ രാമൻ സ്നേഹത്തോടെ ശാന്തനാക്കുന്നു 💐\n\nRamayanam for kids in Malayalam, part 10: Rama takes leave of mother Kausalya and calms an angry Lakshmana.",
+ "tags": [
+  "ramayanam malayalam",
+  "rama kausalya",
+  "lakshmana anger",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "അമ്മയോട് യാത്ര",
+   "icon": "💐",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് രാമൻ അമ്മയോട് യാത്ര പറയുന്ന കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "കൗസല്യയുടെ കൊട്ടാരം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "kausalya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൗസല്യ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ വരുമ്പോൾ അമ്മ കൗസല്യ മകന്റെ പട്ടാഭിഷേകത്തിനായി പ്രാർത്ഥിക്കുകയായിരുന്നു."
+    },
+    {
+     "who": "kausalya",
+     "text": "മോനേ രാമാ, വാ! ഇന്ന് നീ രാജാവാകുന്ന ദിവസമല്ലേ?"
+    },
+    {
+     "who": "rama",
+     "text": "അമ്മേ, അച്ഛന്റെ വാക്ക് പാലിക്കാൻ ഞാൻ പതിനാല് വർഷം കാട്ടിലേക്ക് പോകുകയാണ്. ഭരതൻ രാജാവാകും."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അമ്മയുടെ സങ്കടം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "kausalya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൗസല്യ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഇത് കേട്ട് കൗസല്യ തളർന്നുപോയി. അമ്മയുടെ കണ്ണുകൾ നിറഞ്ഞൊഴുകി."
+    },
+    {
+     "who": "kausalya",
+     "text": "എന്റെ പൊന്നുമോനെ പിരിഞ്ഞ് ഞാൻ എങ്ങനെ ജീവിക്കും, രാമാ?"
+    },
+    {
+     "who": "rama",
+     "text": "അമ്മ കരയരുത്. പതിനാല് വർഷം വേഗം കഴിയും. ഞാൻ തിരിച്ചുവരും, അമ്മേ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "ലക്ഷ്മണന്റെ ദേഷ്യം",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "lakshmana",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അടുത്ത് നിന്ന ലക്ഷ്മണന് സഹിക്കാൻ കഴിഞ്ഞില്ല. ലക്ഷ്മണന്റെ മുഖം ദേഷ്യം കൊണ്ട് ചുവന്നു."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ഇത് അനീതിയാണ് ചേട്ടാ! ഞാൻ ഈ വില്ല് എടുത്ത് എല്ലാവരെയും നേരിടും. ചേട്ടൻ തന്നെ രാജാവാകണം!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "രാമന്റെ ശാന്തത",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "lakshmana",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ പുഞ്ചിരിയോടെ ലക്ഷ്മണന്റെ തോളിൽ കൈ വെച്ചു."
+    },
+    {
+     "who": "rama",
+     "text": "അനിയാ, ദേഷ്യം ഒന്നും നന്നാക്കില്ല. അച്ഛന്റെ വാക്ക് പാലിക്കുന്നതാണ് ശരി. ആരോടും പക വേണ്ട."
+    },
+    {
+     "who": "narrator",
+     "text": "ചേട്ടന്റെ സ്നേഹമുള്ള വാക്കുകൾ കേട്ട് ലക്ഷ്മണൻ ശാന്തനായി. ഒടുവിൽ കൗസല്യ മകനെ അനുഗ്രഹിച്ചു യാത്രയാക്കി."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "ദേഷ്യം വരുമ്പോൾ",
+    "ശാന്തമായി",
+    "ചിന്തിക്കണം"
+   ],
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ദേഷ്യം വരുമ്പോൾ ഒന്ന് നിന്ന്, ശാന്തമായി ചിന്തിക്കണം. അതാണ് രാമൻ നമ്മളെ പഠിപ്പിക്കുന്നത്."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

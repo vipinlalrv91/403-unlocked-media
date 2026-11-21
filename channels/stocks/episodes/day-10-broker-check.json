@@ -1,0 +1,88 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-10",
+ "series": {
+  "day": 10,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: sebi.gov.in",
+ "thumb_text": [
+  "FAKE BROKER?",
+  "SEBI-ൽ check ചെയ്യൂ"
+ ],
+ "title": "നിങ്ങളുടെ Broker Genuine ആണോ? 🔍 SEBI Registration Check | Day 10 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 10! Account തുറക്കും മുൻപ് broker SEBI-registered ആണോ എന്ന് sebi.gov.in-ൽ check ചെയ്യൂ. Guaranteed returns, personal account-ലേക്ക് പണം, WhatsApp tips: ഇവ red flags ആണ്.\n\nHow to check if your stock broker is registered: search SEBI's list of registered intermediaries on sebi.gov.in and match the name and registration number.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #sebi #stockbroker #fraudalert #stockmarket #malayalam #thestoicbull",
+ "tags": [
+  "sebi registered broker check malayalam",
+  "fake broker fraud",
+  "stock market scam malayalam",
+  "sebi registration number",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/hindi/department/market-intermediaries-regulation-and-supervision-department-14/search-intm.html",
+  "https://investor.sebi.gov.in/Investor-support.html",
+  "https://www.nseindia.com/invest/first-time-investor-opening-an-account"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "FAKE BROKER?",
+   "sub": "Yesterday: B · STT",
+   "icon": "🔍",
+   "narration": "ഇന്നലത്തെ ഉത്തരം എസ് ടി ടി! ഡേ പത്ത്. നിങ്ങളുടെ ബ്രോക്കർ ശരിക്കും ജെന്വിൻ ആണോ? ചെക്ക് ചെയ്യാൻ ഒരു മിനിറ്റ് മതി!"
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ CHECK?",
+   "items": [
+    "sebi.gov.in തുറക്കൂ",
+    "Intermediaries list",
+    "Broker name search"
+   ],
+   "note": "* Name + registration no. match ചെയ്യണം",
+   "narration": "സെബിയുടെ ഒഫീഷ്യൽ വെബ്സൈറ്റിൽ രജിസ്റ്റർ ചെയ്ത ഇന്റർമീഡിയറീസ് ലിസ്റ്റ് തുറന്ന്, ബ്രോക്കറുടെ പേര് സെർച്ച് ചെയ്യൂ. പേരും രജിസ്ട്രേഷൻ നമ്പറും ഒത്തുനോക്കൂ."
+  },
+  {
+   "type": "bullets",
+   "title": "RED FLAGS 🚩",
+   "icon": "🚩",
+   "items": [
+    "Guaranteed returns",
+    "Personal account-ലേക്ക് പണം",
+    "WhatsApp tips group"
+   ],
+   "narration": "ഉറപ്പായ ലാഭം പറയുന്നവർ, ആരുടെയെങ്കിലും പേഴ്സണൽ അക്കൗണ്ടിലേക്ക് പണം ചോദിക്കുന്നവർ, വാട്സ്ആപ്പ് ടിപ്സ് ഗ്രൂപ്പുകൾ. ഇവ സൂക്ഷിക്കണം."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🛡️",
+   "items": [
+    "Real number കോപ്പി ചെയ്യാം",
+    "Website + contact match"
+   ],
+   "narration": "തട്ടിപ്പുകാർ ഒറിജിനൽ ബ്രോക്കറുടെ നമ്പർ കോപ്പി ചെയ്യാറുണ്ട്. അതുകൊണ്ട് വെബ്സൈറ്റും കോൺടാക്റ്റും സെബി ലിസ്റ്റുമായി ഒത്തുനോക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Broker registration check ചെയ്യേണ്ടത്?",
+   "options": [
+    "sebi.gov.in",
+    "WhatsApp group"
+   ],
+   "narration": "ക്വിസ്! ബ്രോക്കറുടെ രജിസ്ട്രേഷൻ എവിടെ ചെക്ക് ചെയ്യണം? എ, സെബി വെബ്സൈറ്റ്. ബി, വാട്സ്ആപ്പ് ഗ്രൂപ്പ്. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

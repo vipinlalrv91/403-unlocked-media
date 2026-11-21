@@ -1,0 +1,89 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-11",
+ "series": {
+  "day": 11,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: Lottery",
+ "thumb_text": [
+  "IPO എന്താണ്?",
+  "Simple ആയി"
+ ],
+ "title": "IPO എന്താണ്? 🔔 Company എന്തിന് Share വിൽക്കുന്നു? | Day 11 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 11! IPO = company ആദ്യമായി public-ന് shares വിൽക്കുന്നത്. UPI വഴി apply ചെയ്യാം, പണം block ആകും, oversubscribe ആയാൽ retail allotment lottery വഴി. Rules മാറാം, current rules check ചെയ്യൂ.\n\nIPO explained: why companies list, how to apply with UPI/ASBA, allotment by draw of lots when oversubscribed, and T+3 listing.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #ipo #ipoallotment #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "ipo malayalam",
+  "what is ipo",
+  "ipo allotment explained",
+  "how to apply ipo upi",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/sebi_data/meetingfiles/jul-2023/1688530983272_1.pdf",
+  "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/SEBI_Circular_2609202439_1.pdf",
+  "https://www.nseindia.com/invest/first-time-investor-opening-an-account"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "IPO എന്താണ്?",
+   "sub": "Yesterday: A · sebi.gov.in",
+   "icon": "🔔",
+   "narration": "ഇന്നലത്തെ ഉത്തരം സെബി വെബ്സൈറ്റ്! ഡേ പതിനൊന്ന്. ഐ പി ഓ, ഐ പി ഓ എന്ന് എല്ലാവരും പറയുന്നു. ശരിക്കും എന്താണ് ഇത്?"
+  },
+  {
+   "type": "bullets",
+   "title": "IPO = FIRST SALE",
+   "icon": "🏢",
+   "items": [
+    "Company ആദ്യമായി public-ന്",
+    "Business വളർത്താൻ പണം",
+    "Listing: NSE / BSE"
+   ],
+   "narration": "ഒരു കമ്പനി ആദ്യമായി പൊതുജനങ്ങൾക്ക് ഷെയർ വിൽക്കുന്നതാണ് ഐ പി ഓ. ബിസിനസ് വളർത്താനോ കടം വീട്ടാനോ പണം കിട്ടും. പിന്നീട് എൻ എസ് ഇ, ബി എസ് ഇയിൽ ലിസ്റ്റ് ചെയ്യും."
+  },
+  {
+   "type": "steps",
+   "title": "APPLY എങ്ങനെ?",
+   "items": [
+    "Broker app → IPO",
+    "UPI mandate approve",
+    "പണം block മാത്രം"
+   ],
+   "narration": "ബ്രോക്കർ ആപ്പിൽ ഐ പി ഓ സെക്ഷനിൽ അപ്ലൈ ചെയ്ത്, യു പി ഐ മാൻഡേറ്റ് അപ്രൂവ് ചെയ്യൂ. പണം അക്കൗണ്ടിൽ ബ്ലോക്ക് ആകും, ഉടനെ പോകില്ല."
+  },
+  {
+   "type": "bullets",
+   "title": "ALLOTMENT",
+   "icon": "🎲",
+   "items": [
+    "Oversubscribed = lottery",
+    "കിട്ടിയില്ലെങ്കിൽ unblock",
+    "Listing: T+3 days"
+   ],
+   "note": "* Rules can change. Check current SEBI rules.",
+   "narration": "ആവശ്യക്കാർ കൂടുതലായാൽ റീട്ടെയിൽ നിക്ഷേപകർക്ക് ലോട്ടറി വഴിയാണ് അലോട്ട്മെന്റ്. കിട്ടിയില്ലെങ്കിൽ പണം അൺബ്ലോക്ക് ആകും. ഇഷ്യൂ ക്ലോസ് ചെയ്ത് മൂന്നാം ദിവസം ലിസ്റ്റിംഗ്."
+  },
+  {
+   "type": "quiz",
+   "question": "Oversubscribed IPO-ൽ retail allotment?",
+   "options": [
+    "First come",
+    "Lottery"
+   ],
+   "narration": "ക്വിസ്! ഓവർസബ്സ്ക്രൈബ് ആയ ഐ പി ഓയിൽ റീട്ടെയിൽ അലോട്ട്മെന്റ് എങ്ങനെ? എ, ആദ്യം വന്നവർക്ക്. ബി, ലോട്ടറി. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
