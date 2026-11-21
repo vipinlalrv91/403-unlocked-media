@@ -17,5 +17,18 @@
  "categoryId": "27",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-21T08:33:44.127955+00:00"
+ "kick": "2026-11-21T08:33:44.127955+00:00",
+ "result": {
+  "posted_at": "2026-11-21T08:34:23.954039+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AAvaF7FMBUtm72MsgQd0_F7\"}}"
+  },
+  "youtube": {
+   "id": "JpYfF_-TLcI",
+   "url": "https://www.youtube.com/shorts/JpYfF_-TLcI",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "failed 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat"
+  }
+ }
 }
