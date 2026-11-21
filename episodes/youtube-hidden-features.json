@@ -1,0 +1,23 @@
+{
+ "slug": "youtube-hidden-features",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["YOUTUBE TRICKS", "Hidden ⏩"],
+ "title": "YouTube-ൽ ഈ Hidden Tricks അറിയാമോ? ⏩ Speed & Skip #shorts",
+ "caption": "YouTube app-ൽ മിക്കവർക്കും അറിയാത്ത 3 tricks: double tap ചെയ്ത് 10 seconds skip, press & hold ചെയ്താൽ 2x speed, Settings-ൽ playback speed മാറ്റാം.\n\nYouTube hidden tricks: double-tap left/right to skip 10 seconds, touch and hold for 2x speed, and change playback speed from Settings > Playback speed.",
+ "hashtags": "#shorts #youtube #youtubetips #hiddenfeatures #techmalayalam #malayalamtech #403unlocked",
+ "tags": ["youtube tricks malayalam", "youtube hidden features", "youtube playback speed", "youtube double tap skip", "tech tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/youtube/answer/7509567?hl=en&co=GENIE.Platform%3DAndroid"],
+ "scenes": [
+  {"type": "hook", "title": "YOUTUBE TRICKS", "sub": "ഇത് അറിയാമോ?", "icon": "⏩",
+   "narration": "യൂട്യൂബ് ദിവസവും കാണുന്നുണ്ടോ? എങ്കിൽ ഈ മൂന്ന് ഹിഡൻ ട്രിക്കുകൾ നിങ്ങൾ അറിഞ്ഞിരിക്കണം!"},
+  {"type": "bullets", "title": "1. DOUBLE TAP", "icon": "👆", "items": ["Right side: +10 sec", "Left side: −10 sec"],
+   "narration": "വീഡിയോയുടെ വലതുവശത്ത് ഡബിൾ ടാപ്പ് ചെയ്താൽ പത്ത് സെക്കൻഡ് മുന്നോട്ട് പോകും. ഇടതുവശത്ത് ഡബിൾ ടാപ്പ് ചെയ്താൽ പത്ത് സെക്കൻഡ് പിന്നോട്ട്."},
+  {"type": "bullets", "title": "2. PRESS & HOLD", "icon": "⚡", "items": ["Video-ൽ അമർത്തി പിടിക്കൂ", "2x speed!"],
+   "narration": "വീഡിയോയിൽ എവിടെയെങ്കിലും വിരൽ അമർത്തി പിടിച്ചാൽ ടു എക്സ് സ്പീഡിൽ ഓടും. വിരൽ എടുത്താൽ നോർമൽ സ്പീഡിലേക്ക് തിരിച്ചുവരും."},
+  {"type": "steps", "title": "3. SPEED മാറ്റാം", "items": ["Video-ൽ ഒരു tap", "Settings ⚙️", "Playback speed"],
+   "note": "* App version അനുസരിച്ച് മാറാം",
+   "narration": "സ്പീഡ് ഇഷ്ടം പോലെ മാറ്റാനും പറ്റും. വീഡിയോയിൽ ഒന്ന് ടാപ്പ് ചെയ്ത്, സെറ്റിങ്സിൽ പ്ലേബാക്ക് സ്പീഡ് തിരഞ്ഞെടുക്കൂ."},
+  {"type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

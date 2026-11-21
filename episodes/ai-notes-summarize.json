@@ -1,0 +1,25 @@
+{
+ "slug": "ai-notes-summarize",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["PDF SUMMARY", "Free AI 🤖"],
+ "title": "നീണ്ട PDF വായിക്കാൻ മടിയാണോ? 🤖 Gemini AI Summary #shorts",
+ "caption": "Notes, PDF, documents എല്ലാം Gemini app-ൽ upload ചെയ്ത് മലയാളത്തിൽ തന്നെ summary ചോദിക്കാം! Important കാര്യങ്ങൾ എപ്പോഴും original-ൽ check ചെയ്യൂ.\n\nSummarize long PDFs and notes with Google Gemini: tap + / Add files, upload your document and ask for a short summary in Malayalam. Always double-check important facts and avoid uploading private documents.",
+ "hashtags": "#shorts #gemini #ai #aitools #pdfsummary #studytips #techmalayalam #403unlocked",
+ "tags": ["gemini pdf summary malayalam", "ai notes summary", "free ai tools malayalam", "google gemini malayalam", "study tips ai", "403 unlocked"],
+ "sources": ["https://support.google.com/gemini/answer/14903178?hl=en&co=GENIE.Platform%3DAndroid",
+             "https://blog.google/intl/en-in/company-news/technology/gemini-in-india-now-on-mobile-multilingual-and-more-powerful-for-your-everyday-tasks/",
+             "https://support.google.com/gemini/answer/13594961?hl=en"],
+ "scenes": [
+  {"type": "hook", "title": "PDF SUMMARY", "sub": "AI ചെയ്തു തരും!", "icon": "🤖",
+   "narration": "നൂറ് പേജുള്ള പി ഡി എഫ് വായിക്കാൻ സമയമില്ലേ? എ ഐ രണ്ട് മിനിറ്റിൽ സമ്മറി തരും!"},
+  {"type": "steps", "title": "എങ്ങനെ?", "items": ["Gemini app തുറക്കൂ", "+ tap → File add", "\"Summary തരൂ\""],
+   "note": "* Google account വേണം",
+   "narration": "ജെമിനി ആപ്പ് തുറന്ന്, പ്ലസ് ബട്ടൺ അമർത്തി, നിങ്ങളുടെ പി ഡി എഫ് അല്ലെങ്കിൽ നോട്ട്സ് ആഡ് ചെയ്യൂ. എന്നിട്ട് ചുരുക്കി പറഞ്ഞു തരാൻ ചോദിക്കൂ."},
+  {"type": "bullets", "title": "മലയാളത്തിലും!", "icon": "🗣️", "items": ["Malayalam-ൽ ചോദിക്കാം", "Points ആയി ചോദിക്കാം"],
+   "narration": "മലയാളത്തിൽ തന്നെ ചോദിക്കാം. അഞ്ച് പോയിന്റ് ആയി തരൂ, എന്ന് പറഞ്ഞാൽ പഠിക്കാൻ കൂടുതൽ എളുപ്പമാകും."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["Important കാര്യം check ചെയ്യൂ", "Private files വേണ്ട"],
+   "narration": "എ ഐക്ക് തെറ്റ് പറ്റാം, അതുകൊണ്ട് പ്രധാന കാര്യങ്ങൾ ഒറിജിനലിൽ ചെക്ക് ചെയ്യൂ. സ്വകാര്യ ഡോക്യുമെന്റുകൾ അപ്‌ലോഡ് ചെയ്യരുത്."},
+  {"type": "cta",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}
