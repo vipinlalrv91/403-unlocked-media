@@ -12,8 +12,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 7 MYTH vs FACT: "Stock market is gambling"
 - [x] 8 Inside a trading app: Kite, Dhan, Groww | watchlist, buy/sell window, holdings vs positions (generic illustration, say 'every app looks a bit different')
 - [x] 9 Charges when you buy shares | brokerage, STT, exchange fees, GST, stamp duty, DP charges (verify; rates change)
-- [ ] 10 Is your broker genuine? Check SEBI registration on sebi.gov.in
-- [ ] 11 Why companies list: IPO explained
+- [x] 10 Is your broker genuine? Check SEBI registration on sebi.gov.in
+- [x] 11 Why companies list: IPO explained
 - [ ] 12 Nifty 50 and Sensex explained
 - [ ] 13 Why share prices go up and down (demand & supply)
 - [ ] 14 MYTH vs FACT: "You need lakhs to start"
