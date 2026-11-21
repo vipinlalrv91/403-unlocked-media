@@ -20,7 +20,8 @@ def upload_short(client_id, client_secret, refresh_token, video_path, meta):
                 return {"error": f"WRONG CHANNEL (blocked before upload): token belongs to {items[0]['id']} ({items[0]['snippet']['title']}), expected {exp}"}
         except urllib.error.HTTPError:
             pass  # token has only youtube.upload scope; fall back to the post-upload check
-    body = {"snippet": {"title": meta["title"][:100], "description": meta["description"][:5000], "tags": meta.get("tags", []),
+    _c = lambda s: s.replace("<", "‹").replace(">", "→")  # YouTube rejects < and > in title/description
+    body = {"snippet": {"title": _c(meta["title"])[:100], "description": _c(meta["description"])[:5000], "tags": meta.get("tags", []),
                         "categoryId": str(meta.get("categoryId", "28")), "defaultLanguage": "ml", "defaultAudioLanguage": "ml"},
             "status": {"privacyStatus": meta.get("privacy", "public"), "selfDeclaredMadeForKids": bool(meta.get("madeForKids", False))}}
     req = urllib.request.Request("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
