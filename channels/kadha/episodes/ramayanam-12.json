@@ -1,0 +1,191 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-12",
+ "thumb_text": [
+  "രാമായണം",
+  "വനവാസത്തിലേക്ക്"
+ ],
+ "title": "രാമായണം 12 🏹 വനവാസത്തിലേക്ക്: അയോധ്യ കരയുന്നു | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 12: രാമനും സീതയും ലക്ഷ്മണനും സുമന്ത്രരുടെ രഥത്തിൽ കാട്ടിലേക്ക് പുറപ്പെടുന്നു. അയോധ്യ മുഴുവൻ കരയുന്നു 🏹\n\nRamayanam for kids in Malayalam, part 12: Rama, Sita and Lakshmana leave Ayodhya for the forest in Sumantra's chariot as the whole city weeps.",
+ "tags": [
+  "ramayanam malayalam",
+  "rama vanavasam",
+  "rama leaves ayodhya",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "വനവാസത്തിലേക്ക്",
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് രാമൻ അയോധ്യ വിട്ട് കാട്ടിലേക്ക് പോകുന്ന കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അച്ഛനോട് യാത്ര",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.55,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.82,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മരവുരി ധരിച്ച് രാമനും സീതയും ലക്ഷ്മണനും ദശരഥന്റെ മുന്നിൽ വന്നു നിന്നു."
+    },
+    {
+     "who": "rama",
+     "text": "അച്ഛാ, ഞങ്ങളെ അനുഗ്രഹിക്കണം. പതിനാല് വർഷം കഴിഞ്ഞ് ഞങ്ങൾ തിരിച്ചുവരും."
+    },
+    {
+     "who": "dasharatha",
+     "text": "എന്റെ രാമാ... നീ ഇല്ലാതെ ഈ കൊട്ടാരം ഇരുട്ടാണ്. സുമന്ത്രാ, എന്റെ മക്കളെ രഥത്തിൽ കൊണ്ടുപോകൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chariot_road",
+   "caption": "സുമന്ത്രരുടെ രഥം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "sumantra",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 700,
+     "label": "സുമന്ത്രർ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "വിശ്വസ്തനായ സുമന്ത്രർ രഥം ഒരുക്കി. മൂന്ന് പേരും രഥത്തിൽ കയറി."
+    },
+    {
+     "who": "narrator",
+     "text": "രഥം നീങ്ങിയപ്പോൾ അയോധ്യയിലെ ജനങ്ങൾ മുഴുവൻ പിന്നാലെ ഓടി. രാമാ, പോകരുതേ എന്ന് എല്ലാവരും കരഞ്ഞു വിളിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "അയോധ്യ കരയുന്നു",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "rama",
+     "text": "പ്രിയപ്പെട്ട അയോധ്യക്കാരേ, കരയരുത്. ഭരതൻ നല്ലവനാണ്. അവനെ എന്നെപ്പോലെ സ്നേഹിക്കണം."
+    },
+    {
+     "who": "narrator",
+     "text": "ദശരഥൻ കൊട്ടാരത്തിന്റെ പടിയിൽ നിന്ന് രഥം കണ്ണിൽ നിന്ന് മറയുന്നതുവരെ നോക്കി നിന്നു. പിന്നെ തളർന്നു വീണു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "തമസാ നദിക്കരയിൽ",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "lakshmana",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.8,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ആദ്യ രാത്രി അവർ തമസാ നദിക്കരയിൽ വിശ്രമിച്ചു. ജനങ്ങൾ ഉറങ്ങിയപ്പോൾ, ആരെയും വിഷമിപ്പിക്കാതെ രാമൻ യാത്ര തുടർന്നു."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, വിഷമിക്കേണ്ട. ഞാൻ ഉണർന്നിരുന്ന് കാവൽ നിൽക്കാം."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "വിഷമത്തിലും",
+    "മറ്റുള്ളവരെ",
+    "ആശ്വസിപ്പിക്കാം"
+   ],
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, സ്വന്തം വിഷമത്തിലും രാമൻ മറ്റുള്ളവരെ ആശ്വസിപ്പിച്ചു. അതാണ് വലിയ മനസ്സ്."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

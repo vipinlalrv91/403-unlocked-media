@@ -1,0 +1,203 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-13",
+ "thumb_text": [
+  "രാമായണം",
+  "ഗുഹന്റെ സ്നേഹം"
+ ],
+ "title": "രാമായണം 13 🛶 ഗുഹന്റെ സൗഹൃദം, ഗംഗ കടക്കുന്നു | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 13: വേടരാജാവായ ഗുഹൻ രാമനെ സ്നേഹത്തോടെ സ്വീകരിക്കുന്നു. ഗുഹന്റെ വള്ളത്തിൽ രാമനും സീതയും ലക്ഷ്മണനും ഗംഗ കടക്കുന്നു 🛶\n\nRamayanam for kids in Malayalam, part 13: Guha, king of the boatmen, welcomes Rama as a dear friend and helps them cross the Ganga.",
+ "tags": [
+  "ramayanam malayalam",
+  "guha rama friendship",
+  "crossing ganga ramayana",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ഗുഹന്റെ സ്നേഹം",
+   "icon": "🛶",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് രാമന്റെ ഒരു നല്ല കൂട്ടുകാരന്റെ കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "ganga_bank",
+   "caption": "ഗംഗാതീരത്ത്",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "guha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഗുഹൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "യാത്ര ചെയ്ത് അവർ ഗംഗാനദിയുടെ തീരത്തെത്തി. അവിടത്തെ വേടന്മാരുടെ രാജാവായിരുന്നു ഗുഹൻ."
+    },
+    {
+     "who": "guha",
+     "text": "രാമാ! എന്റെ പ്രിയ കൂട്ടുകാരാ! ഇത് നിന്റെ നാടാണ്. ഇവിടെ രാജാവായി താമസിക്കൂ."
+    },
+    {
+     "who": "rama",
+     "text": "ഗുഹാ, നിന്റെ സ്നേഹം മതി എനിക്ക്. ഞാൻ വനവാസിയാണ്, കൊട്ടാരം വേണ്ട."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "night_forest",
+   "caption": "സ്നേഹത്തിന്റെ കാവൽ",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "guha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഗുഹൻ"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അന്ന് രാത്രി രാമനും സീതയും പുല്ലുകൊണ്ടുള്ള കിടക്കയിൽ ഉറങ്ങി. ലക്ഷ്മണൻ വില്ലുമായി കാവൽ നിന്നു."
+    },
+    {
+     "who": "guha",
+     "text": "ലക്ഷ്മണാ, നീയും ഉറങ്ങിക്കോളൂ. ഞാനും എന്റെ ആളുകളും കാവൽ നിൽക്കാം."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടൻ നിലത്ത് ഉറങ്ങുമ്പോൾ എനിക്ക് ഉറക്കം വരില്ല, ഗുഹാ."
+    },
+    {
+     "who": "narrator",
+     "text": "അങ്ങനെ രണ്ട് പേരും രാത്രി മുഴുവൻ രാമനെക്കുറിച്ച് സംസാരിച്ച് ഉണർന്നിരുന്നു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ganga_bank",
+   "caption": "സുമന്ത്രർ മടങ്ങുന്നു",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "sumantra",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 700,
+     "label": "സുമന്ത്രർ"
+    },
+    {
+     "img": "rama",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാവിലെ രാമൻ സുമന്ത്രരെ അയോധ്യയിലേക്ക് തിരിച്ചയച്ചു."
+    },
+    {
+     "who": "rama",
+     "text": "അച്ഛനോട് പറയണം, ഞങ്ങൾ സുഖമായിരിക്കുന്നു എന്ന്. അമ്മമാരെ നന്നായി നോക്കണം."
+    },
+    {
+     "who": "narrator",
+     "text": "കണ്ണീരോടെ സുമന്ത്രർ ഒഴിഞ്ഞ രഥവുമായി മടങ്ങി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "river",
+   "caption": "ഗംഗ കടക്കുന്നു",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "guha",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 720,
+     "label": "ഗുഹൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.8,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഗുഹൻ തന്നെ വള്ളം തുഴഞ്ഞ് അവരെ ഗംഗയുടെ അക്കരെ എത്തിച്ചു. നദിയുടെ നടുവിൽ സീത ഗംഗാദേവിയോട് പ്രാർത്ഥിച്ചു."
+    },
+    {
+     "who": "sita",
+     "text": "അമ്മേ ഗംഗേ, പതിനാല് വർഷം കഴിഞ്ഞ് ഞങ്ങൾ സുഖമായി തിരിച്ചുവരാൻ അനുഗ്രഹിക്കണേ."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "യഥാർത്ഥ കൂട്ടുകാർ",
+    "വിഷമത്തിലും",
+    "കൂടെ നിൽക്കും"
+   ],
+   "icon": "🤝",
+   "mood": "devotional",
+   "narration": "മക്കളേ, രാജാവോ വേടനോ എന്നല്ല, സ്നേഹമാണ് സൗഹൃദം. നല്ല കൂട്ടുകാർ വിഷമത്തിലും കൂടെ നിൽക്കും."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

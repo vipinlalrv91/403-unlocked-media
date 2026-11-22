@@ -1,0 +1,21 @@
+{
+ "slug": "gboard-voice-typing-malayalam",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["സംസാരിച്ചാൽ മതി", "Malayalam voice typing 🎤"],
+ "title": "മലയാളം Type ചെയ്യാൻ മടിയാണോ? 🎤 സംസാരിച്ചാൽ മതി | Gboard Voice Typing #shorts",
+ "caption": "മലയാളം type ചെയ്യാൻ ബുദ്ധിമുട്ടാണോ? Gboard-ൽ Malayalam language add ചെയ്ത് mic 🎤 അമർത്തി സംസാരിച്ചാൽ AI അത് മലയാളം അക്ഷരങ്ങളാക്കും. WhatsApp, messages എല്ലായിടത്തും.\n\nType Malayalam by voice: add Malayalam in Gboard settings (Languages), then tap the mic and speak. Works in any app that uses Gboard.",
+ "hashtags": "#shorts #gboard #voicetyping #malayalamtyping #ai #techmalayalam #403unlocked",
+ "tags": ["malayalam voice typing", "gboard malayalam", "malayalam typing tricks", "voice to text malayalam", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://india.googleblog.com/2017/08/type-less-talk-more-in-eight-indian.html", "https://blog.google/products-and-platforms/products/search/type-less-talk-more/"],
+ "scenes": [
+  {"type": "hook", "title": "VOICE TYPING", "sub": "സംസാരിച്ചാൽ മതി!", "icon": "🎤",
+   "narration": "മലയാളം ടൈപ്പ് ചെയ്യാൻ മടിയാണോ? സംസാരിച്ചാൽ മതി, എ ഐ മലയാളത്തിൽ ടൈപ്പ് ചെയ്ത് തരും!"},
+  {"type": "steps", "title": "SETUP", "items": ["Gboard ⚙️ Settings", "Languages → Add", "മലയാളം select"], "note": "* Gboard keyboard വേണം",
+   "narration": "ജീബോർഡ് കീബോർഡിന്റെ സെറ്റിങ്സിൽ ലാംഗ്വേജസ് തുറന്ന്, മലയാളം ആഡ് ചെയ്യൂ. ഒരു തവണ ചെയ്താൽ മതി."},
+  {"type": "steps", "title": "ഇനി സംസാരിക്കൂ", "items": ["🌐 മലയാളം select", "🎤 Mic tap ചെയ്യൂ", "സംസാരിക്കൂ!"],
+   "narration": "ടൈപ്പ് ചെയ്യുമ്പോൾ മലയാളം കീബോർഡ് തിരഞ്ഞെടുത്ത്, മൈക്ക് ബട്ടൺ അമർത്തി സാധാരണ പോലെ സംസാരിക്കൂ. വാട്സ്ആപ്പിലും മെസേജിലും എല്ലായിടത്തും വർക്ക് ചെയ്യും."},
+  {"type": "bullets", "title": "TIP", "icon": "💡", "items": ["പതുക്കെ, വ്യക്തമായി", "Send-ന് മുൻപ് check"],
+   "narration": "പതുക്കെ വ്യക്തമായി സംസാരിച്ചാൽ കൃത്യത കൂടും. അയക്കുന്നതിനു മുൻപ് ഒന്ന് വായിച്ചു നോക്കൂ."},
+  {"type": "cta", "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

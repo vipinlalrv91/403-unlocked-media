@@ -1,22 +1,21 @@
 {
- "vasishtha": null,
- "manthara": {
+ "sumantra": {
   "eyes": [
    [
-    294,
-    239
+    170,
+    339
    ],
    [
-    365,
-    232
+    349,
+    339
    ]
   ],
-  "eye_w": 20,
-  "eye_h": 16,
+  "eye_w": 105,
+  "eye_h": 43,
   "mouth": [
-   328,
-   296
+   259,
+   491
   ],
-  "mouth_w": 29
+  "mouth_w": 75
  }
 }

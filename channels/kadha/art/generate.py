@@ -31,6 +31,8 @@ CHARS = {
  "manthara": "Manthara, elderly palace maid, grey hair in a bun, plain brown and green cotton saree, holding a walking stick, sly scheming expression but cartoon friendly, not scary, ",
  "janaka": "King Janaka of Mithila, wise gentle middle-aged king, short black beard, golden crown, cream and gold royal robes, rudraksha beads, kind smile, ",
  "ahalya": "Ahalya, gentle graceful sage's wife, kind serene face, white and light yellow cotton saree, simple flower in hair, rudraksha bracelet, hands folded in namaste, peaceful smile, ",
+ "guha": "Guha, friendly king of the boatmen tribe, dark brown skin, strong kind face, short black beard, simple headband with peacock feather, white dhoti, wooden boat oar in one hand, warm smile, ",
+ "sumantra": "Sumantra, loyal elderly royal charioteer and minister, grey moustache, white turban with small jewel, cream and maroon robes, cute chibi proportions like a children's cartoon, full body head to toe visible with feet, kind sad face, ",
  "shatrughna_child": "Little child prince Shatrughna, about 5 years old, fair skin, small golden crown, purple dhoti, gold jewellery, cute smile, ",
 }
 BGS = {
@@ -44,6 +46,8 @@ BGS = {
  "ahalya_ashram": "a quiet old empty hermitage in the forest, small hut with thatched roof, a large smooth grey stone shaped like a seated person in the courtyard, soft morning light, falling leaves, ",
  "mithila_court": "grand royal court of Mithila with golden pillars and flower garlands, a single huge ornate golden archery bow lying horizontally on a long decorated golden stand in the centre of the hall, empty hall, no people, no gods, no statues, ",
  "wedding_mandapam": "a beautiful traditional Indian wedding mandapam decorated with marigold and jasmine garlands, banana trees, brass lamps glowing, sacred fire in the centre, festive colours, no people, ",
+ "chariot_road": "a royal golden chariot with white horses on a road leaving an ancient Indian city gate, dusty evening light, no people, no letters, no writing, no signboards, no watermark, ",
+ "ganga_bank": "the holy river Ganga at dawn, wide calm water, a small wooden boat tied at a sandy bank, tall ingudi trees, soft mist, no signature, no watermark, no letters, ",
  "night_forest": "forest at night under a full moon and stars, fireflies, peaceful, ",
 }
 

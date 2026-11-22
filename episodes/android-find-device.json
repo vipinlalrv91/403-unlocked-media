@@ -1,0 +1,21 @@
+{
+ "slug": "android-find-device",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["PHONE LOST?", "ഇങ്ങനെ കണ്ടെത്താം 📍"],
+ "title": "Phone നഷ്ടപ്പെട്ടോ? 📍 ഇങ്ങനെ കണ്ടെത്താം | Android Find Hub #shorts",
+ "caption": "Phone കാണാതായാൽ പേടിക്കേണ്ട! android.com/find തുറന്ന് അതേ Google account-ൽ login ചെയ്യൂ. Silent-ൽ ആണെങ്കിലും ring ചെയ്യിക്കാം, lock ചെയ്യാം, വേണമെങ്കിൽ erase ചെയ്യാം. ഇന്ന് തന്നെ Find Hub ON ആണോ എന്ന് check ചെയ്യൂ.\n\nLost your Android phone? Go to android.com/find (Find Hub), sign in with the same Google account, then play sound, mark as lost (lock) or factory reset. Works if the phone is signed in to Google with Find Hub turned on.",
+ "hashtags": "#shorts #android #findmydevice #findhub #lostphone #techmalayalam #403unlocked",
+ "tags": ["lost phone find malayalam", "android find my device malayalam", "find hub android", "phone kalanju poyal", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/android/answer/6160491?hl=en-IN", "https://support.google.com/android/answer/3265955?hl=en"],
+ "scenes": [
+  {"type": "hook", "title": "PHONE LOST?", "sub": "പേടിക്കേണ്ട!", "icon": "📍",
+   "narration": "ഫോൺ കാണാതായോ? പേടിക്കേണ്ട! ഏത് ഫോണിൽ നിന്നോ കമ്പ്യൂട്ടറിൽ നിന്നോ കണ്ടെത്താം."},
+  {"type": "steps", "title": "എങ്ങനെ?", "items": ["android.com/find", "Same Google login", "Phone select ചെയ്യൂ"],
+   "narration": "ആൻഡ്രോയിഡ് ഡോട്ട് കോം സ്ലാഷ് ഫൈൻഡ് തുറന്ന്, നഷ്ടപ്പെട്ട ഫോണിലെ അതേ ഗൂഗിൾ അക്കൗണ്ടിൽ ലോഗിൻ ചെയ്യൂ. മാപ്പിൽ ഫോൺ എവിടെയാണെന്ന് കാണാം."},
+  {"type": "bullets", "title": "3 OPTIONS", "icon": "🛡️", "items": ["Play sound 🔊", "Mark as lost 🔒", "Factory reset 🗑️"],
+   "narration": "പ്ലേ സൗണ്ട് അമർത്തിയാൽ സൈലന്റിൽ ആണെങ്കിലും റിങ് ചെയ്യും. മാർക്ക് ആസ് ലോസ്റ്റ് കൊടുത്താൽ ലോക്ക് ആകും. തിരിച്ചു കിട്ടില്ലെന്ന് ഉറപ്പായാൽ മാത്രം ഇറേസ് ചെയ്യൂ."},
+  {"type": "bullets", "title": "ഇന്ന് തന്നെ", "icon": "✅", "items": ["Find Hub ON ആണോ?", "Google account login"], "note": "* Settings path varies by phone",
+   "narration": "ഇത് വർക്ക് ചെയ്യാൻ ഫോണിൽ ഗൂഗിൾ അക്കൗണ്ടും ഫൈൻഡ് ഹബ്ബും ഓൺ ആയിരിക്കണം. ഇന്ന് തന്നെ സെറ്റിങ്സിൽ ചെക്ക് ചെയ്യൂ."},
+  {"type": "cta", "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}
