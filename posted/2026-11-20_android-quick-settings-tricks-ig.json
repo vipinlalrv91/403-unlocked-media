@@ -19,5 +19,15 @@
  "privacy": "public",
  "only": [
   "instagram"
- ]
+ ],
+ "result": {
+  "posted_at": "2026-11-22T16:28:58.752510+00:00",
+  "instagram": {
+   "id": "18122917553033165",
+   "url": "https://www.instagram.com/reel/DgDPNzaFFZG/"
+  },
+  "youtube": {
+   "skipped": "no secrets"
+  }
+ }
 }
