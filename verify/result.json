@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-20T05:27:41.402740+00:00",
+ "checked_at": "2026-11-22T16:28:01.915674+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -15,16 +15,19 @@
  },
  "instagram": {
   "403": {
-   "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type"
+   "ok": true,
+   "username": "403_unlocked",
+   "can_publish": true
   },
   "STOIC": {
-   "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type"
+   "ok": true,
+   "username": "thestoicbull_",
+   "can_publish": true
   },
   "KADHA": {
-   "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type"
+   "ok": true,
+   "username": "kadha_petti_malayalam",
+   "can_publish": true
   }
  },
  "youtube": {
