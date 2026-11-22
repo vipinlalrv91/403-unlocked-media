@@ -1,0 +1,85 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-13",
+ "series": {
+  "day": 13,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: Price കൂടും",
+ "thumb_text": [
+  "PRICE എന്തിന് മാറുന്നു?",
+  "Demand vs Supply"
+ ],
+ "title": "Share Price എന്തിന് കൂടുന്നു, കുറയുന്നു? ⚖️ Demand & Supply | Day 13 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 13! വാങ്ങാൻ ആളുകൾ കൂടുതൽ = price കൂടും. വിൽക്കാൻ ആളുകൾ കൂടുതൽ = price കുറയും. Results, news, economy എല്ലാം demand-നെ ബാധിക്കും. ഒരു ദിവസത്തെ ചലനം വെച്ച് തീരുമാനം എടുക്കരുത്.\n\nWhy share prices move: demand and supply between buyers and sellers, influenced by company results, news and the economy.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #sharemarket #demandandsupply #stockmarket #malayalam #investing #thestoicbull",
+ "tags": [
+  "why share price changes malayalam",
+  "demand and supply stock market",
+  "share price up down",
+  "stock market basics malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nseindia.com/invest/first-time-investor-basics-of-stock-market",
+  "https://investor.sebi.gov.in/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "PRICE എന്തിന് മാറുന്നു?",
+   "sub": "Yesterday: B · 30",
+   "icon": "⚖️",
+   "narration": "ഇന്നലത്തെ ഉത്തരം മുപ്പത്! ഡേ പതിമൂന്ന്. ഷെയർ പ്രൈസ് ഓരോ നിമിഷവും മാറുന്നത് എന്തുകൊണ്ടാണ്?"
+  },
+  {
+   "type": "bullets",
+   "title": "ചന്തയിലെ മീൻ 🐟",
+   "icon": "🐟",
+   "items": [
+    "വാങ്ങാൻ ആള് കൂടി = വില ↑",
+    "വിൽക്കാൻ ആള് കൂടി = വില ↓"
+   ],
+   "narration": "ചന്തയിൽ മത്തി കുറവും വാങ്ങാൻ ആള് കൂടുതലും ആണെങ്കിൽ വില കൂടും. മത്തി കൂടുതൽ, ആള് കുറവ് ആണെങ്കിൽ വില കുറയും. ഷെയറും അങ്ങനെ തന്നെ."
+  },
+  {
+   "type": "steps",
+   "title": "DEMAND മാറ്റുന്നത്",
+   "items": [
+    "Company results",
+    "News & events",
+    "Economy, interest rates"
+   ],
+   "narration": "കമ്പനിയുടെ റിസൽട്ട്, ന്യൂസ്, രാജ്യത്തിന്റെ എക്കണോമി, പലിശ നിരക്ക്. ഇവയെല്ലാം ആളുകളുടെ വാങ്ങൽ വിൽക്കൽ തീരുമാനങ്ങളെ മാറ്റും."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Daily price = noise",
+    "Business-നെ പഠിക്കൂ"
+   ],
+   "narration": "ഒരു ദിവസത്തെ കയറ്റിറക്കം പലപ്പോഴും നോയ്സ് മാത്രമാണ്. പ്രൈസ് അല്ല, കമ്പനിയുടെ ബിസിനസ്സ് പഠിക്കാൻ ശീലിക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Buyers കൂടുതൽ ആയാൽ price?",
+   "options": [
+    "കൂടും",
+    "കുറയും"
+   ],
+   "narration": "ക്വിസ്! വാങ്ങാൻ ആളുകൾ കൂടുതലായാൽ പ്രൈസ് എന്ത് സംഭവിക്കും? എ, കൂടും. ബി, കുറയും. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

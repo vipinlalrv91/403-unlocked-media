@@ -1,0 +1,86 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-12",
+ "series": {
+  "day": 12,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: 30",
+ "thumb_text": [
+  "NIFTY vs SENSEX",
+  "Simple ആയി"
+ ],
+ "title": "Nifty 50, Sensex എന്താണ്? 📊 Market Index Simple ആയി | Day 12 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 12! Nifty 50 = NSE-യിലെ 50 വലിയ companies. Sensex = BSE-യിലെ 30 വലിയ companies. മാർക്കറ്റ് മൊത്തത്തിൽ കയറിയോ ഇറങ്ങിയോ എന്ന് കാണിക്കുന്ന scoreboard ആണ് index.\n\nNifty 50 and Sensex explained: indices that track 50 (NSE) and 30 (BSE) large companies, weighted by free-float market cap.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #nifty50 #sensex #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "nifty 50 malayalam",
+  "sensex malayalam",
+  "what is stock index",
+  "nifty sensex difference",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.niftyindices.com/indices/equity/broad-based-indices/nifty--50",
+  "https://www.bseindia.com/sensex/IndexHighlight.html",
+  "https://www.asiaindex.co.in/indices/equity/sp-bse-sensex"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "NIFTY? SENSEX?",
+   "sub": "Yesterday: B · Lottery",
+   "icon": "📊",
+   "narration": "ഇന്നലത്തെ ഉത്തരം ലോട്ടറി! ഡേ പന്ത്രണ്ട്. ന്യൂസിൽ എന്നും കേൾക്കുന്ന നിഫ്റ്റിയും സെൻസെക്സും ശരിക്കും എന്താണ്?"
+  },
+  {
+   "type": "bullets",
+   "title": "NIFTY vs SENSEX",
+   "icon": "📈",
+   "items": [
+    "Nifty 50 → NSE, 50 cos",
+    "Sensex → BSE, 30 cos"
+   ],
+   "narration": "നിഫ്റ്റി ഫിഫ്റ്റി, എൻ എസ് ഇയിലെ അമ്പത് വലിയ കമ്പനികളുടെ ഇൻഡക്സ്. സെൻസെക്സ്, ബി എസ് ഇയിലെ മുപ്പത് വലിയ കമ്പനികളുടെ ഇൻഡക്സ്."
+  },
+  {
+   "type": "bullets",
+   "title": "INDEX = SCOREBOARD",
+   "icon": "🏏",
+   "items": [
+    "Market mood ഒറ്റ number-ൽ",
+    "വലിയ company = കൂടുതൽ weight"
+   ],
+   "narration": "ക്രിക്കറ്റിലെ സ്കോർബോർഡ് പോലെ. മാർക്കറ്റ് മൊത്തത്തിൽ കയറിയോ ഇറങ്ങിയോ എന്ന് ഒറ്റ നമ്പറിൽ കാണാം. വലിയ കമ്പനികൾക്ക് കൂടുതൽ വെയ്റ്റ് ഉണ്ട്."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Index up ≠ എല്ലാ shares up",
+    "News കേട്ട് panic വേണ്ട"
+   ],
+   "narration": "ഇൻഡക്സ് കയറിയാലും എല്ലാ ഷെയറുകളും കയറണം എന്നില്ല. ഒരു ദിവസത്തെ ഇറക്കം കേട്ട് പേടിക്കരുത്, ശാന്തമായി പഠിക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Sensex-ൽ എത്ര companies?",
+   "options": [
+    "50",
+    "30"
+   ],
+   "narration": "ക്വിസ്! സെൻസെക്സിൽ എത്ര കമ്പനികൾ ഉണ്ട്? എ, അമ്പത്. ബി, മുപ്പത്. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
