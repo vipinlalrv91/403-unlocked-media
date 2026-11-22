@@ -19,8 +19,8 @@
 - [x] youtube-hidden-features | Hidden: YouTube app tricks (speed, double-tap, stats for nerds) | verify YouTube help
 - [x] ai-notes-summarize | AI: summarize long PDFs/notes with free AI | verify official pages
 # Refill 21 Nov 2026 (verify each on official pages before writing)
-- [ ] google-translate-conversation | AI: Google Translate conversation mode, Malayalam <-> English live | verify Google Translate help
-- [ ] gboard-voice-typing-malayalam | Hidden: type Malayalam by voice with Gboard | verify Gboard help
-- [ ] android-find-device | Hidden: find a lost Android phone (Find Hub / Find My Device) | verify Google help
+- [ ] google-translate-conversation | DEFERRED 22 Nov: Malayalam conversation-mode support not confirmed on official pages | AI: Google Translate conversation mode, Malayalam <-> English live | verify Google Translate help
+- [x] gboard-voice-typing-malayalam | Hidden: type Malayalam by voice with Gboard | verify Gboard help
+- [x] android-find-device | Hidden: find a lost Android phone (Find Hub / Find My Device) | verify Google help
 - [ ] google-maps-hidden-features | Hidden: Google Maps tricks (offline maps, share live location) | verify Maps help
 - [ ] chrome-listen-to-page | AI: Chrome reads web pages aloud (Listen to this page) | verify Chrome help + India availability
