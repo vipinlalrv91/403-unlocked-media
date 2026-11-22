@@ -51,3 +51,12 @@ Pronunciation: in NARRATION write English words in Malayalam script so they are 
 
 ## Thumbnails (owner, 19 Nov 2026), every video
 Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON. make_short.py writes videos/<slug>_thumb.jpg (1080x1920). Copy it next to the published video with the same name + "_thumb.jpg" (403: videos/approved/<date>_<slug>_thumb.jpg; Stoic: export.py copies it; Kadha: channels/kadha/videos/<name>_thumb.jpg), push, and put its raw URL in the outbox request as "thumbnail_url". The publisher sets it as the Instagram Reel cover and the YouTube custom thumbnail.
+
+
+## Real-photo backgrounds (owner, 22 Nov 2026), every 403 video
+Give EVERY scene a "photo": "<English prompt>" describing a realistic scene that matches what the narrator says
+(e.g. "a worried young Malayali man searching a sofa for his lost phone in a Kerala living room").
+make_short.py generates it once with Cloudflare FLUX (assets/photos/<slug>-<n>.jpg, committed with the video), pans slowly
+behind the text cards, and uses the hook photo for the thumbnail. Rules: people and places look Kerala/Indian; never ask for
+app screens, UI, text, logos or brand phones (style suffix already forces generic Android phones with screens turned away);
+no real/famous people. QC: look at every photo frame; regenerate (delete the jpg, re-run) if hands/faces look broken or any text/logo appears.

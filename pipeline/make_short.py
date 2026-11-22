@@ -17,7 +17,7 @@ Episode JSON:
 }
 The ElevenLabs key is injected by the network proxy (header xi-api-key).
 """
-import json, math, os, random, re, subprocess, sys, urllib.request
+import json, math, os, random, re, subprocess, sys, time, urllib.request
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 W, H, FPS = 1080, 1920, 30
@@ -78,7 +78,12 @@ def apply_theme(name, brand=None, tagline=None):
     if brand: BRAND = brand
     if tagline is not None: TAGLINE = tagline
 
+PHOTO = None   # (prepared PIL image, scene duration) for the scene being rendered; set by main() when the scene has "photo"
 def bg(t):
+    if PHOTO:
+        src, D = PHOTO; k = min(1.0, t / max(0.1, D))          # slow pan across the slightly larger photo
+        x0 = int((src.width - W) * (0.5 + 0.5 * math.sin(k * 1.4 - 0.7))); y0 = int((src.height - H) * k)
+        return src.crop((x0, y0, x0 + W, y0 + H))
     im = BASE.copy(); d = ImageDraw.Draw(im)
     for x, y, r, sp in PARTS:
         yy = (y - sp * t) % H
@@ -137,11 +142,12 @@ def glow(im, cx, cy, r, col, a=1.0):
 # ---------- scene templates ----------
 def sc_hook(s, t, D):
     im = bg(t)
-    pulse = 0.6 + 0.4 * math.sin(t * 6)
-    z = 1 + 0.08 * math.sin(t * 3)
-    glow(im, W / 2, 1050, 330 * z, GREEN, pulse)
-    e = emoji(s.get("icon", "⚡"), int(420 * z))
-    im.paste(e, (int(W / 2 - e.width / 2), int(1050 - e.height / 2)), e)
+    if not PHOTO:
+        pulse = 0.6 + 0.4 * math.sin(t * 6)
+        z = 1 + 0.08 * math.sin(t * 3)
+        glow(im, W / 2, 1050, 330 * z, GREEN, pulse)
+        e = emoji(s.get("icon", "⚡"), int(420 * z))
+        im.paste(e, (int(W / 2 - e.width / 2), int(1050 - e.height / 2)), e)
     d = ImageDraw.Draw(im)
     text(d, 0, 230, s["title"], 100, GREEN, 5, center=True)
     if t > 0.8 and s.get("sub"):
@@ -540,6 +546,48 @@ def mix(clips, sd, out, moods=None, seed=0):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", fc, "-map", "[out]", "-ar", "44100", "-t", str(tot), out], check=True)
 
 
+
+# ---------- AI photo backgrounds (403 UNLOCKED, owner 22 Nov 2026) ----------
+PHOTO_STYLE = (", photorealistic candid photo, Kerala India, natural light, shallow depth of field, vertical composition, "
+               "no text, no letters, no logos, no brand names, no watermark, phones are generic modern Android smartphones without any logo, "
+               "any phone or laptop screen is turned away or blurred")
+CF_ACCOUNT = "d93a3d51bd1c05e669119b7955ac7aba"
+
+def photo_path(slug, k):
+    return os.path.join(ROOT, "assets", "photos", f"{slug}-{k}.jpg")
+
+def ensure_photos(ep):
+    """Generate (once) a FLUX photo for every scene that has a "photo" prompt. Cached in assets/photos/."""
+    import base64, urllib.request
+    for k, s in enumerate(ep["scenes"]):
+        if not s.get("photo"): continue
+        pth = photo_path(ep["slug"], k)
+        if os.path.exists(pth): continue
+        os.makedirs(os.path.dirname(pth), exist_ok=True)
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+                    data=json.dumps({"prompt": s["photo"] + PHOTO_STYLE, "steps": 8}).encode(),
+                    headers={"Content-Type": "application/json", "Authorization": "Bearer proxy-injected"})
+                with urllib.request.urlopen(req, timeout=180) as r:
+                    open(pth, "wb").write(base64.b64decode(json.load(r)["result"]["image"]))
+                break
+            except Exception as e:
+                print(f"photo {k} attempt {attempt + 1} failed: {e}", file=sys.stderr); time.sleep(5)
+
+def prep_photo(pth, dim=True):
+    """Scale to cover 1080x1920 with 8% margin for panning; darken top/bottom so cards and titles stay readable."""
+    src = Image.open(pth).convert("RGB"); sc = max(W * 1.08 / src.width, H * 1.04 / src.height)
+    im = src.resize((int(src.width * sc), int(src.height * sc)), Image.LANCZOS)
+    if dim:
+        ov = Image.new("RGBA", im.size, (0, 0, 0, 0)); d = ImageDraw.Draw(ov); hh = im.height
+        for y in range(0, hh, 4):
+            f = y / hh   # smooth: dark at the top (title), lighter in the middle, dark again at the bottom
+            a = int(165 - 75 * min(1, f / 0.38)) if f < 0.6 else int(90 + 80 * min(1, (f - 0.6) / 0.35))
+            d.rectangle([0, y, im.width, y + 4], fill=(4, 8, 24, a))
+        im = im.convert("RGBA"); im.alpha_composite(ov); im = im.convert("RGB")
+    return im
+
 # ---------- thumbnail / cover ----------
 def make_thumb(ep, path):
     """1080x1920 cover (Instagram Reel cover + YouTube thumbnail). Uses ep["thumb_text"] (2 short lines) if given."""
@@ -559,6 +607,10 @@ def make_thumb(ep, path):
         d = ImageDraw.Draw(im)
         text(d, 0, 170, lines[0], 150, (230, 80, 20), 8, center=True, maxw=1000)
         if len(lines) > 1 and lines[1]: text(d, 0, 400, lines[1], 90, (90, 30, 140), 5, center=True, maxw=1000)
+    elif hook.get("photo") and os.path.exists(photo_path(ep["slug"], 0)):
+        src = prep_photo(photo_path(ep["slug"], 0)); x0 = (src.width - W) // 2; im = src.crop((x0, 0, x0 + W, H)); d = ImageDraw.Draw(im)
+        text(d, 0, 230, lines[0], 140, (255, 225, 40), 8, center=True, maxw=1000)
+        if len(lines) > 1 and lines[1]: text(d, 0, 470, lines[1], 92, WHITE, 6, center=True, maxw=1000)
     else:
         im = bg(0.0); d = ImageDraw.Draw(im)
         glow(im, W / 2, 1150, 420, GREEN, 1.0)
@@ -574,8 +626,9 @@ def make_thumb(ep, path):
 
 # ---------- main ----------
 def main(path):
-    global VOICE, SERIES, DISCLAIMER, NEXT_TIME
+    global VOICE, SERIES, DISCLAIMER, NEXT_TIME, PHOTO
     ep = json.load(open(path, encoding="utf-8"))
+    ensure_photos(ep)
     apply_theme(ep.get("theme", "tech"), ep.get("brand"), ep.get("tagline"))
     VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer"); NEXT_TIME = ep.get("next_time")
     slug = ep["slug"]; work = os.path.join("/tmp", "short_" + slug); os.makedirs(work, exist_ok=True)
@@ -625,6 +678,8 @@ def main(path):
         AMP[:] = envelope(clips[k], 0.3 if k == 0 else 0.1) if s["type"] == "story" else [0.0]
         dl0 = 0.3 if k == 0 else 0.1
         SEGS[:] = [(a + dl0, b + dl0, w) for a, b, w in s.get("_segs", [])]
+        pp = photo_path(slug, k)
+        PHOTO = (prep_photo(pp), D) if s.get("photo") and os.path.exists(pp) else None
         for i in range(int(round(D * FPS))):
             im = overlay(fn(s, i / FPS, D))
             if i < 6:
