@@ -14,8 +14,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 9 Charges when you buy shares | brokerage, STT, exchange fees, GST, stamp duty, DP charges (verify; rates change)
 - [x] 10 Is your broker genuine? Check SEBI registration on sebi.gov.in
 - [x] 11 Why companies list: IPO explained
-- [ ] 12 Nifty 50 and Sensex explained
-- [ ] 13 Why share prices go up and down (demand & supply)
+- [x] 12 Nifty 50 and Sensex explained
+- [x] 13 Why share prices go up and down (demand & supply)
 - [ ] 14 MYTH vs FACT: "You need lakhs to start"
 - [ ] 15 Market timings in India (pre-open, normal session)
 - [ ] 16 Bull market vs bear market
