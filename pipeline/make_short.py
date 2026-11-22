@@ -338,7 +338,14 @@ def face_overlay(spr, name, t, talk, seed):
     sp = spr.copy(); d = ImageDraw.Draw(sp)
     if blink:
         for ex, ey in f["eyes"]:
-            skin = sp.getpixel((ex, max(0, ey - f["eye_h"] - 6)))[:3]
+            # sample skin around the eye; take the median warm skin-tone sample (above-eye can hit eyebrow/hair)
+            W_, H_ = sp.size; cands = []
+            for px, py in ((ex, ey - f["eye_h"] - 6), (ex, ey + f["eye_h"] * 0.9), (ex - f["eye_w"] * 0.75, ey + f["eye_h"] * 0.6),
+                           (ex + f["eye_w"] * 0.75, ey + f["eye_h"] * 0.6), (ex, ey - f["eye_h"] * 1.4)):
+                px = int(min(max(px, 0), W_ - 1)); py = int(min(max(py, 0), H_ - 1)); c = sp.getpixel((px, py))
+                if (len(c) < 4 or c[3] > 200) and c[0] > 120 and c[0] >= c[1] >= c[2] and c[0] - c[2] > 40: cands.append(c[:3])  # warm skin tones only
+            cands.sort(key=sum)
+            skin = cands[len(cands) // 2] if cands else sp.getpixel((ex, max(0, ey - f["eye_h"] - 6)))[:3]
             d.ellipse([ex - f["eye_w"] / 2 - 3, ey - f["eye_h"] / 2 - 3, ex + f["eye_w"] / 2 + 3, ey + f["eye_h"] / 2 + 3], fill=skin)
             d.arc([ex - f["eye_w"] / 2, ey - f["eye_h"] / 2, ex + f["eye_w"] / 2, ey + f["eye_h"] / 2 + 4], 20, 160, fill=(60, 30, 25), width=3)
     if talk >= 0.06:
