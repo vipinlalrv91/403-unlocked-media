@@ -1,0 +1,202 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-14",
+ "thumb_text": [
+  "രാമായണം",
+  "ചിത്രകൂടത്തിൽ"
+ ],
+ "title": "രാമായണം 14 🌿 ഭരദ്വാജ ആശ്രമം, ചിത്രകൂടത്തിലെ ജീവിതം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 14: ഭരദ്വാജ മഹർഷിയുടെ ആശ്രമത്തിൽ രാമനും സീതയും ലക്ഷ്മണനും. മഹർഷി പറഞ്ഞ ചിത്രകൂടം എന്ന മനോഹരമായ കുന്നിൽ അവർ ഒരു കുടിൽ കെട്ടി താമസിക്കുന്നു 🌿\n\nRamayanam for kids in Malayalam, part 14: Sage Bharadwaja welcomes Rama, Sita and Lakshmana and guides them to Chitrakoot, where they build a little hut.",
+ "tags": [
+  "ramayanam malayalam",
+  "bharadwaja ashram",
+  "chitrakoot ramayana",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ചിത്രകൂടത്തിൽ",
+   "icon": "🌿",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് രാമനും സീതയും കാട്ടിൽ ഒരു കൊച്ചു വീട് ഉണ്ടാക്കുന്ന കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "ഭരദ്വാജ ആശ്രമം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "bharadwaja",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 720,
+     "label": "ഭരദ്വാജ മഹർഷി"
+    },
+    {
+     "img": "rama",
+     "x": 0.55,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.82,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഗംഗ കടന്ന് അവർ നടന്ന് ഗംഗയും യമുനയും ചേരുന്ന പ്രയാഗിൽ എത്തി. അവിടെ ആയിരുന്നു ഭരദ്വാജ മഹർഷിയുടെ ആശ്രമം."
+    },
+    {
+     "who": "bharadwaja",
+     "text": "വരൂ രാമാ, വരൂ മക്കളേ! നിങ്ങളെ കാണാൻ ഞാൻ എത്ര നാളായി കാത്തിരിക്കുന്നു."
+    },
+    {
+     "who": "rama",
+     "text": "മഹർഷേ, ഞങ്ങൾക്ക് ശാന്തമായി താമസിക്കാൻ പറ്റിയ ഒരു സ്ഥലം പറഞ്ഞു തരാമോ?"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "മഹർഷിയുടെ ഉപദേശം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "bharadwaja",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 720,
+     "label": "ഭരദ്വാജ മഹർഷി"
+    },
+    {
+     "img": "lakshmana",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "bharadwaja",
+     "text": "ഇവിടെ നിന്ന് കുറച്ച് ദൂരെ ചിത്രകൂടം എന്ന ഒരു കുന്നുണ്ട്. അവിടെ പൂക്കളും പഴങ്ങളും അരുവിയും മയിലുകളും ഉണ്ട്."
+    },
+    {
+     "who": "narrator",
+     "text": "മഹർഷിയുടെ അനുഗ്രഹം വാങ്ങി അവർ ചിത്രകൂടത്തിലേക്ക് നടന്നു. വഴിയിൽ സീത ഓരോ പൂവും മരവും കണ്ട് സന്തോഷിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "ചിത്രകൂടത്തിലെ കുടിൽ",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "lakshmana",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ"
+    },
+    {
+     "img": "rama",
+     "x": 0.52,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.8,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ചിത്രകൂടത്തിൽ എത്തിയപ്പോൾ ലക്ഷ്മണൻ മരക്കൊമ്പുകളും ഇലകളും കൊണ്ട് ഒരു ഭംഗിയുള്ള കുടിൽ കെട്ടി."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, ഏടത്തീ, നമ്മുടെ പുതിയ വീട് തയ്യാർ!"
+    },
+    {
+     "who": "sita",
+     "text": "എത്ര ഭംഗി! ഈ അരുവിയുടെ ശബ്ദവും മയിലുകളുടെ നൃത്തവും കൊട്ടാരത്തിൽ പോലും ഇല്ലല്ലോ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "സന്തോഷമുള്ള ദിവസങ്ങൾ",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "rama",
+     "x": 0.35,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ"
+    },
+    {
+     "img": "sita",
+     "x": 0.68,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത"
+    }
+   ],
+   "lines": [
+    {
+     "who": "rama",
+     "text": "സീതേ, ഇവിടെ നമുക്ക് സന്തോഷമായി ജീവിക്കാം. പ്രകൃതിയാണ് നമ്മുടെ കൂട്ടുകാർ."
+    },
+    {
+     "who": "narrator",
+     "text": "രാവിലെ അരുവിയിൽ കുളിച്ച്, പഴങ്ങൾ കഴിച്ച്, മഹർഷിമാരുമായി സംസാരിച്ച്, അവർ ചിത്രകൂടത്തിൽ സമാധാനത്തോടെ ജീവിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "ഉള്ളതിൽ",
+    "സന്തോഷം",
+    "കണ്ടെത്താം"
+   ],
+   "icon": "🌸",
+   "mood": "devotional",
+   "narration": "മക്കളേ, കൊട്ടാരം ഇല്ലെങ്കിലും രാമനും സീതയും സന്തോഷമായി ജീവിച്ചു. ഉള്ളതിൽ സന്തോഷം കണ്ടെത്തുന്നതാണ് ശരിയായ സന്തോഷം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

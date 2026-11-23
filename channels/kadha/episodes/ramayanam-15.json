@@ -1,0 +1,162 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-15",
+ "thumb_text": [
+  "രാമായണം",
+  "അച്ഛന്റെ ദുഃഖം"
+ ],
+ "title": "രാമായണം 15 🪔 ദശരഥന്റെ ദുഃഖം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 15: രാമനെ പിരിഞ്ഞ ദുഃഖം ദശരഥ മഹാരാജാവിന് താങ്ങാനായില്ല. രാമാ, രാമാ എന്ന് വിളിച്ചുകൊണ്ട് മഹാരാജാവ് ഈ ലോകം വിട്ടുപോകുന്നു. അയോധ്യ ദുഃഖത്തിലാകുന്നു 🪔\n\nRamayanam for kids in Malayalam, part 15: King Dasharatha, heartbroken without Rama, passes away calling Rama's name. Told gently for children.",
+ "tags": [
+  "ramayanam malayalam",
+  "dasharatha grief",
+  "dasharatha death ramayana",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "അച്ഛന്റെ ദുഃഖം",
+   "icon": "🪔",
+   "mood": "sad",
+   "narration": "മക്കളേ, ഇന്നത്തെ കഥ കുറച്ച് സങ്കടമുള്ളതാണ്. ഒരു അച്ഛന്റെ സ്നേഹത്തിന്റെ കഥ."
+  },
+  {
+   "type": "story",
+   "bgimg": "chariot_road",
+   "caption": "സുമന്ത്രർ മടങ്ങിയെത്തി",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "sumantra",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 720,
+     "label": "സുമന്ത്രർ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഒഴിഞ്ഞ രഥവുമായി സുമന്ത്രർ അയോധ്യയിൽ മടങ്ങിയെത്തി. രഥത്തിൽ രാമൻ ഇല്ലെന്ന് കണ്ട് ജനങ്ങൾ കരഞ്ഞു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "രാമന്റെ സന്ദേശം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "sumantra",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 700,
+     "label": "സുമന്ത്രർ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "dasharatha",
+     "text": "സുമന്ത്രാ, എന്റെ രാമൻ എന്ത് പറഞ്ഞു? എന്റെ മക്കൾ സുഖമാണോ?"
+    },
+    {
+     "who": "narrator",
+     "text": "രാമനും സീതയും ലക്ഷ്മണനും സുഖമായിരിക്കുന്നു എന്നും, അച്ഛനെ വന്ദിക്കാൻ പറഞ്ഞു എന്നും സുമന്ത്രർ അറിയിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അമ്മയുടെ ആശ്വാസം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "dasharatha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 760,
+     "label": "ദശരഥൻ"
+    },
+    {
+     "img": "kausalya",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൗസല്യ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "kausalya",
+     "text": "മഹാരാജാവേ, വിഷമിക്കരുത്. പതിനാല് വർഷം കഴിഞ്ഞ് നമ്മുടെ രാമൻ തിരിച്ചുവരും."
+    },
+    {
+     "who": "dasharatha",
+     "text": "കൗസല്യേ, രാമനെ കാണാതെ എനിക്ക് ഒരു നിമിഷം പോലും സമാധാനമില്ല. രാമാ... എന്റെ രാമാ..."
+    },
+    {
+     "who": "narrator",
+     "text": "ആറാം ദിവസം രാത്രി, രാമന്റെ പേര് വിളിച്ചുകൊണ്ട്, ദശരഥ മഹാരാജാവ് ശാന്തമായി കണ്ണടച്ചു. ഈ ലോകം വിട്ടുപോയി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "അയോധ്യയുടെ ദുഃഖം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "kausalya",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൗസല്യ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അയോധ്യ മുഴുവൻ ദുഃഖത്തിലായി. കേകയ രാജ്യത്തായിരുന്ന ഭരതനെ കൊണ്ടുവരാൻ വസിഷ്ഠ മഹർഷി ദൂതന്മാരെ അയച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "മാതാപിതാക്കളുടെ",
+    "സ്നേഹം",
+    "ഏറ്റവും വലുത്"
+   ],
+   "icon": "💛",
+   "mood": "devotional",
+   "narration": "മക്കളേ, അച്ഛനും അമ്മയ്ക്കും മക്കളോടുള്ള സ്നേഹം എത്ര വലുതാണ്. അവരെ എന്നും സ്നേഹിക്കണം, ബഹുമാനിക്കണം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

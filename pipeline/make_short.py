@@ -634,11 +634,13 @@ def main(path):
     slug = ep["slug"]; work = os.path.join("/tmp", "short_" + slug); os.makedirs(work, exist_ok=True)
     clips, sd = [], []
     for i, s in enumerate(ep["scenes"]):
-        c = os.path.join(work, f"s{i + 1}.mp3")
+        import hashlib
+        hk = hashlib.md5(json.dumps([s.get("narration"), s.get("lines"), VOICE], ensure_ascii=False).encode()).hexdigest()[:8]  # cache key = text + voice
+        c = os.path.join(work, f"s{i + 1}_{hk}.mp3")
         if s.get("lines") and s["type"] == "story":  # dialogue: each line its own voice, joined with short pauses
             parts, segs, tcur = [], [], 0.0
             for j, l in enumerate(s["lines"]):
-                pj = os.path.join(work, f"s{i + 1}_{j}.mp3")
+                pj = os.path.join(work, f"s{i + 1}_{j}_{hk}.mp3")
                 if not os.path.exists(pj):
                     vmap_p = os.path.join(ROOT, "channels", "kadha", "voices.json")
                     vmap = json.load(open(vmap_p)) if os.path.exists(vmap_p) else {}

@@ -1,0 +1,71 @@
+{
+ "slug": "chrome-listen-to-page",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": [
+  "വായിക്കേണ്ട!",
+  "Chrome വായിച്ചു തരും 🎧"
+ ],
+ "title": "വായിക്കാൻ മടിയാണോ? 🎧 Chrome വായിച്ചു തരും | Listen to this page #shorts",
+ "caption": "നീണ്ട article വായിക്കാൻ സമയമില്ലേ? Android Chrome-ൽ ⋮ menu → Listen to this page. Malayalam ഉൾപ്പെടെ പല ഭാഷകളിൽ Chrome ഉറക്കെ വായിച്ചു തരും. Speed മാറ്റാം, screen off ആക്കിയാലും കേൾക്കാം.\n\nChrome on Android can read web pages aloud: open a page, tap the three-dot menu and choose Listen to this page. Malayalam is supported. Not available on every website.",
+ "hashtags": "#shorts #chrome #android #ai #texttospeech #techmalayalam #403unlocked",
+ "tags": [
+  "chrome listen to this page malayalam",
+  "chrome read aloud android",
+  "text to speech malayalam",
+  "chrome hidden features",
+  "android tips malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://support.google.com/chrome/answer/14768725?hl=en"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "വായിക്കേണ്ട!",
+   "sub": "Chrome വായിച്ചു തരും",
+   "icon": "🎧",
+   "photo": "a young Malayali man relaxing on a sofa with earphones, eyes closed, listening and smiling, phone in hand, cosy Kerala home",
+   "narration": "നീണ്ട ആർട്ടിക്കിൾ വായിക്കാൻ മടിയാണോ? ക്രോം തന്നെ ഉറക്കെ വായിച്ചു തരും!"
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ?",
+   "items": [
+    "Chrome-ൽ page തുറക്കൂ",
+    "⋮ Menu tap",
+    "Listen to this page"
+   ],
+   "photo": "close-up of a hand holding an Android smartphone in a Kerala bus, morning light, screen turned away",
+   "narration": "ആൻഡ്രോയിഡ് ക്രോമിൽ ഒരു പേജ് തുറന്ന്, മുകളിലെ മൂന്ന് കുത്ത് മെനുവിൽ, ലിസൻ ടു ദിസ് പേജ് അമർത്തൂ."
+  },
+  {
+   "type": "bullets",
+   "title": "മലയാളത്തിലും!",
+   "icon": "🗣️",
+   "items": [
+    "Malayalam supported",
+    "Speed മാറ്റാം",
+    "Screen off-ലും കേൾക്കാം"
+   ],
+   "photo": "an elderly Malayali grandmother listening to her phone with a smile on a Kerala house veranda, coconut trees behind",
+   "narration": "മലയാളം പേജുകളും വായിക്കും. സ്പീഡ് കൂട്ടാം, കുറയ്ക്കാം. സ്ക്രീൻ ഓഫ് ആക്കിയാലും കേൾക്കാം. ബസ്സിൽ യാത്ര ചെയ്യുമ്പോഴോ പാചകം ചെയ്യുമ്പോഴോ ന്യൂസ് കേൾക്കാൻ ബെസ്റ്റ്!"
+  },
+  {
+   "type": "bullets",
+   "title": "ശ്രദ്ധിക്കുക",
+   "icon": "💡",
+   "items": [
+    "എല്ലാ sites-ലും ഇല്ല",
+    "Chrome update ചെയ്യൂ"
+   ],
+   "photo": "a young Malayali woman walking in a Kerala street with earphones, listening, evening light",
+   "narration": "എല്ലാ വെബ്സൈറ്റിലും ഈ ഓപ്ഷൻ വരില്ല. കാണുന്നില്ലെങ്കിൽ ക്രോം അപ്ഡേറ്റ് ചെയ്ത്, ഒന്നുകൂടി നോക്കൂ."
+  },
+  {
+   "type": "cta",
+   "photo": "a happy young Malayali friends group laughing together looking at a phone, Kerala college campus",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

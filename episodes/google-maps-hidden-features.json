@@ -1,0 +1,26 @@
+{
+ "slug": "google-maps-hidden-features",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["NET ഇല്ലാതെ MAPS", "Hidden trick 🗺️"],
+ "title": "Net ഇല്ലാതെ Google Maps! 🗺️ ഈ 2 Hidden Tricks അറിയാമോ? #shorts",
+ "caption": "Range ഇല്ലാത്ത ഹൈറേഞ്ച് യാത്രയിൽ വഴി തെറ്റേണ്ട! Google Maps-ൽ area മുൻകൂട്ടി download ചെയ്താൽ net ഇല്ലാതെയും navigate ചെയ്യാം. പിന്നെ live location വീട്ടുകാർക്ക് share ചെയ്യാം.\n\nGoogle Maps tricks: download an area for offline use (search a place, More, Download offline map) and share your real-time location with family from Location sharing. Offline: driving directions only, no live traffic.",
+ "hashtags": "#shorts #googlemaps #offlinemaps #traveltips #android #techmalayalam #403unlocked",
+ "tags": ["google maps offline malayalam", "google maps hidden features", "share live location malayalam", "travel tips kerala", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/maps/answer/6291838?hl=en", "https://support.google.com/maps/answer/7326816?hl=en"],
+ "scenes": [
+  {"type": "hook", "title": "NET ഇല്ലാതെ MAPS?", "sub": "ഇത് അറിയാമോ?", "icon": "🗺️",
+   "photo": "a car driving on a winding misty hill road through tea plantations in Munnar Kerala, aerial view",
+   "narration": "മൂന്നാറിലേക്കോ വയനാട്ടിലേക്കോ യാത്ര പോകുമ്പോൾ റേഞ്ച് പോയാൽ വഴി തെറ്റുമോ? ഇല്ല, ഈ ട്രിക്ക് അറിഞ്ഞാൽ!"},
+  {"type": "steps", "title": "1. OFFLINE MAP", "items": ["Place search ചെയ്യൂ", "More → Download", "Offline map ready!"],
+   "photo": "a young Malayali couple sitting in a parked car on a hill road checking a phone, tea plantation outside, screen turned away",
+   "narration": "യാത്രയ്ക്ക് മുൻപ് വൈഫൈയിൽ, സ്ഥലം സെർച്ച് ചെയ്ത്, മോർ മെനുവിൽ ഡൗൺലോഡ് ഓഫ്ലൈൻ മാപ്പ് അമർത്തൂ. നെറ്റ് ഇല്ലാതെയും വഴി കാണിക്കും."},
+  {"type": "bullets", "title": "OFFLINE-ൽ", "icon": "🚗", "items": ["Driving directions ✔", "Live traffic ഇല്ല"], "note": "* Walking / bus directions offline ഇല്ല",
+   "photo": "a car on an empty forest road in Wayanad Kerala, green trees, soft morning light",
+   "narration": "ഓഫ്ലൈനിൽ ഡ്രൈവിങ് ഡയറക്ഷൻസ് കിട്ടും. പക്ഷേ ലൈവ് ട്രാഫിക്കും, നടക്കാനുള്ള വഴിയും കിട്ടില്ല."},
+  {"type": "steps", "title": "2. LIVE LOCATION", "items": ["Profile photo tap", "Location sharing", "വീട്ടുകാരെ select"],
+   "photo": "a Malayali mother at home smiling while looking at her phone, relieved, Kerala home interior, screen turned away",
+   "narration": "രാത്രി യാത്രയാണെങ്കിൽ, പ്രൊഫൈൽ ഫോട്ടോയിൽ ലൊക്കേഷൻ ഷെയറിങ് തുറന്ന്, ലൈവ് ലൊക്കേഷൻ വീട്ടുകാർക്ക് ഷെയർ ചെയ്യൂ."},
+  {"type": "cta", "photo": "a happy group of young Malayali friends at a hill viewpoint in Kerala, misty mountains behind",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

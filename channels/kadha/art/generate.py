@@ -33,6 +33,7 @@ CHARS = {
  "ahalya": "Ahalya, gentle graceful sage's wife, kind serene face, white and light yellow cotton saree, simple flower in hair, rudraksha bracelet, hands folded in namaste, peaceful smile, ",
  "guha": "Guha, friendly king of the boatmen tribe, dark brown skin, strong kind face, short black beard, simple headband with peacock feather, white dhoti, wooden boat oar in one hand, warm smile, ",
  "sumantra": "Sumantra, loyal elderly royal charioteer and minister, grey moustache, white turban with small jewel, cream and maroon robes, cute chibi proportions like a children's cartoon, full body head to toe visible with feet, kind sad face, ",
+ "bharadwaja": "Sage Bharadwaja, kind elderly rishi, long grey beard, hair in a top bun, light orange robes, rudraksha beads, holding a wooden staff, warm welcoming smile, cute chibi proportions, full body head to toe visible with feet, ",
  "shatrughna_child": "Little child prince Shatrughna, about 5 years old, fair skin, small golden crown, purple dhoti, gold jewellery, cute smile, ",
 }
 BGS = {
@@ -48,6 +49,7 @@ BGS = {
  "wedding_mandapam": "a beautiful traditional Indian wedding mandapam decorated with marigold and jasmine garlands, banana trees, brass lamps glowing, sacred fire in the centre, festive colours, no people, ",
  "chariot_road": "a royal golden chariot with white horses on a road leaving an ancient Indian city gate, dusty evening light, no people, no letters, no writing, no signboards, no watermark, ",
  "ganga_bank": "the holy river Ganga at dawn, wide calm water, a small wooden boat tied at a sandy bank, tall ingudi trees, soft mist, no signature, no watermark, no letters, ",
+ "chitrakoot": "a small leaf-and-bamboo hut beside a gentle mountain stream at Chitrakoot hill, flowering trees, peacocks, deer, soft golden sunlight, peaceful, no people, no letters, no watermark, ",
  "night_forest": "forest at night under a full moon and stars, fireflies, peaceful, ",
 }
 
