@@ -1,0 +1,88 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-14",
+ "series": {
+  "day": 14,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: ഒരു share",
+ "thumb_text": [
+  "ലക്ഷങ്ങൾ വേണോ?",
+  "MYTH vs FACT"
+ ],
+ "title": "Share Market-ൽ തുടങ്ങാൻ ലക്ഷങ്ങൾ വേണോ? 🤔 Myth vs Fact | Day 14 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 14! Myth: തുടങ്ങാൻ ലക്ഷങ്ങൾ വേണം. Fact: ഒരു share പോലും വാങ്ങാം, mutual fund SIP ചെറിയ തുകയ്ക്കും തുടങ്ങാം. ആദ്യം പഠിക്കൂ, നഷ്ടപ്പെട്ടാലും പ്രശ്നമില്ലാത്ത തുക മാത്രം.\n\nMyth vs fact: you don't need lakhs to start. The minimum is one share; mutual fund SIPs start with small amounts. Learn first and keep an emergency fund.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #mythvsfact #stockmarket #sip #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "stock market myth malayalam",
+  "how much money to start investing",
+  "start investing small amount",
+  "sip small amount",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nseindia.com/invest/first-time-investor-basics-of-stock-market",
+  "https://www.amfiindia.com/investor-corner/knowledge-center/SIP.html"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "ലക്ഷങ്ങൾ വേണോ?",
+   "sub": "Yesterday: A · Price കൂടും",
+   "icon": "🤔",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, പ്രൈസ് കൂടും! ഡേ പതിനാല്. ഷെയർ മാർക്കറ്റിൽ തുടങ്ങാൻ ലക്ഷങ്ങൾ വേണോ? മിത്ത് ഓർ ഫാക്റ്റ്?"
+  },
+  {
+   "type": "compare",
+   "title": "MYTH vs FACT",
+   "left": [
+    "✓ ഒരു share പോലും വാങ്ങാം",
+    "✓ SIP ചെറിയ തുകയ്ക്കും"
+   ],
+   "right": [
+    "⚠ ലക്ഷങ്ങൾ വേണം (Myth)"
+   ],
+   "narration": "ഫാക്റ്റ്, ഒരു ഷെയർ പോലും വാങ്ങാം. മ്യൂച്വൽ ഫണ്ട് എസ് ഐ പി ചെറിയ തുകയ്ക്കും തുടങ്ങാം. ലക്ഷങ്ങൾ വേണം എന്നത് വെറും മിത്ത്."
+  },
+  {
+   "type": "bullets",
+   "title": "ഉദാഹരണത്തിന്",
+   "icon": "🧮",
+   "items": [
+    "Share price ₹200 എങ്കിൽ",
+    "1 share = ₹200 + charges"
+   ],
+   "note": "* Hypothetical example only",
+   "narration": "ഉദാഹരണത്തിന്, ഒരു ഷെയറിന്റെ വില ഇരുന്നൂറ് രൂപ ആണെങ്കിൽ, ഇരുന്നൂറ് രൂപയും ചെറിയ ചാർജുകളും മതി ഒരു ഷെയർ വാങ്ങാൻ."
+  },
+  {
+   "type": "steps",
+   "title": "STOIC TIP",
+   "items": [
+    "Emergency fund ആദ്യം",
+    "നഷ്ടം താങ്ങാവുന്ന തുക",
+    "ആദ്യം പഠിക്കൂ"
+   ],
+   "narration": "പക്ഷേ ആദ്യം എമർജൻസി ഫണ്ട് മാറ്റിവെക്കൂ. നഷ്ടപ്പെട്ടാലും ജീവിതത്തെ ബാധിക്കാത്ത തുക മാത്രം. പഠിച്ചിട്ട് മാത്രം തുടങ്ങൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "ഏറ്റവും കുറഞ്ഞത് എത്ര വാങ്ങാം?",
+   "options": [
+    "100 shares",
+    "ഒരു share"
+   ],
+   "narration": "ക്വിസ്! ഏറ്റവും കുറഞ്ഞത് എത്ര ഷെയർ വാങ്ങാം? എ, നൂറ് ഷെയർ. ബി, ഒരു ഷെയർ. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

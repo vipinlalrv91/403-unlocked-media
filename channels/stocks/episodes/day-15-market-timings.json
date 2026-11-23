@@ -1,0 +1,87 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-15",
+ "series": {
+  "day": 15,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: 3:30 PM",
+ "thumb_text": [
+  "MARKET TIMINGS",
+  "9:15 - 3:30"
+ ],
+ "title": "Share Market എപ്പോൾ തുറക്കും? ⏰ Pre-open & Normal Session | Day 15 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 15! NSE/BSE equity: pre-open 9:00–9:15 AM, normal market 9:15 AM–3:30 PM, തിങ്കൾ മുതൽ വെള്ളി വരെ (trading holidays ഒഴികെ). Timings മാറാം, NSE website-ൽ check ചെയ്യൂ.\n\nIndian stock market timings (equity): pre-open session 9:00–9:15 AM, normal session 9:15 AM–3:30 PM IST, Monday to Friday except exchange holidays.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #markettimings #nse #bse #stockmarket #malayalam #thestoicbull",
+ "tags": [
+  "stock market timings india malayalam",
+  "pre open session nse",
+  "nse market hours",
+  "share market time",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nseindia.com/market-data/market-timings",
+  "https://www.bseindia.com/static/markets/marketinfo/Market_timings.aspx"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "MARKET TIMINGS",
+   "sub": "Yesterday: B · ഒരു share",
+   "icon": "⏰",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, ഒരു ഷെയർ! ഡേ പതിനഞ്ച്. ഷെയർ മാർക്കറ്റ് എപ്പോൾ തുറക്കും, എപ്പോൾ അടയ്ക്കും?"
+  },
+  {
+   "type": "steps",
+   "title": "ഒരു TRADING DAY",
+   "items": [
+    "9:00–9:15 Pre-open",
+    "9:15 Market open",
+    "3:30 PM Close"
+   ],
+   "narration": "രാവിലെ ഒൻപത് മുതൽ ഒൻപതേ കാൽ വരെ പ്രീ ഓപ്പൺ സെഷൻ. ഒൻപതേ കാലിന് നോർമൽ മാർക്കറ്റ് തുറക്കും. ഉച്ചകഴിഞ്ഞ് മൂന്നര മണിക്ക് അടയ്ക്കും."
+  },
+  {
+   "type": "bullets",
+   "title": "PRE-OPEN എന്തിന്?",
+   "icon": "🔔",
+   "items": [
+    "Opening price കണ്ടെത്താൻ",
+    "Orders ശേഖരിക്കുന്നു"
+   ],
+   "narration": "പ്രീ ഓപ്പണിൽ ഓർഡറുകൾ ശേഖരിച്ച്, ഓരോ ഷെയറിന്റെയും ഓപ്പണിങ് പ്രൈസ് കണ്ടെത്തുന്നു. രാവിലത്തെ വലിയ ചാഞ്ചാട്ടം കുറയ്ക്കാനാണിത്."
+  },
+  {
+   "type": "bullets",
+   "title": "ഓർക്കുക",
+   "icon": "📅",
+   "items": [
+    "തിങ്കൾ – വെള്ളി",
+    "Holidays-ൽ അവധി",
+    "Timings: NSE site check"
+   ],
+   "note": "* Timings can change. Check NSE.",
+   "narration": "തിങ്കൾ മുതൽ വെള്ളി വരെയാണ് ട്രേഡിങ്. എക്സ്ചേഞ്ച് ഹോളിഡേകളിൽ അവധി. സമയം മാറാം, എൻ എസ് ഇ വെബ്സൈറ്റിൽ ചെക്ക് ചെയ്യൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Normal market അടയ്ക്കുന്നത്?",
+   "options": [
+    "5:00 PM",
+    "3:30 PM"
+   ],
+   "narration": "ക്വിസ്! നോർമൽ മാർക്കറ്റ് എത്ര മണിക്ക് അടയ്ക്കും? എ, അഞ്ച് മണി. ബി, മൂന്നര മണി. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
