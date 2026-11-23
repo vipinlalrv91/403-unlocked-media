@@ -388,7 +388,7 @@ def sc_story(s, t, D):
             t0 = n * 0.35                                    # stagger
             lt = max(0.0, t - t0)
             who = speaker_at(t)
-            speaking = (who == c["img"]) if SEGS else bool(c.get("talk"))
+            speaking = (who in (c["img"], c.get("who"))) if SEGS else bool(c.get("talk"))  # "who" lets a costume image (rama_forest) speak as rama
             amp = amp_at(t) if speaking else 0.0
             spr = face_overlay(art("chars", c["img"]), c["img"], t, amp, n)
             amp = amp * float(c.get("talk_motion", 0.0))     # body motion off by default (owner); mouth still moves

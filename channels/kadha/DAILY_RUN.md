@@ -41,3 +41,11 @@ Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON
 
 ## Lip-sync dialogue (owner, 19 Nov 2026), all Ramayanam episodes
 Story scenes use "lines" instead of a single "narration": [{"who": "narrator"|<character image name>, "text": ...}, ...]. The muthashi narrates (who "narrator"), characters speak their own short lines (1-2 sentences, simple Malayalam). Voices come from channels/kadha/voices.json automatically. The speaking character's mouth moves and everyone blinks (faces in channels/kadha/art/faces.json; if you generate a new character, add its eyes/mouth with art/detect_faces.py and check). No extra body movement (owner). Keep 3-6 lines per scene; hook, teaser and CTA scenes stay narrator-only.
+
+
+## Forest costume (owner, 23 Nov 2026): valkalam for Rama, Lakshmana and Sita
+From the exile onward (episode 12+), in every forest / ashram / river / hermitage scene (bgimg forest, night_forest, ashram,
+chitrakoot, ganga_bank, river, ahalya_ashram, and any new forest background) use the bark-cloth (valkalam) versions:
+{"img": "rama_forest", "who": "rama"}, {"img": "lakshmana_forest", "who": "lakshmana"}, {"img": "sita_forest", "who": "sita"}
+(no crowns, hair tied up, brown bark clothes; Rama stays dusky brown). Keep "who" as the base name so dialogue lines
+("who": "rama") still drive the lip sync and voice. Palace / Ayodhya scenes keep the royal images (e.g. the return and coronation).

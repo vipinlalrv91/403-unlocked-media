@@ -1,21 +1,23 @@
 {
- "bharadwaja": {
+ "rama_forest": {
   "eyes": [
    [
-    180,
-    271
+    233,
+    245
    ],
    [
-    314,
-    271
+    333,
+    235
    ]
   ],
-  "eye_w": 80,
-  "eye_h": 31,
+  "eye_w": 57,
+  "eye_h": 26,
   "mouth": [
-   246,
-   373
+   281,
+   326
   ],
-  "mouth_w": 56
- }
+  "mouth_w": 41
+ },
+ "lakshmana_forest": null,
+ "sita_forest": null
 }

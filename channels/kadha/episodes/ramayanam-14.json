@@ -45,18 +45,20 @@
      "label": "ഭരദ്വാജ മഹർഷി"
     },
     {
-     "img": "rama",
+     "img": "rama_forest",
      "x": 0.55,
      "y": 0.8,
      "h": 780,
-     "label": "ശ്രീരാമൻ"
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
     },
     {
-     "img": "sita",
+     "img": "sita_forest",
      "x": 0.82,
      "y": 0.8,
      "h": 720,
-     "label": "സീത"
+     "label": "സീത",
+     "who": "sita"
     }
    ],
    "lines": [
@@ -88,11 +90,12 @@
      "label": "ഭരദ്വാജ മഹർഷി"
     },
     {
-     "img": "lakshmana",
+     "img": "lakshmana_forest",
      "x": 0.7,
      "y": 0.8,
      "h": 760,
-     "label": "ലക്ഷ്മണൻ"
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
     }
    ],
    "lines": [
@@ -113,25 +116,28 @@
    "mood": "happy",
    "chars": [
     {
-     "img": "lakshmana",
+     "img": "lakshmana_forest",
      "x": 0.22,
      "y": 0.8,
      "h": 740,
-     "label": "ലക്ഷ്മണൻ"
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
     },
     {
-     "img": "rama",
+     "img": "rama_forest",
      "x": 0.52,
      "y": 0.8,
      "h": 780,
-     "label": "ശ്രീരാമൻ"
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
     },
     {
-     "img": "sita",
+     "img": "sita_forest",
      "x": 0.8,
      "y": 0.8,
      "h": 720,
-     "label": "സീത"
+     "label": "സീത",
+     "who": "sita"
     }
    ],
    "lines": [
@@ -156,18 +162,20 @@
    "mood": "happy",
    "chars": [
     {
-     "img": "rama",
+     "img": "rama_forest",
      "x": 0.35,
      "y": 0.8,
      "h": 780,
-     "label": "ശ്രീരാമൻ"
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
     },
     {
-     "img": "sita",
+     "img": "sita_forest",
      "x": 0.68,
      "y": 0.8,
      "h": 720,
-     "label": "സീത"
+     "label": "സീത",
+     "who": "sita"
     }
    ],
    "lines": [
