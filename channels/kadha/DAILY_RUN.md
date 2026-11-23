@@ -47,5 +47,5 @@ Story scenes use "lines" instead of a single "narration": [{"who": "narrator"|<c
 From the exile onward (episode 12+), in every forest / ashram / river / hermitage scene (bgimg forest, night_forest, ashram,
 chitrakoot, ganga_bank, river, ahalya_ashram, and any new forest background) use the bark-cloth (valkalam) versions:
 {"img": "rama_forest", "who": "rama"}, {"img": "lakshmana_forest", "who": "lakshmana"}, {"img": "sita_forest", "who": "sita"}
-(no crowns, hair tied up, brown bark clothes; Rama stays dusky brown). Keep "who" as the base name so dialogue lines
+(no crowns, hair tied up, brown bark clothes; Rama stays dusky brown). Their FACES are the original royal faces pasted onto the forest bodies (owner: keep the same faces) — never regenerate these sprites without re-pasting the original face. Keep "who" as the base name so dialogue lines
 ("who": "rama") still drive the lip sync and voice. Palace / Ayodhya scenes keep the royal images (e.g. the return and coronation).
