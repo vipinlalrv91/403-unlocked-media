@@ -17,5 +17,18 @@
  "categoryId": "28",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-23T04:34:24.156553+00:00"
+ "kick": "2026-11-23T04:34:24.156553+00:00",
+ "result": {
+  "posted_at": "2026-11-23T04:35:08.275465+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Sunday, 22-Nov-26 10:00:00 PST. The current time is Sunday, 22-Nov-26 20:35:08 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"AudlzshpMzgVeijRVZEpGK-\"}}"
+  },
+  "youtube": {
+   "id": "BwTkgGDKbKo",
+   "url": "https://www.youtube.com/shorts/BwTkgGDKbKo",
+   "privacy": "public",
+   "channel_id": "UCeS13InBe6Upz3qgMcAwgDA",
+   "thumbnail": "set"
+  }
+ }
 }
