@@ -17,5 +17,18 @@
  "categoryId": "27",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-23T08:34:08.779100+00:00"
+ "kick": "2026-11-23T08:34:08.779100+00:00",
+ "result": {
+  "posted_at": "2026-11-23T08:34:56.618136+00:00",
+  "instagram": {
+   "error": "Instagram API 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Sunday, 22-Nov-26 10:00:00 PST. The current time is Monday, 23-Nov-26 00:34:56 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"ADHOZkHmgKG7wJBNrRGG1Ag\"}}"
+  },
+  "youtube": {
+   "id": "nioUR2PjzTk",
+   "url": "https://www.youtube.com/shorts/nioUR2PjzTk",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "failed 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat"
+  }
+ }
 }
