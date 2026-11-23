@@ -16,8 +16,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 11 Why companies list: IPO explained
 - [x] 12 Nifty 50 and Sensex explained
 - [x] 13 Why share prices go up and down (demand & supply)
-- [ ] 14 MYTH vs FACT: "You need lakhs to start"
-- [ ] 15 Market timings in India (pre-open, normal session)
+- [x] 14 MYTH vs FACT: "You need lakhs to start"
+- [x] 15 Market timings in India (pre-open, normal session)
 - [ ] 16 Bull market vs bear market
 - [ ] 17 Investing vs trading: the difference
 - [ ] 18 Power of compounding (simple math example, no return promise)
