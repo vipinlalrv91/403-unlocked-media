@@ -60,3 +60,11 @@ make_short.py generates it once with Cloudflare FLUX (assets/photos/<slug>-<n>.j
 behind the text cards, and uses the hook photo for the thumbnail. Rules: people and places look Kerala/Indian; never ask for
 app screens, UI, text, logos or brand phones (style suffix already forces generic Android phones with screens turned away);
 no real/famous people. QC: look at every photo frame; regenerate (delete the jpg, re-run) if hands/faces look broken or any text/logo appears.
+
+
+## Photo update (owner, 23 Nov 2026): NO PEOPLE in 403 backgrounds
+Every "photo" prompt must show the real subject of the video, never a person: the device, the object, the place or the situation
+(e.g. "a modern Android smartphone lying on a wooden desk next to a cup of tea", "a laptop on a table in a quiet room",
+"earphones coiled next to a phone", "a winding misty hill road in Munnar", "a car dashboard phone holder on a hill road",
+"a city bus interior with empty seats"). No people, faces, hands or body parts (the style suffix also forbids them).
+Screens stay dark, turned away or blurred (never fake app UI). QC: regenerate any photo where a person or hand appears.

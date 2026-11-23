@@ -563,7 +563,7 @@ def mix(clips, sd, out, moods=None, seed=0):
 
 
 # ---------- AI photo backgrounds (403 UNLOCKED, owner 22 Nov 2026) ----------
-PHOTO_STYLE = (", photorealistic candid photo, Kerala India, natural light, shallow depth of field, vertical composition, "
+PHOTO_STYLE = (", photorealistic product / still-life photo, no people, no person, no faces, no hands, no body parts, natural light, shallow depth of field, vertical composition, "
                "no text, no letters, no logos, no brand names, no watermark, phones are generic modern Android smartphones without any logo, "
                "any phone or laptop screen is turned away or blurred")
 CF_ACCOUNT = "d93a3d51bd1c05e669119b7955ac7aba"
