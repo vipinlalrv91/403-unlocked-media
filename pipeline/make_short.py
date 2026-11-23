@@ -379,8 +379,17 @@ def bg_image(name, t, D):
     x0 = (w - W) // 2 + int(30 * math.sin(t * 0.3)); y0 = (h - H) // 2
     return im.crop((x0, y0, x0 + W, y0 + H))
 
+CINE = False   # 2.5D cinematic mode for painted stories (ep "cinematic": true)
 def sc_story(s, t, D):
-    im = bg_image(s["bgimg"], t, D) if s.get("bgimg") else story_bg(s.get("bg", "forest"), t)
+    cam = (1.0, 0.0, 0.0); fxk = ()
+    seed = sum(map(ord, s.get("caption", "") + s.get("bgimg", "")))
+    if CINE and s.get("bgimg"):
+        import cinema
+        im, cam = cinema.bg(art("bg", s["bgimg"]), s["bgimg"], t, D, seed)
+        fxk = tuple(s.get("cine_fx") or cinema.FX_FOR.get(s["bgimg"], ("dust",)))
+        im = cinema.effects(im, fxk, t, seed, "back")
+    else:
+        im = bg_image(s["bgimg"], t, D) if s.get("bgimg") else story_bg(s.get("bg", "forest"), t)
     import characters
     for n, c in enumerate(s.get("chars", [])):
         if "img" in c:  # painted character image with movement
@@ -395,6 +404,9 @@ def sc_story(s, t, D):
             hb = hgt * (1 + 0.015 * math.sin(t * 2.4 + n) + 0.05 * amp)
             sx = 1.0; sy = 1.0
             x = c.get("x", 0.5) * W; fy = c.get("y", 0.78) * H
+            if CINE and s.get("bgimg"):   # parallax: nearer layer drifts more than the background and grows a little
+                z, px, py = cam; x = W / 2 + (x - W / 2) * (1 + (z - 1) * 0.6) - px * 0.55; hb *= 1 + (z - 1) * 0.5
+                if lt < 0.7 and not c.get("enter"): fy += 60 * (1 - ease(lt / 0.7))   # soft rise-in
             if c.get("x2") is not None:
                 x += (c["x2"] * W - x) * min(1, t / max(0.1, D * 0.85))
             if anim == "walk" or (c.get("x2") is not None and anim == "idle"):
@@ -460,6 +472,9 @@ def sc_story(s, t, D):
             text(dl, x - lw / 2 + 20, y + e.height / 2 + 18, c["label"], 40, (90, 40, 20), 0, maxw=lw)
         if a == "sleep":
             z = emoji("💤", 120); im.paste(z, (int(x + 60), int(y - 200 - 25 * math.sin(t * 3))), z)
+    if fxk:
+        import cinema
+        im = cinema.effects(im, fxk, t, seed, "front")
     fx = s.get("fx")
     if fx:
         rnd = random.Random(hash(fx) & 0xffff); sym = {"petals": "🌸", "leaves": "🍃", "sparkles": "✨", "fireflies": "✨", "stars": "⭐"}.get(fx, "✨")
@@ -626,8 +641,9 @@ def make_thumb(ep, path):
 
 # ---------- main ----------
 def main(path):
-    global VOICE, SERIES, DISCLAIMER, NEXT_TIME, PHOTO
+    global VOICE, SERIES, DISCLAIMER, NEXT_TIME, PHOTO, CINE
     ep = json.load(open(path, encoding="utf-8"))
+    CINE = bool(ep.get("cinematic"))
     ensure_photos(ep)
     apply_theme(ep.get("theme", "tech"), ep.get("brand"), ep.get("tagline"))
     VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer"); NEXT_TIME = ep.get("next_time")

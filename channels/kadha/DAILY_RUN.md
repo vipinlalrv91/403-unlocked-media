@@ -49,3 +49,10 @@ chitrakoot, ganga_bank, river, ahalya_ashram, and any new forest background) use
 {"img": "rama_forest", "who": "rama"}, {"img": "lakshmana_forest", "who": "lakshmana"}, {"img": "sita_forest", "who": "sita"}
 (no crowns, hair tied up, brown bark clothes; Rama stays dusky brown). Their FACES are the original royal faces pasted onto the forest bodies (owner: keep the same faces) — never regenerate these sprites without re-pasting the original face. Keep "who" as the base name so dialogue lines
 ("who": "rama") still drive the lip sync and voice. Palace / Ayodhya scenes keep the royal images (e.g. the return and coronation).
+
+
+## Cinematic 2.5D look (owner chose option A, 23 Nov 2026), every Ramayanam episode
+Set "cinematic": true in every ramayanam-NN.json. pipeline/cinema.py adds a camera push-in + drift, parallax on the characters,
+soft rise-in, and atmosphere chosen from the background (leaves/petals + light rays in forests, fireflies at night, glints + mist
+on rivers, golden dust + lamp glow in palaces). Override per scene with "cine_fx": ["petals", "rays", ...]. Character bodies stay
+still (owner), lip sync and blink as before. Render takes ~8 min per episode. Add new backgrounds to cinema.FX_FOR.
