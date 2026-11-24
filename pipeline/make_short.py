@@ -603,6 +603,67 @@ def prep_photo(pth, dim=True):
         im = im.convert("RGBA"); im.alpha_composite(ov); im = im.convert("RGB")
     return im
 
+
+# ---------- Remotion action scenes (owner chose them on 24 Nov 2026; ep "remotion": true) ----------
+REMO = False
+REMO_DIR = os.path.join(ROOT, "pipeline", "remotion")
+CHROME = "/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell"
+
+def _skin_for(name, f):
+    sp = art("chars", name); W_, H_ = sp.size; out = []
+    for ex, ey in f["eyes"]:
+        cands = []
+        for px, py in ((ex, ey - f["eye_h"] - 6), (ex, ey + f["eye_h"] * 0.9), (ex - f["eye_w"] * 0.75, ey + f["eye_h"] * 0.6),
+                       (ex + f["eye_w"] * 0.75, ey + f["eye_h"] * 0.6), (ex, ey - f["eye_h"] * 1.4)):
+            px = int(min(max(px, 0), W_ - 1)); py = int(min(max(py, 0), H_ - 1)); c = sp.getpixel((px, py))
+            if (len(c) < 4 or c[3] > 200) and c[0] > 120 and c[0] >= c[1] >= c[2] and c[0] - c[2] > 40: cands.append(list(c[:3]))
+        cands.sort(key=sum); out.append(cands[len(cands) // 2] if cands else list(sp.getpixel((ex, max(0, ey - f["eye_h"] - 6)))[:3]))
+    return out
+
+def _pose(name):
+    sp = art("chars", name); f = face(name)
+    face = dict(f, skin=_skin_for(name, f)) if f and len(f.get("eyes", [])) == 2 else None
+    return {"src": f"chars/{name}.png", "w": sp.width, "h": sp.height, "face": face}
+
+def remotion_scene(s, D, work, k):
+    """Render one story scene with Remotion; returns list of raw RGB frames (bytes)."""
+    import cinema
+    n = int(round(D * FPS)); line_t = [a for a, b, w in SEGS]
+    def at(v):
+        if isinstance(v, str) and v.upper().startswith("L"):   # "L1" = start of line 1, "L1+2.5" = 2.5 s into line 1
+            i, _, off = v[1:].partition("+"); i = int(i); return (line_t[i] if i < len(line_t) else D * 0.5) + float(off or 0)
+        if isinstance(v, str) and v.startswith("end"): return D + float(v[3:] or 0)
+        return float(v)
+    chars = []
+    for i, c in enumerate(s.get("chars", [])):
+        if "img" not in c: continue
+        moves = [dict(m, t=at(m.get("at", 0))) for m in c.get("moves", [])]
+        for m in moves: m.pop("at", None)
+        poses = {c["img"]: _pose(c["img"])}
+        for m in moves:
+            if m.get("pose") and m["pose"] not in poses: poses[m["pose"]] = _pose(m["pose"])
+        for m in moves:
+            if "x" in m and m["x"] is None: m.pop("x")
+        ex = c.get("exit"); ex = {"t": at(ex.get("at", "end-1.5")), "to": ex.get("to", "right")} if ex else None
+        chars.append({"label": c.get("label"), "who": c.get("who", c["img"]), "x": c.get("x", 0.5), "y": c.get("y", 0.78),
+                      "h": c.get("h", 900), "pose": c["img"], "poses": poses, "enter": c.get("enter", "fade"),
+                      "t0": c.get("t0", i * 0.35), "moves": moves, "exit": ex, "flip": bool(c.get("flip"))})
+    spec = {"bg": s["bgimg"] + ".jpg", "seed": sum(map(ord, s.get("caption", "") + s["bgimg"])),
+            "fx": list(s.get("cine_fx") or cinema.FX_FOR.get(s["bgimg"], ("dust",))), "caption": s.get("caption"),
+            "segs": [[a, b, w] for a, b, w in SEGS], "amp": [round(a, 3) for a in AMP[:n]] + [0] * max(0, n - len(AMP)),
+            "chars": chars, "delay": 0, "frames": n}
+    pj = os.path.join(work, f"remo_{k}.json"); json.dump(spec, open(pj, "w", encoding="utf-8"), ensure_ascii=False)
+    out = os.path.join(work, f"remo_{k}.mp4")
+    if not os.path.isdir(os.path.join(REMO_DIR, "node_modules")):
+        subprocess.run(["npm", "i", "--silent"], cwd=REMO_DIR, check=True)
+    subprocess.run(["npx", "remotion", "render", "src/index.ts", "Story", out, f"--props={pj}",
+                    f"--public-dir={ART}", f"--browser-executable={CHROME}", "--concurrency=4", "--crf=16", "--muted", "--log=error"],
+                   cwd=REMO_DIR, check=True)
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", out, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
+    fs = W * H * 3; frames = [raw[i:i + fs] for i in range(0, len(raw) - fs + 1, fs)]
+    while len(frames) < n: frames.append(frames[-1])
+    return frames[:n]
+
 # ---------- thumbnail / cover ----------
 def make_thumb(ep, path):
     """1080x1920 cover (Instagram Reel cover + YouTube thumbnail). Uses ep["thumb_text"] (2 short lines) if given."""
@@ -644,6 +705,8 @@ def main(path):
     global VOICE, SERIES, DISCLAIMER, NEXT_TIME, PHOTO, CINE
     ep = json.load(open(path, encoding="utf-8"))
     CINE = bool(ep.get("cinematic"))
+    global REMO
+    REMO = bool(ep.get("remotion"))
     ensure_photos(ep)
     apply_theme(ep.get("theme", "tech"), ep.get("brand"), ep.get("tagline"))
     VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer"); NEXT_TIME = ep.get("next_time")
@@ -698,6 +761,12 @@ def main(path):
         SEGS[:] = [(a + dl0, b + dl0, w) for a, b, w in s.get("_segs", [])]
         pp = photo_path(slug, k)
         PHOTO = (prep_photo(pp), D) if s.get("photo") and os.path.exists(pp) else None
+        if REMO and s["type"] == "story" and s.get("bgimg"):
+            for i, fr in enumerate(remotion_scene(s, D, work, k)):
+                if i < 6:
+                    fr = Image.blend(Image.new("RGB", (W, H)), Image.frombytes("RGB", (W, H), fr), (i + 1) / 6).tobytes()
+                p.stdin.write(fr)
+            continue
         for i in range(int(round(D * FPS))):
             im = overlay(fn(s, i / FPS, D))
             if i < 6:

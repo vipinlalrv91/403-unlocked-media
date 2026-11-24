@@ -6,3 +6,4 @@ __pycache__/
 # Stoic Bull videos are committed on purpose (owner downloads them)
 !channels/stocks/videos/*.mp4
 !channels/kadha/videos/*.mp4
+node_modules/
