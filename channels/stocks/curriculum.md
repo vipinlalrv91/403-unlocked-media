@@ -18,8 +18,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 13 Why share prices go up and down (demand & supply)
 - [x] 14 MYTH vs FACT: "You need lakhs to start"
 - [x] 15 Market timings in India (pre-open, normal session)
-- [ ] 16 Bull market vs bear market
-- [ ] 17 Investing vs trading: the difference
+- [x] 16 Bull market vs bear market
+- [x] 17 Investing vs trading: the difference
 - [ ] 18 Power of compounding (simple math example, no return promise)
 - [ ] 19 What is a mutual fund?
 - [ ] 20 What is SIP? Why regular investing helps
