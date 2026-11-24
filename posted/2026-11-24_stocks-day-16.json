@@ -17,5 +17,19 @@
  "categoryId": "27",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-24T08:34:34.870951+00:00"
+ "kick": "2026-11-24T08:34:34.870951+00:00",
+ "result": {
+  "posted_at": "2026-11-24T08:35:05.472079+00:00",
+  "instagram": {
+   "id": "18001641602822787",
+   "url": "https://www.instagram.com/reel/DgHixIFko-u/"
+  },
+  "youtube": {
+   "id": "uRZ2s-W6wf4",
+   "url": "https://www.youtube.com/shorts/uRZ2s-W6wf4",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "failed 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat"
+  }
+ }
 }
