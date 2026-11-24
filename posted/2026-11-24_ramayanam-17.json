@@ -16,5 +16,15 @@
  ],
  "categoryId": "1",
  "madeForKids": true,
- "privacy": "public"
+ "privacy": "public",
+ "result": {
+  "posted_at": "2026-11-24T15:10:40.386196+00:00",
+  "instagram": {
+   "id": "18647711143013672",
+   "url": "https://www.instagram.com/reel/DgIP5zcgG_O/"
+  },
+  "youtube": {
+   "error": "HTTP Error 400: Bad Request"
+  }
+ }
 }
