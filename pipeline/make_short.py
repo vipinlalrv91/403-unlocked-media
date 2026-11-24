@@ -582,7 +582,7 @@ def ensure_photos(ep):
         for attempt in range(3):
             try:
                 req = urllib.request.Request(f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT}/ai/run/@cf/black-forest-labs/flux-1-schnell",
-                    data=json.dumps({"prompt": s["photo"] + PHOTO_STYLE, "steps": 8}).encode(),
+                    data=json.dumps({"prompt": s["photo"] + PHOTO_STYLE, "steps": 4}).encode(),
                     headers={"Content-Type": "application/json", "Authorization": "Bearer proxy-injected"})
                 with urllib.request.urlopen(req, timeout=180) as r:
                     open(pth, "wb").write(base64.b64decode(json.load(r)["result"]["image"]))
