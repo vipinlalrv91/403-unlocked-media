@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-23T16:53:56.278709+00:00",
+ "checked_at": "2026-11-24T10:36:29.267834+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -32,9 +32,8 @@
  },
  "youtube": {
   "403": {
-   "ok": true,
-   "scope": "https://www.googleapis.com/auth/youtube.upload",
-   "channel": "unknown (token lacks youtube.readonly scope)"
+   "ok": false,
+   "error": "HTTP 400: {\n  \"error\": \"invalid_grant\",\n  \"error_description\": \"Token has been expired or revoked.\"\n}"
   },
   "STOIC": {
    "ok": true,
