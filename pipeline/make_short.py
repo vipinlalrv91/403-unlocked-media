@@ -622,8 +622,8 @@ def _skin_for(name, f):
 
 def _pose(name):
     sp = art("chars", name); f = face(name)
-    face = dict(f, skin=_skin_for(name, f)) if f and len(f.get("eyes", [])) == 2 else None
-    return {"src": f"chars/{name}.png", "w": sp.width, "h": sp.height, "face": face}
+    fc = dict(f, skin=_skin_for(name, f)) if f and len(f.get("eyes", [])) == 2 else None
+    return {"src": f"chars/{name}.png", "w": sp.width, "h": sp.height, "face": fc}
 
 def remotion_scene(s, D, work, k):
     """Render one story scene with Remotion; returns list of raw RGB frames (bytes)."""

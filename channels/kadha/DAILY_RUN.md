@@ -60,3 +60,15 @@ still (owner), lip sync and blink as before. Render takes ~8 min per episode. Ad
 
 ## How Bharata/others address Rama (owner, 24 Nov 2026)
 Never write "രാമേട്ടാ / രാമേട്ടൻ". Bharata (and others) call him "രാമാ" (and say രാമനെ / രാമന്റെ). Lakshmana may still say "ചേട്ടാ".
+
+
+## Remotion ACTION scenes (owner, 24 Nov 2026) — every Ramayanam episode from ep 17
+Set "remotion": true (keep "cinematic": true). Story scenes are rendered by pipeline/remotion (installed with npm on first use);
+hook / moral / CTA / audio / thumbnail stay in make_short.py. Give each story scene real ACTIONS that follow the narration:
+- chars[i].enter: "left" | "right" (walk/run in) | "fade" (default); "t0": seconds delay
+- chars[i].moves: [{"at": "L1+2.5" (2.5 s into line 1) | seconds, "x": 0.45 (walk/run there), "pose": "<pose image>", "dur": 1.0}]
+- chars[i].exit: {"at": "L2+1" | "end-1.5", "to": "left"|"right"}
+Action poses MUST keep the original face: make them with channels/kadha/art/make_pose.py <char> kneel|bow (folds the original
+sprite; adds face + voice). Never use FLUX for a pose of an existing character (faces change). Use 1-3 actions per episode where
+the story has them (arrivals, departures, bowing to elders/feet, embraces = step closer). Lip sync / blink work in every pose.
+Characters still stand still while talking (owner: no extra body motion).
