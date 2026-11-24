@@ -1,0 +1,89 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-17",
+ "series": {
+  "day": 17,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: Investing",
+ "thumb_text": [
+  "INVESTING vs TRADING",
+  "വ്യത്യാസം"
+ ],
+ "title": "Investing vs Trading: എന്താണ് വ്യത്യാസം? ⚖️ | Day 17 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 17! Investing = നല്ല ബിസിനസ്സിൽ വർഷങ്ങളോളം. Trading = ചെറിയ സമയത്തെ വില മാറ്റത്തിൽ നിന്ന് ലാഭം നോക്കൽ, risk കൂടുതൽ. SEBI study (FY22): equity F&O-യിൽ individual traders-ൽ ഏകദേശം 10-ൽ 9 പേർക്കും നഷ്ടം.\n\nInvesting vs trading explained: time horizon, effort and risk. SEBI's January 2023 study found about 89% of individual equity F&O traders lost money in FY22.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #investing #trading #stockmarket #malayalam #sebi #thestoicbull",
+ "tags": [
+  "investing vs trading malayalam",
+  "trading risk malayalam",
+  "sebi f&o study",
+  "long term investing malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.sebi.gov.in/reports-and-statistics/research/jan-2023/study-analysis-of-profit-and-loss-of-individual-traders-dealing-in-equity-f-o-segment_67525.html",
+  "https://investor.sebi.gov.in/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "INVESTING vs TRADING",
+   "sub": "Yesterday: B · Bear",
+   "icon": "⚖️",
+   "narration": "ഇന്നലത്തെ ഉത്തരം ബെയർ മാർക്കറ്റ്! ഡേ പതിനേഴ്. ഇൻവെസ്റ്റിങ്ങും ട്രേഡിങ്ങും ഒന്നാണോ? അല്ല!"
+  },
+  {
+   "type": "compare",
+   "title": "വ്യത്യാസം",
+   "left": [
+    "✓ INVESTING: വർഷങ്ങൾ",
+    "✓ Business നോക്കുന്നു"
+   ],
+   "right": [
+    "⚠ TRADING: ദിവസം / ആഴ്ച",
+    "⚠ Price മാറ്റം നോക്കുന്നു"
+   ],
+   "narration": "ഇൻവെസ്റ്റിങ്ങിൽ നല്ല ബിസിനസ്സുകളിൽ വർഷങ്ങളോളം നിൽക്കുന്നു. ട്രേഡിങ്ങിൽ ദിവസങ്ങളിലോ ആഴ്ചകളിലോ വിലയുടെ മാറ്റത്തിൽ നിന്ന് ലാഭം നോക്കുന്നു."
+  },
+  {
+   "type": "bullets",
+   "title": "SEBI STUDY",
+   "icon": "📊",
+   "items": [
+    "F&O individual traders",
+    "~10-ൽ 9 പേർക്കും നഷ്ടം"
+   ],
+   "note": "* SEBI study, FY22",
+   "narration": "സെബിയുടെ ഒരു പഠനം പ്രകാരം, ഫ്യൂച്ചേഴ്സ് ആൻഡ് ഓപ്ഷൻസ് ട്രേഡ് ചെയ്ത വ്യക്തികളിൽ ഏകദേശം പത്തിൽ ഒൻപത് പേർക്കും നഷ്ടമായിരുന്നു."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Beginner? ആദ്യം പഠിക്കൂ",
+    "Quick money എന്ന് കരുതരുത്"
+   ],
+   "narration": "തുടക്കക്കാർ എളുപ്പ ലാഭം എന്ന് കരുതി ട്രേഡിങ്ങിൽ ചാടരുത്. ആദ്യം പഠിക്കൂ, റിസ്ക് മനസ്സിലാക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "വർഷങ്ങളോളം hold ചെയ്യുന്നത്?",
+   "options": [
+    "Investing",
+    "Trading"
+   ],
+   "narration": "ക്വിസ്! നല്ല ബിസിനസ്സിൽ വർഷങ്ങളോളം നിൽക്കുന്നത് ഏതാണ്? എ, ഇൻവെസ്റ്റിങ്. ബി, ട്രേഡിങ്. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

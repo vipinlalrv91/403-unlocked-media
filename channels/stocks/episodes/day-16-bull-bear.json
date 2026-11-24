@@ -1,0 +1,89 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-16",
+ "series": {
+  "day": 16,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: Bear",
+ "thumb_text": [
+  "BULL vs BEAR",
+  "🐂 vs 🐻"
+ ],
+ "title": "Bull Market vs Bear Market എന്താണ്? 🐂🐻 Simple ആയി | Day 16 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 16! Bull market = കുറേ കാലം വിലകൾ കയറുന്ന സമയം, ആത്മവിശ്വാസം. Bear market = കുറേ കാലം വിലകൾ ഇറങ്ങുന്ന സമയം, പേടി. സാധാരണ peak-ൽ നിന്ന് ഏകദേശം 20% ഇറങ്ങിയാൽ bear market എന്ന് പറയാറുണ്ട് (ഒരു common rule, official definition അല്ല).\n\nBull vs bear market explained: long periods of rising vs falling prices. A ~20% fall from the peak is a common rule of thumb for a bear market.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #bullmarket #bearmarket #stockmarket #malayalam #sharemarket #thestoicbull",
+ "tags": [
+  "bull market bear market malayalam",
+  "what is bull market",
+  "what is bear market",
+  "stock market cycles",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nseindia.com/invest/first-time-investor-basics-of-stock-market",
+  "https://investor.sebi.gov.in/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "BULL vs BEAR",
+   "sub": "Yesterday: B · 3:30 PM",
+   "icon": "🐂",
+   "narration": "ഇന്നലത്തെ ഉത്തരം മൂന്നര മണി! ഡേ പതിനാറ്. ബുൾ മാർക്കറ്റ്, ബെയർ മാർക്കറ്റ്, ഇവ എന്താണ്? എന്തിനാണ് കാളയും കരടിയും?"
+  },
+  {
+   "type": "compare",
+   "title": "🐂 vs 🐻",
+   "left": [
+    "✓ BULL: വില കയറുന്നു",
+    "✓ ആത്മവിശ്വാസം"
+   ],
+   "right": [
+    "⚠ BEAR: വില ഇറങ്ങുന്നു",
+    "⚠ പേടി"
+   ],
+   "narration": "കാള കൊമ്പ് മുകളിലേക്ക് കുത്തും, അതാണ് ബുൾ മാർക്കറ്റ്. കുറേ കാലം വിലകൾ കയറുന്ന സമയം. കരടി കൈ താഴേക്ക് അടിക്കും, ബെയർ മാർക്കറ്റിൽ വിലകൾ ഇറങ്ങും."
+  },
+  {
+   "type": "bullets",
+   "title": "COMMON RULE",
+   "icon": "📉",
+   "items": [
+    "Peak-ൽ നിന്ന് ~20% ഇറക്കം",
+    "= Bear market എന്ന് പറയും"
+   ],
+   "note": "* Rule of thumb, not an official definition",
+   "narration": "സാധാരണ, ഏറ്റവും ഉയർന്ന നിലയിൽ നിന്ന് ഇരുപത് ശതമാനത്തോളം ഇറങ്ങിയാൽ ബെയർ മാർക്കറ്റ് എന്ന് പറയാറുണ്ട്. ഇത് ഒരു പൊതു നിയമം മാത്രമാണ്."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "രണ്ടും വരും, പോകും",
+    "Panic selling വേണ്ട"
+   ],
+   "narration": "ബുള്ളും ബെയറും മാറി മാറി വരും. ഇറക്കത്തിൽ പേടിച്ച് വിൽക്കുന്നതും, കയറ്റത്തിൽ ആവേശത്തിൽ വാങ്ങുന്നതും ഒഴിവാക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "വിലകൾ കുറേ കാലം ഇറങ്ങുന്നത്?",
+   "options": [
+    "Bull market",
+    "Bear market"
+   ],
+   "narration": "ക്വിസ്! വിലകൾ കുറേ കാലം ഇറങ്ങുന്ന സമയം ഏതാണ്? എ, ബുൾ മാർക്കറ്റ്. ബി, ബെയർ മാർക്കറ്റ്. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
