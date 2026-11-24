@@ -56,3 +56,7 @@ Set "cinematic": true in every ramayanam-NN.json. pipeline/cinema.py adds a came
 soft rise-in, and atmosphere chosen from the background (leaves/petals + light rays in forests, fireflies at night, glints + mist
 on rivers, golden dust + lamp glow in palaces). Override per scene with "cine_fx": ["petals", "rays", ...]. Character bodies stay
 still (owner), lip sync and blink as before. Render takes ~8 min per episode. Add new backgrounds to cinema.FX_FOR.
+
+
+## How Bharata/others address Rama (owner, 24 Nov 2026)
+Never write "രാമേട്ടാ / രാമേട്ടൻ". Bharata (and others) call him "രാമാ" (and say രാമനെ / രാമന്റെ). Lakshmana may still say "ചേട്ടാ".
