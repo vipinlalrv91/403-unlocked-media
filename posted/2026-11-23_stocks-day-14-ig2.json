@@ -20,5 +20,15 @@
  "only": [
   "instagram"
  ],
- "kick": "2026-11-24T11:34:03.774792+00:00"
+ "kick": "2026-11-24T11:34:03.774792+00:00",
+ "result": {
+  "posted_at": "2026-11-24T11:34:47.795021+00:00",
+  "instagram": {
+   "id": "18038279168665896",
+   "url": "https://www.instagram.com/reel/DgH3CVrCmBi/"
+  },
+  "youtube": {
+   "skipped": "no secrets"
+  }
+ }
 }
