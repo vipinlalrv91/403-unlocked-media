@@ -1,0 +1,26 @@
+{
+ "slug": "gemini-live-voice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["AI-യോട് സംസാരിക്കാം", "മലയാളത്തിൽ 🎙️"],
+ "title": "AI-യോട് മലയാളത്തിൽ സംസാരിക്കാം! 🎙️ Gemini Live #shorts",
+ "caption": "Type ചെയ്യേണ്ട, സംസാരിച്ചാൽ മതി! Gemini app-ലെ Live വഴി AI-യോട് ഒരു കൂട്ടുകാരനോട് എന്ന പോലെ മലയാളത്തിൽ സംസാരിക്കാം. Ideas ചോദിക്കാം, interview practice ചെയ്യാം. Important കാര്യങ്ങൾ എപ്പോഴും verify ചെയ്യൂ.\n\nGemini Live lets you have a natural voice conversation with Google's AI, and supports Malayalam. Open the Gemini app and tap Live. Always double-check important answers.",
+ "hashtags": "#shorts #gemini #geminilive #ai #malayalam #techmalayalam #403unlocked",
+ "tags": ["gemini live malayalam", "talk to ai malayalam", "google gemini voice", "ai tools malayalam", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://blog.google/intl/en-in/company-news/outreach-initiatives/google-for-india-2024-bringing-ai-to-every-indian-across-our-products/", "https://blog.google/products/gemini/gemini-live-extensions-language-expansion/"],
+ "scenes": [
+  {"type": "hook", "title": "AI-യോട് സംസാരിക്കാം", "sub": "മലയാളത്തിൽ!", "icon": "🎙️",
+   "photo": "a modern Android smartphone standing upright on a wooden table with soft glowing blue light around it, cosy evening room, screen dark",
+   "narration": "ടൈപ്പ് ചെയ്യാൻ മടിയാണോ? ഇനി എ ഐയോട് ഒരു കൂട്ടുകാരനോട് എന്ന പോലെ, മലയാളത്തിൽ സംസാരിക്കാം!"},
+  {"type": "steps", "title": "എങ്ങനെ?", "items": ["Gemini app തുറക്കൂ", "Live tap ചെയ്യൂ", "സംസാരിച്ചു തുടങ്ങൂ"],
+   "photo": "close-up of a smartphone microphone grille and earphones on a desk, macro photo, soft light, screen not visible",
+   "narration": "ജെമിനി ആപ്പ് തുറന്ന്, ലൈവ് ബട്ടൺ അമർത്തി, സാധാരണ പോലെ സംസാരിച്ചു തുടങ്ങൂ. ഇടയ്ക്ക് കയറി സംസാരിച്ചാലും പ്രശ്നമില്ല."},
+  {"type": "bullets", "title": "എന്തിന് USE?", "icon": "💡", "items": ["Interview practice", "Ideas ചോദിക്കാം", "English പഠിക്കാം"],
+   "photo": "a neat study desk with an open notebook, pen, a cup of tea and a smartphone, warm morning light, no people",
+   "narration": "ഇന്റർവ്യൂ പ്രാക്ടീസ് ചെയ്യാം, പുതിയ ഐഡിയകൾ ചോദിക്കാം, ഇംഗ്ലീഷ് സംസാരിക്കാൻ പഠിക്കാം."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["AI-ക്ക് തെറ്റ് പറ്റാം", "Personal info പറയരുത്"],
+   "photo": "a smartphone lying face down on a desk next to a closed padlock, symbolic privacy, soft light",
+   "narration": "എ ഐക്കും തെറ്റ് പറ്റാം, പ്രധാന കാര്യങ്ങൾ ചെക്ക് ചെയ്യൂ. ബാങ്ക് വിവരങ്ങൾ പോലുള്ള സ്വകാര്യ കാര്യങ്ങൾ പറയരുത്."},
+  {"type": "cta", "photo": "a smartphone and wireless earbuds case on a clean white desk with a small green plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

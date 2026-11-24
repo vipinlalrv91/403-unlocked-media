@@ -1,0 +1,26 @@
+{
+ "slug": "android-screen-pinning",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["PHONE കൊടുക്കും മുൻപ്", "ഇത് ON ആക്കൂ 📌"],
+ "title": "Phone മറ്റൊരാൾക്ക് കൊടുക്കും മുൻപ് ഇത് ON ആക്കൂ! 📌 App Pinning #shorts",
+ "caption": "കുട്ടികൾക്ക് game കളിക്കാനോ, ഒരാൾക്ക് call ചെയ്യാനോ phone കൊടുക്കുമ്പോൾ അവർ gallery, WhatsApp ഒന്നും തുറക്കരുത് എന്നുണ്ടോ? Android-ലെ App Pinning ON ആക്കൂ. ഒരു app മാത്രം തുറന്നിരിക്കും, മാറ്റാൻ PIN വേണം.\n\nApp pinning on Android keeps one app on screen; unpinning needs your PIN, pattern or password. Turn it on in Settings > Security > Advanced > App pinning (path varies by phone, search 'pin' in Settings).",
+ "hashtags": "#shorts #android #androidtips #privacy #apppinning #techmalayalam #403unlocked",
+ "tags": ["app pinning android malayalam", "screen pinning malayalam", "android privacy tips", "phone hidden features malayalam", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/android/answer/9455138?hl=en"],
+ "scenes": [
+  {"type": "hook", "title": "PHONE കൊടുക്കും മുൻപ്", "sub": "ഇത് ON ആക്കൂ!", "icon": "📌",
+   "photo": "a smartphone lying on a colourful children's play mat next to toy blocks, bright living room, screen dark",
+   "narration": "കുട്ടികൾക്കോ കൂട്ടുകാർക്കോ ഫോൺ കൊടുക്കുമ്പോൾ അവർ ഗാലറിയും വാട്സ്ആപ്പും തുറക്കുമോ എന്ന പേടിയുണ്ടോ?"},
+  {"type": "bullets", "title": "APP PINNING", "icon": "📌", "items": ["ഒരു app മാത്രം", "മാറ്റാൻ PIN വേണം"],
+   "photo": "a smartphone with a small red push pin lying on top of it on a wooden desk, macro photo, screen dark",
+   "narration": "ആൻഡ്രോയിഡിലെ ആപ്പ് പിന്നിങ് ഓൺ ആക്കിയാൽ ഒരു ആപ്പ് മാത്രം തുറന്നിരിക്കും. പുറത്ത് കടക്കാൻ നിങ്ങളുടെ പിൻ വേണം."},
+  {"type": "steps", "title": "ON ആക്കാൻ", "items": ["Settings → Security", "Advanced", "App pinning ON"], "note": "* Path varies. Settings-ൽ 'pin' search ചെയ്യൂ",
+   "photo": "a smartphone on a dark desk next to a metal key and a small padlock, moody soft light, screen dark",
+   "narration": "സെറ്റിങ്സിൽ സെക്യൂരിറ്റി, അഡ്വാൻസ്ഡ്, ആപ്പ് പിന്നിങ് ഓൺ ആക്കൂ. കാണുന്നില്ലെങ്കിൽ സെറ്റിങ്സിൽ പിൻ എന്ന് സെർച്ച് ചെയ്യൂ."},
+  {"type": "steps", "title": "PIN ചെയ്യാൻ", "items": ["Recent apps തുറക്കൂ", "App icon tap", "Pin select ചെയ്യൂ"],
+   "photo": "two smartphones side by side on a white table, one face up with a dark screen, minimal clean photo",
+   "narration": "ആപ്പ് തുറന്ന്, റീസന്റ് ആപ്പ്സിൽ ആ ആപ്പിന്റെ ഐക്കണിൽ ടാപ്പ് ചെയ്ത്, പിൻ തിരഞ്ഞെടുക്കൂ. ഇനി ധൈര്യമായി ഫോൺ കൊടുക്കാം."},
+  {"type": "cta", "photo": "a smartphone resting on a stack of colourful books next to a toy car, playful bright photo, screen dark",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

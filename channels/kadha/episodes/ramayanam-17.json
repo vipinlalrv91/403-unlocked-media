@@ -1,0 +1,205 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-17",
+ "thumb_text": [
+  "രാമായണം",
+  "സഹോദരങ്ങൾ കണ്ടുമുട്ടി"
+ ],
+ "title": "രാമായണം 17 🤗 ചിത്രകൂടത്തിൽ സഹോദരങ്ങളുടെ കണ്ടുമുട്ടൽ | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 17: ഭരതൻ വലിയ സംഘവുമായി ചിത്രകൂടത്തിലെത്തുന്നു. ആദ്യം ലക്ഷ്മണൻ സംശയിക്കുന്നു, പക്ഷേ ഭരതൻ രാമന്റെ കാൽക്കൽ വീണ് കരയുന്നു. സഹോദരങ്ങളുടെ സ്നേഹം നിറഞ്ഞ കണ്ടുമുട്ടൽ 🤗\n\nRamayanam for kids in Malayalam, part 17: Bharata reaches Chitrakoot; the brothers meet with love and tears.",
+ "tags": [
+  "ramayanam malayalam",
+  "bharata meets rama chitrakoot",
+  "brothers love ramayana",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "സഹോദരങ്ങൾ കണ്ടുമുട്ടി",
+   "icon": "🤗",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് സഹോദരങ്ങൾ വീണ്ടും കണ്ടുമുട്ടുന്ന കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "ഭരതന്റെ യാത്ര",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.33,
+     "y": 0.8,
+     "h": 760,
+     "label": "ഭരതൻ"
+    },
+    {
+     "img": "shatrughna",
+     "x": 0.68,
+     "y": 0.8,
+     "h": 740,
+     "label": "ശത്രുഘ്നൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അമ്മമാരും മഹർഷിമാരും ജനങ്ങളുമായി ഭരതൻ കാട്ടിലൂടെ ചിത്രകൂടത്തിലേക്ക് യാത്ര ചെയ്തു. വഴിയിൽ ഗുഹനും സഹായിച്ചു."
+    },
+    {
+     "who": "bharata",
+     "text": "ഏത് കാട്ടിലായാലും ഞാൻ രാമേട്ടനെ കണ്ടുപിടിക്കും!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "ലക്ഷ്മണന്റെ സംശയം",
+   "mood": "adventure",
+   "cine_fx": [
+    "dust",
+    "rays"
+   ],
+   "chars": [
+    {
+     "img": "lakshmana_forest",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 760,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ദൂരെ വലിയ സൈന്യത്തിന്റെ പൊടി കണ്ട് ലക്ഷ്മണൻ മരത്തിൽ കയറി നോക്കി."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, ഭരതൻ സൈന്യവുമായി വരുന്നു! നമ്മളോട് യുദ്ധം ചെയ്യാനാകും!"
+    },
+    {
+     "who": "rama",
+     "text": "ലക്ഷ്മണാ, ഭരതൻ നമ്മളെ സ്നേഹിക്കുന്നവനാണ്. അവൻ ഒരിക്കലും തെറ്റ് ചെയ്യില്ല."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "സ്നേഹത്തിന്റെ കണ്ണീർ",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഭരതൻ"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മരവുരി ധരിച്ച ചേട്ടനെ കണ്ടതും ഭരതൻ ഓടിവന്ന് രാമന്റെ കാൽക്കൽ വീണ് കരഞ്ഞു."
+    },
+    {
+     "who": "bharata",
+     "text": "രാമേട്ടാ, എന്നോട് ക്ഷമിക്കണം. അച്ഛൻ നമ്മെ വിട്ടുപോയി."
+    },
+    {
+     "who": "narrator",
+     "text": "അച്ഛന്റെ വിയോഗം കേട്ട് രാമനും സീതയും ലക്ഷ്മണനും ഒരുപാട് കരഞ്ഞു. രാമൻ ഭരതനെ കെട്ടിപ്പിടിച്ച് ആശ്വസിപ്പിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "കുടുംബം ഒന്നിച്ച്",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "sita_forest",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 720,
+     "label": "സീത",
+     "who": "sita"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    },
+    {
+     "img": "bharata",
+     "x": 0.76,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഭരതൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "rama",
+     "text": "ഭരതാ, നീ വന്നതിൽ എനിക്ക് വലിയ സന്തോഷം. നീ എന്റെ നല്ല അനിയനാണ്."
+    },
+    {
+     "who": "sita",
+     "text": "നിങ്ങൾ സഹോദരങ്ങളുടെ സ്നേഹം കണ്ട് എന്റെ മനസ്സ് നിറഞ്ഞു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "വിശ്വാസമാണ്",
+    "സ്നേഹത്തിന്റെ",
+    "അടിത്തറ"
+   ],
+   "icon": "🤗",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ലക്ഷ്മണൻ സംശയിച്ചപ്പോഴും രാമൻ അനിയനെ വിശ്വസിച്ചു. സ്നേഹിക്കുന്നവരെ വിശ്വസിക്കണം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

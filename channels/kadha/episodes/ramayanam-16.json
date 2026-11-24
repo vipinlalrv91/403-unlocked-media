@@ -1,0 +1,185 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-16",
+ "thumb_text": [
+  "രാമായണം",
+  "ഭരതന്റെ മനസ്സ്"
+ ],
+ "title": "രാമായണം 16 👑 ഭരതൻ: എനിക്ക് രാജ്യം വേണ്ട! | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 16: അയോധ്യയിൽ തിരിച്ചെത്തിയ ഭരതൻ എല്ലാം അറിയുന്നു. ചേട്ടന്റെ രാജ്യം എനിക്ക് വേണ്ട എന്ന് പറഞ്ഞ്, രാമനെ തിരികെ കൊണ്ടുവരാൻ ഭരതൻ തീരുമാനിക്കുന്നു 👑\n\nRamayanam for kids in Malayalam, part 16: Bharata returns to Ayodhya, refuses the throne and decides to bring Rama back.",
+ "tags": [
+  "ramayanam malayalam",
+  "bharata refuses throne",
+  "bharata rama love",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ഭരതന്റെ മനസ്സ്",
+   "icon": "👑",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് ചേട്ടനെ ജീവനെപ്പോലെ സ്നേഹിച്ച ഒരു അനിയന്റെ കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "ayodhya",
+   "caption": "ഭരതൻ മടങ്ങിയെത്തി",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.33,
+     "y": 0.8,
+     "h": 760,
+     "label": "ഭരതൻ"
+    },
+    {
+     "img": "shatrughna",
+     "x": 0.68,
+     "y": 0.8,
+     "h": 740,
+     "label": "ശത്രുഘ്നൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ദൂതന്മാരുടെ വിളി കേട്ട് ഭരതനും ശത്രുഘ്നനും വേഗം അയോധ്യയിൽ എത്തി. പക്ഷേ നഗരം മുഴുവൻ നിശ്ശബ്ദമായിരുന്നു."
+    },
+    {
+     "who": "bharata",
+     "text": "ശത്രുഘ്നാ, എന്തുപറ്റി നമ്മുടെ അയോധ്യയ്ക്ക്? ആരും ചിരിക്കുന്നില്ലല്ലോ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "അമ്മയുടെ വാക്കുകൾ",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "kaikeyi",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൈകേയി"
+    },
+    {
+     "img": "bharata",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "ഭരതൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "kaikeyi",
+     "text": "മോനേ, നിന്റെ അച്ഛൻ നമ്മെ വിട്ടുപോയി. രാമൻ കാട്ടിലാണ്. ഇനി നീയാണ് അയോധ്യയുടെ രാജാവ്."
+    },
+    {
+     "who": "bharata",
+     "text": "അമ്മേ, എന്താണ് ഈ പറയുന്നത്? ചേട്ടനെ കാട്ടിലയച്ചിട്ട് എനിക്ക് ഒരു കിരീടവും വേണ്ട!"
+    },
+    {
+     "who": "narrator",
+     "text": "ഭരതന്റെ കണ്ണുകൾ നിറഞ്ഞു. അച്ഛനെ ഓർത്തും ചേട്ടനെ ഓർത്തും ഭരതൻ ഒരുപാട് കരഞ്ഞു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "കൗസല്യയോട്",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "kausalya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "കൗസല്യ"
+    },
+    {
+     "img": "bharata",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "ഭരതൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "bharata",
+     "text": "വലിയമ്മേ, ഇതൊന്നും ഞാൻ അറിഞ്ഞിരുന്നില്ല. എനിക്ക് വേണ്ടത് രാമേട്ടനെയാണ്, രാജ്യമല്ല."
+    },
+    {
+     "who": "kausalya",
+     "text": "എനിക്കറിയാം മോനേ, നിന്റെ മനസ്സ് രാമനെപ്പോലെ നല്ലതാണ്."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "palace_hall",
+   "caption": "ഭരതന്റെ തീരുമാനം",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "vasishtha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "വസിഷ്ഠ മഹർഷി"
+    },
+    {
+     "img": "bharata",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 760,
+     "label": "ഭരതൻ"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അച്ഛന്റെ അന്ത്യകർമ്മങ്ങൾ കഴിഞ്ഞപ്പോൾ, വസിഷ്ഠ മഹർഷി ഭരതനോട് രാജാവാകാൻ പറഞ്ഞു."
+    },
+    {
+     "who": "bharata",
+     "text": "ഗുരോ, രാജ്യം രാമേട്ടന്റേതാണ്. ഞാൻ ചിത്രകൂടത്തിൽ പോയി ചേട്ടനെ തിരികെ കൊണ്ടുവരും!"
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "സ്നേഹത്തിന്",
+    "മുന്നിൽ",
+    "കിരീടം ചെറുത്"
+   ],
+   "icon": "💛",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഭരതന് കിരീടത്തേക്കാൾ വലുതായിരുന്നു ചേട്ടന്റെ സ്നേഹം. സഹോദരസ്നേഹം എത്ര വലുതാണ്!"
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
