@@ -17,5 +17,15 @@
  "categoryId": "28",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-24T10:34:08.408992+00:00"
+ "kick": "2026-11-24T10:34:08.408992+00:00",
+ "result": {
+  "posted_at": "2026-11-24T10:34:36.018143+00:00",
+  "instagram": {
+   "id": "17914175649304784",
+   "url": "https://www.instagram.com/reel/DgHwLofFDIT/"
+  },
+  "youtube": {
+   "error": "HTTP Error 400: Bad Request"
+  }
+ }
 }
