@@ -25,8 +25,8 @@
 - [x] google-maps-hidden-features | Hidden: Google Maps tricks (offline maps, share live location) | verify Maps help
 - [x] chrome-listen-to-page | AI: Chrome reads web pages aloud (Listen to this page) | verify Chrome help + India availability
 # Refill 23 Nov 2026 (verify each on official pages before writing)
-- [ ] gemini-live-voice | AI: talk to Gemini Live by voice (check Malayalam support on Gemini help) | verify support.google.com/gemini
-- [ ] android-screen-pinning | Hidden: App pinning, give phone to kids/friends safely | verify Android help
+- [x] gemini-live-voice | AI: talk to Gemini Live by voice (check Malayalam support on Gemini help) | verify support.google.com/gemini
+- [x] android-screen-pinning | Hidden: App pinning, give phone to kids/friends safely | verify Android help
 - [ ] google-lens-homework | AI: Google Lens homework help (solve maths/science from photo) | verify Google Lens help
 - [ ] whatsapp-chat-lock | Hidden: WhatsApp Chat Lock for private chats | verify faq.whatsapp.com
 - [ ] notebooklm-audio-overview | AI: NotebookLM turns notes into a podcast-style audio | verify NotebookLM help + India + languages
