@@ -34,7 +34,16 @@ for path in sorted(glob.glob("outbox/*.json")):
     if yt_ok:
         tmp = os.path.join(tempfile.gettempdir(), "v.mp4")
         try:
-            urllib.request.urlretrieve(req["video_url"], tmp)
+            if req.get("compile"):   # weekly long video: build it here from the episode files in the repo (no big files in git)
+                import subprocess; c = req["compile"]
+                if not os.path.exists("/usr/share/fonts/truetype/noto/NotoSansMalayalam-Bold.ttf"):
+                    subprocess.run("sudo apt-get install -y -q fonts-noto-core >/dev/null", shell=True)
+                subprocess.run(["python3", "pipeline/compile_kadha.py", str(c["part"]), str(c["first"]), str(c["last"]), c["title"]], check=True)
+                tmp = f"videos/long/ramayanam-part-{c['part']}.mp4"; req["thumbnail_file"] = f"videos/long/ramayanam-part-{c['part']}_thumb.jpg"
+                ch_txt = open(f"videos/long/ramayanam-part-{c['part']}_chapters.txt", encoding="utf-8").read()
+                req["description"] = req["description"].replace("{CHAPTERS}", ch_txt)
+            else:
+                urllib.request.urlretrieve(req["video_url"], tmp)
             result["youtube"] = upload_short(env("YT_CLIENT_ID"), env("YT_CLIENT_SECRET"), env(f"YT_REFRESH_{yt_secret}"), tmp, dict(req, expected_channel_id=YT_CHANNEL.get(ch)))
         except Exception as e: result["youtube"] = {"error": str(e)}
     else: result["youtube"] = {"skipped": "no secrets"}
