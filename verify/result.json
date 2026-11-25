@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-25T06:31:34.325227+00:00",
+ "checked_at": "2026-11-25T06:35:29.062764+00:00",
  "secrets_present": {
   "YT_CLIENT_ID": true,
   "YT_CLIENT_SECRET": true,
@@ -37,12 +37,13 @@
    "channel": "403 UNLOCKED (UCeS13InBe6Upz3qgMcAwgDA)"
   },
   "STOIC": {
-   "ok": false,
-   "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
+   "ok": true,
+   "scope": "https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.upload",
+   "channel": "Kadhapetti (UC1rMC_lvwPFW6SgNsOsJLdQ)"
   },
   "KADHA": {
    "ok": false,
-   "error": "HTTP 401: {\n  \"error\": \"unauthorized_client\",\n  \"error_description\": \"Unauthorized\"\n}"
+   "error": "HTTP 400: {\n  \"error\": \"invalid_grant\",\n  \"error_description\": \"Bad Request\"\n}"
   }
  }
 }
