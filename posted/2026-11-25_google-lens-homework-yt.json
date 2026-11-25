@@ -19,5 +19,18 @@
  "privacy": "public",
  "only": [
   "youtube"
- ]
+ ],
+ "result": {
+  "posted_at": "2026-11-25T06:33:09.826269+00:00",
+  "instagram": {
+   "skipped": "no secrets"
+  },
+  "youtube": {
+   "id": "15Hg9cTl2Ts",
+   "url": "https://www.youtube.com/shorts/15Hg9cTl2Ts",
+   "privacy": "public",
+   "channel_id": "UCeS13InBe6Upz3qgMcAwgDA",
+   "thumbnail": "set"
+  }
+ }
 }
