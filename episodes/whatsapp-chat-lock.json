@@ -1,0 +1,26 @@
+{
+ "slug": "whatsapp-chat-lock",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["WHATSAPP SECRET", "Chat Lock 🔒"],
+ "title": "WhatsApp-ൽ ഒരു Chat മാത്രം Lock ചെയ്യാം! 🔒 Secret Code Trick #shorts",
+ "caption": "Phone ആർക്കെങ്കിലും കൊടുക്കുമ്പോൾ ചില chats ആരും കാണരുതെന്നുണ്ടോ? WhatsApp Chat Lock: chat long press → ⋮ → Lock chat. Secret code വെച്ചാൽ Locked Chats folder പോലും മറയ്ക്കാം; search-ൽ code type ചെയ്താൽ മാത്രം കാണാം.\n\nWhatsApp Chat Lock: long-press a chat, tap the three dots and choose Lock chat. Set a secret code to hide the Locked Chats folder; type the code in search to see it.",
+ "hashtags": "#shorts #whatsapp #whatsapptricks #chatlock #privacy #techmalayalam #403unlocked",
+ "tags": ["whatsapp chat lock malayalam", "whatsapp secret code", "whatsapp hidden features malayalam", "whatsapp privacy tips", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://whatsapp.com/faq/en/android/28000010", "https://blog.whatsapp.com/introducing-secret-code-for-chat-lock"],
+ "scenes": [
+  {"type": "hook", "title": "WHATSAPP SECRET", "sub": "ഈ trick അറിയാമോ?", "icon": "🔒",
+   "photo": "a smartphone lying face down on a wooden table next to a small brass padlock and a key, moody warm light",
+   "narration": "വാട്സ്ആപ്പിൽ ഒരു ചാറ്റ് മാത്രം ലോക്ക് ചെയ്ത്, ആരും കാണാതെ ഒളിപ്പിക്കാം എന്ന് അറിയാമോ?"},
+  {"type": "steps", "title": "LOCK ചെയ്യാൻ", "items": ["Chat long press", "⋮ Menu tap", "Lock chat"],
+   "photo": "close-up of a closed padlock resting on top of a smartphone on a dark desk, screen dark, macro photo",
+   "narration": "ചാറ്റിൽ ലോങ്ങ് പ്രസ്സ് ചെയ്ത്, മുകളിലെ മൂന്ന് കുത്ത് മെനുവിൽ ലോക്ക് ചാറ്റ് അമർത്തൂ. ഫിംഗർപ്രിന്റോ ഫോൺ ലോക്കോ വേണം."},
+  {"type": "bullets", "title": "SECRET CODE", "icon": "🤫", "items": ["Locked folder മറയ്ക്കാം", "Search-ൽ code = തുറക്കും"],
+   "photo": "a smartphone on a desk next to a closed notebook and a pen, dim cosy light, screen dark",
+   "narration": "സീക്രട്ട് കോഡ് വെച്ചാൽ ലോക്ക്ഡ് ചാറ്റ്സ് ഫോൾഡർ പോലും ലിസ്റ്റിൽ കാണില്ല. സെർച്ചിൽ കോഡ് ടൈപ്പ് ചെയ്താൽ മാത്രം തുറക്കും."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["Code മറക്കരുത്", "മറ്റേയാൾക്ക് അറിയില്ല"],
+   "photo": "a smartphone and a coffee mug on a windowsill with rain outside, calm mood, screen dark",
+   "narration": "ചാറ്റ് ലോക്ക് ചെയ്താൽ മറ്റേയാൾക്ക് അത് അറിയില്ല. പക്ഷേ സീക്രട്ട് കോഡ് മറക്കരുത്, ഓർത്തുവെക്കൂ."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

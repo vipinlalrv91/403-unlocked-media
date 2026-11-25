@@ -1,0 +1,210 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-18",
+ "thumb_text": [
+  "രാമായണം",
+  "ശ്രീരാമ പാദുകങ്ങൾ"
+ ],
+ "title": "രാമായണം 18 👣 ശ്രീരാമ പാദുകങ്ങൾ: ഭരതന്റെ ഭക്തി | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 18: അച്ഛന്റെ വാക്ക് പാലിക്കാൻ രാമൻ തിരിച്ചുവരില്ല എന്ന് പറയുന്നു. രാമന്റെ പാദുകങ്ങൾ തലയിൽ വെച്ച് ഭരതൻ മടങ്ങുന്നു, നന്ദിഗ്രാമത്തിൽ രാമന്റെ പേരിൽ രാജ്യം ഭരിക്കുന്നു 👣\n\nRamayanam for kids in Malayalam, part 18: Rama gives his padukas (sandals) to Bharata, who rules from Nandigram in Rama's name.",
+ "tags": [
+  "ramayanam malayalam",
+  "rama paduka bharata",
+  "nandigram bharata",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ശ്രീരാമ പാദുകങ്ങൾ",
+   "icon": "👣",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് ഭരതന്റെ വലിയ ഭക്തിയുടെ കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "ഭരതന്റെ അപേക്ഷ",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.32,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഭരതൻ"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അച്ഛന്റെ കർമ്മങ്ങൾ കഴിഞ്ഞ് ഭരതൻ കൈകൂപ്പി രാമന്റെ മുന്നിൽ നിന്നു."
+    },
+    {
+     "who": "bharata",
+     "text": "രാമാ, അയോധ്യയിലേക്ക് തിരിച്ചുവരണം. രാജ്യം ഭരിക്കേണ്ടത് രാമനാണ്."
+    },
+    {
+     "who": "rama",
+     "text": "ഭരതാ, അച്ഛന് കൊടുത്ത വാക്ക് ഞാൻ തെറ്റിക്കില്ല. പതിനാല് വർഷം കഴിഞ്ഞേ ഞാൻ വരൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "ശ്രീരാമ പാദുകങ്ങൾ",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.32,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഭരതൻ",
+     "moves": [
+      {
+       "at": "L0+1.5",
+       "x": 0.4,
+       "pose": "bharata_kneel",
+       "dur": 1.0
+      }
+     ]
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "moves": [
+      {
+       "at": "L1",
+       "x": 0.6,
+       "dur": 1.2
+      }
+     ],
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "bharata",
+     "text": "എങ്കിൽ രാമന്റെ പാദുകങ്ങൾ എനിക്ക് തരണം. അവ സിംഹാസനത്തിൽ വെച്ച് ഞാൻ രാമന്റെ പേരിൽ രാജ്യം നോക്കാം."
+    },
+    {
+     "who": "narrator",
+     "text": "രാമൻ സ്നേഹത്തോടെ തന്റെ പാദുകങ്ങൾ ഭരതന് നൽകി. ഭരതൻ അവ ഭക്തിയോടെ തലയിൽ വെച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "chitrakoot",
+   "caption": "ഭരതന്റെ മടക്കം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.35,
+     "y": 0.8,
+     "h": 740,
+     "label": "ഭരതൻ",
+     "exit": {
+      "at": "L1",
+      "to": "left"
+     }
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.62,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.82,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "bharata",
+     "text": "രാമാ, പതിനാല് വർഷവും ഓരോ ദിവസവും എണ്ണി ഞാൻ കാത്തിരിക്കും. വേഗം തിരിച്ചുവരണം."
+    },
+    {
+     "who": "narrator",
+     "text": "കണ്ണീരോടെ ഭരതൻ എല്ലാവരോടും യാത്ര പറഞ്ഞ് അയോധ്യയിലേക്ക് മടങ്ങി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "നന്ദിഗ്രാമത്തിൽ",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "bharata",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 760,
+     "label": "ഭരതൻ",
+     "enter": "left"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഭരതൻ കൊട്ടാരത്തിൽ താമസിച്ചില്ല. നന്ദിഗ്രാമം എന്ന ഗ്രാമത്തിൽ ഒരു കുടിലിൽ, രാമനെപ്പോലെ ലളിതമായി ജീവിച്ചു."
+    },
+    {
+     "who": "narrator",
+     "text": "സിംഹാസനത്തിൽ രാമന്റെ പാദുകങ്ങൾ വെച്ച്, രാമന്റെ ദാസനായി ഭരതൻ രാജ്യം ഭരിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "സ്ഥാനമല്ല",
+    "സ്നേഹമാണ്",
+    "വലുത്"
+   ],
+   "icon": "👣",
+   "mood": "devotional",
+   "narration": "മക്കളേ, കിരീടം കിട്ടിയിട്ടും ഭരതൻ അത് സ്വന്തമാക്കിയില്ല. സ്ഥാനത്തേക്കാൾ വലുതാണ് സ്നേഹവും വിനയവും."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

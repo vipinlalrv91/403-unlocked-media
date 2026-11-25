@@ -1,0 +1,72 @@
+{
+ "slug": "google-lens-homework",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": [
+  "HOMEWORK HELP",
+  "ഫോട്ടോ എടുത്താൽ മതി 📸"
+ ],
+ "title": "Maths സംശയം? ഫോട്ടോ എടുത്താൽ മതി! 📸 Google Lens Homework Help #shorts",
+ "caption": "കുട്ടികളുടെ maths, science സംശയങ്ങൾക്ക് Google Lens-ലെ Homework option ഉപയോഗിക്കാം. ചോദ്യത്തിന്റെ ഫോട്ടോ എടുത്താൽ step by step എങ്ങനെ ചെയ്യാം എന്ന് കാണിക്കും. Answer copy ചെയ്യാനല്ല, method പഠിക്കാൻ ഉപയോഗിക്കൂ!\n\nGoogle Lens Homework: tap the Homework option, take a photo of a maths or science problem and see step-by-step explanations. Use it to learn the method, not just copy the answer.",
+ "hashtags": "#shorts #googlelens #homework #mathstips #ai #studytips #techmalayalam #403unlocked",
+ "tags": [
+  "google lens homework malayalam",
+  "maths doubt app",
+  "google lens maths solver",
+  "study tips malayalam",
+  "ai for students malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://blog.google/products/search/more-help-with-math-and-science-problems-in-search/",
+  "https://9to5google.com/2020/08/11/google-lens-homework-filter/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "HOMEWORK HELP",
+   "sub": "ഫോട്ടോ എടുത്താൽ മതി!",
+   "icon": "📸",
+   "photo": "an open maths notebook with handwritten equations, a pencil and an eraser on a wooden study table, warm evening lamp light",
+   "narration": "കുട്ടിയുടെ മാത്സ് ഹോംവർക്കിൽ സംശയമുണ്ടോ? ചോദ്യത്തിന്റെ ഒരു ഫോട്ടോ എടുത്താൽ മതി!"
+  },
+  {
+   "type": "steps",
+   "title": "എങ്ങനെ?",
+   "items": [
+    "Google Lens തുറക്കൂ",
+    "Homework select",
+    "ചോദ്യത്തിന്റെ photo"
+   ],
+   "note": "* Option name may vary",
+   "photo": "a smartphone lying next to an open science textbook and a geometry box on a desk, screen dark, soft light",
+   "narration": "ഗൂഗിൾ ലെൻസ് തുറന്ന്, ഹോംവർക്ക് ഓപ്ഷൻ തിരഞ്ഞെടുത്ത്, ചോദ്യത്തിന്റെ ഫോട്ടോ എടുക്കൂ."
+  },
+  {
+   "type": "bullets",
+   "title": "STEP BY STEP",
+   "icon": "🧮",
+   "items": [
+    "Maths & Science",
+    "എങ്ങനെ ചെയ്യാം എന്ന് കാണാം"
+   ],
+   "photo": "a neat page of solved maths steps written on graph paper with a ruler and calculator, top view",
+   "narration": "മാത്സിലും സയൻസിലും, ഉത്തരം മാത്രമല്ല, എങ്ങനെ ചെയ്യണം എന്ന് സ്റ്റെപ്പ് ബൈ സ്റ്റെപ്പ് ആയി കാണിച്ചു തരും."
+  },
+  {
+   "type": "bullets",
+   "title": "TIP",
+   "icon": "💡",
+   "items": [
+    "Copy ചെയ്യാനല്ല",
+    "Method പഠിക്കാൻ"
+   ],
+   "photo": "a stack of school textbooks and a small green plant on a desk by a window, bright morning light",
+   "narration": "ഉത്തരം കോപ്പി ചെയ്യാനല്ല, മെതേഡ് മനസ്സിലാക്കാൻ ഉപയോഗിക്കൂ. ടീച്ചർ പഠിപ്പിച്ച രീതിയുമായി ഒത്തുനോക്കുകയും ചെയ്യൂ. എക്സാമിൽ അതാണ് സഹായിക്കുക."
+  },
+  {
+   "type": "cta",
+   "photo": "a school bag, notebooks and colour pencils arranged on a wooden floor, cheerful bright photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

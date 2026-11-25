@@ -1,0 +1,229 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Ayodhya Kanda (public domain)",
+ "slug": "ramayanam-19",
+ "thumb_text": [
+  "രാമായണം",
+  "അനസൂയയുടെ അനുഗ്രഹം"
+ ],
+ "title": "രാമായണം 19 🙏 അത്രി മഹർഷിയും അനസൂയാദേവിയും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 19: ചിത്രകൂടം വിട്ട് രാമനും സീതയും ലക്ഷ്മണനും അത്രി മഹർഷിയുടെ ആശ്രമത്തിൽ എത്തുന്നു. അനസൂയാദേവി സീതയെ സ്നേഹത്തോടെ അനുഗ്രഹിക്കുന്നു 🙏\n\nRamayanam for kids in Malayalam, part 19: Sage Atri and Anasuya Devi welcome Rama, Sita and Lakshmana; Anasuya blesses Sita.",
+ "tags": [
+  "ramayanam malayalam",
+  "atri anasuya sita",
+  "anasuya blesses sita",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "അനസൂയയുടെ അനുഗ്രഹം",
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് ഒരു നല്ല അമ്മ സീതയെ അനുഗ്രഹിച്ച കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "ചിത്രകൂടം വിട്ട്",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "lakshmana_forest",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "enter": "left",
+     "t0": 0.0,
+     "who": "lakshmana"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "enter": "left",
+     "t0": 0.4,
+     "who": "rama"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.78,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "enter": "left",
+     "t0": 0.8,
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഭരതൻ പോയതിനുശേഷം, ചിത്രകൂടത്തിൽ അയോധ്യയുടെ ഓർമ്മകൾ കൂടുതൽ വന്നു. അതുകൊണ്ട് രാമൻ കാട്ടിലൂടെ മുന്നോട്ട് യാത്ര തുടർന്നു."
+    },
+    {
+     "who": "rama",
+     "text": "ലക്ഷ്മണാ, നമുക്ക് അത്രി മഹർഷിയുടെ ആശ്രമത്തിലേക്ക് പോകാം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "അത്രി മഹർഷി",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "atri",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "അത്രി മഹർഷി"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "moves": [
+      {
+       "at": "L0+1.0",
+       "pose": "rama_forest_bow",
+       "dur": 0.8
+      },
+      {
+       "at": "L1+1.5",
+       "pose": "rama_forest",
+       "dur": 0.8
+      }
+     ],
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ വൃദ്ധനായ അത്രി മഹർഷിയെ തല കുനിച്ച് വന്ദിച്ചു."
+    },
+    {
+     "who": "atri",
+     "text": "വരൂ രാമാ, നിങ്ങളെ കണ്ടതിൽ ഈ ആശ്രമം ധന്യമായി. ഇവിടെ സുഖമായി വിശ്രമിക്കൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "അനസൂയാദേവി",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "anasuya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 720,
+     "label": "അനസൂയ"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "moves": [
+      {
+       "at": "L0+0.5",
+       "pose": "sita_forest_bow",
+       "dur": 0.8
+      },
+      {
+       "at": "L2",
+       "pose": "sita_forest",
+       "dur": 0.8
+      }
+     ],
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മഹർഷിയുടെ ഭാര്യ അനസൂയാദേവി ഒരുപാട് നന്മയുള്ള ഒരു അമ്മയായിരുന്നു. സീത അവരെ വണങ്ങി."
+    },
+    {
+     "who": "anasuya",
+     "text": "മോളേ സീതേ, കൊട്ടാരം വിട്ട് ഭർത്താവിനൊപ്പം വന്ന നിന്റെ സ്നേഹം വലുതാണ്. നീ എന്നും സന്തോഷമായിരിക്കും."
+    },
+    {
+     "who": "narrator",
+     "text": "അനസൂയ സീതയ്ക്ക് ഒരിക്കലും മങ്ങാത്ത മനോഹരമായ വസ്ത്രങ്ങളും ആഭരണങ്ങളും സമ്മാനമായി നൽകി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "night_forest",
+   "caption": "അമ്മയോടുള്ള കഥ",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "anasuya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 720,
+     "label": "അനസൂയ"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "sita",
+     "text": "അമ്മേ, എന്റെ സ്വയംവരത്തിന്റെ കഥ കേൾക്കണോ? രാമൻ ശിവധനുസ്സ് ഒടിച്ച ആ ദിവസം!"
+    },
+    {
+     "who": "narrator",
+     "text": "രാത്രി മുഴുവൻ സീത കഥ പറഞ്ഞു. അനസൂയ ഒരു അമ്മയെപ്പോലെ സന്തോഷത്തോടെ കേട്ടിരുന്നു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "മുതിർന്നവരെ",
+    "വണങ്ങിയാൽ",
+    "അനുഗ്രഹം കിട്ടും"
+   ],
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, രാമനും സീതയും മുതിർന്നവരെ വണങ്ങി. ബഹുമാനം കൊടുക്കുന്നവർക്ക് എന്നും അനുഗ്രഹം കിട്ടും."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "രാമായണ കഥ തുടരും! അടുത്ത ഭാഗം കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
