@@ -69,6 +69,12 @@ def main(part, a, b, title):
     titles = ep_titles(); work = os.path.join("/tmp", f"long_part{part}"); os.makedirs(work, exist_ok=True)
     segs, chapters, t = [], [], 0.0
     for n in range(a, b + 1):
+        wide = os.path.join(ROOT, "videos", f"ramayanam-{n:02d}_wide.mp4")   # full-screen 16:9 render (make_wide.py), preferred
+        if os.path.exists(wide):
+            seg = os.path.join(work, f"e{n:02d}.mp4")
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", wide, "-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "23",
+                            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "44100", seg], check=True)
+            chapters.append((t, f"{n}. {titles.get(n, f'ഭാഗം {n}')}")); segs.append(seg); t += dur(seg); continue
         src = os.path.join(KV, f"ramayanam-{n:02d}.mp4")
         end = dur(src) if n == b else cta_start(src)
         seg = os.path.join(work, f"e{n:02d}.mp4")

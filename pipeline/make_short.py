@@ -379,6 +379,7 @@ def bg_image(name, t, D):
     x0 = (w - W) // 2 + int(30 * math.sin(t * 0.3)); y0 = (h - H) // 2
     return im.crop((x0, y0, x0 + W, y0 + H))
 
+OUT_SUFFIX = ""   # make_wide.py sets "_wide" (16:9 long-video renders)
 CINE = False   # 2.5D cinematic mode for painted stories (ep "cinematic": true)
 def sc_story(s, t, D):
     cam = (1.0, 0.0, 0.0); fxk = ()
@@ -651,7 +652,7 @@ def remotion_scene(s, D, work, k):
     spec = {"bg": s["bgimg"] + ".jpg", "seed": sum(map(ord, s.get("caption", "") + s["bgimg"])),
             "fx": list(s.get("cine_fx") or cinema.FX_FOR.get(s["bgimg"], ("dust",))), "caption": s.get("caption"),
             "segs": [[a, b, w] for a, b, w in SEGS], "amp": [round(a, 3) for a in AMP[:n]] + [0] * max(0, n - len(AMP)),
-            "chars": chars, "delay": 0, "frames": n}
+            "chars": chars, "delay": 0, "frames": n, "width": W, "height": H}
     pj = os.path.join(work, f"remo_{k}.json"); json.dump(spec, open(pj, "w", encoding="utf-8"), ensure_ascii=False)
     out = os.path.join(work, f"remo_{k}.mp4")
     if not os.path.isdir(os.path.join(REMO_DIR, "node_modules")):
@@ -744,7 +745,7 @@ def main(path):
     moods = [sc.get("mood", "calm") for sc in ep["scenes"]] if ep.get("music") == "indian" else None
     audio = os.path.join(work, "mix.m4a"); mix(clips, sd, audio, moods, seed=sum(map(ord, slug)))
     os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
-    out = os.path.join(ROOT, "videos", slug + ".mp4")  # same folder for all channels
+    out = os.path.join(ROOT, "videos", slug + OUT_SUFFIX + ".mp4")  # same folder for all channels
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                           "-i", audio, "-c:a", "aac", "-b:a", "192k", "-shortest", "-c:v", "libx264", "-pix_fmt", "yuv420p",
                           "-preset", "medium", "-crf", "21", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
@@ -773,7 +774,7 @@ def main(path):
                 im = Image.blend(Image.new("RGB", (W, H)), im, (i + 1) / 6)
             p.stdin.write(im.tobytes())
     p.stdin.close(); p.wait()
-    make_thumb(ep, os.path.join(ROOT, "videos", slug + "_thumb.jpg"))
+    if not OUT_SUFFIX: make_thumb(ep, os.path.join(ROOT, "videos", slug + "_thumb.jpg"))
     chars = sum(len(s["narration"]) for s in ep["scenes"])
     print(json.dumps({"video": out, "seconds": round(total, 1), "tts_chars": chars}))
 

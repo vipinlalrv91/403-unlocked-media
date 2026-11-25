@@ -12,7 +12,7 @@ export type Char = {label?: string; who: string; x: number; y: number; h: number
 export type Spec = {bg: string; seed: number; fx: string[]; caption?: string; segs: [number, number, string][]; amp: number[];
   chars: Char[]; delay: number};
 
-const W = 1080, H = 1920;
+let W = 1080, H = 1920, S = 1;   // set per render from the composition size (portrait Shorts or 16:9 long videos)
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const ease = Easing.inOut(Easing.cubic);
 const rnd = (i: number, s: number) => { const x = Math.sin(i * 127.1 + s * 311.7) * 43758.5453; return x - Math.floor(x); };
@@ -105,7 +105,8 @@ const FX: React.FC<{kinds: string[]; t: number; seed: number; front?: boolean}> 
 };
 
 export const Story: React.FC<Spec> = (sp) => {
-  const f = useCurrentFrame(); const {fps, durationInFrames} = useVideoConfig(); const t = f / fps; const D = durationInFrames / fps;
+  const f = useCurrentFrame(); const {fps, durationInFrames, width, height} = useVideoConfig(); const t = f / fps; const D = durationInFrames / fps;
+  W = width; H = height; S = H / 1920; const wide = W > H;
   const dirx = rnd(1, sp.seed) > 0.5 ? 1 : -1, diry = Math.floor(rnd(2, sp.seed) * 3) - 1;
   const p = interpolate(t, [0, D], [0, 1], {...clamp, easing: ease});
   const zoom = 1 + 0.11 * p, px = dirx * 70 * (p - 0.5), py = diry * 25 * (p - 0.5);
@@ -114,15 +115,15 @@ export const Story: React.FC<Spec> = (sp) => {
     <AbsoluteFill style={{background: '#000'}}>
       <style>{`@font-face{font-family:ML;src:url(${staticFile('fonts/ml.ttf')});}`}</style>
       <AbsoluteFill style={{transform: `scale(${zoom}) translate(${-px}px, ${-py}px)`, transformOrigin: '50% 62%'}}>
-        <Img src={staticFile('bg/' + sp.bg)} style={{position: 'absolute', height: H * 1.02, top: -H * 0.01, left: '50%', transform: 'translateX(-50%)'}} />
+        <Img src={staticFile('bg/' + sp.bg)} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover'}} />
         <FX kinds={sp.fx} t={t} seed={sp.seed} />
         {sp.chars.map((c, n) => {
           const st = state(c, t); const lt = t - c.t0;
-          let x = st.x * W, y = c.y * H, op = 1;
+          let x = (wide ? 0.18 + st.x * 0.64 : st.x) * W, y = c.y * H, op = 1;
           // entrance
           if (c.enter === 'left' || c.enter === 'right') {
             const k = interpolate(lt, [0, 1.2], [1, 0], {...clamp, easing: Easing.out(Easing.cubic)});
-            x += (c.enter === 'left' ? -1 : 1) * k * 700; if (k > 0) st.moving = 1;
+            x += (c.enter === 'left' ? -1 : 1) * k * 700 * (wide ? 1.6 : 1); if (k > 0) st.moving = 1;
           } else {
             op = interpolate(lt, [0, 0.5], [0, 1], clamp); y += 60 * interpolate(lt, [0, 0.7], [1, 0], {...clamp, easing: Easing.out(Easing.cubic)});
           }
@@ -131,29 +132,29 @@ export const Story: React.FC<Spec> = (sp) => {
           if (c.exit && t > c.exit.t) { const k = interpolate(t, [c.exit.t, c.exit.t + 1.2], [0, 1], {...clamp, easing: Easing.in(Easing.cubic)});
             x += (c.exit.to === 'left' ? -1 : 1) * k * 800; st.moving = k < 1 ? 1 : 0; }
           // walking / running bob while moving; tiny breathing otherwise (owner: no extra body motion)
-          const bob = st.moving ? Math.abs(Math.sin(t * 11 + n)) * 30 : 6 * Math.abs(Math.sin(t * 2 + n));
+          const bob = (st.moving ? Math.abs(Math.sin(t * 11 + n)) * 30 : 6 * Math.abs(Math.sin(t * 2 + n))) * S;
           // pose crossfade + soft drop when switching to a lower pose (kneel/bow)
           const cf = interpolate(t, [st.switchT, st.switchT + 0.3], [0, 1], clamp);
           const drop = st.switchT > 0 ? spring({frame: f - Math.round(st.switchT * fps), fps, config: {damping: 12, mass: 0.6}}) : 1;
           const speaking = who === c.who;
           return (
-            <div key={n} style={{position: 'absolute', left: x, top: y - bob - (1 - drop) * 40, opacity: op}}>
-              {speaking && amp > 0.15 && <div style={{position: 'absolute', left: -st.h * 0.42, top: -st.h * 0.97, width: st.h * 0.84, height: st.h * 0.84,
+            <div key={n} style={{position: 'absolute', left: x, top: y - bob - (1 - drop) * 40 * S, opacity: op}}>
+              {speaking && amp > 0.15 && <div style={{position: 'absolute', left: -st.h * S * 0.42, top: -st.h * S * 0.97, width: st.h * S * 0.84, height: st.h * S * 0.84,
                 borderRadius: '50%', background: 'radial-gradient(circle, rgba(255,230,150,0.55), rgba(255,230,150,0) 70%)', opacity: Math.min(1, amp)}} />}
-              {cf < 1 && st.switchT > 0 && <Sprite c={c} poseName={st.prevPose} h={c.h} t={t} amp={amp} speaking={speaking} n={n} opacity={1 - cf} />}
-              <Sprite c={c} poseName={st.pose} h={st.h} t={t} amp={amp} speaking={speaking} n={n} opacity={st.switchT > 0 ? cf : 1} />
-              {c.label && <div style={{position: 'absolute', top: bob + (1 - drop) * 40 + 6, left: 0, transform: 'translateX(-50%)', whiteSpace: 'nowrap',
-                background: 'rgb(255,245,210)', border: '3px solid rgb(200,120,20)', borderRadius: 26, padding: '4px 15px',
-                fontFamily: 'ML', fontSize: sp.chars.length >= 4 ? 32 : 40, color: 'rgb(90,40,20)'}}>{c.label}</div>}
+              {cf < 1 && st.switchT > 0 && <Sprite c={c} poseName={st.prevPose} h={c.h * S} t={t} amp={amp} speaking={speaking} n={n} opacity={1 - cf} />}
+              <Sprite c={c} poseName={st.pose} h={st.h * S} t={t} amp={amp} speaking={speaking} n={n} opacity={st.switchT > 0 ? cf : 1} />
+              {c.label && <div style={{position: 'absolute', top: bob + (1 - drop) * 40 * S + 6 * S, left: 0, transform: 'translateX(-50%)', whiteSpace: 'nowrap',
+                background: 'rgb(255,245,210)', border: `${wide ? 3 : 3}px solid rgb(200,120,20)`, borderRadius: 26, padding: wide ? '3px 14px' : '4px 15px',
+                fontFamily: 'ML', fontSize: wide ? 30 : (sp.chars.length >= 4 ? 32 : 40), color: 'rgb(90,40,20)'}}>{c.label}</div>}
             </div>
           );
         })}
       </AbsoluteFill>
       <FX kinds={sp.fx} t={t} seed={sp.seed} front />
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(20,10,0,0.45) 100%)'}} />
-      {sp.caption && <div style={{position: 'absolute', left: 60, right: 60, top: 1640, height: 200, borderRadius: 50, background: '#fff',
+      {sp.caption && <div style={{position: 'absolute', left: wide ? 460 : 60, right: wide ? 460 : 60, top: wide ? H - 150 : 1640, height: wide ? 110 : 200, borderRadius: 50, background: '#fff',
         border: '6px solid rgb(255,150,40)', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',
-        fontFamily: 'ML', fontSize: 60, color: 'rgb(60,40,90)', whiteSpace: 'nowrap'}}>{sp.caption}</div>}
+        fontFamily: 'ML', fontSize: wide ? 50 : 60, color: 'rgb(60,40,90)', whiteSpace: 'nowrap'}}>{sp.caption}</div>}
     </AbsoluteFill>
   );
 };
