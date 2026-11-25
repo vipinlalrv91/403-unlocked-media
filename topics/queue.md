@@ -27,7 +27,7 @@
 # Refill 23 Nov 2026 (verify each on official pages before writing)
 - [x] gemini-live-voice | AI: talk to Gemini Live by voice (check Malayalam support on Gemini help) | verify support.google.com/gemini
 - [x] android-screen-pinning | Hidden: App pinning, give phone to kids/friends safely | verify Android help
-- [ ] google-lens-homework | AI: Google Lens homework help (solve maths/science from photo) | verify Google Lens help
-- [ ] whatsapp-chat-lock | Hidden: WhatsApp Chat Lock for private chats | verify faq.whatsapp.com
+- [x] google-lens-homework | AI: Google Lens homework help (solve maths/science from photo) | verify Google Lens help
+- [x] whatsapp-chat-lock | Hidden: WhatsApp Chat Lock for private chats | verify faq.whatsapp.com
 - [ ] notebooklm-audio-overview | AI: NotebookLM turns notes into a podcast-style audio | verify NotebookLM help + India + languages
 - [ ] android-digital-wellbeing | Hidden: Digital Wellbeing bedtime mode & app timers | verify Android help
