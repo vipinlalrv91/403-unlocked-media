@@ -629,7 +629,7 @@ def mix(clips, sd, out, moods=None, seed=0):
         import music
         wav = out + ".music.wav"; music.write_wav(wav, music.score(list(zip(moods, sd)), seed))
         inputs += ["-i", wav]
-        fc += (f"[{n}:a]volume=0.55,afade=t=in:d=1,afade=t=out:st={tot - 2}:d=2[mus];")
+        fc += (f"[{n}:a]volume=0.30,afade=t=in:d=1,afade=t=out:st={tot - 2}:d=2[mus];")
     else:
         fc += (f"aevalsrc='0.05*sin(2*PI*110*t)+0.035*sin(2*PI*164.8*t)+0.03*sin(2*PI*220*t)"
            f"+0.025*sin(2*PI*261.6*t)*(0.5+0.5*sin(2*PI*0.25*t))+0.04*sin(2*PI*55*t)*exp(-6*mod(t,0.5))':s=44100:d={tot}[m0];"
