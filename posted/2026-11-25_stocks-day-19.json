@@ -17,5 +17,19 @@
  "categoryId": "27",
  "madeForKids": false,
  "privacy": "public",
- "kick": "2026-11-25T12:33:54.306814+00:00"
+ "kick": "2026-11-25T12:33:54.306814+00:00",
+ "result": {
+  "posted_at": "2026-11-25T12:34:57.265613+00:00",
+  "instagram": {
+   "id": "18116554151350458",
+   "url": "https://www.instagram.com/reel/DgKizp2Kvf2/"
+  },
+  "youtube": {
+   "id": "-tlK0I1lz9c",
+   "url": "https://www.youtube.com/shorts/-tlK0I1lz9c",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "set"
+  }
+ }
 }
