@@ -72,3 +72,8 @@ Action poses MUST keep the original face: make them with channels/kadha/art/make
 sprite; adds face + voice). Never use FLUX for a pose of an existing character (faces change). Use 1-3 actions per episode where
 the story has them (arrivals, departures, bowing to elders/feet, embraces = step closer). Lip sync / blink work in every pose.
 Characters still stand still while talking (owner: no extra body motion).
+
+
+## Sundays (owner, 25 Nov 2026): weekly long video — see channels/kadha/long/PLAN.md
+On Sundays queue the 19:30 Ramayanam short with "only": ["instagram"]; the long video takes the 19:30 YouTube slot.
+On Saturdays queue the next long part (compile request) for Sunday 19:30.
