@@ -1,0 +1,29 @@
+{
+ "slug": "android-digital-wellbeing",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["PHONE ADDICTION?", "ഈ setting ഓൺ ആക്കൂ ⏰"],
+ "title": "Phone ഉപയോഗം കുറയ്ക്കാൻ Android-ലെ Hidden Setting ⏰ #shorts",
+ "caption": "Reels കണ്ട് രാത്രി ഉറക്കം പോകുന്നുണ്ടോ? Android-ൽ Digital Wellbeing ഉണ്ട്: Settings → Digital Wellbeing & parental controls. App timer വെച്ചാൽ limit കഴിഞ്ഞാൽ app pause ആകും (അർദ്ധരാത്രി reset). Bedtime mode-ൽ screen grey ആകും, notifications silent ആകും. Path phone അനുസരിച്ച് മാറാം.\n\nAndroid Digital Wellbeing: set daily app timers (reset at midnight) and Bedtime mode (greyscale screen, Do Not Disturb). Path may vary by phone.",
+ "hashtags": "#shorts #android #digitalwellbeing #androidtips #phoneaddiction #techmalayalam #403unlocked",
+ "tags": ["digital wellbeing malayalam", "android app timer", "bedtime mode android", "phone addiction malayalam", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/android/answer/9346420", "https://support.google.com/android/answer/9887159"],
+ "scenes": [
+  {"type": "hook", "title": "PHONE ADDICTION?", "sub": "ഈ setting അറിയാമോ?", "icon": "⏰",
+   "photo": "a smartphone glowing on a bed pillow in a dark bedroom at night next to an alarm clock showing late time, moody blue light, screen blurred",
+   "narration": "റീൽസ് കണ്ട് രാത്രി ഉറക്കം പോകുന്നുണ്ടോ? ആൻഡ്രോയിഡിൽ ഇതിന് ഒരു ഒളിഞ്ഞിരിക്കുന്ന സെറ്റിങ് ഉണ്ട്!"},
+  {"type": "steps", "title": "എവിടെ?", "items": ["Settings തുറക്കൂ", "Digital Wellbeing", "Dashboard നോക്കൂ"],
+   "photo": "a smartphone lying on a wooden desk next to a cup of tea and a notebook, soft morning light, screen dark",
+   "narration": "സെറ്റിങ്സിൽ ഡിജിറ്റൽ വെൽബീയിങ് ആൻഡ് പാരന്റൽ കൺട്രോൾസ് തുറക്കൂ. ഓരോ ആപ്പിലും എത്ര സമയം പോയി എന്ന് അവിടെ കാണാം."},
+  {"type": "bullets", "title": "APP TIMER", "icon": "⏳", "items": ["App-ന് daily limit", "Limit കഴിഞ്ഞാൽ pause", "അർദ്ധരാത്രി reset"],
+   "photo": "an hourglass with falling sand beside a smartphone on a dark table, dramatic side light, screen dark",
+   "narration": "ആപ്പിന് അടുത്തുള്ള ടൈമർ ടാപ്പ് ചെയ്ത് ഒരു ദിവസത്തെ ലിമിറ്റ് വെക്കൂ. സമയം കഴിഞ്ഞാൽ ആ ആപ്പ് പോസ് ആകും. അർദ്ധരാത്രി വീണ്ടും റീസെറ്റ് ആകും."},
+  {"type": "bullets", "title": "BEDTIME MODE", "icon": "🌙", "items": ["Screen grey ആകും", "Notifications silent", "Alarm-ൽ off ആകാം"],
+   "photo": "a smartphone resting face down on a bedside table beside a small night lamp and a book, calm night mood",
+   "narration": "ബെഡ്ടൈം മോഡ് ഓൺ ആക്കിയാൽ രാത്രി സ്ക്രീൻ ഗ്രേ ആകും, നോട്ടിഫിക്കേഷനുകൾ സൈലന്റ് ആകും. ഉറങ്ങാൻ എളുപ്പമാണ്."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "📱", "items": ["Path phone അനുസരിച്ച് മാറാം", "Search-ൽ Wellbeing type ചെയ്യൂ"],
+   "photo": "a smartphone and a pair of glasses on a windowsill with green plants outside, bright calm daylight, screen dark",
+   "narration": "ഫോൺ അനുസരിച്ച് പേര് കുറച്ച് മാറാം. സെറ്റിങ്സിലെ സെർച്ചിൽ വെൽബീയിങ് എന്ന് ടൈപ്പ് ചെയ്താൽ മതി."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

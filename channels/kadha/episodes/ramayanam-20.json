@@ -1,0 +1,222 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Aranya Kanda (public domain)",
+ "slug": "ramayanam-20",
+ "thumb_text": [
+  "രാമായണം",
+  "രാമന്റെ വാക്ക്"
+ ],
+ "title": "രാമായണം 20 🏹 ദണ്ഡകാരണ്യം: മഹർഷിമാർക്ക് രാമന്റെ വാക്ക് | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 20: ദണ്ഡകാരണ്യത്തിലെ മഹർഷിമാർ രാക്ഷസന്മാരുടെ ഉപദ്രവത്തെക്കുറിച്ച് പറയുന്നു. അവരെ സംരക്ഷിക്കുമെന്ന് രാമൻ വാക്ക് കൊടുക്കുന്നു. കാരണമില്ലാതെ ആരെയും വേദനിപ്പിക്കരുതെന്ന് സീത ഓർമ്മിപ്പിക്കുന്നു 🏹\n\nRamayanam for kids in Malayalam, part 20: In the Dandaka forest the sages ask Rama for protection, and Rama gives his word. Sita gently reminds him never to hurt anyone without reason.",
+ "tags": [
+  "ramayanam malayalam",
+  "dandakaranya ramayana",
+  "rama promise sages",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "രാമന്റെ വാക്ക്",
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് രാമൻ മഹർഷിമാർക്ക് ഒരു വലിയ വാക്ക് കൊടുത്ത കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "ദണ്ഡകാരണ്യം",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "lakshmana_forest",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana",
+     "enter": "left",
+     "t0": 0.0
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama",
+     "enter": "left",
+     "t0": 0.4
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.78,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita",
+     "enter": "left",
+     "t0": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "അത്രി മഹർഷിയോട് യാത്ര പറഞ്ഞ്, മൂവരും ദണ്ഡകാരണ്യം എന്ന വലിയ കാട്ടിലേക്ക് കടന്നു. അവിടെ ധാരാളം മഹർഷിമാരുടെ ആശ്രമങ്ങൾ ഉണ്ടായിരുന്നു."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, നോക്കൂ! എത്ര ശാന്തമായ ആശ്രമങ്ങൾ!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "മഹർഷിമാരുടെ സങ്കടം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "sutikshna",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "സുതീക്ഷ്ണ മഹർഷി"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മഹർഷിമാർ സന്തോഷത്തോടെ രാമനെ സ്വീകരിച്ചു. പക്ഷേ അവരുടെ മുഖത്ത് ഒരു സങ്കടം ഉണ്ടായിരുന്നു."
+    },
+    {
+     "who": "sutikshna",
+     "text": "രാമാ, ചില രാക്ഷസന്മാർ ഞങ്ങളുടെ യാഗങ്ങൾ മുടക്കുന്നു, ഞങ്ങളെ ഉപദ്രവിക്കുന്നു. ഞങ്ങളെ രക്ഷിക്കണേ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "രാമന്റെ വാക്ക്",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "sutikshna",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "സുതീക്ഷ്ണ മഹർഷി"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama",
+     "moves": [
+      {
+       "at": "L0+0.6",
+       "pose": "rama_forest_bow",
+       "dur": 0.8
+      },
+      {
+       "at": "L1",
+       "pose": "rama_forest",
+       "dur": 0.8
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ മഹർഷിമാരെ തല കുനിച്ച് വണങ്ങി."
+    },
+    {
+     "who": "rama",
+     "text": "പേടിക്കേണ്ട മഹർഷിമാരേ. നിങ്ങളെ ഞാൻ സംരക്ഷിക്കും. ഇത് രാമന്റെ വാക്കാണ്."
+    },
+    {
+     "who": "narrator",
+     "text": "ആ വാക്ക് കേട്ടപ്പോൾ മഹർഷിമാരുടെ മുഖം സന്തോഷം കൊണ്ട് തെളിഞ്ഞു."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "night_forest",
+   "caption": "സീതയുടെ ഓർമ്മപ്പെടുത്തൽ",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "rama_forest",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.72,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "sita",
+     "text": "കാരണമില്ലാതെ ആരെയും വേദനിപ്പിക്കരുതേ. കാട്ടിൽ നമ്മൾ ശാന്തരായി ജീവിക്കാൻ വന്നവരല്ലേ?"
+    },
+    {
+     "who": "rama",
+     "text": "സീതേ, നീ പറഞ്ഞത് ശരിയാണ്. നല്ലവരെ സംരക്ഷിക്കാൻ മാത്രമാണ് എന്റെ വില്ല്."
+    },
+    {
+     "who": "narrator",
+     "text": "അങ്ങനെ പത്ത് വർഷത്തോളം അവർ ആ ആശ്രമങ്ങളിൽ മാറി മാറി താമസിച്ചു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "കൊടുത്ത വാക്ക്",
+    "പാലിക്കണം,",
+    "ദുർബലരെ സഹായിക്കണം"
+   ],
+   "icon": "🤝",
+   "mood": "devotional",
+   "narration": "മക്കളേ, കൊടുത്ത വാക്ക് എന്നും പാലിക്കണം. സഹായം ചോദിക്കുന്നവരെ നമ്മളാൽ കഴിയും പോലെ സഹായിക്കണം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, അഗസ്ത്യ മഹർഷിയുടെ ദിവ്യ സമ്മാനം! കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

@@ -22,7 +22,7 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 17 Investing vs trading: the difference
 - [x] 18 Power of compounding (simple math example, no return promise)
 - [x] 19 What is a mutual fund?
-- [ ] 20 What is SIP? Why regular investing helps
+- [x] 20 What is SIP? Why regular investing helps
 - [ ] 21 Index fund vs active fund
 - [ ] 22 What is an ETF?
 - [ ] 23 Risk vs return: why higher return means higher risk

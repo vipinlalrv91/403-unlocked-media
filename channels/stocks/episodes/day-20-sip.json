@@ -1,0 +1,88 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-20",
+ "series": {
+  "day": 20,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: ഒരേ തുക ഓരോ മാസവും",
+ "thumb_text": [
+  "SIP എന്താണ്?",
+  "ചെറിയ തുക, സ്ഥിരമായി"
+ ],
+ "title": "SIP എന്താണ്? 📅 മാസം തോറും ചെറിയ തുക | Day 20 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 20! SIP = Systematic Investment Plan: ഒരു mutual fund-ൽ ഒരേ തുക കൃത്യമായ ഇടവേളയിൽ (ഉദാ: മാസം തോറും) invest ചെയ്യുന്ന രീതി. വില കുറയുമ്പോൾ കൂടുതൽ units, കൂടുമ്പോൾ കുറവ് units (rupee cost averaging). പക്ഷേ AMFI പറയുന്നത് പോലെ, ഇത് ലാഭം ഉറപ്പ് തരുന്നില്ല, നഷ്ടത്തിൽ നിന്ന് സംരക്ഷിക്കുന്നുമില്ല.\n\nSIP explained: invest a fixed amount in a mutual fund at regular intervals; a fixed amount buys more units when prices fall and fewer when they rise. Rupee cost averaging does not assure profit or protect against losses. Mutual fund investments are subject to market risks, read all scheme related documents carefully.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #sip #mutualfunds #investing #malayalam #personalfinance #thestoicbull",
+ "tags": [
+  "sip malayalam",
+  "what is sip",
+  "rupee cost averaging malayalam",
+  "mutual fund sip malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.amfiindia.com/investor-corner/investor-center/systematic-investment-plan.html",
+  "https://investor.sebi.gov.in/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "SIP എന്താണ്?",
+   "sub": "Yesterday: A · Fund manager",
+   "icon": "🔁",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, ഫണ്ട് മാനേജർ! ഡേ ഇരുപത്. എസ് ഐ പി, എസ് ഐ പി എന്ന് എല്ലാവരും പറയുന്നു. എന്താണ് ഇത്?"
+  },
+  {
+   "type": "bullets",
+   "title": "SIP = ഒരു ശീലം",
+   "icon": "🔁",
+   "items": [
+    "ഒരേ തുക",
+    "കൃത്യമായ ഇടവേളയിൽ",
+    "Mutual fund-ൽ"
+   ],
+   "narration": "സിസ്റ്റമാറ്റിക് ഇൻവെസ്റ്റ്മെന്റ് പ്ലാൻ. ഒരു മ്യൂച്വൽ ഫണ്ടിൽ ഒരേ തുക, ഉദാഹരണത്തിന് മാസം തോറും, കൃത്യമായി ഇൻവെസ്റ്റ് ചെയ്യുന്ന രീതിയാണ് ഇത്."
+  },
+  {
+   "type": "compare",
+   "title": "വില മാറുമ്പോൾ",
+   "left": [
+    "വില കുറഞ്ഞാൽ: കൂടുതൽ units"
+   ],
+   "right": [
+    "വില കൂടിയാൽ: കുറവ് units"
+   ],
+   "narration": "വില കുറയുമ്പോൾ അതേ തുകയ്ക്ക് കൂടുതൽ യൂണിറ്റുകൾ കിട്ടും. വില കൂടുമ്പോൾ കുറവ് യൂണിറ്റുകൾ. ഇതിനെ റുപ്പീ കോസ്റ്റ് ആവറേജിങ് എന്ന് പറയും."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "ലാഭം ഉറപ്പില്ല",
+    "നഷ്ടവും വരാം",
+    "Documents വായിക്കൂ"
+   ],
+   "narration": "പക്ഷേ ശ്രദ്ധിക്കൂ, എസ് ഐ പി ലാഭം ഉറപ്പ് തരുന്നില്ല, നഷ്ടം വരാതെ കാക്കുന്നുമില്ല. സ്കീം ഡോക്യുമെന്റുകൾ വായിച്ച് മനസ്സിലാക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "SIP-ൽ നമ്മൾ ചെയ്യുന്നത്?",
+   "options": [
+    "ഒറ്റയടിക്ക് മുഴുവൻ",
+    "ഒരേ തുക ഓരോ മാസവും"
+   ],
+   "narration": "ക്വിസ്! എസ് ഐ പിയിൽ നമ്മൾ എന്താണ് ചെയ്യുന്നത്? എ, ഒറ്റയടിക്ക് മുഴുവൻ പണം. ബി, ഒരേ തുക ഓരോ മാസവും. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
