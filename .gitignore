@@ -8,3 +8,4 @@ __pycache__/
 !channels/kadha/videos/*.mp4
 node_modules/
 videos/long/
+channels/kadha/long/*.mp4
