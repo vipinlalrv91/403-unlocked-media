@@ -25,6 +25,12 @@ for path in sorted(glob.glob("outbox/*.json")):
     if not (ig_ok or yt_ok):
         print(f"{path}: no secrets configured for channel {ch}; leaving in outbox"); continue
     result = {"posted_at": now.isoformat()}
+    if req.get("set_thumbnails"):   # backfill custom thumbnails on already-uploaded videos (no upload)
+        from yt_upload import set_thumbnails
+        result["thumbnails"] = set_thumbnails(env("YT_CLIENT_ID"), env("YT_CLIENT_SECRET"), env(f"YT_REFRESH_{yt_secret}"), req["set_thumbnails"])
+        req["result"] = result
+        json.dump(req, open(os.path.join("posted", os.path.basename(path)), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        os.remove(path); changed = True; print(f"{path}: {json.dumps(result)}"); continue
     only = req.get("only") or ["instagram", "youtube"]
     ig_ok = ig_ok and "instagram" in only; yt_ok = yt_ok and "youtube" in only
     if ig_ok:

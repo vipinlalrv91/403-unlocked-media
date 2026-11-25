@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Upload a Short via the official YouTube Data API v3. Until the Cloud project passes YouTube's API audit, uploads are forced Private."""
-import json, os, urllib.parse, urllib.request
+import json, os, urllib.error, urllib.parse, urllib.request
 
 def access_token(client_id, client_secret, refresh_token):
     data = urllib.parse.urlencode({"client_id": client_id, "client_secret": client_secret,
@@ -57,4 +57,18 @@ def upload_short(client_id, client_secret, refresh_token, video_path, meta):
             out["thumbnail"] = f"failed {e.code}: {e.read().decode()[:200]}"
         except Exception as e:
             out["thumbnail"] = f"failed: {e}"
+    return out
+
+
+def set_thumbnails(client_id, client_secret, refresh_token, items):
+    """items: [{video_id, thumbnail_url}] -> {video_id: "set" | error}. For videos uploaded before the channel was verified."""
+    tok = access_token(client_id, client_secret, refresh_token); out = {}
+    for it in items:
+        try:
+            with urllib.request.urlopen(it["thumbnail_url"], timeout=60) as r: img = r.read()
+            tr = urllib.request.Request(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={it['video_id']}", data=img, method="POST",
+                                        headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/jpeg"})
+            urllib.request.urlopen(tr, timeout=120).read(); out[it["video_id"]] = "set"
+        except urllib.error.HTTPError as e: out[it["video_id"]] = f"failed {e.code}: {e.read().decode()[:150]}"
+        except Exception as e: out[it["video_id"]] = f"failed: {e}"
     return out
