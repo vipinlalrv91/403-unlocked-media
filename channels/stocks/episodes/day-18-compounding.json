@@ -1,0 +1,86 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-18",
+ "series": {
+  "day": 18,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: പലിശയ്ക്കും പലിശ",
+ "thumb_text": [
+  "COMPOUNDING",
+  "പലിശയ്ക്ക് പലിശ"
+ ],
+ "title": "Compounding: പണത്തിന്റെ മാജിക്? 🌱 Simple Example | Day 18 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 18! Compounding = മുതലിന് മാത്രമല്ല, കിട്ടിയ വളർച്ചയ്ക്കും വീണ്ടും വളർച്ച. ഉദാഹരണം hypothetical മാത്രം: ₹1,000 വർഷം 10% വളർന്നാൽ 10 വർഷം കഴിഞ്ഞ് ഏകദേശം ₹2,594. Returns ഉറപ്പില്ല; market-ൽ ഇറക്കവും ഉണ്ടാകും.\n\nPower of compounding explained with a hypothetical example (₹1,000 at an assumed 10% a year becomes about ₹2,594 in 10 years). Returns are never guaranteed.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #compounding #investing #stockmarket #malayalam #personalfinance #thestoicbull",
+ "tags": [
+  "power of compounding malayalam",
+  "compound interest malayalam",
+  "long term investing malayalam",
+  "personal finance malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://investor.sebi.gov.in/",
+  "https://www.amfiindia.com/investor-corner/knowledge-center"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "COMPOUNDING",
+   "sub": "Yesterday: A · Investing",
+   "icon": "🌱",
+   "narration": "ഇന്നലത്തെ ഉത്തരം ഇൻവെസ്റ്റിങ്! ഡേ പതിനെട്ട്. ഐൻസ്റ്റീൻ പോലും അത്ഭുതം എന്ന് വിളിച്ചെന്ന് പറയുന്ന കോമ്പൗണ്ടിങ് എന്താണ്?"
+  },
+  {
+   "type": "bullets",
+   "title": "പലിശയ്ക്ക് പലിശ",
+   "icon": "🌳",
+   "items": [
+    "മുതലിന് വളർച്ച",
+    "വളർച്ചയ്ക്കും വളർച്ച"
+   ],
+   "narration": "ഒരു തെങ്ങിൻ തൈ പോലെ. ആദ്യം പതുക്കെ, പിന്നെ വേഗം. മുതലിന് മാത്രമല്ല, കിട്ടിയ വളർച്ചയ്ക്കും വീണ്ടും വളർച്ച കിട്ടുന്നതാണ് കോമ്പൗണ്ടിങ്."
+  },
+  {
+   "type": "steps",
+   "title": "ഉദാഹരണത്തിന്",
+   "items": [
+    "₹1,000 → 1 വർഷം ₹1,100",
+    "2 വർഷം ₹1,210",
+    "10 വർഷം ≈ ₹2,594"
+   ],
+   "note": "* Hypothetical 10%/yr. Returns not guaranteed.",
+   "narration": "ഉദാഹരണത്തിന്, ആയിരം രൂപ വർഷം പത്ത് ശതമാനം വളർന്നാൽ, പത്ത് വർഷം കഴിയുമ്പോൾ ഏകദേശം രണ്ടായിരത്തി അഞ്ഞൂറ്റി തൊണ്ണൂറ്റി നാല് രൂപ. ഇത് ഒരു കണക്ക് മാത്രം, ഉറപ്പല്ല."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "നേരത്തെ തുടങ്ങൂ",
+    "ക്ഷമയാണ് താക്കോൽ"
+   ],
+   "narration": "കോമ്പൗണ്ടിങ്ങിന്റെ ശക്തി സമയമാണ്. നേരത്തെ തുടങ്ങൂ, ക്ഷമയോടെ കാത്തിരിക്കൂ. മാർക്കറ്റിൽ ഇറക്കങ്ങളും ഉണ്ടാകും എന്ന് ഓർക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Compounding-ൽ വളർച്ച എന്തിന്?",
+   "options": [
+    "മുതലിന് മാത്രം",
+    "പലിശയ്ക്കും പലിശ"
+   ],
+   "narration": "ക്വിസ്! കോമ്പൗണ്ടിങ്ങിൽ വളർച്ച കിട്ടുന്നത് എന്തിനാണ്? എ, മുതലിന് മാത്രം. ബി, പലിശയ്ക്കും പലിശ. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

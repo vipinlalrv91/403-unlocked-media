@@ -1,0 +1,86 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-19",
+ "series": {
+  "day": 19,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: Fund manager",
+ "thumb_text": [
+  "MUTUAL FUND?",
+  "Simple ആയി"
+ ],
+ "title": "Mutual Fund എന്താണ്? 🧺 ഒരു കൂട്ടായ്മ പോലെ | Day 19 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 19! Mutual fund = പലരുടെ പണം ഒന്നിച്ച്, ഒരു professional fund manager പല shares/bonds-ൽ invest ചെയ്യുന്നു. SEBI regulate ചെയ്യുന്നു. ഓരോ unit-ന്റെ വില = NAV. Expense ratio ശ്രദ്ധിക്കൂ.\n\nMutual funds explained: pooled money managed by a professional fund manager, regulated by SEBI; unit price is the NAV. Mutual fund investments are subject to market risks, read all scheme related documents carefully.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #mutualfunds #sip #investing #malayalam #personalfinance #thestoicbull",
+ "tags": [
+  "mutual fund malayalam",
+  "what is mutual fund",
+  "nav explained malayalam",
+  "sip malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.amfiindia.com/investor-corner/knowledge-center/what-are-mutual-funds-new.html",
+  "https://investor.sebi.gov.in/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "MUTUAL FUND?",
+   "sub": "Yesterday: B · പലിശയ്ക്കും പലിശ",
+   "icon": "🧺",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, പലിശയ്ക്കും പലിശ! ഡേ പത്തൊൻപത്. മ്യൂച്വൽ ഫണ്ട്, മ്യൂച്വൽ ഫണ്ട് എന്ന് കേൾക്കാറില്ലേ? എന്താണ് അത്?"
+  },
+  {
+   "type": "bullets",
+   "title": "ഒരു കൂട്ടായ്മ",
+   "icon": "🧺",
+   "items": [
+    "പലരുടെ പണം ഒന്നിച്ച്",
+    "Fund manager നോക്കുന്നു",
+    "SEBI regulate ചെയ്യുന്നു"
+   ],
+   "narration": "പലരുടെ പണം ഒന്നിച്ച് ചേർത്ത്, ഒരു പ്രൊഫഷണൽ ഫണ്ട് മാനേജർ പല ഷെയറുകളിലും ബോണ്ടുകളിലും ഇൻവെസ്റ്റ് ചെയ്യുന്നു. സെബിയാണ് നിയന്ത്രിക്കുന്നത്."
+  },
+  {
+   "type": "bullets",
+   "title": "NAV",
+   "icon": "🏷️",
+   "items": [
+    "ഒരു unit-ന്റെ വില",
+    "ദിവസവും മാറും"
+   ],
+   "narration": "മ്യൂച്വൽ ഫണ്ടിൽ നമുക്ക് കിട്ടുന്നത് യൂണിറ്റുകളാണ്. ഒരു യൂണിറ്റിന്റെ വിലയാണ് എൻ എ വി. അത് ദിവസവും മാറും."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Expense ratio നോക്കൂ",
+    "Risk ഉണ്ട്, documents വായിക്കൂ"
+   ],
+   "narration": "ഫണ്ട് മാനേജ് ചെയ്യാൻ ഒരു ചെറിയ ചാർജ് ഉണ്ട്, അതാണ് എക്സ്പെൻസ് റേഷ്യോ. മ്യൂച്വൽ ഫണ്ടിലും റിസ്ക് ഉണ്ട്, സ്കീം ഡോക്യുമെന്റുകൾ വായിക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Mutual fund-ൽ പണം manage ചെയ്യുന്നത്?",
+   "options": [
+    "Fund manager",
+    "Bank cashier"
+   ],
+   "narration": "ക്വിസ്! മ്യൂച്വൽ ഫണ്ടിലെ പണം മാനേജ് ചെയ്യുന്നത് ആരാണ്? എ, ഫണ്ട് മാനേജർ. ബി, ബാങ്ക് കാഷ്യർ. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
