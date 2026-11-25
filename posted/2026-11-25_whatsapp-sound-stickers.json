@@ -16,5 +16,19 @@
  ],
  "categoryId": "28",
  "privacy": "public",
- "kick": "2026-11-25T13:09:43.319050+00:00"
+ "kick": "2026-11-25T13:09:43.319050+00:00",
+ "result": {
+  "posted_at": "2026-11-25T13:12:58.569293+00:00",
+  "instagram": {
+   "id": "17891926071687285",
+   "url": "https://www.instagram.com/reel/DgKnHQdiqeH/"
+  },
+  "youtube": {
+   "id": "0KZLS0m00_A",
+   "url": "https://www.youtube.com/shorts/0KZLS0m00_A",
+   "privacy": "public",
+   "channel_id": "UCeS13InBe6Upz3qgMcAwgDA",
+   "thumbnail": "set"
+  }
+ }
 }
