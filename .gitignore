@@ -7,3 +7,4 @@ __pycache__/
 !channels/stocks/videos/*.mp4
 !channels/kadha/videos/*.mp4
 node_modules/
+videos/long/

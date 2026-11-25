@@ -161,5 +161,7 @@
    "mood": "happy"
   }
  ],
- "music": "indian"
+ "music": "indian",
+ "cinematic": true,
+ "remotion": true
 }
