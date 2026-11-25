@@ -521,7 +521,41 @@ def sc_moral(s, t, D):
 TEMPLATES = {"hook": sc_hook, "bullets": sc_bullets, "compare": sc_compare, "steps": sc_steps, "cta": sc_cta, "quiz": sc_quiz, "chart": sc_chart, "story": sc_story, "moral": sc_moral}
 
 # ---------- audio ----------
-def tts(textline, out, voice=None):
+# ---- voice engines (owner, 25 Nov 2026): ElevenLabs while credits last -> Google Cloud TTS (Chirp3-HD) -> free Edge voice ----
+ENGINE = os.environ.get("TTS_ENGINE", "elevenlabs")   # switched to "google" automatically when ElevenLabs credits run out
+CHANNEL = "403"
+GOOGLE_FOR = {  # ElevenLabs voice id -> Google Malayalam voice (chosen 25 Nov 2026)
+    "n4fEDQwxuAjplyp0aJy4": "Kore",        # Kadha narrator (warm female)
+    "r5NKPDP5GRBdMttFWA9M": "Orus",        # Rama
+    "TyWXr0PTH6rgkJ5wKSZe": "Fenrir",      # Lakshmana
+    "fpXGADUIVjOYytG3VbqW": "Algenib",     # Bharata / Shatrughna
+    "AA6iXlJYcLQWoTQnJw8E": "Aoede",       # Sita
+    "OVkoEbwxsYHiSRMFV9t3": "Despina",     # Kausalya / Anasuya
+    "896Jb7AxcYyesi7deFZe": "Leda",        # Kaikeyi
+    "QddF6FE7j4ZjMcrHQ2BK": "Callirrhoe",  # Sumitra
+    "Eclv6jJwMbGUhEki9Bro": "Iapetus",     # Dasharatha / Janaka
+    "F6apuaOciIF8axVr21FB": "Schedar",     # sages
+    "Mz4GsCKSPU4BZl2sMASU": "Enceladus",   # Hanuman / Guha
+    "Unkn6jPAqw7ltVslVduh": "Alnilam",     # Ravana / Parashurama
+    "mfYIRn19ZObJ2p1vIQ4U": "Umbriel",     # Vibhishana
+    "ZDJM0nlhLoAeknyir3H0": "Sadaltager",  # Jatayu
+    "OPggdAvz9vtogYnK5Ge4": "Autonoe",     # Ahalya
+    "8VTILyp3oibFrXwPpZJQ": "Gacrux",      # Manthara
+}
+GOOGLE_CHANNEL = {"403": "Puck", "stoic": "Charon", "kadha": "Kore"}
+GOOGLE_FEMALE = {"Kore", "Aoede", "Despina", "Leda", "Callirrhoe", "Autonoe", "Gacrux"}
+
+def el_remaining():
+    try:
+        req = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": "proxy-injected"})
+        d = json.load(urllib.request.urlopen(req, timeout=30)); return d["character_limit"] - d["character_count"]
+    except Exception as e:
+        print("credit check failed:", e, file=sys.stderr); return None
+
+def _to44(src, out):
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-ar", "44100", "-ac", "1", "-c:a", "libmp3lame", "-b:a", "128k", out], check=True)
+
+def tts_eleven(textline, out, voice=None):
     body = {"text": textline, "model_id": MODEL, "language_code": "ml",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.8}}
     req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{voice or VOICE}?output_format=mp3_44100_128",
@@ -538,6 +572,48 @@ def tts(textline, out, voice=None):
             time.sleep(10 * (attempt + 1))
     with open(out, "wb") as f:
         f.write(data)
+
+def google_voice(voice=None):
+    v = voice or VOICE
+    return GOOGLE_FOR.get(v) or GOOGLE_CHANNEL.get(CHANNEL, "Puck")
+
+def tts_google(textline, out, voice=None):
+    import base64
+    name = "ml-IN-Chirp3-HD-" + google_voice(voice)
+    b = {"input": {"text": textline}, "voice": {"languageCode": "ml-IN", "name": name}, "audioConfig": {"audioEncoding": "MP3"}}
+    req = urllib.request.Request("https://texttospeech.googleapis.com/v1/text:synthesize", json.dumps(b).encode(),
+                                 {"Content-Type": "application/json"})   # key added by the network proxy (x-goog-api-key)
+    raw = base64.b64decode(json.load(urllib.request.urlopen(req, timeout=120))["audioContent"])
+    tmp = out + ".g.mp3"; open(tmp, "wb").write(raw); _to44(tmp, out); os.remove(tmp)
+
+def tts_edge(textline, out, voice=None):
+    try:
+        import edge_tts  # noqa
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "edge-tts"], check=True)
+    female = google_voice(voice) in GOOGLE_FEMALE
+    line = os.path.join(os.path.dirname(os.path.abspath(__file__)), "freevoice", "edge_tts_line.py")
+    tmp = out + ".e.mp3"
+    subprocess.run([sys.executable, line, "ml-IN-SobhanaNeural" if female else "ml-IN-MidhunNeural", "+0%", "+0Hz", tmp],
+                   input=textline, text=True, check=True)
+    _to44(tmp, out); os.remove(tmp)
+
+def tts(textline, out, voice=None):
+    global ENGINE
+    if ENGINE == "elevenlabs":
+        try:
+            return tts_eleven(textline, out, voice)
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode(errors="ignore")[:300]
+            if e.code in (401, 402, 403, 429) or "quota" in msg:
+                print(f"ElevenLabs refused ({e.code} {msg}); switching to Google voice", file=sys.stderr); ENGINE = "google"
+            else: raise
+    if ENGINE == "google":
+        try:
+            return tts_google(textline, out, voice)
+        except Exception as e:
+            print(f"Google TTS failed ({e}); switching to free Edge voice", file=sys.stderr); ENGINE = "edge"
+    return tts_edge(textline, out, voice)
 
 def dur(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]))
@@ -712,11 +788,25 @@ def main(path):
     REMO = bool(ep.get("remotion"))
     ensure_photos(ep)
     apply_theme(ep.get("theme", "tech"), ep.get("brand"), ep.get("tagline"))
+    global CHANNEL, ENGINE
+    ap = os.path.abspath(path) + " " + json.dumps(ep.get("brand", ""))
+    CHANNEL = "kadha" if "kadha" in ap.lower() or ep.get("theme") == "kids" else "stoic" if ("stocks" in ap or "stoic" in ap.lower()) else "403"
     VOICE = ep.get("voice_id", VOICE); SERIES = ep.get("series"); DISCLAIMER = ep.get("disclaimer"); NEXT_TIME = ep.get("next_time")
     slug = ep["slug"]; work = os.path.join("/tmp", "short_" + slug); os.makedirs(work, exist_ok=True)
     clips, sd = [], []
+    import hashlib
+    if ENGINE == "elevenlabs":  # use Google for the WHOLE video when credits can't cover the uncached lines (no voice mix-ups)
+        need = 0
+        for i, s in enumerate(ep["scenes"]):
+            hk = hashlib.md5(json.dumps([s.get("narration"), s.get("lines"), VOICE], ensure_ascii=False).encode()).hexdigest()[:8]
+            if s.get("lines") and s["type"] == "story":
+                need += sum(len(l["text"]) for j, l in enumerate(s["lines"]) if not os.path.exists(os.path.join(work, f"s{i + 1}_{j}_{hk}.mp3")))
+            elif not os.path.exists(os.path.join(work, f"s{i + 1}_{hk}.mp3")):
+                need += len(s.get("narration", ""))
+        rem = el_remaining()
+        if need and rem is not None and rem < need + 300:
+            print(f"ElevenLabs credits {rem} < needed {need}: using Google voice for this video", file=sys.stderr); ENGINE = "google"
     for i, s in enumerate(ep["scenes"]):
-        import hashlib
         hk = hashlib.md5(json.dumps([s.get("narration"), s.get("lines"), VOICE], ensure_ascii=False).encode()).hexdigest()[:8]  # cache key = text + voice
         c = os.path.join(work, f"s{i + 1}_{hk}.mp3")
         if s.get("lines") and s["type"] == "story":  # dialogue: each line its own voice, joined with short pauses
@@ -778,7 +868,7 @@ def main(path):
     p.stdin.close(); p.wait()
     if not OUT_SUFFIX: make_thumb(ep, os.path.join(ROOT, "videos", slug + "_thumb.jpg"))
     chars = sum(len(s["narration"]) for s in ep["scenes"])
-    print(json.dumps({"video": out, "seconds": round(total, 1), "tts_chars": chars}))
+    print(json.dumps({"video": out, "seconds": round(total, 1), "tts_chars": chars, "voice_engine": ENGINE}))
 
 if __name__ == "__main__":
     main(sys.argv[1])

@@ -10,7 +10,7 @@ so you are the quality gate: when in doubt, DO NOT POST and log why.
    Remaining = character_limit - character_count.
 
 ## Per video (VIDEOS_PER_DAY = 2; slot times IST: 10:00 and 16:00)
-Make one video per slot, each on a different topic. Credit check before EACH video: if fewer than 1500 characters remain, skip it and log `skipped: out of ElevenLabs credits`.
+Make one video per slot, each on a different topic. Credit check before EACH video is automatic in make_short.py (falls back to the Google voice; see "Voice fallback").
 1. Topic: first `- [ ]` line in `topics/queue.md` whose slug is not in `runs/log.csv`.
    If fewer than 3 topics remain, refill the queue: run the yt-viral method on Malayalam tech Shorts
    (yt-dlp search "malayalam tech tips", "android tips malayalam", "mobile tricks malayalam"; rank by views / channel median)
@@ -68,3 +68,12 @@ Every "photo" prompt must show the real subject of the video, never a person: th
 "earphones coiled next to a phone", "a winding misty hill road in Munnar", "a car dashboard phone holder on a hill road",
 "a city bus interior with empty seats"). No people, faces, hands or body parts (the style suffix also forbids them).
 Screens stay dark, turned away or blurred (never fake app UI). QC: regenerate any photo where a person or hand appears.
+
+
+## Voice fallback (owner, 25 Nov 2026, ALL channels)
+make_short.py picks the voice engine automatically. Do NOT skip a video for low ElevenLabs credits any more:
+1. ElevenLabs while credits cover the video's uncached lines (checked before rendering).
+2. Otherwise Google Cloud Text-to-Speech, Chirp3-HD Malayalam (key injected by the proxy for texttospeech.googleapis.com):
+   403 = Puck, Stoic = Charon, Kadha narrator = Kore, Kadha characters mapped in GOOGLE_FOR (make_short.py).
+3. If Google fails, the free Edge voice (Midhun / Sobhana).
+The output JSON says "voice_engine"; mention it in the run report. Still push-notify the owner when ElevenLabs is below 12,000.

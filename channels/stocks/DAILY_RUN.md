@@ -10,7 +10,7 @@
 > `python3 channels/stocks/export.py channels/stocks/episodes/day-NN-<slug>.json`
 > which renders and saves `channels/stocks/videos/day-NN-<slug>.mp4` + `_upload.txt` (title, caption, tags).
 > QC the frames, mark the day [x], log to channels/stocks/runs/log.csv, commit and push.
-> Credits: 403 UNLOCKED has priority. Before each Stoic Bull video, if ElevenLabs remaining characters < 8000, skip it and log `skipped: credits reserved for 403 UNLOCKED`.
+> Credits: (replaced 25 Nov 2026) no skipping; the voice falls back to Google automatically.
 > series.total = number of lines in curriculum.md (currently 64). Hook "sub" = "Yesterday: <previous quiz_answer>".
 
 Same setup, QC, publishing and failure rules as pipeline/DAILY_RUN.md, with these differences:
@@ -40,3 +40,6 @@ Pronunciation: in NARRATION write English words in Malayalam script so they are 
 
 ## Thumbnails (owner, 19 Nov 2026), every video
 Add "thumb_text": ["BIG LINE (≤18 chars)", "small line"] to every episode JSON. make_short.py writes videos/<slug>_thumb.jpg (1080x1920). Copy it next to the published video with the same name + "_thumb.jpg" (403: videos/approved/<date>_<slug>_thumb.jpg; Stoic: export.py copies it; Kadha: channels/kadha/videos/<name>_thumb.jpg), push, and put its raw URL in the outbox request as "thumbnail_url". The publisher sets it as the Instagram Reel cover and the YouTube custom thumbnail.
+
+
+> Voice fallback (owner, 25 Nov 2026): never skip for low ElevenLabs credits; make_short.py switches to Google Chirp3-HD, then the free Edge voice, automatically. See pipeline/DAILY_RUN.md "Voice fallback".
