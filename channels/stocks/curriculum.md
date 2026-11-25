@@ -20,8 +20,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 15 Market timings in India (pre-open, normal session)
 - [x] 16 Bull market vs bear market
 - [x] 17 Investing vs trading: the difference
-- [ ] 18 Power of compounding (simple math example, no return promise)
-- [ ] 19 What is a mutual fund?
+- [x] 18 Power of compounding (simple math example, no return promise)
+- [x] 19 What is a mutual fund?
 - [ ] 20 What is SIP? Why regular investing helps
 - [ ] 21 Index fund vs active fund
 - [ ] 22 What is an ETF?
