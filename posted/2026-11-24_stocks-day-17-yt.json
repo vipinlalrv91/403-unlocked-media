@@ -19,5 +19,18 @@
  "privacy": "public",
  "only": [
   "youtube"
- ]
+ ],
+ "result": {
+  "posted_at": "2026-11-25T06:51:01.261072+00:00",
+  "instagram": {
+   "skipped": "no secrets"
+  },
+  "youtube": {
+   "id": "yS6Bhmmr4HI",
+   "url": "https://www.youtube.com/shorts/yS6Bhmmr4HI",
+   "privacy": "public",
+   "channel_id": "UCtMTEJfHGHxEeWn1rToKygA",
+   "thumbnail": "failed 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat"
+  }
+ }
 }
