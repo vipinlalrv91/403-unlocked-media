@@ -31,3 +31,4 @@
 - [x] whatsapp-chat-lock | Hidden: WhatsApp Chat Lock for private chats | verify faq.whatsapp.com
 - [ ] notebooklm-audio-overview | AI: NotebookLM turns notes into a podcast-style audio | verify NotebookLM help + India + languages
 - [ ] android-digital-wellbeing | Hidden: Digital Wellbeing bedtime mode & app timers | verify Android help
+- [x] whatsapp-sound-stickers (owner request 25 Nov, trending)
