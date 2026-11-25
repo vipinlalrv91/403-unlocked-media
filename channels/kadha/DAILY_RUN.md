@@ -74,6 +74,5 @@ the story has them (arrivals, departures, bowing to elders/feet, embraces = step
 Characters still stand still while talking (owner: no extra body motion).
 
 
-## Sundays (owner, 25 Nov 2026): weekly long video — see channels/kadha/long/PLAN.md
-On Sundays queue the 19:30 Ramayanam short with "only": ["instagram"]; the long video takes the 19:30 YouTube slot.
-On Saturdays queue the next long part (compile request) for Sunday 19:30.
+## Weekly long video (owner, 25 Nov 2026): owner uploads it manually — see channels/kadha/long/PLAN.md
+On Saturdays build the next part and send it to the owner. Daily shorts are unchanged (Sunday 19:30 short posts to YouTube too).
