@@ -129,12 +129,11 @@ export default (kit) => {
         cam(dr.x, 1.95 + dr.y, lerp(6.0, 5.4, k), 0, 1.9, 0, 32);
       },
     },
-    b5: { // stickers fly into the community chat; clock at 8
+    b5: { // stickers fly into the community chat
       build(g) {
         darkroom(g);
         const phone = O.phone(g, { power: 1.1 }); phone.position.set(0, 1.6, 0); phone.rotation.y = -0.2;
         const tiles = Array.from({ length: 8 }, (_, i) => { const p = panel(g, 0.36, 0.36, (x, w, h) => sticker(x, w, h, i, true), { power: 0.85 }); return p; });
-        const clock = O.clock(g, { r: 0.26 }); clock.position.set(-0.5, 2.6, 0.25); clock.set(8);
         const dust = motes(g, { box: [4, 3, 2], n: 24 });
         return { phone, tiles, dust };
       },
