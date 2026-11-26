@@ -1,10 +1,10 @@
-KADHA PETTI x GOOGLE FLOW: SAMPLE TEST (Ramayanam 23, Panchavati)
+KADHA PETTI x GOOGLE FLOW: HERO SHOTS FOR THE WEEKLY LONG VIDEO (Part 3, Panchavati)
 ================================================================
 
 HOW TO USE (in Flow)
 1. New project. Choose "Ingredients to Video" (reference images).
 2. Upload: 1_rama.jpg, 2_lakshmana.jpg, 3_sita.jpg (Shot 1) and also 4_panchavati_background.jpg if it lets you add a 4th.
-3. Aspect ratio: 9:16 (portrait). Model: Veo "Fast" first (fewer credits); use Quality only if Fast looks bad.
+3. Aspect ratio: 16:9 (landscape), because these go in the full-screen weekly YouTube long video. Model: Veo "Fast" first (fewer credits); use Quality only if Fast looks bad.
 4. Paste the prompt, generate, pick the best of the results, download (MP4) and send it here.
 
 ---------------------------------------------------------------

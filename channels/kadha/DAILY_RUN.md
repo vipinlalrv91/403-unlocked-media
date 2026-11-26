@@ -80,9 +80,9 @@ On Saturdays build the next part and send it to the owner. Daily shorts are unch
 
 > Voice fallback (owner, 25 Nov 2026): never skip for low ElevenLabs credits; make_short.py switches to Google Chirp3-HD, then the free Edge voice, automatically. See pipeline/DAILY_RUN.md "Voice fallback".
 
-## Google Flow hero shots (owner, 26 Nov 2026), MANUAL and optional
+## Google Flow hero shots (owner, 26 Nov 2026), MANUAL, for the WEEKLY LONG VIDEOS only (16:9)
 The owner makes short Veo clips in Google Flow (their AI Pro credits) from prompts we write; there is no API, never try to log in.
 Kit: channels/kadha/flow/kit (FLOW_PROMPTS.txt + reference images of rama/lakshmana/sita_forest + panchavati).
 When the owner sends clips: save them to channels/kadha/flow/clips/ramayanam-NN-shotK.mp4 (gitignored if >50 MB), check faces/style against
-our characters, cut them into that episode (replace or follow the matching story scene, keep our narration, music and captions),
+our characters, cut them into that episode's _wide render for the weekly long video (16:9; the daily shorts stay as they are),
 and mark the upload as AI-generated. Daily automatic episodes never wait for Flow clips.
