@@ -14,6 +14,7 @@
 - [x] whatsapp-hidden-features | Hidden: WhatsApp features most people miss | verify on faq.whatsapp.com
 - [x] google-lens-translate | AI: Google Lens translate/copy text from any photo | verify Google help
 - [x] android-quick-settings-tricks | Hidden: Android settings worth changing today | verify Android help, say varies by brand
+- [ ] charging-slow-after-80 | Hidden/phone: why charging slows after 80% (CC-CV), 80-85% limit option | OWNER PICK 26 Nov: NEXT phone-feature slot; episode JSON already written + verified (episodes/charging-slow-after-80.json)
 - [ ] chatgpt-voice-malayalam | DEFERRED 21 Nov: OpenAI help pages unreachable, could not verify Malayalam voice | AI: talk to ChatGPT in Malayalam with voice | verify OpenAI help
 - [x] google-photos-magic-editor | AI: Google Photos AI editing tools | verify Google Photos help, device limits
 - [x] youtube-hidden-features | Hidden: YouTube app tricks (speed, double-tap, stats for nerds) | verify YouTube help

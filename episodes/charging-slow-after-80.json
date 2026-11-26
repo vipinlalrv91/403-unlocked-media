@@ -1,0 +1,29 @@
+{
+ "slug": "charging-slow-after-80",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["80% → 100% SLOW?", "കാരണം ഇതാണ് 🔋"],
+ "title": "80% കഴിഞ്ഞാൽ Charging Slow ആകുന്നത് എന്തിന്? 🔋 #shorts",
+ "caption": "80% വരെ വേഗം, പിന്നെ ആമയെ പോലെ! ഇത് phone-ന്റെ കുഴപ്പമല്ല. Lithium-ion battery രണ്ട് ഘട്ടമായാണ് charge ആകുന്നത്: ആദ്യം കൂടുതൽ current (വേഗം), battery നിറയാറാകുമ്പോൾ voltage ഒരേ നിലയിൽ നിർത്തി current പതിയെ കുറയ്ക്കും (CC-CV charging). ചൂടും battery-ക്ക് ഉണ്ടാകുന്ന stress-ഉം കുറയ്ക്കാനാണ് ഇത്. പല phones-ലും battery protect ചെയ്യാൻ 80-85% charge limit ഓപ്ഷനും ഉണ്ട് (പേര് phone അനുസരിച്ച് മാറാം).\n\nWhy phone charging slows after 80%: lithium-ion batteries charge in two stages, constant current (fast) and then constant voltage, where the current tapers to limit heat and battery stress. Many phones also offer an 80-85% charge limit to protect the battery.",
+ "hashtags": "#shorts #battery #charging #phonetips #androidtips #techmalayalam #403unlocked",
+ "tags": ["charging slow after 80 malayalam", "phone battery tips malayalam", "why charging slow 80 to 100", "battery health malayalam", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://batteryuniversity.com/article/bu-409-charging-lithium-ion", "https://support.google.com/pixelphone/answer/6090612"],
+ "scenes": [
+  {"type": "hook", "title": "80% → 100% SLOW?", "sub": "കാരണം അറിയാമോ?", "icon": "🔋",
+   "photo": "a smartphone charging on a dark desk with a glowing cable, an hourglass beside it, purple neon light, screen dark",
+   "narration": "എൺപത് ശതമാനം വരെ ഫാസ്റ്റ്, പിന്നെ ആമയെ പോലെ! എന്താണ് കാരണം? ഫോണിന്റെ കുഴപ്പമല്ല."},
+  {"type": "steps", "title": "രണ്ട് ഘട്ടം", "items": ["0-80%: കൂടുതൽ current", "80%+: current കുറയ്ക്കും", "Voltage ഒരേ നിലയിൽ"],
+   "photo": "close-up of a USB-C cable plugged into a smartphone on a wooden table, soft side light, screen dark",
+   "narration": "ലിഥിയം അയൺ ബാറ്ററി രണ്ട് ഘട്ടമായാണ് ചാർജ് ആകുന്നത്. ആദ്യം കൂടുതൽ കറന്റ്, നല്ല വേഗം. നിറയാറാകുമ്പോൾ വോൾട്ടേജ് ഒരേ നിലയിൽ നിർത്തി, കറന്റ് പതിയെ കുറയ്ക്കും."},
+  {"type": "bullets", "title": "എന്തിന്?", "icon": "🌡️", "items": ["ചൂട് കുറയ്ക്കാൻ", "Battery stress കുറയ്ക്കാൻ", "Battery ആയുസ്സിന്"],
+   "photo": "a smartphone resting on a cool marble surface next to a glass of water with condensation, calm light, screen dark",
+   "narration": "നിറയാറായ ബാറ്ററിയിലേക്ക് അതേ വേഗത്തിൽ കറന്റ് കയറ്റിയാൽ ചൂടും സ്ട്രെസ്സും കൂടും. ബാറ്ററിയുടെ ആയുസ്സ് കാക്കാനാണ് ഈ സ്ലോ ചാർജിങ്."},
+  {"type": "bullets", "title": "TIP", "icon": "💡", "items": ["80-85% limit option", "Settings → Battery", "പേര് phone അനുസരിച്ച്"],
+   "photo": "a smartphone charging on a bedside table at night next to a small lamp, cosy calm mood, screen dark",
+   "narration": "പല ഫോണുകളിലും ബാറ്ററി സെറ്റിങ്സിൽ എൺപത് അല്ലെങ്കിൽ എൺപത്തിയഞ്ച് ശതമാനത്തിൽ ചാർജ് നിർത്താനുള്ള ഓപ്ഷൻ ഉണ്ട്. പേര് ഫോൺ അനുസരിച്ച് മാറാം."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["Original / നല്ല charger", "ചൂടുള്ളിടത്ത് charge വേണ്ട"],
+   "photo": "a phone charger and cable neatly coiled on a white shelf beside a small plant, bright daylight",
+   "narration": "നല്ല ചാർജർ ഉപയോഗിക്കൂ. വെയിലത്തോ തലയണയ്ക്ക് അടിയിലോ വെച്ച് ചാർജ് ചെയ്യരുത്."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}
