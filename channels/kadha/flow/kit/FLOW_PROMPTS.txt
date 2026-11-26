@@ -10,12 +10,12 @@ HOW TO USE (in Flow)
 ---------------------------------------------------------------
 SHOT 1: Morning at Panchavati (8 s)
 ---------------------------------------------------------------
-Cute 2D children's storybook animation, soft painted illustration style exactly like the reference images, warm golden morning light. A small leaf-and-bamboo hut beside a wide calm river under big banyan trees, deer grazing nearby. Rama (dark brown skin, bark-cloth clothes, bow on his shoulder) and Sita (long black hair, orange bark-cloth sari, holding a lotus) sit together on a flat stone in front of the hut, smiling and talking softly. Lakshmana (light skin, bark-cloth clothes, bow) waters a flowering plant near the hut. Gentle slow camera push-in. Leaves drift, birds fly across the sky. Keep the characters' faces, skin colours and clothes exactly as in the reference images. Peaceful, happy, child-friendly. No text, no subtitles, no speech; only soft forest and river sounds.
+Cute 2D children's storybook animation, soft painted illustration style exactly like the reference images, warm golden morning light. A small leaf-and-bamboo hut beside a wide calm river under big banyan trees, deer grazing nearby. Rama (DARK BROWN skin, plain tan bark-cloth dhoti with a red sash, bow on his shoulder) and Sita (long black hair, orange bark-cloth sari, holding a lotus) sit together on a flat stone in front of the hut, smiling and talking softly. Lakshmana (LIGHT skin, spotted leopard-pattern bark cloth, bow) waters a flowering plant near the hut. Gentle slow camera push-in. Leaves drift, birds fly across the sky. Keep the characters' faces, skin colours and clothes exactly as in the reference images. Peaceful, happy, child-friendly. No text, no subtitles, no speech; only soft forest and river sounds.
 
 ---------------------------------------------------------------
 SHOT 2: A surprise visitor (8 s)
 ---------------------------------------------------------------
-Same cute 2D children's storybook animation style and same Panchavati hut by the river as before. From the edge of the forest, a tall rakshasi princess steps out from behind a big tree: dark green-purple dress, lots of shiny gold jewellery, long wavy hair, curious and mischievous face (funny, NOT scary, no fangs, no weapons). She peeks at Rama, who sits calmly in front of the hut in bark-cloth clothes with his bow. Rama looks up surprised. Slow camera move from the princess to Rama. Keep Rama's face, skin colour and clothes exactly as in the reference image. Child-friendly, light and mysterious mood. No text, no subtitles, no speech; only soft forest sounds and a small mysterious chime.
+Same cute 2D children's storybook animation style and same Panchavati hut by the river as before. From the edge of the forest, a tall rakshasi princess steps out from behind a big tree: dark green-purple dress, lots of shiny gold jewellery, long wavy hair, curious and mischievous face (funny, NOT scary, no fangs, no weapons). She peeks at Rama, who sits calmly in front of the hut (DARK BROWN skin, plain tan bark-cloth dhoti with a red sash, bow). Rama looks up surprised. Slow camera move from the princess to Rama. Keep Rama's face, skin colour and clothes exactly as in the reference image. Child-friendly, light and mysterious mood. No text, no subtitles, no speech; only soft forest sounds and a small mysterious chime.
 
 ---------------------------------------------------------------
 TIPS
@@ -23,3 +23,6 @@ TIPS
 - If Flow adds talking, add: "Characters do not speak. No dialogue."
 - Don't generate Ravana or any fighting yet; we keep Kadha gentle for kids.
 - AI label: when we post these, the upload will be marked as AI-generated content.
+
+- Clothes matter: Rama = dark brown skin + plain tan bark dhoti + red sash; Lakshmana = light skin + spotted leopard-pattern bark cloth. Flow swapped these in the first test.
+- Flow adds a small sparkle watermark at the bottom right; we blur it out when editing.
