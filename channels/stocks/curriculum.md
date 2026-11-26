@@ -23,8 +23,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 18 Power of compounding (simple math example, no return promise)
 - [x] 19 What is a mutual fund?
 - [x] 20 What is SIP? Why regular investing helps
-- [ ] 21 Index fund vs active fund
-- [ ] 22 What is an ETF?
+- [x] 21 Index fund vs active fund
+- [x] 22 What is an ETF?
 - [ ] 23 Risk vs return: why higher return means higher risk
 - [ ] 24 Diversification: don't put all eggs in one basket
 - [ ] 25 MYTH vs FACT: "Tips from WhatsApp groups make money"
