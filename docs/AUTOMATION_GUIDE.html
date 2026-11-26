@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Auto-Posting System Guide</title>
+<style>
+@page { size: A4; margin: 16mm 14mm; }
+body { font-family: "Noto Sans", "Noto Sans Malayalam", sans-serif; font-size: 10.5pt; color: #1d1d1f; line-height: 1.45; }
+h1 { font-size: 22pt; margin: 0 0 4px; color: #0b5d3b; }
+h2 { font-size: 14pt; color: #0b5d3b; border-bottom: 2px solid #39b66a; padding-bottom: 3px; margin-top: 22px; page-break-after: avoid; }
+h3 { font-size: 11.5pt; margin: 14px 0 4px; page-break-after: avoid; }
+.sub { color: #555; margin-bottom: 14px; }
+table { border-collapse: collapse; width: 100%; margin: 6px 0 10px; font-size: 9.5pt; page-break-inside: avoid; }
+th, td { border: 1px solid #cfd8d3; padding: 4px 6px; text-align: left; vertical-align: top; }
+th { background: #e8f5ee; }
+code, .mono { font-family: "DejaVu Sans Mono", monospace; font-size: 8.8pt; background: #f2f4f3; padding: 0 3px; border-radius: 3px; }
+pre { font-family: "DejaVu Sans Mono", monospace; font-size: 8.5pt; background: #f2f4f3; padding: 8px; border-radius: 6px; white-space: pre-wrap; page-break-inside: avoid; }
+.box { border-left: 4px solid #e0a100; background: #fff8e5; padding: 6px 10px; margin: 8px 0; page-break-inside: avoid; }
+.ok { border-left-color: #39b66a; background: #eefaf2; }
+.bad { border-left-color: #d64545; background: #fdeeee; }
+ol, ul { margin: 4px 0 8px 20px; padding: 0; }
+li { margin: 2px 0; }
+.toc li { margin: 1px 0; }
+.pb { page-break-before: always; }
+.small { font-size: 9pt; color: #555; }
+</style></head><body>
+
+<h1>Auto-Posting System Guide</h1>
+<div class="sub">403 UNLOCKED · The Stoic Bull · Kadha Petti — YouTube + Instagram automation<br>
+Status as of 26 November 2026 · Repository: <span class="mono">vipinlalrv91/403-unlocked-media</span></div>
+
+<div class="box ok"><b>In one line:</b> every morning a scheduled Claude session writes, fact-checks and renders 2 videos per channel, saves them to GitHub, and queues them; a GitHub Actions publisher posts each one to YouTube and Instagram at its slot time, with a custom thumbnail.</div>
+
+<h3>Contents</h3>
+<ol class="toc">
+<li>Channels, schedule and content rules</li>
+<li>How the system works (architecture)</li>
+<li>Tools and services used</li>
+<li>Installation and configuration (step by step)</li>
+<li>Tokens: Instagram and YouTube (how to create / renew)</li>
+<li>Scheduled tasks</li>
+<li>The daily run, step by step</li>
+<li>Weekly long Ramayanam video + Google Flow workflow</li>
+<li>Voices and credits (ElevenLabs, Google, free fallback)</li>
+<li>Manual operations (post now, re-post, check tokens)</li>
+<li>Problems we hit and how they were fixed</li>
+<li>Safety rules and owner decisions</li>
+</ol>
+
+<h2>1. Channels, schedule and content rules</h2>
+<table>
+<tr><th>Channel</th><th>Topic</th><th>Daily slots (IST)</th><th>Key rules</th></tr>
+<tr><td><b>403 UNLOCKED</b></td><td>Malayalam tech tips</td><td>10:00 and 16:00</td><td>1 AI-tool video + 1 hidden-phone-feature video a day. No home appliances. Every claim verified, India availability checked. Photo backgrounds (AI, no people, no logos). Old 403 style kept.</td></tr>
+<tr><td><b>The Stoic Bull</b></td><td>Stock market "Zero to Hero" course (64 days)</td><td>14:00 and 18:00</td><td>Education only, SEBI-safe: no stock tips, no return promises, hypothetical examples only, disclaimer in every caption. Quiz at the end; next day's hook gives the answer.</td></tr>
+<tr><td><b>Kadha Petti</b></td><td>Ramayanam for kids</td><td>17:00 and 19:30</td><td>2 episodes a day until Ramayanam is complete (no moral stories until then). Painted characters with lip-sync, Remotion action scenes, forest (valkalam) costumes with the same faces, Indian music at 30% volume. Rama is called "രാമാ". Made for kids.</td></tr>
+</table>
+
+<h2>2. How the system works</h2>
+<pre>
+ 06:37 IST  Scheduled task "daily run" (Claude cloud session)
+   │  1. checks ElevenLabs credits (push notification if &lt; 12,000)
+   │  2. picks next topics  (topics/queue.md, channels/stocks/curriculum.md, channels/kadha/ramayanam.md)
+   │  3. writes + fact-checks episode JSON
+   │  4. renders video + thumbnail  (pipeline/make_short.py, Remotion, FLUX photos, voice)
+   │  5. QC: duration, size, frames checked visually
+   │  6. git push video + thumbnail  →  public raw GitHub URL
+   │  7. writes outbox/&lt;date&gt;_&lt;slug&gt;.json  (channel, publish_at, title, caption, tags, video_url, thumbnail_url)
+   ▼
+ GitHub Actions  .github/workflows/publish.yml   (on push to outbox/, every 30 min, or manual)
+   │  publish/run_outbox.py  → for every outbox item whose publish_at has passed:
+   │     • Instagram Graph API → Reel + cover   (publish/ig_publish.py)
+   │     • YouTube Data API    → Short + thumbnail (publish/yt_upload.py)
+   │  moves the item to posted/ with the links (or keeps it queued if YouTube quota is full)
+   ▼
+ Slot-time "kick" tasks (10:03, 14:03, 16:03, 17:03, 18:03, 19:33 IST)
+   └─ publish/kick.sh touches due items and pushes, so posting happens on time
+      (GitHub's 30-minute schedule alone is unreliable), then reports the links.
+</pre>
+
+<h2>3. Tools and services used</h2>
+<table>
+<tr><th>Tool / service</th><th>Used for</th><th>Cost</th></tr>
+<tr><td>Claude Code (cloud sessions + scheduled tasks)</td><td>Writing, fact-checking, rendering, QC, queueing, reports</td><td>Claude plan</td></tr>
+<tr><td>GitHub repo + GitHub Actions</td><td>Storage of videos (public raw URLs) and the publisher</td><td>Free</td></tr>
+<tr><td>Instagram Graph API (Meta app, Business accounts)</td><td>Posting Reels + covers</td><td>Free</td></tr>
+<tr><td>YouTube Data API v3 (Google Cloud project "shorts uploader", app In production)</td><td>Uploading Shorts + custom thumbnails</td><td>Free (daily quota)</td></tr>
+<tr><td>ElevenLabs (eleven_v3, Malayalam)</td><td>Main voice: 403/Stoic voice <span class="mono">TX3LPaxmHKxFdv7VOQHJ</span>; Kadha muthashi <span class="mono">n4fEDQwxuAjplyp0aJy4</span> + character voices</td><td>Paid plan (credits)</td></tr>
+<tr><td>Google Cloud Text-to-Speech (Chirp3-HD)</td><td>Automatic voice fallback when ElevenLabs credits run out</td><td>Free monthly allowance</td></tr>
+<tr><td>Microsoft Edge voices (edge-tts)</td><td>Last-resort free fallback (unofficial)</td><td>Free</td></tr>
+<tr><td>Cloudflare Workers AI (FLUX-1-schnell)</td><td>403 background photos, Kadha character/background art</td><td>Free 10k neurons/day</td></tr>
+<tr><td>Remotion 4.0.240 + headless Chrome</td><td>Kadha action scenes (walk, kneel, bow, lip-sync)</td><td>Free</td></tr>
+<tr><td>viral-agent skills (Three.js 3D)</td><td>3D-style reels (sound-stickers reel)</td><td>Free</td></tr>
+<tr><td>Google Flow (owner's AI Pro)</td><td>Hero shots for the weekly long videos (manual)</td><td>Pro credits</td></tr>
+<tr><td>FFmpeg, Pillow, Noto fonts</td><td>Editing, captions, thumbnails, Malayalam text</td><td>Free</td></tr>
+</table>
+
+<h2 class="pb">4. Installation and configuration (step by step)</h2>
+<h3>4.1 GitHub repository</h3>
+<ol>
+<li>Public repo <span class="mono">vipinlalrv91/403-unlocked-media</span> (public so Instagram/YouTube can fetch the video by raw URL).</li>
+<li>Folders: <span class="mono">pipeline/</span> (renderers), <span class="mono">publish/</span> (publisher), <span class="mono">channels/kadha</span>, <span class="mono">channels/stocks</span>, <span class="mono">episodes/</span> (403 scripts), <span class="mono">videos/approved/</span> (403 posted videos), <span class="mono">outbox/</span> → <span class="mono">posted/</span>, <span class="mono">topics/queue.md</span>, <span class="mono">runs/log.csv</span>.</li>
+<li>Workflows: <span class="mono">publish.yml</span> (posting) and <span class="mono">verify.yml</span> (token check only, triggered by editing <span class="mono">verify/request.txt</span>; result in <span class="mono">verify/result.json</span>).</li>
+</ol>
+<h3>4.2 GitHub Secrets (Settings → Secrets and variables → Actions)</h3>
+<table>
+<tr><th>Secret</th><th>What it holds</th></tr>
+<tr><td><span class="mono">YT_CLIENT_ID</span>, <span class="mono">YT_CLIENT_SECRET</span></td><td>Google OAuth client of the "shorts uploader" project (shared by all channels)</td></tr>
+<tr><td><span class="mono">YT_REFRESH_403</span></td><td>Refresh token of the 403 UNLOCKED YouTube channel</td></tr>
+<tr><td><span class="mono">YT_REFRESH_STOIC</span></td><td><b>Kadha Petti</b> YouTube token (saved swapped; mapping handled in <span class="mono">run_outbox.py</span> YT_SECRET_FOR)</td></tr>
+<tr><td><span class="mono">YT_REFRESH_KADHA</span></td><td><b>The Stoic Bull</b> YouTube token (swapped, see above)</td></tr>
+<tr><td><span class="mono">IG_USER_ID_403 / _STOIC / _KADHA</span></td><td>Instagram Business account IDs</td></tr>
+<tr><td><span class="mono">IG_TOKEN_403 / _STOIC / _KADHA</span></td><td>Never-expiring Facebook Page tokens for each Instagram account</td></tr>
+</table>
+<div class="box">The publisher also checks that each YouTube upload lands on the expected channel ID, so a swapped token can never post to the wrong channel.</div>
+
+<h3>4.3 Cloud environment (claude.ai/code → environment "Default")</h3>
+<ul>
+<li><b>Network secrets</b> (injected by the proxy, never in code): ElevenLabs <span class="mono">xi-api-key</span> → api.elevenlabs.io; Cloudflare token → api.cloudflare.com; Google TTS <span class="mono">x-goog-api-key</span> (no prefix) → texttospeech.googleapis.com.</li>
+<li><b>Allowed hosts</b> added: www.youtube.com, youtubei.googleapis.com, speech.platform.bing.com (Edge voice), www.instagram.com, i.instagram.com, scontent*.cdninstagram.com (reference reels), drive.google.com, drive.usercontent.google.com (Flow clips), manymotions.com (not used).</li>
+<li><b>Connectors:</b> Google Drive (read the Flow clips folder).</li>
+</ul>
+
+<h3>4.4 Software installed in the session</h3>
+<ul>
+<li>Fonts: <span class="mono">apt-get install fonts-noto-core fonts-noto-color-emoji</span> (Malayalam + emoji).</li>
+<li>Remotion: <span class="mono">cd pipeline/remotion &amp;&amp; npm install</span> (node_modules not committed). Uses the pre-installed Chromium headless shell.</li>
+<li>viral-agent skills: <span class="mono">~/.claude/skills/viral-*</span>, toolkit <span class="mono">~/.viral-agent</span> (Three.js, edge-tts).</li>
+<li>Python: Pillow, numpy; <span class="mono">edge-tts</span> installs itself on first fallback use.</li>
+</ul>
+
+<h3>4.5 Google Cloud project "shorts uploader"</h3>
+<ol>
+<li>APIs enabled: YouTube Data API v3, Cloud Text-to-Speech API.</li>
+<li>OAuth consent screen: <b>In production</b> (Testing mode expires refresh tokens after 7 days).</li>
+<li>OAuth client (Web/Desktop) → client ID + secret → GitHub secrets.</li>
+<li>API key "tts-403": application restriction <b>None</b>, API restriction <b>Cloud Text-to-Speech API only</b>.</li>
+<li>Billing account linked; budget alert recommended (Billing → Budgets &amp; alerts → ₹100).</li>
+</ol>
+
+<h2 class="pb">5. Tokens: how to create or renew</h2>
+<h3>5.1 Instagram (never-expiring Page token), per account</h3>
+<ol>
+<li>Open Meta <b>Graph API Explorer</b>, choose the app, add permissions: <span class="mono">instagram_basic, instagram_content_publish, pages_show_list, pages_read_engagement, business_management</span>.</li>
+<li><b>Generate Access Token</b> (log in yourself, click Allow).</li>
+<li>Open the <b>Access Token Debugger</b> → <b>Extend Access Token</b> (long-lived user token).</li>
+<li>Back in Explorer, paste the long-lived token and call <span class="mono">me/accounts</span>; copy the <b>access_token of the Page</b> linked to the Instagram account.</li>
+<li>Check it in the Debugger: <b>Expires: Never</b>. If it shows a date, step 3 was skipped.</li>
+<li>Save it as <span class="mono">IG_TOKEN_&lt;CH&gt;</span> in GitHub Secrets. Then say "token updated" and pending posts are retried.</li>
+</ol>
+<div class="box bad">A Facebook password change or security checkpoint invalidates all page tokens; redo the steps above for every account.</div>
+
+<h3>5.2 YouTube refresh token, per channel</h3>
+<ol>
+<li>Open <b>OAuth 2.0 Playground</b> → gear icon → tick <b>Use your own OAuth credentials</b> → paste the client ID + secret.</li>
+<li>Scopes: <span class="mono">https://www.googleapis.com/auth/youtube.upload</span> and <span class="mono">https://www.googleapis.com/auth/youtube.force-ssl</span>.</li>
+<li><b>Authorize APIs</b> → choose the correct Google account <b>and the correct channel</b> → Allow.</li>
+<li><b>Exchange authorization code for tokens</b> → copy the <b>refresh token</b> carefully (whole string).</li>
+<li>Save to the matching GitHub secret (remember the STOIC/KADHA swap). Verify with the verify workflow.</li>
+</ol>
+<div class="box">Custom thumbnails need a <b>phone-verified</b> YouTube channel (youtube.com/verify).</div>
+
+<h2>6. Scheduled tasks</h2>
+<table>
+<tr><th>Task</th><th>Time (IST)</th><th>What it does</th></tr>
+<tr><td>Daily run</td><td>06:37 every day</td><td>Credit check, makes 6 videos (2 per channel), queues them, reports yesterday's links</td></tr>
+<tr><td>Kick publisher at slot times</td><td>10:03, 14:03, 16:03, 17:03, 18:03</td><td>Runs <span class="mono">publish/kick.sh</span>, replies with the posted links</td></tr>
+<tr><td>Kick publisher 7:33 PM</td><td>19:33</td><td>Same, for the Kadha 19:30 slot</td></tr>
+</table>
+
+<h2>7. The daily run, step by step</h2>
+<ol>
+<li><b>Credits:</b> ElevenLabs balance; push notification if below 12,000 characters.</li>
+<li><b>403 UNLOCKED (2):</b> next topics from <span class="mono">topics/queue.md</span> (refilled when fewer than 3 remain) → fact-check with official sources → <span class="mono">episodes/&lt;slug&gt;.json</span> → <span class="mono">python3 pipeline/make_short.py episodes/&lt;slug&gt;.json</span> → QC frames → copy to <span class="mono">videos/approved/&lt;date&gt;_&lt;slug&gt;.mp4</span> + thumb → push → outbox at 10:00 / 16:00.</li>
+<li><b>Kadha Petti (2):</b> next 2 unchecked episodes in <span class="mono">channels/kadha/ramayanam.md</span> → JSON with story scenes, character lines, moves (enter/walk/kneel/bow) → new characters drawn with <span class="mono">art/generate.py</span> + face points + voice → render → <span class="mono">channels/kadha/videos/ramayanam-NN.mp4</span> → outbox at 17:00 / 19:30.</li>
+<li><b>Stoic Bull (2):</b> next 2 days in <span class="mono">channels/stocks/curriculum.md</span> → SEBI-safe JSON → <span class="mono">python3 channels/stocks/export.py …</span> → outbox at 14:00 / 18:00.</li>
+<li>Mark topics done, log to <span class="mono">runs/log.csv</span>, push, and send a summary with yesterday's YouTube + Instagram links.</li>
+</ol>
+
+<h2 class="pb">8. Weekly long Ramayanam video + Google Flow</h2>
+<ul>
+<li>Full-screen 16:9 YouTube video, <b>uploaded manually by the owner</b> in YouTube Studio (title, description with chapters, tags, thumbnail are supplied in <span class="mono">channels/kadha/long/part-N-…-upload.txt</span>).</li>
+<li><b>Fresh production from Part 1</b> (26 Nov 2026): our full-screen episodes (<span class="mono">pipeline/make_wide.py</span>) joined as one story (no per-episode intros/teasers), with Google Flow hero shots placed at the matching moments.</li>
+<li>Settings when uploading: Made for kids = Yes; <b>Altered or synthetic content = Yes</b> (Flow scenes are AI).</li>
+</ul>
+<h3>Google Flow workflow (manual, owner's Pro credits)</h3>
+<ol>
+<li>I send a prompts file (e.g. <span class="mono">channels/kadha/flow/part1/PART1_FLOW_PROMPTS.txt</span>) and a zip of our character + background images.</li>
+<li>In Flow: New project → <b>Ingredients to Video</b> → upload the listed images → paste STYLE LINE + shot prompt → 16:9 → Veo Fast → download.</li>
+<li>Name files <span class="mono">P&lt;part&gt;-S&lt;shot&gt;.mp4</span>, put them in a Google Drive folder, share "Anyone with the link", send the link.</li>
+<li>I download them, check faces/style, blur the Flow sparkle watermark, place them in the episodes, add our voice + music + captions, and send the finished video, thumbnail and upload text.</li>
+</ol>
+<div class="box">Tip: choose 8-second clips in Flow if available (Part 1 clips were 4 s). Describe each character's skin and clothes in the prompt; Flow sometimes swaps costumes.</div>
+
+<h2>9. Voices and credits</h2>
+<table>
+<tr><th>Order</th><th>Engine</th><th>When</th></tr>
+<tr><td>1</td><td>ElevenLabs eleven_v3</td><td>While credits cover the whole video (checked before rendering)</td></tr>
+<tr><td>2</td><td>Google Chirp3-HD</td><td>Automatically when credits run out. 403 = Puck, Stoic = Charon, Kadha narrator = Kore; Kadha characters mapped in <span class="mono">make_short.py</span> (Rama = Orus, Sita = Aoede, Lakshmana = Fenrir …)</td></tr>
+<tr><td>3</td><td>Edge (Midhun / Sobhana)</td><td>Only if Google fails</td></tr>
+</table>
+<p class="small">Voice clips are cached by text (hash), so re-rendering unchanged text costs no credits. ElevenLabs Starter (₹528/month, 30k credits) covers about 9 days at 6 videos/day; Creator covers the full month.</p>
+
+<h2>10. Manual operations</h2>
+<ul>
+<li><b>Post a video now:</b> say "post now" → an outbox item with publish_at = now is pushed and kicked; links come back in a few minutes.</li>
+<li><b>Save only:</b> "no need to post, just add in git" → video saved in <span class="mono">videos/approved/</span>, no outbox item.</li>
+<li><b>Check tokens:</b> "check tokens" → verify workflow → result for all 3 channels.</li>
+<li><b>Re-post pending after a token fix:</b> "token updated, post pending" → stuck outbox items are re-kicked.</li>
+<li><b>Reference reel:</b> send an Instagram link → I download it, study the structure, and make our own original version.</li>
+</ul>
+
+<h2 class="pb">11. Problems we hit and how they were fixed</h2>
+<table>
+<tr><th>Problem</th><th>Fix</th></tr>
+<tr><td>Instagram code 190 / session invalidated after Facebook checkpoint or password change</td><td>New never-expiring Page tokens for all accounts (section 5.1)</td></tr>
+<tr><td>New Instagram tokens expired in hours</td><td>"Extend Access Token" step was missed; redone and checked "Expires: Never"</td></tr>
+<tr><td>Stoic Instagram restricted (code 25 / 2207050)</td><td>Waited for the restriction to clear; re-posted catch-ups spaced out</td></tr>
+<tr><td>YouTube tokens expired after 7 days</td><td>OAuth app switched from Testing to <b>In production</b>; tokens recreated with "Use your own OAuth credentials"</td></tr>
+<tr><td>YouTube invalidDescription</td><td>&lt; and &gt; characters are replaced automatically</td></tr>
+<tr><td>Stoic thumbnails refused (403)</td><td>Channel phone-verified; thumbnails back-filled</td></tr>
+<tr><td>Outbox items not cleared after posting</td><td>Publisher commit step retries pull --rebase + push 4 times</td></tr>
+<tr><td>Videos too short / old audio reused</td><td>Voice cache keyed by text hash; narration lengthened</td></tr>
+<tr><td>Dark ovals on blinking faces</td><td>Skin-colour sampling fixed; episodes re-rendered</td></tr>
+<tr><td>Cloudflare free quota exhausted</td><td>Photo steps reduced to 4; plain style used that day</td></tr>
+<tr><td>Google TTS "Permission denied"</td><td>Header name typo in the network secret (x-og → x-goog-api-key)</td></tr>
+<tr><td>Instagram / Drive downloads blocked</td><td>Exact hosts added to the environment allowlist</td></tr>
+</table>
+
+<h2>12. Safety rules and owner decisions</h2>
+<ul>
+<li>Passwords, keys and tokens are never pasted in chat; they go only into GitHub Secrets or the environment's Network secrets. The owner clicks every Google/Facebook consent screen personally.</li>
+<li>No paid service is started without the owner's decision (ManyMotions trial declined; Azure skipped).</li>
+<li>Stoic Bull: education only; no stock names as recommendations; hypothetical numbers only; SEBI disclaimer always.</li>
+<li>403: verified facts with sources in every episode; "path may vary by phone"; no fake app screens; no people in photos.</li>
+<li>Kadha: gentle, non-graphic retelling for children (Valmiki / Adhyatma Ramayanam, public domain); same character faces throughout.</li>
+<li>Movie clips / film actors' faces risk copyright claims; AI-generated realistic scenes are labelled as altered/synthetic on YouTube.</li>
+</ul>
+<p class="small">This document contains no secret values. Repository files referenced here hold the full detail (DAILY_RUN.md files, PLAN.md, publish scripts).</p>
+</body></html>
