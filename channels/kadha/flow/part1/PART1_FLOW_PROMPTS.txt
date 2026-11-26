@@ -1,0 +1,83 @@
+KADHA PETTI · RAMAYANAM LONG VIDEO · PART 1 (from the beginning: episodes 1-7)
+Google Flow prompts · 16:9 landscape · Veo Fast · Ingredients to Video
+===========================================================================
+
+HOW TO USE
+- Each shot lists the files to upload as "Ingredients" (max 3 per shot). Upload exactly those.
+- Paste the STYLE LINE first, then the shot prompt (one box).
+- Aspect ratio 16:9. Veo Fast. Generate, pick the best, download MP4.
+- Name each download with the shot number (e.g. P1-S03.mp4) and send them here, a few at a time is fine.
+- Skip a shot if credits are short; the most important ones are marked ★.
+
+STYLE LINE (paste at the start of EVERY prompt):
+Cute 2D children's storybook animation, soft painted Indian devotional illustration style exactly like the reference images, warm colours, gentle lighting. Use the uploaded reference images as the exact character designs: same faces, skin colours, crowns and clothes. Child-friendly, no scary faces, no blood, no weapons hitting anyone. No text, no subtitles, no speech, no dialogue.
+
+---------------------------------------------------------------------------
+★ S01 · Ayodhya at sunrise (opening shot)
+Upload: bg_ayodhya.jpg
+Prompt: A beautiful golden city of Ayodhya on the banks of the calm Sarayu river at sunrise. White palaces with golden domes, saffron flags waving, lotus ponds, birds flying, boats on the river. Slow aerial camera glide over the city toward the royal palace. Peaceful and grand. Soft temple bells and river sounds.
+
+---------------------------------------------------------------------------
+S02 · King Dasharatha's wish
+Upload: char_dasharatha.jpg, bg_palace_hall.jpg
+Prompt: King Dasharatha (old king, long white beard, golden crown, dark red royal robe, exactly as the reference) sits on his golden throne in a grand palace hall, looking a little sad and thoughtful, resting his chin on his hand. Oil lamps glow, a soft breeze moves the curtains. Slow camera push-in to his kind face. Calm, emotional mood.
+
+---------------------------------------------------------------------------
+★ S03 · The sacred fire and the golden pot
+Upload: char_dasharatha.jpg, char_vasishtha.jpg
+Prompt: In a palace courtyard, a large square sacred fire altar burns brightly. Sage Vasishtha (white beard, white top-knot, saffron robes, holding a brass water pot, exactly as the reference) chants with folded hands beside King Dasharatha. From the flames, a glowing divine golden pot of sweet payasam slowly rises, shining with soft golden light. Dasharatha joins his hands in wonder. Gentle sparkles, magical but calm.
+
+---------------------------------------------------------------------------
+★ S04 · Four little princes are born
+Upload: char_kausalya.jpg, char_kaikeyi.jpg, char_sumitra.jpg
+Prompt: A warm palace room with four decorated wooden cradles swinging gently. Queen Kausalya (orange and yellow sari, golden crown), Queen Kaikeyi (purple sari, golden crown) and Queen Sumitra (green sari) smile lovingly at four tiny baby princes wrapped in soft cloth. Flower petals fall from above, lamps glow. Joyful, tender mood. Camera slowly moves past the cradles.
+
+---------------------------------------------------------------------------
+S05 · The princes grow up (archery practice)
+Upload: char_rama_child.jpg, char_lakshmana_child.jpg, char_bharata_child.jpg
+Prompt: Palace garden in the morning. Young prince Rama (dark brown skin, gold crown, yellow dhoti, exactly as reference) practises archery and his arrow hits the centre of a flower-decorated target. Young Lakshmana (light skin, orange dhoti, small crown) claps happily, young Bharata (golden crown, green dhoti) cheers. Leaves drift, peacocks walk nearby. Happy, playful mood.
+
+---------------------------------------------------------------------------
+★ S06 · Sage Vishwamitra asks for Rama
+Upload: char_vishwamitra.jpg, char_dasharatha.jpg, char_rama.jpg
+Prompt: Grand royal court. Sage Vishwamitra (tall, long white beard, saffron robe, holding a long wooden staff, exactly as reference) stands before King Dasharatha on his throne and points gently toward the young prince Rama (dark brown skin, golden crown, yellow dhoti, bow, exactly as reference). Dasharatha looks worried, then slowly nods. Camera moves from the sage to Rama. Serious but gentle mood.
+
+---------------------------------------------------------------------------
+S07 · Into the forest with the sage
+Upload: char_vishwamitra.jpg, char_rama.jpg, char_lakshmana.jpg
+Prompt: A sunny forest path beside a river. Sage Vishwamitra walks ahead with his staff; prince Rama (dark brown skin, golden crown, yellow dhoti, bow) and young Lakshmana (light skin, orange dhoti, small crown, bow) follow him happily, looking at deer and colourful birds. Side-tracking camera follows them. Adventure mood.
+
+---------------------------------------------------------------------------
+★ S08 · Protecting the yagna (no fighting shown)
+Upload: char_rama.jpg, char_lakshmana.jpg, char_vishwamitra.jpg
+Prompt: Night at a forest ashram. Sage Vishwamitra sits calmly before a glowing sacred fire. Dark swirling storm clouds with glowing red eyes gather above the trees (shadowy, cartoon, not scary). Prince Rama (dark brown skin, golden crown, yellow dhoti) stands firm in front of the fire and raises his bow; a bright golden arrow of light flies up and the dark clouds burst into harmless sparkles and fade away. Lakshmana stands beside him, brave. The fire glows brighter. Heroic but gentle.
+
+---------------------------------------------------------------------------
+★ S09 · Ahalya is freed
+Upload: char_ahalya.jpg, char_rama.jpg, bg_ahalya_ashram.jpg
+Prompt: A quiet, empty old ashram with dry leaves. A large grey stone in the middle begins to glow softly when prince Rama (dark brown skin, golden crown, yellow dhoti) steps near it. The stone turns into light, and gentle Ahalya (white and gold sari, flowers in her hair, exactly as reference) appears with folded hands and a peaceful smile. Flowers bloom all around the ashram. Magical, peaceful mood.
+
+---------------------------------------------------------------------------
+★ S10 · The great bow of Shiva breaks
+Upload: char_rama.jpg, char_janaka.jpg, bg_mithila_court.jpg
+Prompt: The grand royal court of Mithila filled with flowers and lamps. A giant, heavy divine bow lies on a decorated wheeled cart. King Janaka (black beard, golden crown, cream royal robe, exactly as reference) watches. Prince Rama (dark brown skin, golden crown, yellow dhoti) calmly lifts the giant bow with one hand and bends it; it breaks in the middle with a bright flash of golden light like lightning. Everyone gasps in wonder, flower petals rain down. Grand, joyful moment.
+
+---------------------------------------------------------------------------
+★ S11 · Sita's garland
+Upload: char_sita.jpg, char_rama.jpg
+Prompt: In the Mithila court, princess Sita (long black hair with flowers, red and gold sari, holding a lotus, exactly as reference) walks slowly and shyly toward prince Rama (dark brown skin, golden crown, yellow dhoti) and places a beautiful flower garland around his neck. Rama smiles gently. Flower petals and soft golden light fill the air. Romantic in a sweet, child-friendly way.
+
+---------------------------------------------------------------------------
+S12 · The royal wedding
+Upload: char_rama.jpg, char_sita.jpg, bg_wedding_mandapam.jpg
+Prompt: A beautiful decorated wedding mandapam with banana trees, flower garlands and a small sacred fire. Prince Rama (dark brown skin, golden crown, yellow dhoti) and princess Sita (red and gold sari) sit together before the fire, smiling, as flower petals shower on them. Soft nadaswaram-style festive mood, lamps glowing. Camera slowly circles the mandapam.
+
+---------------------------------------------------------------------------
+S13 · Parashurama blesses Rama
+Upload: char_parashurama.jpg, char_rama.jpg
+Prompt: A forest road at sunset. Sage Parashurama (white beard, white top-knot, orange robes, holding a big axe on his shoulder, exactly as reference) stands with a stern face and hands Rama a huge glowing blue bow. Prince Rama (dark brown skin, golden crown, yellow dhoti) calmly strings the bow; it glows. Parashurama's face softens into a smile and he raises his hand in blessing. No fighting. Calm, respectful mood.
+
+---------------------------------------------------------------------------
+★ S14 · Ayodhya prepares a celebration (cliffhanger)
+Upload: char_kaikeyi.jpg, char_manthara.jpg, bg_ayodhya.jpg
+Prompt: Ayodhya at evening is decorated for a grand celebration: rows of oil lamps, flower garlands, colourful rangoli, flags. Then the camera moves inside a quiet palace room where old maid Manthara (grey hair, brown sari, walking stick, exactly as reference) whispers into the ear of Queen Kaikeyi (purple sari, golden crown). Kaikeyi's smile slowly fades into a worried look. Mysterious, slightly tense ending (not scary).
