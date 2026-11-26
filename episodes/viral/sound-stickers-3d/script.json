@@ -1,0 +1,72 @@
+{
+ "title": "WhatsApp sound stickers",
+ "language": "ml",
+ "label": "STICKER-ന് SOUND 🔊",
+ "style": {
+  "accent": "#39FF88"
+ },
+ "beats": [
+  {
+   "id": "b1",
+   "say": "WhatsApp-ൽ ഇനി sticker-ന് *sound*! ഇത് കണ്ടോ?",
+   "scene": "A phone flies in and tilts; a sticker bubble pops out with green sound rings."
+  },
+  {
+   "id": "b2",
+   "say": "പുതിയ update-ൽ, sticker-ന് നിങ്ങളുടെ *voice* record ചെയ്യാം, അല്ലെങ്കിൽ audio file ചേർക്കാം.",
+   "scene": "A microphone beside the phone, a sound wave travelling into a sticker."
+  },
+  {
+   "id": "b3",
+   "say": "കിട്ടുന്നയാൾ *tap* ചെയ്യുമ്പോൾ മാത്രം sound കേൾക്കും.",
+   "scene": "A finger-like pointer taps a sticker in a chat; rings burst out."
+  },
+  {
+   "id": "b4",
+   "say": "പക്ഷേ ഓരോന്നും ഉണ്ടാക്കാൻ നല്ല സമയം പോകും.",
+   "scene": "A progress bar on the phone stalls and turns red; a stopwatch spins."
+  },
+  {
+   "id": "b5",
+   "say": "അതുകൊണ്ട് എല്ലാ ദിവസവും രാവിലെ *8* മണിക്ക്, പുതിയ sound stickers 403 UNLOCKED community-ൽ ഇടും.",
+   "scene": "Many sticker tiles fly into a group chat on the phone, a clock at 8."
+  },
+  {
+   "id": "b6",
+   "say": "വേണ്ടവർ follow ചെയ്ത്, comment-ൽ *STICKER* എന്ന് type ചെയ്യൂ! Link bio-യിൽ ഉണ്ട്.",
+   "scene": "A big glowing STICKER comment bubble and a follow button."
+  }
+ ],
+ "sources": [
+  {
+   "claim": "WhatsApp sound stickers: add your voice or an audio file to a sticker; receivers tap to play; rolling out in stages (Nov 2026).",
+   "url": "https://wabetainfo.com/whatsapp-is-rolling-out-new-sound-sticker-messages-on-android/"
+  }
+ ],
+ "sfx": [
+  {
+   "beat": "b1",
+   "word": "sound",
+   "kind": "pop",
+   "db": -14
+  },
+  {
+   "beat": "b3",
+   "word": "tap",
+   "kind": "click",
+   "db": -12
+  },
+  {
+   "beat": "b4",
+   "word": "സമയം",
+   "kind": "tick",
+   "db": -14
+  },
+  {
+   "beat": "b6",
+   "word": "STICKER",
+   "kind": "stamp",
+   "db": -12
+  }
+ ]
+}
