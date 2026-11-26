@@ -1,0 +1,25 @@
+KADHA PETTI x GOOGLE FLOW: SAMPLE TEST (Ramayanam 23, Panchavati)
+================================================================
+
+HOW TO USE (in Flow)
+1. New project. Choose "Ingredients to Video" (reference images).
+2. Upload: 1_rama.jpg, 2_lakshmana.jpg, 3_sita.jpg (Shot 1) and also 4_panchavati_background.jpg if it lets you add a 4th.
+3. Aspect ratio: 9:16 (portrait). Model: Veo "Fast" first (fewer credits); use Quality only if Fast looks bad.
+4. Paste the prompt, generate, pick the best of the results, download (MP4) and send it here.
+
+---------------------------------------------------------------
+SHOT 1: Morning at Panchavati (8 s)
+---------------------------------------------------------------
+Cute 2D children's storybook animation, soft painted illustration style exactly like the reference images, warm golden morning light. A small leaf-and-bamboo hut beside a wide calm river under big banyan trees, deer grazing nearby. Rama (dark brown skin, bark-cloth clothes, bow on his shoulder) and Sita (long black hair, orange bark-cloth sari, holding a lotus) sit together on a flat stone in front of the hut, smiling and talking softly. Lakshmana (light skin, bark-cloth clothes, bow) waters a flowering plant near the hut. Gentle slow camera push-in. Leaves drift, birds fly across the sky. Keep the characters' faces, skin colours and clothes exactly as in the reference images. Peaceful, happy, child-friendly. No text, no subtitles, no speech; only soft forest and river sounds.
+
+---------------------------------------------------------------
+SHOT 2: A surprise visitor (8 s)
+---------------------------------------------------------------
+Same cute 2D children's storybook animation style and same Panchavati hut by the river as before. From the edge of the forest, a tall rakshasi princess steps out from behind a big tree: dark green-purple dress, lots of shiny gold jewellery, long wavy hair, curious and mischievous face (funny, NOT scary, no fangs, no weapons). She peeks at Rama, who sits calmly in front of the hut in bark-cloth clothes with his bow. Rama looks up surprised. Slow camera move from the princess to Rama. Keep Rama's face, skin colour and clothes exactly as in the reference image. Child-friendly, light and mysterious mood. No text, no subtitles, no speech; only soft forest sounds and a small mysterious chime.
+
+---------------------------------------------------------------
+TIPS
+- If the faces drift from our style, add at the start: "Use the uploaded reference images as the exact character designs."
+- If Flow adds talking, add: "Characters do not speak. No dialogue."
+- Don't generate Ravana or any fighting yet; we keep Kadha gentle for kids.
+- AI label: when we post these, the upload will be marked as AI-generated content.
