@@ -1,0 +1,224 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Aranya Kanda (public domain)",
+ "slug": "ramayanam-21",
+ "thumb_text": [
+  "രാമായണം",
+  "ദിവ്യ സമ്മാനം"
+ ],
+ "title": "രാമായണം 21 🏹 അഗസ്ത്യ മഹർഷിയുടെ ദിവ്യ സമ്മാനം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 21: സുതീക്ഷ്ണ മഹർഷി പറഞ്ഞതനുസരിച്ച് രാമനും സീതയും ലക്ഷ്മണനും അഗസ്ത്യ മഹർഷിയുടെ ആശ്രമത്തിൽ എത്തുന്നു. മഹർഷി രാമന് ഒരു ദിവ്യ വില്ലും, അമ്പുകൾ തീരാത്ത ആവനാഴിയും, ഒരു വാളും സമ്മാനിക്കുന്നു 🏹\n\nRamayanam for kids in Malayalam, part 21: Sage Agastya welcomes Rama, Sita and Lakshmana and gifts Rama a divine bow, a quiver that never runs out of arrows, and a sword.",
+ "tags": [
+  "ramayanam malayalam",
+  "agastya rama divine bow",
+  "agastya maharshi story",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ദിവ്യ സമ്മാനം",
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ഇന്ന് രാമന് ഒരു മഹർഷി ദിവ്യ സമ്മാനം കൊടുത്ത കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "സുതീക്ഷ്ണന്റെ വഴികാട്ടൽ",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "sutikshna",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 740,
+     "label": "സുതീക്ഷ്ണ മഹർഷി",
+     "who": "sutikshna"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ആശ്രമങ്ങളിൽ പത്ത് വർഷം കഴിഞ്ഞപ്പോൾ, രാമൻ സുതീക്ഷ്ണ മഹർഷിയോട് ഒരു ആഗ്രഹം പറഞ്ഞു."
+    },
+    {
+     "who": "rama",
+     "text": "മഹർഷേ, മഹാനായ അഗസ്ത്യ മഹർഷിയെ കാണണം എന്ന് എനിക്ക് വലിയ ആഗ്രഹമുണ്ട്."
+    },
+    {
+     "who": "sutikshna",
+     "text": "നല്ല കാര്യം രാമാ. തെക്കോട്ട് പോയാൽ അദ്ദേഹത്തിന്റെ ആശ്രമം കാണാം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "അഗസ്ത്യ ആശ്രമം",
+   "mood": "devotional",
+   "chars": [
+    {
+     "img": "agastya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 720,
+     "label": "അഗസ്ത്യ മഹർഷി",
+     "who": "agastya"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama",
+     "enter": "right",
+     "t0": 0.0,
+     "moves": [
+      {
+       "at": "L0+1.0",
+       "pose": "rama_forest_bow",
+       "dur": 0.8
+      },
+      {
+       "at": "L1",
+       "pose": "rama_forest",
+       "dur": 0.8
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "മൂവരും അഗസ്ത്യ മഹർഷിയുടെ ആശ്രമത്തിൽ എത്തി. രാമൻ മഹർഷിയുടെ മുന്നിൽ തല കുനിച്ച് വണങ്ങി."
+    },
+    {
+     "who": "agastya",
+     "text": "വരൂ രാമാ! നിങ്ങളെ കാത്തിരിക്കുകയായിരുന്നു ഞാൻ. ഇവിടെ സന്തോഷമായി ഇരിക്കൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "ദിവ്യ ആയുധങ്ങൾ",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "agastya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 720,
+     "label": "അഗസ്ത്യ മഹർഷി",
+     "who": "agastya"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "agastya",
+     "text": "രാമാ, ദേവന്മാർ സൂക്ഷിച്ച ഈ ദിവ്യ വില്ലും, അമ്പുകൾ ഒരിക്കലും തീരാത്ത ഈ ആവനാഴിയും, ഈ വാളും നിനക്കുള്ളതാണ്."
+    },
+    {
+     "who": "narrator",
+     "text": "ആ വില്ല് സ്വർണ്ണം പോലെ തിളങ്ങി. രാമൻ വിനയത്തോടെ അത് സ്വീകരിച്ചു."
+    },
+    {
+     "who": "rama",
+     "text": "മഹർഷേ, നല്ലവരെ സംരക്ഷിക്കാൻ മാത്രം ഞാൻ ഇത് ഉപയോഗിക്കും."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "പുതിയ വീട് എവിടെ?",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "agastya",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 720,
+     "label": "അഗസ്ത്യ മഹർഷി",
+     "who": "agastya"
+    },
+    {
+     "img": "lakshmana_forest",
+     "x": 0.55,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.8,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "agastya",
+     "text": "ഗോദാവരി നദിയുടെ തീരത്ത് പഞ്ചവടി എന്ന മനോഹരമായ ഒരു സ്ഥലമുണ്ട്. അവിടെ താമസിക്കൂ."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, അവിടെ നമുക്ക് ഒരു നല്ല കുടിൽ ഞാൻ കെട്ടാം!"
+    },
+    {
+     "who": "sita",
+     "text": "പുഴയുടെ അടുത്തോ? എനിക്ക് ഒരുപാട് സന്തോഷം!"
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "ശക്തി കിട്ടുമ്പോൾ",
+    "വിനയം",
+    "കൂടണം"
+   ],
+   "icon": "🙏",
+   "mood": "devotional",
+   "narration": "മക്കളേ, വലിയ സമ്മാനം കിട്ടിയപ്പോഴും രാമൻ വിനയത്തോടെ നിന്നു. ശക്തി കിട്ടുമ്പോൾ വിനയം കൂടണം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, പഞ്ചവടിയിൽ ഒരു വലിയ പക്ഷി സുഹൃത്ത്! കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

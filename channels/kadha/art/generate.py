@@ -38,6 +38,7 @@ CHARS = {
  "lakshmana_forest": "Young prince Lakshmana during forest exile, fair skin, NO crown, black hair tied up in a hermit's top-knot bun (jata), simple tree-bark cloth garment (valkalam) in earthy brown and ochre wrapped like a dhoti with a bark-cloth upper cloth, rudraksha beads, holding a curved wooden archery bow, quiver of arrows on back, alert brave face, cute chibi proportions, full body head to toe visible with feet, ",
  "sita_forest": "Goddess Sita during forest exile, young graceful, fair skin, NO crown and NO gold jewellery, long black hair in a simple braid with white jasmine and forest flowers, simple tree-bark cloth saree (valkalam) in soft earthy brown and ochre, small red bindi, holding a lotus, gentle smile, cute chibi proportions, full body head to toe visible with feet, ",
  "sutikshna": "Sage Sutikshna, kind middle-aged rishi with a short dark-grey beard, hair in a top knot, light orange robes, rudraksha beads, holding a kamandalu water pot, warm smile, full body head to toe visible with feet, ",
+ "agastya": "Sage Agastya, short and sturdy wise old rishi with a long white beard and bright kind eyes, hair in a top bun, deep saffron robes, rudraksha beads, holding a kamandalu water pot, radiant calm smile, full body head to toe visible with feet, ",
  "atri": "Sage Atri, kind very old rishi, long flowing white beard, white hair in a top bun, light saffron robes, rudraksha beads, holding a wooden staff, gentle smile, full body head to toe visible with feet, ",
  "anasuya": "Anasuya Devi, kind elderly hermit mother, gentle wrinkled smiling face, white and light orange cotton saree, grey hair in a bun with flowers, rudraksha bracelet, hands together in blessing, full body head to toe visible with feet, ",
  "shatrughna_child": "Little child prince Shatrughna, about 5 years old, fair skin, small golden crown, purple dhoti, gold jewellery, cute smile, ",
@@ -55,6 +56,7 @@ BGS = {
  "wedding_mandapam": "a beautiful traditional Indian wedding mandapam decorated with marigold and jasmine garlands, banana trees, brass lamps glowing, sacred fire in the centre, festive colours, no people, ",
  "chariot_road": "a royal golden chariot with white horses on a road leaving an ancient Indian city gate, dusty evening light, no people, no letters, no writing, no signboards, no watermark, ",
  "ganga_bank": "the holy river Ganga at dawn, wide calm water, a small wooden boat tied at a sandy bank, tall ingudi trees, soft mist, no signature, no watermark, no letters, ",
+ "panchavati": "Panchavati forest clearing beside the wide Godavari river, a small neat leaf-and-bamboo hut (parnashala) under five big banyan trees, flowering bushes, deer grazing, golden morning light, ",
  "chitrakoot": "a small leaf-and-bamboo hut beside a gentle mountain stream at Chitrakoot hill, flowering trees, peacocks, deer, soft golden sunlight, peaceful, no people, no letters, no watermark, ",
  "night_forest": "forest at night under a full moon and stars, fireflies, peaceful, ",
 }

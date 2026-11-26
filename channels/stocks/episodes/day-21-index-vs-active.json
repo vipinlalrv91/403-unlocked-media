@@ -1,0 +1,87 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-21",
+ "series": {
+  "day": 21,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: Index-നെ follow ചെയ്യുക",
+ "thumb_text": [
+  "INDEX vs ACTIVE",
+  "ഏതാണ് വ്യത്യാസം?"
+ ],
+ "title": "Index Fund vs Active Fund 🤔 എന്താണ് വ്യത്യാസം? | Day 21 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 21! Index fund ഒരു index-നെ (ഉദാ: Nifty 50) അതേപോലെ follow ചെയ്യുന്നു, ലക്ഷ്യം index-ന്റെ അതേ return. സാധാരണ expense ratio കുറവ്. Active fund-ൽ fund manager shares തിരഞ്ഞെടുക്കുന്നു, ലക്ഷ്യം index-നെ beat ചെയ്യുക; ചെലവ് സാധാരണ കൂടുതൽ, beat ചെയ്യും എന്ന് ഉറപ്പില്ല. Tracking error, expense ratio compare ചെയ്യൂ.\n\nIndex funds track an index and usually cost less; active funds try to beat the index with a fund manager's picks, usually at a higher cost and with no guarantee. Mutual fund investments are subject to market risks, read all scheme related documents carefully.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #indexfund #mutualfunds #etf #investing #malayalam #thestoicbull",
+ "tags": [
+  "index fund malayalam",
+  "index fund vs active fund",
+  "passive investing malayalam",
+  "mutual fund malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.amfiindia.com/investor-corner/knowledge-center/what-are-mutual-funds-new.html",
+  "https://www.nism.ac.in/investor-education/understanding-etf/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "INDEX vs ACTIVE",
+   "sub": "Yesterday: B · ഒരേ തുക ഓരോ മാസവും",
+   "icon": "🤔",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, ഒരേ തുക ഓരോ മാസവും! ഡേ ഇരുപത്തിയൊന്ന്. ഇൻഡക്സ് ഫണ്ടും ആക്ടീവ് ഫണ്ടും, എന്താണ് വ്യത്യാസം?"
+  },
+  {
+   "type": "bullets",
+   "title": "INDEX FUND",
+   "icon": "📋",
+   "items": [
+    "Index-നെ copy ചെയ്യും",
+    "ഉദാ: Nifty 50",
+    "ചെലവ് സാധാരണ കുറവ്"
+   ],
+   "narration": "ഇൻഡക്സ് ഫണ്ട് ഒരു ഇൻഡക്സിനെ, ഉദാഹരണത്തിന് നിഫ്റ്റി ഫിഫ്റ്റിയെ, അതേപോലെ ഫോളോ ചെയ്യും. ലക്ഷ്യം ഇൻഡക്സിന്റെ അതേ റിട്ടേൺ. ചെലവ് സാധാരണ കുറവാണ്."
+  },
+  {
+   "type": "bullets",
+   "title": "ACTIVE FUND",
+   "icon": "🧠",
+   "items": [
+    "Fund manager തിരഞ്ഞെടുക്കും",
+    "Index-നെ beat ചെയ്യാൻ ശ്രമം",
+    "ചെലവ് സാധാരണ കൂടുതൽ"
+   ],
+   "narration": "ആക്ടീവ് ഫണ്ടിൽ ഫണ്ട് മാനേജർ ഷെയറുകൾ തിരഞ്ഞെടുക്കും. ലക്ഷ്യം ഇൻഡക്സിനെക്കാൾ കൂടുതൽ. പക്ഷേ ചെലവ് കൂടുതലാണ്, ബീറ്റ് ചെയ്യും എന്ന് ഉറപ്പുമില്ല."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Expense ratio നോക്കൂ",
+    "Tracking error നോക്കൂ"
+   ],
+   "narration": "ഏത് ഫണ്ട് ആയാലും എക്സ്പെൻസ് റേഷ്യോ നോക്കൂ. ഇൻഡക്സ് ഫണ്ട് ആണെങ്കിൽ ട്രാക്കിങ് എറർ, അതായത് ഇൻഡക്സിൽ നിന്നുള്ള വ്യത്യാസം, കുറവാണോ എന്നും നോക്കൂ."
+  },
+  {
+   "type": "quiz",
+   "question": "Index fund-ന്റെ ലക്ഷ്യം?",
+   "options": [
+    "Index-നെ follow ചെയ്യുക",
+    "Index-നെ beat ചെയ്യുക"
+   ],
+   "narration": "ക്വിസ്! ഇൻഡക്സ് ഫണ്ടിന്റെ ലക്ഷ്യം എന്താണ്? എ, ഇൻഡക്സിനെ ഫോളോ ചെയ്യുക. ബി, ഇൻഡക്സിനെ ബീറ്റ് ചെയ്യുക. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

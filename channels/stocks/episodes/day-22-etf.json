@@ -1,0 +1,88 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-22",
+ "series": {
+  "day": 22,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: Stock exchange-ൽ",
+ "thumb_text": [
+  "ETF എന്താണ്?",
+  "Share പോലെ വാങ്ങാം"
+ ],
+ "title": "ETF എന്താണ്? 📈 Share പോലെ വാങ്ങുന്ന Fund | Day 22 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 22! ETF = Exchange Traded Fund: ഒരു mutual fund, പക്ഷേ അതിന്റെ units stock exchange-ൽ share പോലെ വാങ്ങാനും വിൽക്കാനും പറ്റും. Market time-ൽ വില മാറിക്കൊണ്ടിരിക്കും. Demat + trading account വേണം; brokerage പോലുള്ള charges ഉണ്ടാകാം. Underlying index പോലെ തന്നെ risk ഉണ്ട്.\n\nETF = Exchange Traded Fund: a mutual fund whose units trade on the stock exchange like shares, at market price during the day. You need a demat and trading account; brokerage and other charges may apply. Mutual fund investments are subject to market risks, read all scheme related documents carefully.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #indexfund #mutualfunds #etf #investing #malayalam #thestoicbull",
+ "tags": [
+  "etf malayalam",
+  "what is etf",
+  "exchange traded fund malayalam",
+  "index etf malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nism.ac.in/investor-education/understanding-etf/",
+  "https://www.nseindia.com/products-services/about-etfs"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "ETF എന്താണ്?",
+   "sub": "Yesterday: A · Index-നെ follow ചെയ്യുക",
+   "icon": "📈",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, ഇൻഡക്സിനെ ഫോളോ ചെയ്യുക! ഡേ ഇരുപത്തിരണ്ട്. ഇ ടി എഫ്, ഇ ടി എഫ് എന്ന് കേൾക്കുന്നു. എന്താണ് ഇത്?"
+  },
+  {
+   "type": "bullets",
+   "title": "ETF = FUND + SHARE",
+   "icon": "🧺",
+   "items": [
+    "Exchange Traded Fund",
+    "Units exchange-ൽ",
+    "Share പോലെ വാങ്ങാം"
+   ],
+   "narration": "എക്സ്ചേഞ്ച് ട്രേഡഡ് ഫണ്ട്. ഇതും ഒരു മ്യൂച്വൽ ഫണ്ട് തന്നെ. പക്ഷേ ഇതിന്റെ യൂണിറ്റുകൾ സ്റ്റോക്ക് എക്സ്ചേഞ്ചിൽ ഒരു ഷെയർ പോലെ വാങ്ങാനും വിൽക്കാനും പറ്റും."
+  },
+  {
+   "type": "compare",
+   "title": "MUTUAL FUND vs ETF",
+   "left": [
+    "Mutual fund: ദിവസം ഒരു NAV"
+   ],
+   "right": [
+    "ETF: വില ദിവസം മുഴുവൻ മാറും"
+   ],
+   "narration": "സാധാരണ മ്യൂച്വൽ ഫണ്ടിന് ഒരു ദിവസം ഒരു എൻ എ വി. ഇ ടി എഫിന്റെ വില മാർക്കറ്റ് സമയത്ത് മാറിക്കൊണ്ടിരിക്കും."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "Demat account വേണം",
+    "Brokerage ഉണ്ടാകാം",
+    "Index പോലെ risk"
+   ],
+   "narration": "ഇ ടി എഫ് വാങ്ങാൻ ഡീമാറ്റ് അക്കൗണ്ടും ട്രേഡിങ് അക്കൗണ്ടും വേണം. ബ്രോക്കറേജ് പോലുള്ള ചാർജുകൾ ഉണ്ടാകാം. ഇൻഡക്സ് താഴേക്ക് പോയാൽ ഇ ടി എഫും താഴും."
+  },
+  {
+   "type": "quiz",
+   "question": "ETF വാങ്ങുന്നത് എവിടെ?",
+   "options": [
+    "Stock exchange-ൽ",
+    "Post office-ൽ"
+   ],
+   "narration": "ക്വിസ്! ഇ ടി എഫ് വാങ്ങുന്നത് എവിടെ? എ, സ്റ്റോക്ക് എക്സ്ചേഞ്ചിൽ. ബി, പോസ്റ്റ് ഓഫീസിൽ. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
