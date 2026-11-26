@@ -1,0 +1,1 @@
+Note: file P1-S09 = Shiva's bow breaking (prompt S10) and P1-S10 = Ahalya (prompt S09); names swapped by owner, mapping handled in the build.
