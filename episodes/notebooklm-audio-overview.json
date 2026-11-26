@@ -1,0 +1,29 @@
+{
+ "slug": "notebooklm-audio-overview",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["NOTES → PODCAST", "Malayalam-ലും 🎧 Free AI"],
+ "title": "Notes-നെ Malayalam Podcast ആക്കുന്ന Free AI 🎧 NotebookLM #shorts",
+ "caption": "പഠിക്കാൻ ഉള്ള notes വായിക്കാൻ മടിയാണോ? Google-ന്റെ free AI tool NotebookLM-ൽ PDF, notes, website link upload ചെയ്താൽ Audio Overview: രണ്ട് AI hosts സംസാരിക്കുന്ന podcast പോലെ summary. Settings-ൽ Output Language മാറ്റി Malayalam-ലും കേൾക്കാം. AI തെറ്റ് പറയാം, പ്രധാന കാര്യങ്ങൾ source-ൽ check ചെയ്യൂ.\n\nNotebookLM Audio Overview: upload notes, PDFs or links and get a podcast-style audio summary; change Output Language in settings to hear it in Malayalam. AI can make mistakes, check important facts.",
+ "hashtags": "#shorts #notebooklm #googleai #aitools #studytips #techmalayalam #403unlocked",
+ "tags": ["notebooklm malayalam", "notebooklm audio overview", "ai tools malayalam", "study ai tool malayalam", "google ai malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/notebooklm/answer/16212820", "https://blog.google/technology/google-labs/notebooklm-audio-overviews-50-languages/"],
+ "scenes": [
+  {"type": "hook", "title": "NOTES → PODCAST", "sub": "Free AI tool", "icon": "🎧",
+   "photo": "a pair of over-ear headphones resting on an open notebook full of handwritten study notes, warm desk lamp light, shallow depth of field",
+   "narration": "പഠിക്കാനുള്ള നോട്ട്സ് വായിക്കാൻ മടിയാണോ? അത് ഒരു മലയാളം പോഡ്കാസ്റ്റ് ആക്കി കേൾക്കാം!"},
+  {"type": "steps", "title": "എങ്ങനെ?", "items": ["NotebookLM തുറക്കൂ", "PDF / notes add", "Audio Overview tap"],
+   "photo": "a laptop with a blurred dark screen on a study desk beside stacked textbooks and a coffee mug, soft evening light",
+   "narration": "ഗൂഗിളിന്റെ ഫ്രീ എ ഐ ടൂൾ നോട്ട്ബുക്ക് എൽ എം തുറക്കൂ. പി ഡി എഫ്, നോട്ട്സ്, വെബ്സൈറ്റ് ലിങ്ക് ഒക്കെ ആഡ് ചെയ്ത്, ഓഡിയോ ഓവർവ്യൂ ടാപ്പ് ചെയ്യൂ."},
+  {"type": "bullets", "title": "എന്ത് കിട്ടും?", "icon": "🎙️", "items": ["2 AI hosts സംസാരിക്കും", "Podcast പോലെ summary"],
+   "photo": "two studio microphones facing each other on a wooden table in a small cosy podcast room, warm light, no people",
+   "narration": "രണ്ട് എ ഐ ഹോസ്റ്റുകൾ നിങ്ങളുടെ നോട്ട്സിനെ കുറിച്ച് ഒരു പോഡ്കാസ്റ്റ് പോലെ സംസാരിക്കും. ബസ്സിലിരുന്നും കേട്ട് പഠിക്കാം."},
+  {"type": "bullets", "title": "മലയാളത്തിൽ", "icon": "🗣️", "items": ["Settings → Output Language", "Malayalam select ചെയ്യൂ"],
+   "photo": "a smartphone with a dark screen lying next to wireless earbuds and a notebook on a bus seat by the window, daylight",
+   "narration": "സെറ്റിങ്സിൽ ഔട്ട്പുട്ട് ലാംഗ്വേജ് മലയാളം ആക്കിയാൽ, ഓഡിയോ മലയാളത്തിൽ കിട്ടും."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["AI തെറ്റ് പറയാം", "Source-ൽ check ചെയ്യൂ"],
+   "photo": "a magnifying glass lying on printed pages and a highlighter on a wooden desk, natural light",
+   "narration": "എ ഐ ചിലപ്പോൾ തെറ്റ് പറയാം. പ്രധാന കാര്യങ്ങൾ നിങ്ങളുടെ നോട്ട്സിൽ തന്നെ ഒന്ന് ചെക്ക് ചെയ്യൂ."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}

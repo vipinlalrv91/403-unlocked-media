@@ -29,6 +29,11 @@
 - [x] android-screen-pinning | Hidden: App pinning, give phone to kids/friends safely | verify Android help
 - [x] google-lens-homework | AI: Google Lens homework help (solve maths/science from photo) | verify Google Lens help
 - [x] whatsapp-chat-lock | Hidden: WhatsApp Chat Lock for private chats | verify faq.whatsapp.com
-- [ ] notebooklm-audio-overview | AI: NotebookLM turns notes into a podcast-style audio | verify NotebookLM help + India + languages
+- [x] notebooklm-audio-overview | AI: NotebookLM turns notes into a podcast-style audio | verify NotebookLM help + India + languages
 - [x] android-digital-wellbeing | Hidden: Digital Wellbeing bedtime mode & app timers | verify Android help
 - [x] whatsapp-sound-stickers (owner request 25 Nov, trending)
+- [x] android-emergency-sos | Hidden: Emergency SOS, power button 5 times, 112 + location | done 26 Nov
+- [ ] circle-to-search | AI: Circle to Search, circle anything on screen to search / translate | verify Google help + India + supported phones
+- [ ] android-quick-share | Hidden: Quick Share, send big files phone-to-phone/laptop without internet | verify Android help
+- [ ] android-live-caption | Hidden: Live Caption, subtitles for any video/call on the phone | verify Android help + language support
+- [ ] gemini-gmail-summary | AI: Gemini summarises long Gmail threads | verify Google help + India + free vs paid

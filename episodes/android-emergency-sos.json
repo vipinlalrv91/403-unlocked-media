@@ -1,0 +1,29 @@
+{
+ "slug": "android-emergency-sos",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["EMERGENCY SOS", "Power button 5 തവണ 🆘"],
+ "title": "അപകടത്തിൽ Phone രക്ഷിക്കും! 🆘 Android Emergency SOS #shorts",
+ "caption": "ഒരു അപകടം വന്നാൽ phone unlock ചെയ്യാൻ സമയമില്ലെങ്കിലോ? Android Emergency SOS: power button പെട്ടെന്ന് 5 തവണ അമർത്തിയാൽ emergency number-ലേക്ക് (ഇന്ത്യയിൽ 112) call പോകും, emergency contacts-ന് location share ചെയ്യാം. Settings → Safety & emergency → Emergency SOS. Android 12+, path phone അനുസരിച്ച് മാറാം. Location share-ന് internet വേണം. ഇപ്പോൾ തന്നെ set ചെയ്ത് വെക്കൂ.\n\nAndroid Emergency SOS: press the power button 5 times to call emergency services (112 in India) and share your location with emergency contacts. Settings > Safety & emergency > Emergency SOS (Android 12+, path may vary by phone).",
+ "hashtags": "#shorts #android #emergencysos #safety #androidtips #techmalayalam #403unlocked",
+ "tags": ["emergency sos android malayalam", "android safety feature", "112 india emergency", "power button 5 times", "android tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/android/answer/9319337", "https://support.google.com/pixelphone/answer/7055029", "https://112.gov.in/"],
+ "scenes": [
+  {"type": "hook", "title": "EMERGENCY SOS", "sub": "ഇത് set ചെയ്തോ?", "icon": "🆘",
+   "photo": "a smartphone lying on a wet road at night with blurred red and blue emergency lights in the background, dramatic, screen dark",
+   "narration": "ഒരു അപകടം വന്നാൽ ഫോൺ അൺലോക്ക് ചെയ്യാൻ പോലും സമയമില്ലെങ്കിലോ? ഈ ഒരു സെറ്റിങ് ജീവൻ രക്ഷിക്കും!"},
+  {"type": "bullets", "title": "POWER × 5", "icon": "🔘", "items": ["Power button 5 തവണ", "112-ലേക്ക് call", "Location share"],
+   "photo": "close-up macro photo of the side buttons of a modern smartphone on a dark surface, dramatic rim light",
+   "narration": "പവർ ബട്ടൺ പെട്ടെന്ന് അഞ്ച് തവണ അമർത്തിയാൽ, എമർജൻസി നമ്പറിലേക്ക് കോൾ പോകും. ഇന്ത്യയിൽ ഒന്ന് ഒന്ന് രണ്ട്. എമർജൻസി കോൺടാക്റ്റുകൾക്ക് ലൊക്കേഷനും ഷെയർ ചെയ്യാം."},
+  {"type": "steps", "title": "SET ചെയ്യാൻ", "items": ["Settings തുറക്കൂ", "Safety & emergency", "Emergency SOS ഓൺ"],
+   "photo": "a smartphone on a wooden table next to a first aid kit and car keys, calm daylight, screen dark",
+   "narration": "സെറ്റിങ്സിൽ സേഫ്റ്റി ആൻഡ് എമർജൻസി, അതിൽ എമർജൻസി എസ് ഒ എസ് ഓൺ ആക്കൂ. വീട്ടുകാരെ എമർജൻസി കോൺടാക്റ്റ് ആയി ചേർക്കൂ."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["Android 12 മുതൽ", "Location-ന് internet വേണം", "Path phone അനുസരിച്ച്"],
+   "photo": "a smartphone and a bicycle helmet on a bench by a roadside at dusk, calm mood, screen dark",
+   "narration": "ആൻഡ്രോയിഡ് പന്ത്രണ്ട് മുതലാണ് ഈ ഫീച്ചർ. ലൊക്കേഷൻ ഷെയർ ചെയ്യാൻ ഇന്റർനെറ്റ് വേണം. ഫോൺ അനുസരിച്ച് പേര് കുറച്ച് മാറാം."},
+  {"type": "bullets", "title": "ഇപ്പോൾ തന്നെ", "icon": "✅", "items": ["ഇന്ന് set ചെയ്യൂ", "വീട്ടുകാർക്കും ചെയ്ത് കൊടുക്കൂ"],
+   "photo": "two smartphones lying side by side on a living room coffee table next to a cup of tea, warm home light, screens dark",
+   "narration": "അപകടം വരുന്നതിന് മുൻപ് ഇന്ന് തന്നെ ഇത് സെറ്റ് ചെയ്യൂ. അച്ഛനും അമ്മയ്ക്കും ഫോണിലും ചെയ്ത് കൊടുക്കൂ."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}
