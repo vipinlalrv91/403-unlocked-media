@@ -1,0 +1,83 @@
+{
+ "slug": "android-quick-share",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": [
+  "NO INTERNET?",
+  "Video share ചെയ്യാം 📲"
+ ],
+ "title": "Internet ഇല്ലാതെ Video അയക്കാം! 📲 Android Quick Share #shorts",
+ "caption": "WhatsApp-ൽ video അയച്ചാൽ quality പോകും, data-യും തീരും. Android-ൽ Quick Share ഉണ്ട്: അടുത്തുള്ള Android phone-ലേക്ക് internet ഇല്ലാതെ, full quality-യിൽ photos, videos, files അയക്കാം. Notification panel-ലെ Quick Share tile, അല്ലെങ്കിൽ file-ൽ Share → Quick Share. കിട്ടേണ്ടയാൾ visibility \"Everyone for 10 minutes\" ആക്കണം. പഴയ പേര് Nearby Share. Menu പേര് phone അനുസരിച്ച് മാറാം.\n\nAndroid Quick Share (formerly Nearby Share): send photos, videos and files to a nearby Android phone without internet, in full quality. The receiver sets visibility to \"Everyone for 10 minutes\". Menu names may vary by phone.",
+ "hashtags": "#shorts #quickshare #android #androidtips #filesharing #techmalayalam #403unlocked",
+ "tags": [
+  "quick share android malayalam",
+  "nearby share malayalam",
+  "send video without internet",
+  "android hidden features malayalam",
+  "android tips malayalam",
+  "403 unlocked"
+ ],
+ "sources": [
+  "https://support.google.com/android/answer/9286773",
+  "https://www.android.com/intl/en_in/articles/quick-share-on-android/"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "NO INTERNET?",
+   "sub": "Video അയക്കാം!",
+   "icon": "📲",
+   "photo": "two smartphones lying close together on a wooden table at a family function with flower decorations blurred behind, screens dark",
+   "narration": "കല്യാണ വീഡിയോ ഫുൾ ക്വാളിറ്റിയിൽ വേണോ? ഇന്റർനെറ്റ് ഇല്ലാതെ തന്നെ അയക്കാം!"
+  },
+  {
+   "type": "bullets",
+   "title": "QUICK SHARE",
+   "icon": "⚡",
+   "items": [
+    "Internet വേണ്ട",
+    "Full quality",
+    "Android → Android"
+   ],
+   "photo": "close-up of two smartphones side by side on a desk with a soft glow between them, dark moody light, screens dark",
+   "narration": "ആൻഡ്രോയിഡിലെ ക്വിക്ക് ഷെയർ ഉപയോഗിച്ച്, അടുത്തുള്ള ആൻഡ്രോയിഡ് ഫോണിലേക്ക് ഫോട്ടോയും വീഡിയോയും ഫുൾ ക്വാളിറ്റിയിൽ അയക്കാം. ഡാറ്റ ചെലവില്ല."
+  },
+  {
+   "type": "steps",
+   "title": "അയക്കാൻ",
+   "items": [
+    "File → Share",
+    "Quick Share tap",
+    "അടുത്ത phone select"
+   ],
+   "photo": "a smartphone on a wooden table next to a small stack of printed landscape photos of mountains and beaches and a vintage camera, no people, warm light, screen dark",
+   "narration": "ഫോട്ടോ തുറന്ന് ഷെയർ ടാപ്പ് ചെയ്യൂ, ക്വിക്ക് ഷെയർ തിരഞ്ഞെടുക്കൂ. അടുത്തുള്ള ഫോണിന്റെ പേര് കാണുമ്പോൾ ടാപ്പ് ചെയ്താൽ മതി."
+  },
+  {
+   "type": "bullets",
+   "title": "കിട്ടേണ്ടയാൾ",
+   "icon": "👀",
+   "items": [
+    "Quick Share tile തുറക്കൂ",
+    "Everyone for 10 minutes"
+   ],
+   "photo": "a smartphone held upright in a phone stand on a bedside table, soft lamp light, screen dark",
+   "narration": "കിട്ടേണ്ടയാൾ നോട്ടിഫിക്കേഷൻ പാനലിൽ ക്വിക്ക് ഷെയർ തുറന്ന്, എവരിവൺ ഫോർ ടെൻ മിനിറ്റ്സ് ആക്കണം."
+  },
+  {
+   "type": "bullets",
+   "title": "ശ്രദ്ധിക്കുക",
+   "icon": "⚠️",
+   "items": [
+    "പഴയ പേര് Nearby Share",
+    "Menu phone അനുസരിച്ച്"
+   ],
+   "photo": "a smartphone and a laptop on a study table with a desk lamp, calm evening light, screens dark",
+   "narration": "പഴയ ഫോണുകളിൽ ഇതിന്റെ പേര് നിയർബൈ ഷെയർ എന്നാകാം. മെനുവിന്റെ പേര് ഫോൺ അനുസരിച്ച് മാറാം."
+  },
+  {
+   "type": "cta",
+   "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

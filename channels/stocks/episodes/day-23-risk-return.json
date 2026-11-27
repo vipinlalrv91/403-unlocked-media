@@ -1,0 +1,87 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-23",
+ "series": {
+  "day": 23,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: കൂടുതൽ risk",
+ "thumb_text": [
+  "RISK vs RETURN",
+  "കൂടുതൽ = കൂടുതൽ risk"
+ ],
+ "title": "കൂടുതൽ Return വേണോ? കൂടുതൽ Risk ഉണ്ട്! ⚖️ | Day 23 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 23! Risk എന്നാൽ പ്രതീക്ഷിക്കുന്ന return കിട്ടുമോ എന്ന ഉറപ്പില്ലായ്മ. കൂടുതൽ return പ്രതീക്ഷിക്കുന്ന investments-ൽ സാധാരണ risk-ഉം കൂടുതലാണ്. 'ഉറപ്പായ വലിയ ലാഭം' എന്ന് പറയുന്നവരെ സൂക്ഷിക്കൂ. 'Safe' investments-ലും inflation ഒരു risk ആണ്.\n\nRisk and return: risk is the uncertainty of expected returns; higher expected return usually comes with higher risk. Beware of 'guaranteed high return' offers; even 'safe' investments face inflation risk.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #riskandreturn #investing #stockmarket #malayalam #personalfinance #thestoicbull",
+ "tags": [
+  "risk and return malayalam",
+  "investment risk malayalam",
+  "stock market for beginners malayalam",
+  "guaranteed return scam",
+  "personal finance malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nism.ac.in/investor-education/understanding-investment-risks-and-returns",
+  "https://www.nism.ac.in/investor-education/how-to-manage-investment-risks"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "RISK vs RETURN",
+   "sub": "Yesterday: A · Stock exchange-ൽ",
+   "icon": "⚖️",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, സ്റ്റോക്ക് എക്സ്ചേഞ്ചിൽ! ഡേ ഇരുപത്തിമൂന്ന്. കൂടുതൽ റിട്ടേൺ വേണോ? അപ്പോൾ ഇത് അറിയണം."
+  },
+  {
+   "type": "bullets",
+   "title": "RISK എന്നാൽ?",
+   "icon": "🎲",
+   "items": [
+    "Return ഉറപ്പില്ലായ്മ",
+    "കൂടാം, കുറയാം",
+    "നഷ്ടവും വരാം"
+   ],
+   "narration": "റിസ്ക് എന്നാൽ, പ്രതീക്ഷിക്കുന്ന റിട്ടേൺ കിട്ടുമോ എന്ന ഉറപ്പില്ലായ്മയാണ്. വില കൂടാം, കുറയാം, ചിലപ്പോൾ നഷ്ടവും വരാം."
+  },
+  {
+   "type": "compare",
+   "title": "ഒരു ഉദാഹരണം",
+   "left": [
+    "FD: return കുറവ്, ഉറപ്പ് കൂടുതൽ"
+   ],
+   "right": [
+    "Shares: return കൂടാം, risk കൂടുതൽ"
+   ],
+   "narration": "ഉദാഹരണത്തിന്, ബാങ്ക് എഫ് ഡിയിൽ റിട്ടേൺ കുറവാണ്, പക്ഷേ ഉറപ്പ് കൂടുതൽ. ഷെയറുകളിൽ കൂടുതൽ കിട്ടാം, പക്ഷേ റിസ്കും കൂടുതലാണ്."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "'Guaranteed' വലിയ ലാഭം = സൂക്ഷിക്കൂ",
+    "Safe-ലും inflation risk"
+   ],
+   "narration": "ഉറപ്പായ വലിയ ലാഭം എന്ന് ആരെങ്കിലും പറഞ്ഞാൽ സൂക്ഷിക്കൂ. സേഫ് എന്ന് കരുതുന്നവയിലും വിലക്കയറ്റം ഒരു റിസ്ക് ആണ്."
+  },
+  {
+   "type": "quiz",
+   "question": "കൂടുതൽ return പ്രതീക്ഷിച്ചാൽ?",
+   "options": [
+    "Risk കുറവ്",
+    "കൂടുതൽ risk"
+   ],
+   "narration": "ക്വിസ്! കൂടുതൽ റിട്ടേൺ പ്രതീക്ഷിക്കുന്ന ഇൻവെസ്റ്റ്മെന്റിൽ സാധാരണ എന്താണ്? എ, റിസ്ക് കുറവ്. ബി, കൂടുതൽ റിസ്ക്. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

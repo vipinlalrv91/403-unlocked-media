@@ -1,63 +1,29 @@
 {
  "slug": "circle-to-search",
- "title": "Screen-ൽ എന്തിനെയും വട്ടം വരച്ച് Search ചെയ്യാം! ⭕ Circle to Search #shorts",
- "caption": "Instagram-ൽ കണ്ട ഷൂ, ഒരു സ്ഥലം, അറിയാത്ത വാക്ക്: app മാറാതെ തന്നെ search ചെയ്യാം! Circle to Search എങ്ങനെ ഉപയോഗിക്കാം എന്ന് നോക്കൂ.\n\nCircle to Search: long-press the Home button or navigation handle, then circle anything on your screen to search it on Google. Available on select Android phones (e.g. many Pixel and Samsung Galaxy models).",
- "hashtags": "#shorts #circletosearch #android #androidtips #googletips #techmalayalam #malayalam #403unlocked",
- "tags": [
-  "circle to search malayalam",
-  "android hidden features malayalam",
-  "google search tricks",
-  "android tips malayalam",
-  "samsung tips malayalam",
-  "pixel tips",
-  "403 unlocked"
- ],
- "sources": [
-  "https://support.google.com/websearch/answer/14508957",
-  "https://www.android.com/intl/en_in/articles/how-to-use-circle-to-search/"
- ],
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["CIRCLE TO SEARCH", "ഒരു വട്ടം വരച്ചാൽ മതി ⭕"],
+ "title": "Screen-ൽ ഒരു വട്ടം വരച്ചാൽ Google Search! ⭕ Circle to Search #shorts",
+ "caption": "Reel-ൽ കണ്ട shoe, ഒരു ചെടി, ഒരു English വാക്ക്... app മാറാതെ തന്നെ search ചെയ്യാം! Circle to Search: Home button / navigation bar long press ചെയ്ത്, വേണ്ട ഭാഗത്ത് വട്ടം വരച്ചാൽ Google search. Translate ബട്ടൺ വഴി screen-ലെ text translate ചെയ്യാം. ഇന്ത്യയിൽ ലഭ്യം (Google account login, 18+). തിരഞ്ഞെടുത്ത phones-ൽ മാത്രം (Pixel, Samsung Galaxy, ചില മറ്റ് brands).\n\nCircle to Search: long-press the home button or navigation handle, circle anything on screen to search it, or tap Translate. Available in India for signed-in users 18+, on selected Android phones.",
+ "hashtags": "#shorts #circletosearch #googleai #androidtips #aitools #techmalayalam #403unlocked",
+ "tags": ["circle to search malayalam", "google circle to search", "android ai features malayalam", "google lens alternative", "ai tools malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/android/answer/14508957", "https://www.android.com/intl/en_in/articles/how-to-use-circle-to-search/"],
  "scenes": [
-  {
-   "type": "hook",
-   "title": "CIRCLE TO SEARCH",
-   "sub": "ഈ trick അറിയാമോ?",
-   "icon": "⭕",
-   "narration": "Reels-ൽ ഒരു കിടിലൻ ഷൂ കണ്ടു. എവിടെ കിട്ടും? App മാറാതെ തന്നെ കണ്ടുപിടിക്കാം!"
-  },
-  {
-   "type": "steps",
-   "title": "എങ്ങനെ?",
-   "items": [
-    "Home button long press",
-    "എന്തിനെയും വട്ടം വരയ്ക്കൂ",
-    "Google ഉത്തരം തരും"
-   ],
-   "narration": "Home button, അല്ലെങ്കിൽ താഴെയുള്ള navigation bar, കുറച്ച് നേരം അമർത്തിപ്പിടിക്കൂ. എന്നിട്ട് screen-ലെ സാധനത്തിന് ചുറ്റും ഒരു വട്ടം വരയ്ക്കൂ. Google search ചെയ്ത് ഉത്തരം തരും."
-  },
-  {
-   "type": "bullets",
-   "title": "ഇത് SEARCH ചെയ്യാം",
-   "icon": "🔍",
-   "items": [
-    "Photo-യിലെ സാധനങ്ങൾ",
-    "അറിയാത്ത വാക്കുകൾ",
-    "സ്ഥലങ്ങൾ, ചെടികൾ"
-   ],
-   "narration": "Photo-യിലെ സാധനങ്ങൾ, അറിയാത്ത വാക്കുകൾ, സ്ഥലങ്ങൾ, ചെടികൾ, എന്തും search ചെയ്യാം."
-  },
-  {
-   "type": "bullets",
-   "title": "ഏത് PHONE-ൽ?",
-   "icon": "📱",
-   "items": [
-    "ചില Android phones-ൽ",
-    "Pixel, Samsung Galaxy..."
-   ],
-   "narration": "ഇത് ചില Android phones-ൽ മാത്രമേ ഉള്ളൂ, ഉദാഹരണത്തിന് Pixel, പല Samsung Galaxy models. നിങ്ങളുടെ phone-ൽ ഉണ്ടോ എന്ന് ഇപ്പോൾ തന്നെ try ചെയ്യൂ!"
-  },
-  {
-   "type": "cta",
-   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി channel ഇപ്പോൾ തന്നെ Subscribe ചെയ്യൂ!"
-  }
+  {"type": "hook", "title": "CIRCLE TO SEARCH", "sub": "ഇത് try ചെയ്തോ?", "icon": "⭕",
+   "photo": "a smartphone lying on a desk next to a pair of sneakers and a potted plant, soft daylight, screen dark",
+   "narration": "റീലിൽ കണ്ട ഷൂ എവിടെ കിട്ടും? ആപ്പ് മാറാതെ തന്നെ, സ്ക്രീനിൽ ഒരു വട്ടം വരച്ചാൽ മതി!"},
+  {"type": "steps", "title": "എങ്ങനെ?", "items": ["Home bar long press", "വേണ്ടതിൽ വട്ടം വരയ്ക്കൂ", "Google result കാണാം"],
+   "photo": "close-up of a smartphone held in a wooden phone stand on a desk, warm light, screen dark",
+   "narration": "ഹോം ബട്ടൺ, അല്ലെങ്കിൽ താഴത്തെ നാവിഗേഷൻ ബാർ, ലോങ്ങ് പ്രസ്സ് ചെയ്യൂ. വേണ്ട ഭാഗത്ത് വിരൽ കൊണ്ട് ഒരു വട്ടം വരച്ചാൽ ഗൂഗിൾ റിസൾട്ട് വരും."},
+  {"type": "bullets", "title": "TRANSLATE", "icon": "🌐", "items": ["Translate ബട്ടൺ tap", "Screen-ലെ text മാറും"],
+   "photo": "an open English newspaper and a smartphone on a cafe table with a cup of chai, morning light, screen dark",
+   "narration": "ട്രാൻസ്ലേറ്റ് ബട്ടൺ ടാപ്പ് ചെയ്താൽ സ്ക്രീനിലെ ഇംഗ്ലീഷ് വാക്കുകൾ നിങ്ങളുടെ ഭാഷയിലേക്ക് മാറ്റാം."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "📱", "items": ["എല്ലാ phones-ലും ഇല്ല", "Pixel, Samsung, ചിലത്", "Google login, 18+"],
+   "photo": "two different smartphones lying side by side on a light wooden table, soft shadows, screens dark",
+   "narration": "എല്ലാ ഫോണുകളിലും ഈ ഫീച്ചർ ഇല്ല. പിക്സൽ, സാംസങ് ഗാലക്സി, പിന്നെ ചില ഫോണുകളിൽ. ഇന്ത്യയിൽ ലഭ്യമാണ്, ഗൂഗിൾ അക്കൗണ്ട് വേണം."},
+  {"type": "bullets", "title": "TRY ചെയ്യൂ", "icon": "✅", "items": ["ഇപ്പോൾ തന്നെ long press", "Comment-ൽ പറയൂ"],
+   "photo": "a smartphone and wireless earbuds on a sofa armrest with a cushion, cosy evening light, screen dark",
+   "narration": "ഇപ്പോൾ തന്നെ ലോങ്ങ് പ്രസ്സ് ചെയ്ത് നോക്കൂ. നിങ്ങളുടെ ഫോണിൽ ഉണ്ടോ എന്ന് കമന്റിൽ പറയൂ."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
  ]
 }

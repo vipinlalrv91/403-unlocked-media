@@ -34,7 +34,9 @@
 - [x] android-digital-wellbeing | Hidden: Digital Wellbeing bedtime mode & app timers | verify Android help
 - [x] whatsapp-sound-stickers (owner request 25 Nov, trending)
 - [x] android-emergency-sos | Hidden: Emergency SOS, power button 5 times, 112 + location | done 26 Nov
-- [ ] circle-to-search | AI: Circle to Search, circle anything on screen to search / translate | verify Google help + India + supported phones
-- [ ] android-quick-share | Hidden: Quick Share, send big files phone-to-phone/laptop without internet | verify Android help
+- [x] circle-to-search | AI: Circle to Search, circle anything on screen to search / translate | verify Google help + India + supported phones
+- [x] android-quick-share | Hidden: Quick Share, send big files phone-to-phone/laptop without internet | verify Android help
 - [ ] android-live-caption | Hidden: Live Caption, subtitles for any video/call on the phone | verify Android help + language support
 - [ ] gemini-gmail-summary | AI: Gemini summarises long Gmail threads | verify Google help + India + free vs paid
+- [ ] google-photos-magic-editor | AI: Google Photos AI editing (Magic Editor / Magic Eraser) on Android | verify Google Photos help + India + free vs paid
+- [ ] android-theft-protection | Hidden: Android Theft Protection (Theft Detection Lock, Offline Device Lock) | verify Android help + supported versions

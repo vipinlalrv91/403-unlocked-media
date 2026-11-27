@@ -1,0 +1,224 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Aranya Kanda (public domain)",
+ "slug": "ramayanam-23",
+ "thumb_text": [
+  "രാമായണം",
+  "ശൂർപ്പണഖ വരുന്നു"
+ ],
+ "title": "രാമായണം 23 🌺 പഞ്ചവടിയിൽ ശൂർപ്പണഖ | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 23: രാവണന്റെ സഹോദരി ശൂർപ്പണഖ പഞ്ചവടിയിൽ എത്തുന്നു. രാമനെ കല്യാണം കഴിക്കണമെന്ന് വാശി പിടിക്കുന്നു. സീതയെ ഉപദ്രവിക്കാൻ ഓടിയടുത്തപ്പോൾ ലക്ഷ്മണൻ അവളെ തടഞ്ഞ് ശിക്ഷിക്കുന്നു. അവൾ കരഞ്ഞുകൊണ്ട് സഹോദരൻ ഖരന്റെ അടുത്തേക്ക് ഓടുന്നു 🌺\n\nRamayanam for kids in Malayalam, part 23: Shoorpanakha, Ravana's sister, comes to Panchavati and insists on marrying Rama. When she rushes at Sita, Lakshmana stops and punishes her, and she runs crying to her brother Khara.",
+ "tags": [
+  "ramayanam malayalam",
+  "shoorpanakha story",
+  "panchavati ramayana",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "ശൂർപ്പണഖ വരുന്നു",
+   "icon": "🌺",
+   "mood": "adventure",
+   "narration": "മക്കളേ, ഇന്ന് പഞ്ചവടിയിൽ ഒരു അപ്രതീക്ഷിത അതിഥി എത്തുന്നു!"
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "ഒരു അതിഥി",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "shoorpanakha",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശൂർപ്പണഖ",
+     "who": "shoorpanakha",
+     "enter": "left",
+     "t0": 0.4
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.72,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഒരു ദിവസം രാവിലെ, രാവണന്റെ സഹോദരി ശൂർപ്പണഖ എന്ന രാക്ഷസ രാജകുമാരി പഞ്ചവടിയിൽ എത്തി. അവൾ രാമനെ കണ്ടു."
+    },
+    {
+     "who": "shoorpanakha",
+     "text": "ഹേ സുന്ദരാ! ഞാൻ ശൂർപ്പണഖ. എന്നെ കല്യാണം കഴിക്കാമോ?"
+    },
+    {
+     "who": "rama",
+     "text": "എനിക്ക് ഭാര്യയുണ്ട്, സീത. ഞാൻ വേറെ കല്യാണം കഴിക്കില്ല."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "ശൂർപ്പണഖയുടെ വാശി",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "shoorpanakha",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശൂർപ്പണഖ",
+     "who": "shoorpanakha"
+    },
+    {
+     "img": "lakshmana_forest",
+     "x": 0.72,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ശൂർപ്പണഖ ലക്ഷ്മണന്റെ അടുത്തേക്ക് ചെന്നു. ലക്ഷ്മണനും അവളുടെ ആഗ്രഹം സ്നേഹത്തോടെ നിരസിച്ചു."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ഞാൻ ചേട്ടന്റെ സേവകനാണ്. എന്നെ കല്യാണം കഴിച്ചാൽ നീയും സേവിക്കേണ്ടി വരും!"
+    },
+    {
+     "who": "shoorpanakha",
+     "text": "ഹും! ഈ സീത കാരണമാണ് എനിക്ക് ഇത് കിട്ടാത്തത്!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "ലക്ഷ്മണൻ തടഞ്ഞു",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "shoorpanakha",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശൂർപ്പണഖ",
+     "who": "shoorpanakha",
+     "moves": [
+      {
+       "at": "L0+1.0",
+       "x": 0.45,
+       "dur": 0.8
+      },
+      {
+       "at": "L1+0.5",
+       "x": 0.2,
+       "dur": 0.8
+      }
+     ]
+    },
+    {
+     "img": "lakshmana_forest",
+     "x": 0.62,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.85,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ദേഷ്യം വന്ന ശൂർപ്പണഖ സീതയെ ഉപദ്രവിക്കാൻ ഓടിയടുത്തു. പക്ഷേ ലക്ഷ്മണൻ ഒരു മിന്നൽ പോലെ മുന്നിൽ ചാടി അവളെ തടഞ്ഞ് ശിക്ഷിച്ചു."
+    },
+    {
+     "who": "sita",
+     "text": "ലക്ഷ്മണാ, നീ ഉള്ളപ്പോൾ എനിക്ക് പേടിയില്ല."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "night_forest",
+   "caption": "ഖരന്റെ അടുത്തേക്ക്",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "shoorpanakha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശൂർപ്പണഖ",
+     "who": "shoorpanakha"
+    },
+    {
+     "img": "khara",
+     "x": 0.72,
+     "y": 0.8,
+     "h": 640,
+     "label": "ഖരൻ",
+     "who": "khara"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ശൂർപ്പണഖ കരഞ്ഞുകൊണ്ട് കാട്ടിലെ തന്റെ സഹോദരൻ ഖരന്റെ അടുത്തേക്ക് ഓടി."
+    },
+    {
+     "who": "shoorpanakha",
+     "text": "ചേട്ടാ, പഞ്ചവടിയിലെ ആ രണ്ട് മനുഷ്യർ എന്നെ ഓടിച്ചു വിട്ടു!"
+    },
+    {
+     "who": "khara",
+     "text": "എന്റെ അനിയത്തിയെ വിഷമിപ്പിച്ചവരെ ഞാൻ വെറുതെ വിടില്ല!"
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "വാശിയും ദേഷ്യവും",
+    "ഒരിക്കലും",
+    "നല്ലതല്ല"
+   ],
+   "icon": "🙏",
+   "mood": "calm",
+   "narration": "മക്കളേ, ഇല്ല എന്ന് പറയുന്നത് നമ്മൾ ബഹുമാനിക്കണം. വാശിയും ദേഷ്യവും ഒരിക്കലും നല്ലതിലേക്ക് നയിക്കില്ല."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, രാമന്റെ ധൈര്യം കാണാം! കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

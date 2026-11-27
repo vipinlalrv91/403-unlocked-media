@@ -1,0 +1,200 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Aranya Kanda (public domain)",
+ "slug": "ramayanam-24",
+ "thumb_text": [
+  "രാമായണം",
+  "രാമന്റെ ധൈര്യം"
+ ],
+ "title": "രാമായണം 24 🏹 ഖരനും ദൂഷണനും: രാമന്റെ ധൈര്യം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 24: ഖരനും ദൂഷണനും വലിയ രാക്ഷസ സൈന്യവുമായി പഞ്ചവടിയിലേക്ക് വരുന്നു. സീതയെ സുരക്ഷിതയാക്കാൻ ലക്ഷ്മണൻ അവളെ ഒരു ഗുഹയിലേക്ക് കൊണ്ടുപോകുന്നു. രാമൻ ഒറ്റയ്ക്ക് ധൈര്യത്തോടെ നിന്ന് ആ സൈന്യത്തെ തോൽപ്പിക്കുന്നു. ശൂർപ്പണഖ രാവണന്റെ അടുത്തേക്ക് പോകുന്നു 🏹\n\nRamayanam for kids in Malayalam, part 24: Khara and Dushana come to Panchavati with a big army. Lakshmana takes Sita to a safe cave while Rama bravely stands alone and defeats the army. Shoorpanakha flies off to Ravana.",
+ "tags": [
+  "ramayanam malayalam",
+  "khara dushana ramayana",
+  "rama bravery story",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "രാമന്റെ ധൈര്യം",
+   "icon": "🏹",
+   "mood": "adventure",
+   "narration": "മക്കളേ, ഇന്ന് രാമൻ ഒറ്റയ്ക്ക് ഒരു വലിയ സൈന്യത്തെ നേരിട്ട ധൈര്യത്തിന്റെ കഥയാണ്."
+  },
+  {
+   "type": "story",
+   "bgimg": "night_forest",
+   "caption": "ഖരന്റെ സൈന്യം",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "khara",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 640,
+     "label": "ഖരൻ",
+     "who": "khara",
+     "enter": "left",
+     "t0": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ശൂർപ്പണഖയുടെ വാക്ക് കേട്ട്, ഖരനും സഹോദരൻ ദൂഷണനും ആയിരക്കണക്കിന് രാക്ഷസന്മാരുമായി പഞ്ചവടിയിലേക്ക് പുറപ്പെട്ടു. ഇടിമുഴക്കം പോലെ അവരുടെ ശബ്ദം കാട്ടിൽ മുഴങ്ങി."
+    },
+    {
+     "who": "khara",
+     "text": "മുന്നോട്ട്! ആ രണ്ട് മനുഷ്യരെ ഇന്ന് തന്നെ തോൽപ്പിക്കണം!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "സീതയെ സുരക്ഷിതയാക്കി",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "lakshmana_forest",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.78,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "rama",
+     "text": "ലക്ഷ്മണാ, സീതയെയും കൂട്ടി അടുത്തുള്ള ഗുഹയിലേക്ക് പോകൂ. ഇവരെ ഞാൻ നോക്കിക്കൊള്ളാം."
+    },
+    {
+     "who": "lakshmana",
+     "text": "ശരി ചേട്ടാ. സീതാദേവി എന്റെ കൂടെ സുരക്ഷിതയായിരിക്കും."
+    },
+    {
+     "who": "narrator",
+     "text": "ലക്ഷ്മണൻ സീതയെയും കൂട്ടി ഗുഹയിലേക്ക് പോയി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "രാമൻ ഒറ്റയ്ക്ക്",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ ഒറ്റയ്ക്ക് വില്ലുമായി നിന്നു. അഗസ്ത്യ മഹർഷി നൽകിയ ദിവ്യ വില്ലിൽ നിന്ന് അമ്പുകൾ വെളിച്ചം പോലെ പാഞ്ഞു. കുറച്ചു സമയത്തിനുള്ളിൽ ആ വലിയ സൈന്യം മുഴുവൻ തോറ്റു, ഖരനും ദൂഷണനും വീണു."
+    },
+    {
+     "who": "rama",
+     "text": "നല്ലവരെ ഉപദ്രവിക്കുന്നവർക്ക് ഇതാണ് ഫലം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "എല്ലാവരും സന്തോഷിച്ചു",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "lakshmana_forest",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana",
+     "enter": "left",
+     "t0": 0.0
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.78,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita",
+     "enter": "right",
+     "t0": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "sita",
+     "text": "രാമാ, അങ്ങ് സുരക്ഷിതനാണല്ലോ! എനിക്ക് എന്ത് സന്തോഷമായി!"
+    },
+    {
+     "who": "narrator",
+     "text": "മഹർഷിമാർ സന്തോഷിച്ചു. പക്ഷേ ശൂർപ്പണഖ ദൂരെ ലങ്കയിലേക്ക്, സഹോദരൻ രാവണന്റെ അടുത്തേക്ക് പോയി."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "ധൈര്യം എന്നാൽ",
+    "നല്ലതിനായി",
+    "ഉറച്ചു നിൽക്കൽ"
+   ],
+   "icon": "🏹",
+   "mood": "devotional",
+   "narration": "മക്കളേ, ധൈര്യം എന്നാൽ പേടിയില്ലാത്തതല്ല. നല്ലതിനു വേണ്ടി, മറ്റുള്ളവരെ സംരക്ഷിക്കാൻ ഉറച്ചു നിൽക്കുന്നതാണ്."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, രാവണന്റെ കുതന്ത്രം! കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

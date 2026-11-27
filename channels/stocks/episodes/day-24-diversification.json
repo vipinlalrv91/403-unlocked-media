@@ -1,0 +1,87 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-24",
+ "series": {
+  "day": 24,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "A: ഒരു share-ന്റെ നഷ്ടം",
+ "thumb_text": [
+  "DIVERSIFY 🧺",
+  "എല്ലാ മുട്ടയും ഒരു കൊട്ടയിൽ?"
+ ],
+ "title": "എല്ലാ മുട്ടയും ഒരു കൊട്ടയിൽ വേണ്ട! 🧺 Diversification | Day 24 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 24! Diversification = പണം പല കമ്പനികളിലും, പല sectors-ലും, പല asset types-ലും (equity, debt, gold) വിഭജിക്കുന്നത്. ഒരു കമ്പനിക്ക് മാത്രം വരുന്ന നഷ്ടം portfolio മുഴുവൻ ബാധിക്കില്ല. പക്ഷേ market മുഴുവൻ താഴുമ്പോൾ ഉള്ള risk diversification കൊണ്ട് മാറില്ല.\n\nDiversification: spreading money across companies, sectors and asset types reduces company-specific risk, but not market-wide risk.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #diversification #assetallocation #investing #malayalam #personalfinance #thestoicbull",
+ "tags": [
+  "diversification malayalam",
+  "asset allocation malayalam",
+  "stock market for beginners malayalam",
+  "portfolio risk malayalam",
+  "personal finance malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://www.nism.ac.in/investor-education/understanding-investment-risks-and-returns",
+  "https://www.nism.ac.in/investor-education/how-to-manage-investment-risks"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "DIVERSIFY 🧺",
+   "sub": "Yesterday: B · കൂടുതൽ risk",
+   "icon": "🧺",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, കൂടുതൽ റിസ്ക്! ഡേ ഇരുപത്തിനാല്. എല്ലാ മുട്ടയും ഒരു കൊട്ടയിൽ വെച്ചാൽ എന്ത് പറ്റും?"
+  },
+  {
+   "type": "bullets",
+   "title": "ഒരു കൊട്ട",
+   "icon": "🥚",
+   "items": [
+    "എല്ലാം ഒരു share-ൽ",
+    "അത് വീണാൽ?",
+    "എല്ലാം പോകും"
+   ],
+   "narration": "എല്ലാ പണവും ഒരു കമ്പനിയുടെ ഷെയറിൽ ഇട്ടാൽ, ആ കമ്പനിക്ക് മാത്രം ഒരു പ്രശ്നം വന്നാൽ, മുഴുവൻ പണത്തെയും അത് ബാധിക്കും."
+  },
+  {
+   "type": "bullets",
+   "title": "DIVERSIFICATION",
+   "icon": "🧺",
+   "items": [
+    "പല കമ്പനികൾ",
+    "പല sectors",
+    "Equity, debt, gold"
+   ],
+   "narration": "അതുകൊണ്ട് പണം പല കമ്പനികളിലും, പല സെക്ടറുകളിലും, ഇക്വിറ്റി, ഡെറ്റ്, ഗോൾഡ് പോലുള്ള പല തരങ്ങളിലും വിഭജിക്കുന്നതാണ് ഡൈവേഴ്സിഫിക്കേഷൻ."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "ഒരു കമ്പനി risk കുറയും",
+    "Market risk മാറില്ല"
+   ],
+   "narration": "ഒരു കമ്പനിക്ക് മാത്രം വരുന്ന റിസ്ക് ഇത് കുറയ്ക്കും. പക്ഷേ മാർക്കറ്റ് മുഴുവൻ താഴുമ്പോൾ ഉള്ള റിസ്ക് ഡൈവേഴ്സിഫിക്കേഷൻ കൊണ്ട് മാറില്ല."
+  },
+  {
+   "type": "quiz",
+   "question": "Diversification കുറയ്ക്കുന്നത്?",
+   "options": [
+    "ഒരു share-ന്റെ നഷ്ടം",
+    "Market മുഴുവൻ വീഴ്ച"
+   ],
+   "narration": "ക്വിസ്! ഡൈവേഴ്സിഫിക്കേഷൻ പ്രധാനമായി കുറയ്ക്കുന്നത് എന്ത്? എ, ഒരു ഷെയറിന്റെ നഷ്ടം. ബി, മാർക്കറ്റ് മുഴുവൻ വീഴ്ച. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}
