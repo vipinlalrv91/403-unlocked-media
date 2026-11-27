@@ -25,8 +25,8 @@ Each episode ends with a quiz; the next episode's hook shows yesterday's answer.
 - [x] 20 What is SIP? Why regular investing helps
 - [x] 21 Index fund vs active fund
 - [x] 22 What is an ETF?
-- [ ] 23 Risk vs return: why higher return means higher risk
-- [ ] 24 Diversification: don't put all eggs in one basket
+- [x] 23 Risk vs return: why higher return means higher risk
+- [x] 24 Diversification: don't put all eggs in one basket
 - [ ] 25 MYTH vs FACT: "Tips from WhatsApp groups make money"
 - [ ] 26 Emergency fund before investing
 - [ ] 27 Dividends explained
