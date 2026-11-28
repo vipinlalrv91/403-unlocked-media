@@ -1,22 +1,3 @@
 {
- "shoorpanakha": null,
- "khara": {
-  "eyes": [
-   [
-    313,
-    136
-   ],
-   [
-    581,
-    130
-   ]
-  ],
-  "eye_w": 120,
-  "eye_h": 62,
-  "mouth": [
-   450,
-   254
-  ],
-  "mouth_w": 112
- }
+ "maricha": null
 }

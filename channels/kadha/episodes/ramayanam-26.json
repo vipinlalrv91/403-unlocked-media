@@ -1,0 +1,209 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Aranya Kanda (public domain)",
+ "slug": "ramayanam-26",
+ "thumb_text": [
+  "രാമായണം",
+  "സ്വർണ്ണമാൻ"
+ ],
+ "title": "രാമായണം 26 🦌 മാരീചനും സ്വർണ്ണമാനും | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 26: മാരീചൻ ഒരു മനോഹരമായ സ്വർണ്ണമാനായി പഞ്ചവടിയിൽ എത്തുന്നു. സീതയ്ക്ക് ആ മാനിനെ വേണം. രാമൻ മാനിന് പിന്നാലെ പോകുന്നു. അമ്പേറ്റപ്പോൾ മാരീചൻ രാമന്റെ ശബ്ദത്തിൽ 'ഹാ സീതേ, ഹാ ലക്ഷ്മണാ' എന്ന് വിളിക്കുന്നു 🦌\n\nRamayanam for kids in Malayalam, part 26: Maricha comes to Panchavati as a beautiful golden deer. Sita wants it, Rama follows it into the forest, and Maricha cries out in Rama's voice.",
+ "tags": [
+  "ramayanam malayalam",
+  "golden deer ramayana",
+  "maricha golden deer",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "സ്വർണ്ണമാൻ",
+   "icon": "🦌",
+   "mood": "adventure",
+   "narration": "മക്കളേ, ഇന്ന് പഞ്ചവടിയിൽ ഒരു അത്ഭുത സ്വർണ്ണമാൻ എത്തുന്നു. പക്ഷേ അത് ശരിക്കും ഒരു മാനാണോ?"
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "ഒരു സ്വർണ്ണമാൻ!",
+   "mood": "happy",
+   "chars": [
+    {
+     "img": "golden_deer",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 620,
+     "label": "സ്വർണ്ണമാൻ",
+     "enter": "left",
+     "t0": 0.4
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.75,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ഒരു ദിവസം രാവിലെ, പൂക്കൾ പറിക്കുമ്പോൾ സീത ഒരു മാനിനെ കണ്ടു. സ്വർണ്ണ നിറം, വെള്ളി പുള്ളികൾ, രത്നം പോലെ തിളങ്ങുന്ന കൊമ്പുകൾ!"
+    },
+    {
+     "who": "sita",
+     "text": "രാമാ, ഇത് നോക്കൂ! എത്ര മനോഹരമായ മാൻ! എനിക്ക് അതിനെ വേണം."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "panchavati",
+   "caption": "ലക്ഷ്മണന്റെ സംശയം",
+   "mood": "calm",
+   "chars": [
+    {
+     "img": "lakshmana_forest",
+     "x": 0.22,
+     "y": 0.8,
+     "h": 740,
+     "label": "ലക്ഷ്മണൻ",
+     "who": "lakshmana"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    },
+    {
+     "img": "sita_forest",
+     "x": 0.78,
+     "y": 0.8,
+     "h": 700,
+     "label": "സീത",
+     "who": "sita"
+    }
+   ],
+   "lines": [
+    {
+     "who": "lakshmana",
+     "text": "ചേട്ടാ, ഇങ്ങനെ ഒരു മാൻ ലോകത്തില്ല. ഇത് മാരീചന്റെ മായയാണെന്ന് എനിക്ക് തോന്നുന്നു."
+    },
+    {
+     "who": "rama",
+     "text": "ആകാം ലക്ഷ്മണാ. ഞാൻ പോയി നോക്കാം. നീ സീതയെ ഒരു നിമിഷം പോലും വിട്ടുപോകരുത്."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "മാനിന് പിന്നാലെ",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "golden_deer",
+     "x": 0.25,
+     "y": 0.8,
+     "h": 620,
+     "label": "സ്വർണ്ണമാൻ",
+     "moves": [
+      {
+       "at": "L0+1.0",
+       "x": 0.12,
+       "dur": 1.5
+      }
+     ]
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.65,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാമൻ മാനിന് പിന്നാലെ കാട്ടിലേക്ക് പോയി. മാൻ ഓടി, ഒളിച്ചു, വീണ്ടും പ്രത്യക്ഷപ്പെട്ടു. രാമനെ അത് ദൂരേക്ക് ദൂരേക്ക് കൊണ്ടുപോയി."
+    },
+    {
+     "who": "narrator",
+     "text": "ഒടുവിൽ രാമൻ ഒരു അമ്പ് തൊടുത്തു. അമ്പേറ്റപ്പോൾ മാൻ മാരീചനായി മാറി."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "forest",
+   "caption": "ഒരു കള്ളവിളി",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "maricha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 680,
+     "label": "മാരീചൻ",
+     "who": "maricha"
+    },
+    {
+     "img": "rama_forest",
+     "x": 0.68,
+     "y": 0.8,
+     "h": 780,
+     "label": "ശ്രീരാമൻ",
+     "who": "rama"
+    }
+   ],
+   "lines": [
+    {
+     "who": "maricha",
+     "text": "ഹാ സീതേ! ഹാ ലക്ഷ്മണാ!"
+    },
+    {
+     "who": "narrator",
+     "text": "വീഴുമ്പോൾ മാരീചൻ രാമന്റെ അതേ ശബ്ദത്തിൽ ഉറക്കെ വിളിച്ചു. ആ വിളി ദൂരെ പഞ്ചവടി വരെ കേട്ടു."
+    },
+    {
+     "who": "rama",
+     "text": "ഇതൊരു ചതിയാണ്! സീത സുരക്ഷിതയാണോ? വേഗം തിരിച്ചു പോകണം!"
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "കാണുന്നതെല്ലാം",
+    "സത്യമാകണമെന്നില്ല",
+    "ശ്രദ്ധ വേണം"
+   ],
+   "icon": "🦌",
+   "mood": "calm",
+   "narration": "മക്കളേ, കാണാൻ ഭംഗിയുള്ളതെല്ലാം നല്ലതാകണമെന്നില്ല. ആഗ്രഹം തോന്നുമ്പോഴും ശ്രദ്ധിച്ച് ആലോചിക്കണം."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, ലക്ഷ്മണരേഖ! കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

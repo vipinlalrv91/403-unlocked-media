@@ -38,5 +38,8 @@
 - [x] android-quick-share | Hidden: Quick Share, send big files phone-to-phone/laptop without internet | verify Android help
 - [ ] android-live-caption | Hidden: Live Caption, subtitles for any video/call on the phone | verify Android help + language support
 - [ ] gemini-gmail-summary | AI: Gemini summarises long Gmail threads | verify Google help + India + free vs paid
-- [ ] google-photos-magic-editor | AI: Google Photos AI editing (Magic Editor / Magic Eraser) on Android | verify Google Photos help + India + free vs paid
-- [ ] android-theft-protection | Hidden: Android Theft Protection (Theft Detection Lock, Offline Device Lock) | verify Android help + supported versions
+- [x] google-photos-magic-editor | AI: Google Photos AI editing (Magic Editor / Magic Eraser) on Android | verify Google Photos help + India + free vs paid
+- [x] android-theft-protection | Hidden: Android Theft Protection (Theft Detection Lock, Offline Device Lock) | verify Android help + supported versions
+- [ ] gemini-app-malayalam | AI: Gemini app on Android: ask in Malayalam (text/voice), image questions | verify Gemini help + Malayalam support + free tier
+- [ ] android-app-pinning-guest | Hidden: Guest mode / multiple users when lending your phone | verify Android help + which brands
+- [ ] whatsapp-view-once-voice | Hidden: WhatsApp view-once voice messages / photos | verify WhatsApp FAQ

@@ -1,0 +1,192 @@
+{
+ "theme": "kids",
+ "brand": "KADHA PETTI",
+ "tagline": "കുട്ടികളുടെ രാമായണം",
+ "madeForKids": true,
+ "music": "indian",
+ "voice_id": "n4fEDQwxuAjplyp0aJy4",
+ "cinematic": true,
+ "remotion": true,
+ "hashtags": "#shorts #ramayanam #ramayana #malayalamstories #kidsstories #sreerama #kadhapetti",
+ "source_note": "Retold from Valmiki Ramayana, Aranya Kanda (public domain)",
+ "slug": "ramayanam-25",
+ "thumb_text": [
+  "രാമായണം",
+  "രാവണന്റെ കുതന്ത്രം"
+ ],
+ "title": "രാമായണം 25 👑 ലങ്കയിൽ രാവണന്റെ കുതന്ത്രം | Ramayanam for Kids Malayalam #shorts",
+ "caption": "കുട്ടികളുടെ രാമായണം, ഭാഗം 25: ശൂർപ്പണഖ ലങ്കയിൽ ചെന്ന് രാവണനോട് പഞ്ചവടിയിലെ കാര്യങ്ങൾ പറയുന്നു. സീതയെ തട്ടിക്കൊണ്ടുപോകാൻ രാവണൻ ഒരു കുതന്ത്രം ഒരുക്കുന്നു. മാരീചൻ ഉപദേശിച്ചിട്ടും രാവണൻ കേൾക്കുന്നില്ല 👑\n\nRamayanam for kids in Malayalam, part 25: Shoorpanakha goes to Lanka and tells Ravana about Panchavati. Ravana plans a trick to take Sita away, and will not listen to Maricha's warning.",
+ "tags": [
+  "ramayanam malayalam",
+  "ravana maricha story",
+  "ravana plan sita",
+  "ramayana for kids malayalam",
+  "malayalam kids stories",
+  "kadhapetti"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "രാമായണം",
+   "sub": "രാവണന്റെ കുതന്ത്രം",
+   "icon": "👑",
+   "mood": "adventure",
+   "narration": "മക്കളേ, ഇന്ന് ദൂരെ ലങ്കയിൽ ഒരു വലിയ കുതന്ത്രം ഒരുങ്ങുന്നു."
+  },
+  {
+   "type": "story",
+   "bgimg": "lanka",
+   "caption": "ലങ്കയിൽ ശൂർപ്പണഖ",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "shoorpanakha",
+     "x": 0.28,
+     "y": 0.8,
+     "h": 760,
+     "label": "ശൂർപ്പണഖ",
+     "who": "shoorpanakha",
+     "enter": "left",
+     "t0": 0.3
+    },
+    {
+     "img": "ravana",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 700,
+     "label": "രാവണൻ",
+     "who": "ravana"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "ശൂർപ്പണഖ കടൽ കടന്ന് സ്വർണ്ണ നഗരമായ ലങ്കയിൽ എത്തി. പത്ത് തലയുള്ള രാക്ഷസ രാജാവ് രാവണന്റെ മുന്നിൽ അവൾ കരഞ്ഞു."
+    },
+    {
+     "who": "shoorpanakha",
+     "text": "ചേട്ടാ, പഞ്ചവടിയിൽ രാമൻ എന്ന ഒരാൾ ഖരനെയും സൈന്യത്തെയും ഒറ്റയ്ക്ക് തോൽപ്പിച്ചു! അവന്റെ കൂടെ സീത എന്ന സുന്ദരിയായ ഭാര്യയുമുണ്ട്."
+    },
+    {
+     "who": "ravana",
+     "text": "എന്റെ സഹോദരങ്ങളെ തോൽപ്പിച്ചോ? അവന് ഞാൻ ഒരു പാഠം പഠിപ്പിക്കും!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "lanka",
+   "caption": "രാവണന്റെ ആലോചന",
+   "mood": "adventure",
+   "chars": [
+    {
+     "img": "ravana",
+     "x": 0.5,
+     "y": 0.8,
+     "h": 700,
+     "label": "രാവണൻ",
+     "who": "ravana"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാവണൻ ആലോചിച്ചു. രാമനോട് നേരിട്ട് യുദ്ധം ചെയ്യുന്നതിന് പകരം, ഒരു കുതന്ത്രം കൊണ്ട് സീതയെ കൊണ്ടുപോകാം എന്ന് അവൻ തീരുമാനിച്ചു."
+    },
+    {
+     "who": "ravana",
+     "text": "മാരീചന്റെ സഹായം വേണം. അവന് ഏത് രൂപവും എടുക്കാൻ കഴിയുമല്ലോ!"
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "മാരീചന്റെ ഉപദേശം",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "maricha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 680,
+     "label": "മാരീചൻ",
+     "who": "maricha"
+    },
+    {
+     "img": "ravana",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 700,
+     "label": "രാവണൻ",
+     "who": "ravana"
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "രാവണൻ മാരീചന്റെ ആശ്രമത്തിൽ ചെന്നു. പണ്ട് വിശ്വാമിത്രന്റെ യാഗം മുടക്കാൻ വന്നപ്പോൾ, രാമന്റെ അമ്പേറ്റ് കടൽ വരെ പറന്നുപോയ ആളാണ് മാരീചൻ."
+    },
+    {
+     "who": "maricha",
+     "text": "രാവണാ, രാമനോട് കളിക്കരുത്! അവൻ ധർമ്മത്തിന്റെ രൂപമാണ്. ഈ ആഗ്രഹം ഉപേക്ഷിക്കൂ."
+    },
+    {
+     "who": "ravana",
+     "text": "എന്നെ ഉപദേശിക്കേണ്ട! ഞാൻ പറയുന്നത് നീ ചെയ്തേ പറ്റൂ."
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "bgimg": "ashram",
+   "caption": "മനസ്സില്ലാമനസ്സോടെ",
+   "mood": "sad",
+   "chars": [
+    {
+     "img": "maricha",
+     "x": 0.3,
+     "y": 0.8,
+     "h": 680,
+     "label": "മാരീചൻ",
+     "who": "maricha"
+    },
+    {
+     "img": "ravana",
+     "x": 0.7,
+     "y": 0.8,
+     "h": 700,
+     "label": "രാവണൻ",
+     "who": "ravana"
+    }
+   ],
+   "lines": [
+    {
+     "who": "maricha",
+     "text": "ശരി, ഞാൻ വരാം. പക്ഷേ ഇത് നിനക്കും എനിക്കും നല്ലതിനാവില്ല."
+    },
+    {
+     "who": "narrator",
+     "text": "അങ്ങനെ മനസ്സില്ലാമനസ്സോടെ മാരീചൻ രാവണന്റെ കൂടെ പഞ്ചവടിയിലേക്ക് പുറപ്പെട്ടു."
+    }
+   ]
+  },
+  {
+   "type": "moral",
+   "heading": "ഗുണപാഠം",
+   "lines": [
+    "നല്ല ഉപദേശം",
+    "കേൾക്കാത്തവർക്ക്",
+    "ദുഃഖം വരും"
+   ],
+   "icon": "🙏",
+   "mood": "calm",
+   "narration": "മക്കളേ, മുതിർന്നവർ നല്ല ഉപദേശം തരുമ്പോൾ കേൾക്കണം. ദേഷ്യവും അഹങ്കാരവും കൊണ്ട് കേൾക്കാതിരുന്നാൽ ദുഃഖം വരും."
+  },
+  {
+   "type": "cta",
+   "mood": "calm",
+   "narration": "അടുത്ത ഭാഗത്തിൽ, ഒരു മനോഹരമായ സ്വർണ്ണമാൻ! കാണാൻ കഥപ്പെട്ടി സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

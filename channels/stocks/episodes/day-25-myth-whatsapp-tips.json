@@ -1,0 +1,87 @@
+{
+ "theme": "stocks",
+ "brand": "THE STOIC BULL",
+ "tagline": "ZERO TO HERO · STOCK MARKET MALAYALAM",
+ "disclaimer": "Educational only · Not investment advice",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "slug": "stocks-day-25",
+ "series": {
+  "day": 25,
+  "total": 64,
+  "name": "ZERO TO HERO"
+ },
+ "quiz_answer": "B: SEBI website-ൽ",
+ "thumb_text": [
+  "WHATSAPP TIPS? 🚫",
+  "MYTH vs FACT"
+ ],
+ "title": "WhatsApp Group-ലെ Stock Tips കൊണ്ട് പണക്കാരനാകുമോ? 🚫 MYTH vs FACT | Day 25 #shorts",
+ "caption": "The Stoic Bull | Stock Market Zero to Hero, Day 25! MYTH: WhatsApp/Telegram groups-ലെ 'sure shot' tips കൊണ്ട് പെട്ടെന്ന് പണക്കാരനാകാം. FACT: Invitation-only WhatsApp groups-ലെ tips-നെ കുറിച്ച് SEBI പലതവണ മുന്നറിയിപ്പ് നൽകിയിട്ടുണ്ട്. പലതും ഒരു share-ന്റെ വില കൃത്രിമമായി കൂട്ടി വിറ്റൊഴിയുന്ന 'pump and dump' തട്ടിപ്പുകളാണ്. Advice തരുന്നയാൾ SEBI-registered ആണോ എന്ന് SEBI website-ൽ registration number നോക്കി ഉറപ്പാക്കൂ.\n\nMyth vs fact: tips from WhatsApp/Telegram groups do not make you rich; SEBI has repeatedly warned about such groups and pump-and-dump schemes. Verify any adviser's SEBI registration on SEBI's website.\n\n⚠️ Educational content only. Not investment advice. We are not SEBI-registered advisers.",
+ "hashtags": "#shorts #stockmarket #scamalert #sebi #investing #malayalam #thestoicbull",
+ "tags": [
+  "whatsapp stock tips scam malayalam",
+  "sebi warning whatsapp groups",
+  "pump and dump malayalam",
+  "stock market scam malayalam",
+  "stock market for beginners malayalam",
+  "the stoic bull"
+ ],
+ "sources": [
+  "https://investor.sebi.gov.in/pdf/Pump%20and%20Dump%20Scam%20final.pdf",
+  "https://www.sebi.gov.in/media/press-releases/dec-2016/sebi-cautions-public-on-unsolicited-calls-sms_33802.html"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "title": "WHATSAPP TIPS? 🚫",
+   "sub": "Yesterday: A · ഒരു share-ന്റെ നഷ്ടം",
+   "icon": "🚫",
+   "narration": "ഇന്നലത്തെ ഉത്തരം, ഒരു ഷെയറിന്റെ നഷ്ടം! ഡേ ഇരുപത്തിയഞ്ച്. വാട്സ്ആപ്പ് ഗ്രൂപ്പിലെ ടിപ്സ് കൊണ്ട് പണക്കാരനാകുമോ?"
+  },
+  {
+   "type": "compare",
+   "title": "MYTH vs FACT",
+   "left": [
+    "MYTH: Sure shot tip = ലാഭം"
+   ],
+   "right": [
+    "FACT: പലതും തട്ടിപ്പ്"
+   ],
+   "narration": "മിത്ത്, ഷുവർ ഷോട്ട് ടിപ്പ് കിട്ടിയാൽ ലാഭം ഉറപ്പ്. ഫാക്ട്, ഇത്തരം ഇൻവിറ്റേഷൻ മാത്രമുള്ള ഗ്രൂപ്പുകളെ കുറിച്ച് സെബി പലതവണ മുന്നറിയിപ്പ് നൽകിയിട്ടുണ്ട്."
+  },
+  {
+   "type": "steps",
+   "title": "PUMP & DUMP",
+   "items": [
+    "Group-ൽ ഒരു share hype",
+    "എല്ലാവരും വാങ്ങുന്നു, വില കൂടും",
+    "അവർ വിൽക്കും, വില വീഴും"
+   ],
+   "narration": "പമ്പ് ആൻഡ് ഡംപ്. അവർ ഒരു ഷെയറിനെ കുറിച്ച് ഹൈപ്പ് ഉണ്ടാക്കും. എല്ലാവരും വാങ്ങുമ്പോൾ വില കൂടും. അപ്പോൾ അവർ വിറ്റൊഴിയും, വില വീഴും, നഷ്ടം നമുക്ക്."
+  },
+  {
+   "type": "bullets",
+   "title": "STOIC TIP",
+   "icon": "🧘",
+   "items": [
+    "SEBI registration ചോദിക്കൂ",
+    "SEBI website-ൽ check",
+    "Guaranteed profit = red flag"
+   ],
+   "narration": "ഉപദേശം തരുന്നയാളോട് സെബി രജിസ്ട്രേഷൻ നമ്പർ ചോദിക്കൂ, സെബി വെബ്സൈറ്റിൽ ചെക്ക് ചെയ്യൂ. ഉറപ്പായ ലാഭം എന്ന് കേട്ടാൽ അത് റെഡ് ഫ്ലാഗ് ആണ്."
+  },
+  {
+   "type": "quiz",
+   "question": "Adviser-ന്റെ registration എവിടെ check ചെയ്യും?",
+   "options": [
+    "WhatsApp group-ൽ",
+    "SEBI website-ൽ"
+   ],
+   "narration": "ക്വിസ്! ഒരു അഡ്വൈസർ സെബി രജിസ്റ്റേർഡ് ആണോ എന്ന് എവിടെ ചെക്ക് ചെയ്യും? എ, വാട്സ്ആപ്പ് ഗ്രൂപ്പിൽ. ബി, സെബി വെബ്സൈറ്റിൽ. കമന്റ് ചെയ്യൂ!"
+  },
+  {
+   "type": "cta",
+   "narration": "സീറോ ടു ഹീറോ സീരീസ് മിസ്സ് ചെയ്യാതിരിക്കാൻ ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"
+  }
+ ]
+}

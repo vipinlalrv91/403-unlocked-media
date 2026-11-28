@@ -1,0 +1,29 @@
+{
+ "slug": "google-photos-magic-eraser",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["PHOTO-ൽ നിന്ന് മായ്ക്കാം", "Free AI ✨ Magic Eraser"],
+ "title": "Photo-യിൽ വേണ്ടാത്തത് AI മായ്ക്കും! ✨ Google Photos Magic Eraser #shorts",
+ "caption": "Beach photo-യിൽ പിന്നിൽ ഒരു കുപ്പി, ഒരു wire, ഒരു ചവറ്റുകുട്ട... ഇനി Google Photos-ലെ Magic Eraser കൊണ്ട് ഒറ്റ tap-ൽ മായ്ക്കാം. Photo തുറക്കൂ → Edit → Tools → Magic Eraser → വേണ്ടതിൽ വരയ്ക്കൂ / tap ചെയ്യൂ → Done → Save copy. 2024 മുതൽ എല്ലാ users-നും free (Android 8+ & കുറഞ്ഞത് 3-4 GB RAM ഉള്ള phones). Magic Editor-ന് ചില phones-ൽ save limit ഉണ്ടാകാം. Original photo മാറാതിരിക്കാൻ 'Save copy' ഉപയോഗിക്കൂ.\n\nGoogle Photos Magic Eraser: Edit → Tools → Magic Eraser, brush or tap what you want removed, then Save copy. Free for all users since 2024 on supported phones (Android 8+, enough RAM); Magic Editor may have save limits on some phones.",
+ "hashtags": "#shorts #googlephotos #magiceraser #aitools #photoediting #techmalayalam #403unlocked",
+ "tags": ["google photos magic eraser malayalam", "magic editor malayalam", "ai photo editing malayalam", "remove object from photo", "ai tools malayalam", "403 unlocked"],
+ "sources": ["https://blog.google/products-and-platforms/products/photos/google-ai-photo-editing-features-tips/", "https://9to5google.com/2024/04/10/google-photos-magic-editor-free/"],
+ "scenes": [
+  {"type": "hook", "title": "PHOTO-ൽ നിന്ന് മായ്ക്കാം", "sub": "Free AI tool", "icon": "✨",
+   "photo": "a sunny Kerala beach with coconut palms and an empty plastic bottle lying on the sand in the foreground, no people, bright daylight",
+   "narration": "നല്ല ഫോട്ടോയുടെ പിന്നിൽ ഒരു കുപ്പിയോ, ഒരു വയറോ? ഒറ്റ ടാപ്പിൽ എ ഐ അത് മായ്ച്ചു കളയും!"},
+  {"type": "steps", "title": "എങ്ങനെ?", "items": ["Google Photos → Edit", "Tools → Magic Eraser", "വേണ്ടതിൽ tap / വരയ്ക്കൂ"],
+   "photo": "a smartphone lying on a wooden table next to printed landscape photos and a cup of tea, warm light, screen dark",
+   "narration": "ഗൂഗിൾ ഫോട്ടോസിൽ ഫോട്ടോ തുറന്ന് എഡിറ്റ്, പിന്നെ ടൂൾസിൽ മാജിക് ഇറേസർ. മായ്ക്കേണ്ട സാധനത്തിൽ ടാപ്പ് ചെയ്യൂ, അല്ലെങ്കിൽ വിരൽ കൊണ്ട് വരയ്ക്കൂ."},
+  {"type": "bullets", "title": "SAVE COPY", "icon": "💾", "items": ["Done → Save copy", "Original photo safe"],
+   "photo": "two printed photos side by side on a desk, one of a garden with a trash bin and one of the same garden without it, no people, soft light",
+   "narration": "ഡൺ ടാപ്പ് ചെയ്ത്, സേവ് കോപ്പി കൊടുക്കൂ. അപ്പോൾ ഒറിജിനൽ ഫോട്ടോ അതുപോലെ തന്നെ ഉണ്ടാകും."},
+  {"type": "bullets", "title": "FREE ആണോ?", "icon": "🆓", "items": ["എല്ലാവർക്കും free", "Android 8+, നല്ല RAM", "Magic Editor-ന് limit ഉണ്ടാകാം"],
+   "photo": "a smartphone on a clean white desk next to a small potted plant and a notebook, bright minimal light, screen dark",
+   "narration": "രണ്ടായിരത്തി ഇരുപത്തിനാല് മുതൽ എല്ലാവർക്കും ഫ്രീ ആണ്, പക്ഷേ ഫോണിന് കുറച്ച് റാം വേണം. മാജിക് എഡിറ്ററിന് ചില ഫോണുകളിൽ സേവ് ലിമിറ്റ് ഉണ്ടാകാം."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["Edited photo എന്ന് ഓർക്കൂ", "Fake ആക്കാൻ ഉപയോഗിക്കരുത്"],
+   "photo": "a magnifying glass resting on a printed photograph of a hill landscape on a wooden desk, natural light",
+   "narration": "എഡിറ്റ് ചെയ്ത ഫോട്ടോ ആണെന്ന് ഓർക്കണം. ആരെയും പറ്റിക്കാനോ വ്യാജമാക്കാനോ ഉപയോഗിക്കരുത്."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}
