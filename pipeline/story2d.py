@@ -163,10 +163,10 @@ def person(d, x, y, s, shirt=(122, 166, 161), skin=(150, 100, 70), hair=(30, 24,
     if sad: d.arc([hx0 - 20 * S, hy0 + 40 * S, hx0 + 20 * S, hy0 + 62 * S], 200, 340, fill=(60, 30, 30), width=int(6 * S))
     else: d.arc([hx0 - 22 * S, hy0 + 18 * S, hx0 + 22 * S, hy0 + 48 * S], 20, 160, fill=(60, 30, 30), width=int(6 * S))
 
-def text_block(im, lines, t, dur):
+def text_block(im, lines, t, dur, starts=None):
     w, h = im.size; y0 = h * 0.70
     for i, line in enumerate(lines):
-        a = ease((t - 0.3 - i * dur * 0.32) / 0.6)
+        a = ease((t - (starts[i] if starts else 0.3 + i * dur * 0.32)) / 0.4)
         if a <= 0: continue
         layer = Image.new("RGBA", im.size, (0, 0, 0, 0)); ld = ImageDraw.Draw(layer)
         y = y0 + i * 100 * SS + (1 - a) * 30 * SS
@@ -187,9 +187,23 @@ def render(path):
     work = os.path.join("/tmp", "story2d_" + slug); os.makedirs(work, exist_ok=True)
     frames = os.path.join(work, "f"); os.makedirs(frames, exist_ok=True)
     for f in os.listdir(frames): os.remove(os.path.join(frames, f))
-    n = 0; moods = []
+    n = 0; moods = []; voice = st.get("voice"); vclips = []; tcur = 0.0
+    if voice:
+        import make_short as ms, hashlib
+        ms.VOICE = voice; ms.CHANNEL = "403"
     for si, sc in enumerate(st["scenes"]):
-        D = sc["dur"]; moods.append((sc.get("mood", "calm"), D))
+        D = sc["dur"]; starts = None
+        if voice and sc.get("lines"):
+            starts = []; t0 = 0.5
+            for li, line in enumerate(sc["lines"]):
+                say = sc.get("say", sc["lines"])[li] if sc.get("say") else line
+                say = EMO.sub("", say).strip()
+                c = os.path.join(work, "v_" + hashlib.md5((say + voice).encode()).hexdigest()[:10] + ".mp3")
+                if not os.path.exists(c): ms.tts(say, c)
+                dl = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", c]))
+                starts.append(t0); vclips.append((tcur + t0, c)); t0 += dl + 0.25
+            D = max(D, t0 + 1.0)
+        moods.append((sc.get("mood", "calm"), D)); tcur += int(D * FPS) / FPS
         bg = background(sc["bg"], W * SS, H * SS, 0)
         for fi in range(int(D * FPS)):
             t = fi / FPS
@@ -226,7 +240,7 @@ def render(path):
                     gx = px - 52 + (i % 2) * 70; gy = py - 60 + (i // 2) * 90
                     d.ellipse([gx - 26, gy - 26, gx + 26, gy + 26], fill=[(150, 100, 70), (120, 80, 60), (170, 120, 90), (140, 95, 70)][i])
             dust(im, t, si)
-            text_block(im, sc.get("lines", []), t, D)
+            text_block(im, sc.get("lines", []), t, D, starts)
             if si == len(st["scenes"]) - 1 and st.get("brand"):
                 d = ImageDraw.Draw(im); mtext(d, (0, H * SS * 0.9), st["brand"], 48 * SS, (90, 255, 140), stroke=4 * SS, center_w=W * SS)
             fade = min(1, t / 0.4, (D - t) / 0.4)
@@ -236,8 +250,17 @@ def render(path):
             if si == 0 and fi == int(1.5 * FPS): out.save(os.path.join(ROOT, "videos", slug + "_thumb.jpg"), quality=90)
     wav = os.path.join(work, "music.wav"); music.write_wav(wav, music.score(moods, 7))
     out = os.path.join(ROOT, "videos", slug + ".mp4"); tot = n / FPS
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(frames, "%05d.jpg"), "-i", wav,
-                    "-filter_complex", f"[1:a]volume=0.9,afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5,loudnorm=I=-15:TP=-1.5[a]",
+    vin, vf = [], ""
+    for i, (at, c) in enumerate(vclips):
+        vin += ["-i", c]; ms_ = int(at * 1000); vf += f"[{i + 2}:a]aresample=44100,aformat=channel_layouts=mono,adelay={ms_}|{ms_}[v{i}];"
+    if vclips:
+        fc = (vf + "".join(f"[v{i}]" for i in range(len(vclips))) + f"amix=inputs={len(vclips)}:normalize=0,apad=whole_dur={tot},asplit=2[nar][nar2];"
+              f"[1:a]aresample=44100,aformat=channel_layouts=mono,volume=0.45,afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5[mus];"
+              "[mus][nar]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=300[duck];[duck][nar2]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5[a]")
+    else:
+        fc = f"[1:a]volume=0.9,afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5,loudnorm=I=-15:TP=-1.5[a]"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(frames, "%05d.jpg"), "-i", wav, *vin,
+                    "-filter_complex", fc,
                     "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
                     "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-ac", "2", "-t", f"{tot:.2f}", "-movflags", "+faststart", out], check=True)
     print(json.dumps({"video": out, "seconds": round(tot, 1)}))
