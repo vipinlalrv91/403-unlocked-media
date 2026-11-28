@@ -1,0 +1,16 @@
+{
+ "title": "90s kids tech",
+ "language": "ml",
+ "label": "90s KIDS ONLY 📼",
+ "style": {"accent": "#FFC83D"},
+ "beats": [
+  {"id": "b1", "say": "നിങ്ങൾ ഒരു തൊണ്ണൂറുകളിലെ കുട്ടിയാണോ? എങ്കിൽ ഇതൊക്കെ *ഓർമ്മയുണ്ടോ*?", "scene": "An old CRT TV in a dim retro room switches on with static."},
+  {"id": "b2", "say": "Cassette-ന്റെ tape കുരുങ്ങിയാൽ, ഒരു *pencil* ഇട്ട് കറക്കി ശരിയാക്കും.", "scene": "A cassette with a pencil in one spool, spinning."},
+  {"id": "b3", "say": "TV-യിൽ ചിത്രം പോയാൽ, ടെറസിൽ കയറി *antenna* തിരിക്കും. ഇപ്പോൾ വന്നോ?", "scene": "TV static clears as the antenna on top turns."},
+  {"id": "b4", "say": "Landline *ring* ചെയ്താൽ, ആദ്യം എടുക്കാൻ വീട്ടിൽ ഓട്ടമത്സരം!", "scene": "A red landline phone rings and shakes, handset lifts."},
+  {"id": "b5", "say": "Button phone-ലെ *snake* game, high score-നായി മണിക്കൂറുകൾ!", "scene": "A chunky button phone with a green screen and a moving snake."},
+  {"id": "b6", "say": "ഇന്നും save button-ന്റെ ചിഹ്നം ആ പഴയ *floppy* disk ആണ്!", "scene": "A floppy disk flips and a save icon outline appears."},
+  {"id": "b7", "say": "ഇതിൽ ഏതാണ് നിങ്ങളുടെ *favourite*? Comment ചെയ്യൂ, 90s കൂട്ടുകാർക്ക് അയച്ചു കൊടുക്കൂ!", "scene": "All the objects together on a shelf, warm glow."}
+ ],
+ "sfx": [{"beat": "b3", "word": "antenna", "kind": "click", "db": -14}, {"beat": "b4", "word": "ring", "kind": "pop", "db": -14}, {"beat": "b6", "word": "floppy", "kind": "stamp", "db": -14}]
+}
