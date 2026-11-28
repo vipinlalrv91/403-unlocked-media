@@ -1,0 +1,83 @@
+KADHA PETTI · RAMAYANAM LONG VIDEO · PART 2 (episodes 8-17: Kaikeyi's boons → Bharata at Chitrakoot)
+Google Flow prompts · 16:9 landscape · Veo Fast · Ingredients to Video
+=====================================================================
+
+HOW TO USE (same as Part 1)
+- Upload exactly the listed images as "Ingredients" (max 3 per shot).
+- Paste the STYLE LINE first, then the shot prompt.
+- 16:9, Veo Fast. If Flow lets you choose length, pick 8 SECONDS (Part 1 clips were 4 s, too short).
+- Name downloads P2-S01.mp4 ... P2-S14.mp4, put them in the same Google Drive folder, and tell me "Part 2 clips ready".
+- If credits are short, make the ★ shots first.
+
+STYLE LINE (paste at the start of EVERY prompt):
+Cute 2D children's storybook animation, soft painted Indian devotional illustration style exactly like the reference images, warm colours, gentle lighting. Use the uploaded reference images as the exact character designs: same faces, skin colours, crowns and clothes. Child-friendly, gentle emotions, no scary faces, no violence. No text, no subtitles, no speech, no dialogue.
+
+---------------------------------------------------------------------
+★ S01 · Kaikeyi's two boons
+Upload: char_kaikeyi.jpg, char_dasharatha.jpg, bg_palace_hall.jpg
+Prompt: Inside a dim palace room lit by oil lamps, Queen Kaikeyi (purple sari, golden crown) sits with her back turned and arms folded, looking upset. Old King Dasharatha (long white beard, golden crown, dark red royal robe) stands before her, hands joined, pleading, his face very sad. Slow camera push-in toward the king's worried face. Quiet, heavy, emotional mood.
+
+---------------------------------------------------------------------
+S02 · Rama accepts with a smile
+Upload: char_rama.jpg, char_dasharatha.jpg, char_kaikeyi.jpg
+Prompt: In the palace hall, prince Rama (dark brown skin, golden crown, yellow dhoti, bow) bows respectfully before sad King Dasharatha and Queen Kaikeyi, then looks up with a calm, gentle smile and places his hand on his heart, accepting his father's word. Soft golden light falls on Rama. Peaceful, noble mood.
+
+---------------------------------------------------------------------
+★ S03 · Mother Kausalya's blessing
+Upload: char_rama.jpg, char_kausalya.jpg
+Prompt: In Queen Kausalya's room with lamps and flowers, Queen Kausalya (orange and yellow sari, golden crown) holds her son Rama's face lovingly with both hands, eyes full of tears, then places her hand on his head in blessing. Rama (dark brown skin, golden crown, yellow dhoti) bows his head. Tender, emotional mother-and-son moment.
+
+---------------------------------------------------------------------
+S04 · Sita and Lakshmana insist on coming
+Upload: char_rama.jpg, char_sita.jpg, char_lakshmana.jpg
+Prompt: Palace courtyard. Princess Sita (red and gold sari, flowers in her hair) holds Rama's arm firmly and shakes her head gently, determined to go with him. Young prince Lakshmana (light skin, small crown, orange dhoti, bow) steps forward with folded hands, also determined. Rama (dark brown skin, golden crown, yellow dhoti) looks at both and finally smiles and nods. Loving, loyal mood.
+
+---------------------------------------------------------------------
+★ S05 · Leaving Ayodhya in the chariot
+Upload: char_rama_forest.jpg, char_sita_forest.jpg, bg_chariot_road.jpg
+Prompt: A royal chariot pulled by white horses leaves the golden city gates of Ayodhya on a dusty road at morning. Rama (dark brown skin, plain tan bark-cloth dhoti with red sash, hair in a top-knot, bow) and Sita (long black hair, orange bark-cloth sari) look back at the city with gentle sad faces. Flower petals blow behind them, flags lower. Wide side camera following the chariot. Sad but hopeful mood.
+
+---------------------------------------------------------------------
+S06 · Sumantra drives the chariot
+Upload: char_sumantra.jpg, char_rama_forest.jpg, bg_chariot_road.jpg
+Prompt: Close shot of old charioteer Sumantra (white turban, white beard, cream and maroon robe) holding the reins of white horses, tears in his eyes, as Rama (dark brown skin, tan bark-cloth dhoti, red sash, top-knot) sits behind him and gently touches his shoulder to comfort him. Countryside fields and trees pass by. Emotional, kind mood.
+
+---------------------------------------------------------------------
+★ S07 · Friendship with Guha
+Upload: char_guha.jpg, char_rama_forest.jpg, bg_ganga_bank.jpg
+Prompt: On the bank of the wide Ganga river at sunset, Guha the tribal chief (dark skin, black beard, peacock feather headband, white dhoti, wooden staff) runs forward joyfully and hugs Rama (dark brown skin, tan bark-cloth dhoti, red sash, top-knot). Both smile warmly. Boats wait on the river, birds fly. Warm friendship mood.
+
+---------------------------------------------------------------------
+★ S08 · Crossing the Ganga
+Upload: char_rama_forest.jpg, char_sita_forest.jpg, char_lakshmana_forest.jpg
+Prompt: A small wooden boat glides across the calm, wide Ganga river at sunrise. Rama (dark brown skin, tan bark-cloth dhoti, red sash), Sita (orange bark-cloth sari, long hair) and Lakshmana (light skin, spotted leopard-pattern bark cloth, bow) sit in the boat; Sita folds her hands and prays to the river. Golden light on the water, gentle ripples, birds. Peaceful, devotional mood.
+
+---------------------------------------------------------------------
+S09 · Sage Bharadwaja's ashram
+Upload: char_bharadwaja.jpg, char_rama_forest.jpg, bg_ashram.jpg
+Prompt: A peaceful forest ashram with huts and a sacred fire. Old Sage Bharadwaja (long white beard, saffron robe, wooden staff, kind smile) welcomes Rama (dark brown skin, tan bark-cloth dhoti, red sash, top-knot), who bows with folded hands. Deer and peacocks nearby. Calm, holy mood.
+
+---------------------------------------------------------------------
+★ S10 · Happy life at Chitrakoot
+Upload: char_rama_forest.jpg, char_sita_forest.jpg, bg_chitrakoot.jpg
+Prompt: A small leaf-and-bamboo hut beside a gentle mountain stream at Chitrakoot hill. Sita (orange bark-cloth sari) feeds a baby deer, Rama (dark brown skin, tan bark-cloth dhoti, red sash) sits on a rock smiling, peacocks dance, waterfalls sparkle. Happy, peaceful forest life. Slow camera pan.
+
+---------------------------------------------------------------------
+S11 · Dasharatha's sorrow (gentle)
+Upload: char_dasharatha.jpg, char_kausalya.jpg, bg_palace_hall.jpg
+Prompt: Night in the palace. Old King Dasharatha (long white beard, golden crown, dark red robe) lies resting on a royal bed looking very tired and sad, holding Queen Kausalya's hand (orange and yellow sari). An oil lamp flickers softly and slowly fades. No death shown, only quiet sadness. Gentle, respectful mood.
+
+---------------------------------------------------------------------
+★ S12 · Bharata refuses the throne
+Upload: char_bharata.jpg, char_vasishtha.jpg, bg_palace_hall.jpg
+Prompt: In the grand palace hall, an empty golden throne stands in the centre. Prince Bharata (golden crown, green dhoti, folded hands) stands in front of it, shaking his head firmly and pointing toward the forest, refusing to sit. Sage Vasishtha (white beard, white top-knot, saffron robes, brass water pot) watches with respect. Strong, loyal mood.
+
+---------------------------------------------------------------------
+S13 · Bharata's journey to Chitrakoot
+Upload: char_bharata.jpg, char_shatrughna.jpg, bg_forest.jpg
+Prompt: Prince Bharata (golden crown, green dhoti) and Prince Shatrughna (golden crown, purple dhoti) walk barefoot through the forest with folded hands, determined to bring Rama home, followed in the distance by flags of a large group of people from Ayodhya. Sunlight through the trees. Hopeful, devoted mood.
+
+---------------------------------------------------------------------
+★ S14 · The brothers meet
+Upload: char_bharata.jpg, char_rama_forest.jpg, bg_chitrakoot.jpg
+Prompt: At Chitrakoot beside the stream, Prince Bharata (golden crown, green dhoti) runs and falls at Rama's feet in tears. Rama (dark brown skin, tan bark-cloth dhoti, red sash, top-knot) lifts him up lovingly and hugs him tightly. Flower petals fall, birds fly. Very emotional, loving brothers' reunion.
