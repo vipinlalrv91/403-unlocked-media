@@ -248,15 +248,20 @@ def render(path):
             if fade < 1: out = Image.blend(Image.new("RGB", (W, H)), out, max(0, fade))
             out.save(os.path.join(frames, f"{n:05d}.jpg"), quality=90); n += 1
             if si == 0 and fi == int(1.5 * FPS): out.save(os.path.join(ROOT, "videos", slug + "_thumb.jpg"), quality=90)
-    wav = os.path.join(work, "music.wav"); music.write_wav(wav, music.score(moods, 7))
+    wav = os.path.join(work, "music.wav")
+    if st.get("music") == "nostalgia":
+        import nostalgia_music; music.write_wav(wav, nostalgia_music.nostalgia(sum(d for _, d in moods) + 1, 3))
+    else:
+        music.write_wav(wav, music.score(moods, 7))
+    VOL_M, VOL_V = (0.85, st.get("voice_volume", 0.75)) if st.get("music") == "nostalgia" else (0.45, 1.0)
     out = os.path.join(ROOT, "videos", slug + ".mp4"); tot = n / FPS
     vin, vf = [], ""
     for i, (at, c) in enumerate(vclips):
-        vin += ["-i", c]; ms_ = int(at * 1000); vf += f"[{i + 2}:a]aresample=44100,aformat=channel_layouts=mono,adelay={ms_}|{ms_}[v{i}];"
+        vin += ["-i", c]; ms_ = int(at * 1000); vf += f"[{i + 2}:a]aresample=44100,aformat=channel_layouts=mono,volume={VOL_V},adelay={ms_}|{ms_}[v{i}];"
     if vclips:
         fc = (vf + "".join(f"[v{i}]" for i in range(len(vclips))) + f"amix=inputs={len(vclips)}:normalize=0,apad=whole_dur={tot},asplit=2[nar][nar2];"
-              f"[1:a]aresample=44100,aformat=channel_layouts=mono,volume=0.45,afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5[mus];"
-              "[mus][nar]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=300[duck];[duck][nar2]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5[a]")
+              f"[1:a]aresample=44100,aformat=channel_layouts=mono,volume={VOL_M},afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5[mus];"
+              "[mus][nar]sidechaincompress=threshold=0.05:ratio=2.5:attack=40:release=500[duck];[duck][nar2]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5[a]")
     else:
         fc = f"[1:a]volume=0.9,afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5,loudnorm=I=-15:TP=-1.5[a]"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(frames, "%05d.jpg"), "-i", wav, *vin,
