@@ -1,0 +1,15 @@
+{
+ "title": "Bike phone mount",
+ "language": "ml",
+ "label": "BIKE-ൽ PHONE വെക്കാറുണ്ടോ? 📱",
+ "style": {"accent": "#FF8A3D"},
+ "beats": [
+  {"id": "b1", "say": "ബൈക്കിൽ phone വെച്ച് map നോക്കാറുണ്ടോ? ഇത് *ശ്രദ്ധിക്കൂ*.", "scene": "A night road with palms; a phone in a handlebar mount with speedo and RPM gauges."},
+  {"id": "b2", "say": "എൻജിന്റെ ശക്തമായ *vibration* phone-ലേക്ക് നേരിട്ട് എത്തും.", "scene": "RPM needle climbs, the phone shakes, vibration rings spread."},
+  {"id": "b3", "say": "ക്യാമറയുടെ ഉള്ളിലെ ചെറിയ *OIS* parts-ന് ഇത് കേടുവരുത്താം.", "scene": "Close-up of a camera lens with tiny floating lens element jittering."},
+  {"id": "b4", "say": "ഫോട്ടോ *blur* ആകാം, focus ശരിയാകാതിരിക്കാം. Apple തന്നെ ഇത് പറയുന്നുണ്ട്.", "scene": "A photo on a phone screen goes blurry, then a warning sign."},
+  {"id": "b5", "say": "*Vibration damper* ഉള്ള holder ഉപയോഗിക്കൂ. സ്ഥിരമായി ദീർഘനേരം വെക്കരുത്.", "scene": "The mount gets a rubber damper block; shaking stops, phone steady."},
+  {"id": "b6", "say": "ബൈക്ക് ഓടിക്കുന്ന കൂട്ടുകാരന് ഇത് *share* ചെയ്യൂ!", "scene": "The steady phone on the night road, green check."}
+ ],
+ "sfx": [{"beat": "b2", "word": "vibration", "kind": "thump", "db": -12}, {"beat": "b4", "word": "blur", "kind": "swipe", "db": -14}, {"beat": "b5", "word": "damper", "kind": "click", "db": -12}]
+}
