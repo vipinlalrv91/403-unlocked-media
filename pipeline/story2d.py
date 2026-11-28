@@ -239,7 +239,7 @@ def render(path):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(frames, "%05d.jpg"), "-i", wav,
                     "-filter_complex", f"[1:a]volume=0.9,afade=t=in:d=1,afade=t=out:st={tot - 2.5}:d=2.5,loudnorm=I=-15:TP=-1.5[a]",
                     "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
-                    "-c:a", "aac", "-b:a", "160k", "-t", f"{tot:.2f}", "-movflags", "+faststart", out], check=True)
+                    "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-ac", "2", "-t", f"{tot:.2f}", "-movflags", "+faststart", out], check=True)
     print(json.dumps({"video": out, "seconds": round(tot, 1)}))
 
 if __name__ == "__main__":
