@@ -1,0 +1,29 @@
+{
+ "slug": "google-business-profile",
+ "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+ "thumb_text": ["SHOP MAPS-ൽ വരണോ?", "FREE ആയി ചേർക്കാം 📍"],
+ "title": "നിങ്ങളുടെ കട Google Maps-ൽ FREE ആയി! 📍 Google Business Profile #shorts",
+ "caption": "നിങ്ങളുടെ കട, ക്ലിനിക്, സലൂൺ Google Maps-ൽ വരണോ? Google Business Profile തീർത്തും free ആണ്. Google Maps app → Contribute → Add place / 'Is this your business?' അല്ലെങ്കിൽ google.com/business. പേര്, category, location, phone, സമയം ചേർക്കൂ. പിന്നെ verification (postcard code, phone/SMS, email അല്ലെങ്കിൽ video; ഏത് വേണം എന്ന് Google തീരുമാനിക്കും). Review-ന് 5-7 working days വരെ എടുക്കാം. ⚠️ Google ഒരിക്കലും verification code ചോദിച്ച് വിളിക്കില്ല; code ആർക്കും കൊടുക്കരുത്. 'Maps-ൽ ചേർത്തു തരാം' എന്ന് പണം ചോദിക്കുന്ന കോളുകൾ സൂക്ഷിക്കുക.\n\nAdd your business to Google Maps free with Google Business Profile: add name, category, location, phone and hours, then verify (postcard, phone/SMS, email or video; options vary). Reviews can take up to 5-7 business days. Google never calls asking for your verification code.",
+ "hashtags": "#shorts #googlemaps #googlebusiness #smallbusiness #businesstips #techmalayalam #403unlocked",
+ "tags": ["google business profile malayalam", "add shop to google maps malayalam", "google my business malayalam", "small business tips malayalam", "google maps tips malayalam", "403 unlocked"],
+ "sources": ["https://support.google.com/business/answer/2911778", "https://support.google.com/business/answer/7107242"],
+ "scenes": [
+  {"type": "hook", "title": "SHOP MAPS-ൽ വരണോ?", "sub": "FREE ആണ്!", "icon": "📍",
+   "photo": "a small colourful Kerala roadside shop front with a shutter half open, a glowing map pin icon floating above it, evening street light, no people, no text",
+   "narration": "നിങ്ങളുടെ കട ഗൂഗിൾ മാപ്സിൽ കാണിക്കണോ? അതിന് ഒരു രൂപ പോലും കൊടുക്കേണ്ട!"},
+  {"type": "steps", "title": "ചേർക്കാൻ", "items": ["Maps → Contribute", "Add place / Is this your business?", "അല്ലെങ്കിൽ google.com/business"],
+   "photo": "a smartphone lying on a shop counter next to a cash box and a small potted plant, warm light, screen dark",
+   "narration": "ഗൂഗിൾ മാപ്സ് ആപ്പിൽ കോൺട്രിബ്യൂട്ട്, പിന്നെ ആഡ് പ്ലേസ്. അല്ലെങ്കിൽ ഗൂഗിൾ ഡോട്ട് കോം സ്ലാഷ് ബിസിനസ്സ് തുറക്കൂ."},
+  {"type": "bullets", "title": "വിവരങ്ങൾ", "icon": "🏪", "items": ["പേര് + category", "Location pin", "Phone + സമയം"],
+   "photo": "a neat small bakery counter with glass jars of snacks, a shop board without text, warm morning light, no people",
+   "narration": "കടയുടെ പേര്, ഏത് തരം ബിസിനസ്സ്, കൃത്യമായ ലൊക്കേഷൻ, ഫോൺ നമ്പർ, തുറക്കുന്ന സമയം, ഇതൊക്കെ ചേർക്കൂ."},
+  {"type": "bullets", "title": "VERIFY", "icon": "✅", "items": ["Postcard / SMS / email / video", "Google തീരുമാനിക്കും", "5-7 ദിവസം വരെ"],
+   "photo": "a postcard envelope and a smartphone on a wooden table beside a cup of tea, soft daylight, screen dark",
+   "narration": "പിന്നെ വെരിഫൈ ചെയ്യണം. പോസ്റ്റ്കാർഡ്, എസ് എം എസ്, ഇമെയിൽ, അല്ലെങ്കിൽ വീഡിയോ. ഏത് രീതി വേണമെന്ന് ഗൂഗിൾ പറയും. അഞ്ച് മുതൽ ഏഴ് ദിവസം വരെ എടുക്കാം."},
+  {"type": "bullets", "title": "ശ്രദ്ധിക്കുക", "icon": "⚠️", "items": ["Code ആർക്കും കൊടുക്കരുത്", "Google വിളിക്കില്ല", "പണം ചോദിക്കുന്നവരെ സൂക്ഷിക്കുക"],
+   "photo": "a smartphone face down on a shop counter next to a padlock and a small receipt book, moody light",
+   "narration": "വെരിഫിക്കേഷൻ കോഡ് ആർക്കും കൊടുക്കരുത്. ഗൂഗിൾ കോഡ് ചോദിച്ച് വിളിക്കില്ല. മാപ്സിൽ ചേർത്ത് തരാം എന്ന് പണം ചോദിക്കുന്നവരെ സൂക്ഷിക്കുക."},
+  {"type": "cta", "photo": "a smartphone resting on a clean white desk next to wireless earbuds and a small succulent plant, bright minimal photo",
+   "narration": "ഇത്തരം കിടിലൻ ടെക് ടിപ്സുകൾക്കായി ചാനൽ ഇപ്പോൾ തന്നെ സബ്സ്ക്രൈബ് ചെയ്യൂ!"}
+ ]
+}
